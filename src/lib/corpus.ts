@@ -202,17 +202,18 @@ export function locate(id: string) {
 }
 
 /**
- * Japanese display name for an author, from the translation glossary.
- * Falls back to the English name when no mapping exists.
+ * Japanese display name for an author. This is presentation data — the site
+ * has to label navigation without calling a model — and deliberately does not
+ * constrain how the texts themselves are translated. Falls back to the
+ * English name when no mapping exists.
  */
 let _names: Record<string, string> | null = null;
 
 export function authorNameJa(name: string): string {
   if (!_names) {
-    const g = JSON.parse(
-      readFileSync(path.join(ROOT, 'scripts', 'glossary.json'), 'utf8')
+    _names = JSON.parse(
+      readFileSync(path.join(ROOT, 'scripts', 'names.json'), 'utf8')
     );
-    _names = { ...(g.fathers ?? {}), ...(g.collections ?? {}) };
   }
   return _names![name] ?? name;
 }

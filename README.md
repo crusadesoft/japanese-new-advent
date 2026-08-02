@@ -20,8 +20,8 @@ ago, and are unambiguously in the public domain. The same editions are hosted
 in clean form by the [Christian Classics Ethereal Library](https://ccel.org),
 which is the recommended reference for verifying any passage.
 
-The Japanese translations, the theological glossary, and the site code
-produced in this repository are released under
+The Japanese translations and the site code produced in this repository
+are released under
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — public domain,
 no attribution required.
 
@@ -95,14 +95,17 @@ Design points that matter at this scale:
   translated block per source block, so headings and paragraphs stay aligned
   with the original and side-by-side reading stays possible.
 - **Resumable.** Completed documents are skipped; an interrupted run resumes.
-- **Cached.** The system prompt and glossary are byte-identical on every
-  request and sit behind a cache breakpoint, billing at ~0.1× after the first
-  call. One document is translated first to warm the cache before the workers
-  fan out.
-- **Glossary-enforced.** `scripts/glossary.json` fixes 254 terms — doctrine,
-  church offices, sacraments, heresies, and every Father's name — following
-  Catholic Bishops' Conference of Japan (カトリック中央協議会) usage.
-  Consistency across thousands of documents matters more than local elegance.
+- **Cached.** The system prompt is byte-identical on every request and sits
+  behind a cache breakpoint, billing at ~0.1× after the first call. One
+  document is translated first to warm the cache before the workers fan out.
+- **No controlled vocabulary.** An earlier version injected a 254-term
+  glossary to force terminology consistency. It made translation worse: a
+  lookup table cannot see context. It rendered Polycarp's ἅγιοι as 聖人
+  (a canonised saint) where he means living believers, put 愛徳 (the
+  theological virtue) into "love of money", and gave second-century
+  πρεσβύτεροι the later 司祭. Removing it fixed all three at identical token
+  cost. `scripts/names.json` survives, but only as display data for
+  navigation labels — it does not constrain the translation.
 
 Options: `--model`, `--concurrency`, `--limit`, `--dry-run`, `--pilot`.
 

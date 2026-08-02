@@ -8,10 +8,8 @@
  *    paragraphs stay aligned with the original for side-by-side reading.
  *  - Resumable. Completed documents are skipped, so an interrupted run of the
  *    full corpus picks up where it left off.
- *  - Cached. The system prompt and the theological glossary are identical on
- *    every request, so they sit behind a cache breakpoint and bill at ~0.1x
- *    after the first call. Over thousands of documents this is the single
- *    largest cost saving available on the live API.
+ *  - Cached. The system prompt is identical on every request, so it sits
+ *    behind a cache breakpoint and bills at ~0.1x after the first call.
  *
  * Usage:
  *   node scripts/translate.mjs --pilot            # ~24 representative docs
@@ -27,7 +25,6 @@ import * as path from 'node:path';
 const ROOT = path.resolve(import.meta.dirname, '..');
 const SRC_DIR = path.join(ROOT, 'data', 'source');
 const OUT_DIR = path.join(ROOT, 'data', 'ja');
-const GLOSSARY = path.join(ROOT, 'scripts', 'glossary.json');
 const MANIFEST = path.join(ROOT, 'data', 'manifest.json');
 
 /** USD per million tokens, live API. Halve for the Batch API. */
@@ -100,38 +97,30 @@ function parseArgs(argv) {
   return args;
 }
 
-/** Flatten the categorised glossary into a single prompt-ready block. */
-function renderGlossary(glossary) {
-  const lines = [];
-  for (const [category, terms] of Object.entries(glossary)) {
-    if (category.startsWith('$')) continue;
-    lines.push(`## ${category}`);
-    for (const [en, ja] of Object.entries(terms)) {
-      lines.push(`${en} = ${ja}`);
-    }
-    lines.push('');
-  }
-  return lines.join('\n');
-}
+/**
+ * The prompt states the task and its constraints, then trusts the model's
+ * judgment. An earlier version injected a 254-term controlled vocabulary and
+ * it made terminology worse, not better: a lookup table cannot see context.
+ * It forced 聖人 (a canonised saint) onto Polycarp's ἅγιοι, which there means
+ * living believers, and 愛徳 (the theological virtue) onto "love of money".
+ * Choosing a term is a translation judgment, so it belongs in the translation.
+ */
+function systemPrompt() {
+  return `You are translating the writings of the Church Fathers into Japanese for a scholarly reference site. Your readers are Japanese; the result should read as Japanese scholarly prose, not as a translation.
 
-function systemPrompt(glossaryText) {
-  return `You are translating the writings of the Church Fathers into Japanese for a scholarly reference site aimed at Japanese Catholic readers.
-
-The English source is the Schaff *Ante-Nicene Fathers* / *Nicene and Post-Nicene Fathers* series (1885-1900), itself translated from Greek, Latin and Syriac. Translate the sense of the original as the English carries it; do not modernise the theology or soften difficult passages.
+The English source is the Schaff *Ante-Nicene Fathers* / *Nicene and Post-Nicene Fathers* series (1885-1900), itself translated from Greek, Latin and Syriac. Translate the sense the English carries. Do not modernise the theology or soften difficult passages.
 
 REGISTER
-Use written modern Japanese in である体 (plain literary register) for treatises, letters and histories. Homilies and sermons addressed to a congregation may use ですます体 where the English is plainly direct address. Be consistent within a single document.
+Written modern Japanese in である体 for treatises, letters and histories. Homilies and sermons addressed to a congregation may take ですます体 where the English is plainly direct address. Be consistent within a document.
 
 TERMINOLOGY
-Use the controlled vocabulary below without deviation. These follow Catholic Bishops' Conference of Japan (カトリック中央協議会) usage, and consistency across thousands of documents matters more than local elegance. Terms not listed are at your discretion, but prefer established Japanese Catholic usage over literal calques.
-
-${glossaryText}
+Use established Japanese Catholic usage, following Catholic Bishops' Conference of Japan (カトリック中央協議会) convention where it applies. Choose each term for its sense in the passage in front of you rather than by rote: a word that is a technical term in one sentence is ordinary language in the next, and one English word often needs different Japanese in different places. Render it as a Japanese patristics scholar would.
 
 FORMATTING
 - Preserve \`*emphasis*\` and \`**strong**\` markers exactly where the English has them.
-- Scripture quotations are translated as part of the patristic text. Do not substitute a published Japanese Bible translation.
-- Proper names not in the glossary: use standard Japanese katakana transliteration of the Greek or Latin form.
-- Keep numbered divisions (chapter and section numbers) as they appear.
+- Scripture quotations are part of the patristic text and are translated with it. Do not substitute a published Japanese Bible translation — those remain under copyright.
+- Transliterate proper names into katakana from the Greek or Latin form.
+- Keep numbered divisions as they appear, in Japanese form (第一章 and so on).
 
 OUTPUT
 You receive an array of text blocks. Return exactly one Japanese translation per input block, in the same order. Never merge, split, reorder, or omit blocks. Translate every block, including short headings.`;
@@ -144,21 +133,19 @@ You receive an array of text blocks. Return exactly one Japanese translation per
  * structure long before the body text is done, so it is worth a separate
  * cheap pass.
  */
-function titleSystemPrompt(glossaryText) {
+function titleSystemPrompt() {
   return `You translate titles of patristic works into Japanese for a scholarly reference collection.
 
 These are titles of works, books, chapters, letters, homilies and sections from the Church Fathers, as given in the Schaff English editions.
 
 RULES
-- Render each title as a Japanese book or chapter title would be set: noun-final, no trailing punctuation, no ですます.
-- Use the controlled vocabulary below without deviation.
-- Keep structural numbering exactly as given, in Japanese form: "Book I" → 「第一巻」, "Chapter 12" → 「第十二章」, "Letter 68" → 「書簡六十八」, "Homily 5" → 「説教五」, "Psalm 53" → 「詩編五十三」.
-- "Against X" → 「X駁論」 or 「Xに対する反論」 as reads best. "On X" / "Concerning X" → 「Xについて」 or 「X論」.
-- Latin titles already given in Latin (De fide, Contra Faustum) may be kept in Latin with a Japanese gloss only if the English supplies one; otherwise translate the English.
-- Proper names not in the glossary: standard katakana transliteration of the Greek or Latin form.
+- Set each title as a Japanese book or chapter title is set: noun-final, no trailing punctuation, no ですます.
+- Use established Japanese Catholic and patristic usage, chosen for the sense of this particular title.
+- Keep structural numbering, in Japanese form: "Book I" → 「第一巻」, "Chapter 12" → 「第十二章」, "Letter 68" → 「書簡六十八」, "Homily 5" → 「説教五」, "Psalm 53" → 「詩編五十三」.
+- "Against X" → 「X駁論」 or 「Xに対する反論」, whichever reads better. "On X" / "Concerning X" → 「Xについて」 or 「X論」.
+- A Latin title given in Latin (De fide, Contra Faustum) keeps its Latin only where the English supplies a gloss; otherwise translate the English.
+- Transliterate proper names into katakana from the Greek or Latin form.
 - Keep it short. A title is not a sentence.
-
-${glossaryText}
 
 OUTPUT
 You receive an array of English titles. Return exactly one Japanese title per input, in the same order. Never merge, split, reorder, or omit.`;
@@ -373,7 +360,7 @@ function cost(model, usage) {
  * id -> title map. Titles are short, so many fit in a single request; the
  * limit is the response size, not the prompt.
  */
-async function runTitles(client, args, glossaryText) {
+async function runTitles(client, args) {
   const TITLES_FILE = path.join(ROOT, 'data', 'titles-ja.json');
   const TITLES_PER_CHUNK = 100;
 
@@ -414,7 +401,7 @@ async function runTitles(client, args, glossaryText) {
     return;
   }
 
-  const system = titleSystemPrompt(glossaryText);
+  const system = titleSystemPrompt();
   const chunks = [];
   for (let i = 0; i < queue.length; i += TITLES_PER_CHUNK) {
     chunks.push(queue.slice(i, i + TITLES_PER_CHUNK));
@@ -524,10 +511,8 @@ async function main() {
     console.warn(`Unknown model "${args.model}" — cost estimates will be off.`);
   }
 
-  const glossary = JSON.parse(await readFile(GLOSSARY, 'utf8'));
   const manifest = JSON.parse(await readFile(MANIFEST, 'utf8'));
-  const glossaryText = renderGlossary(glossary);
-  const system = systemPrompt(glossaryText);
+  const system = systemPrompt();
   const contextIndex = buildContextIndex(manifest);
 
   await mkdir(OUT_DIR, { recursive: true });
@@ -536,7 +521,7 @@ async function main() {
     console.log(`Model:       ${args.model}`);
     // Dry run needs no client, so build it only when actually translating.
     const client = args.dryRun ? null : new Anthropic();
-    await runTitles(client, args, glossaryText);
+    await runTitles(client, args);
     return;
   }
 
