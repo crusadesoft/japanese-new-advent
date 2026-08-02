@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import WorkTree from '../../components/WorkTree.astro';
-import { getManifest, authorNameJa } from '../../lib/corpus';
+import { getManifest, authorNameJa, authorDates } from '../../lib/corpus';
 import { authors as authorsUrl } from '../../lib/paths';
 
 export function getStaticPaths() {
@@ -13,6 +13,7 @@ export function getStaticPaths() {
 
 const { author } = Astro.props;
 const nameJa = authorNameJa(author.name);
+const dates = authorDates(author);
 const words = author.works.reduce((n: number, w: any) => n + (w.words ?? 0), 0);
 ---
 
@@ -27,7 +28,7 @@ const words = author.works.reduce((n: number, w: any) => n + (w.words ?? 0), 0);
   </h1>
 
   <div class="doc-meta">
-    {author.name}{author.dates ? `（${author.dates}）` : ''}<br />
+    {author.name}{dates ? `（${dates}）` : ''}<br />
     {author.works.length} 作品 ／ 約 {words.toLocaleString('ja-JP')} 語（原文）
   </div>
 

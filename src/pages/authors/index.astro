@@ -19,14 +19,14 @@ const groups = authorsByEra(manifest.authors);
       <>
         <h2>{g.era}</h2>
         <ul class="author-list">
-          {g.authors.map((a) => (
+          {g.entries.map(({ author: a, dates }) => (
             <li>
               <a href={authorUrl(a.slug)}>{authorNameJa(a.name)}</a>
               {a.isSaint && <span class="badge badge-saint">聖人</span>}
               {a.isDoctor && <span class="badge badge-doctor">教会博士</span>}
               <span class="en">
                 {a.name}
-                {a.dates ? `（${a.dates}）` : ''}
+                {dates ? `（${dates}）` : ''}
               </span>
               <span class="count">{a.works.length} 作品</span>
             </li>

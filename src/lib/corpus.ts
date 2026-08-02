@@ -175,29 +175,67 @@ export function authorNameJa(name: string): string {
   return _names![name] ?? name;
 }
 
-/** Group authors by the era their works belong to, for the index page. */
+/**
+ * Life dates. The upstream index carries them for only 14 of 69 authors, so
+ * a curated table fills the rest — without it, era grouping puts four-fifths
+ * of the corpus under "unknown" and stops being useful.
+ */
+let _dates: Record<string, string> | null = null;
+
+export function authorDates(author: Author): string | null {
+  if (!_dates) {
+    _dates = JSON.parse(
+      readFileSync(path.join(ROOT, 'scripts', 'dates.json'), 'utf8')
+    );
+  }
+  return author.dates ?? _dates![author.name] ?? null;
+}
+
+/** Earliest year mentioned in a date string, for sorting. */
+function anchorYear(dates: string | null): number | null {
+  if (!dates) return null;
+  const m = dates.match(/(\d{3,4})/);
+  return m ? Number(m[1]) : null;
+}
+
+/**
+ * Group authors by era, ordered chronologically within each group. Eras are
+ * cut at the two councils that patristic scholarship conventionally uses as
+ * dividing lines.
+ */
 export function authorsByEra(authors: Author[]) {
-  const eraOf = (a: Author): string => {
-    const m = a.dates?.match(/(\d{3,4})/);
-    const year = m ? Number(m[1]) : null;
-    if (year === null) return '年代不詳';
-    if (year < 325) return 'ニカイア公会議以前';
-    if (year < 451) return 'ニカイアからカルケドンまで';
-    return 'カルケドン公会議以後';
-  };
   const order = [
-    'ニカイア公会議以前',
-    'ニカイアからカルケドンまで',
-    'カルケドン公会議以後',
+    'ニカイア公会議以前（〜325年）',
+    'ニカイアからカルケドンまで（325〜451年）',
+    'カルケドン公会議以後（451年〜）',
     '年代不詳',
   ];
-  const groups = new Map<string, Author[]>();
+
+  const eraOf = (year: number | null): string => {
+    if (year === null) return order[3];
+    if (year < 325) return order[0];
+    if (year < 451) return order[1];
+    return order[2];
+  };
+
+  const groups = new Map<string, { author: Author; dates: string | null }[]>();
   for (const a of authors) {
-    const era = eraOf(a);
+    const dates = authorDates(a);
+    const era = eraOf(anchorYear(dates));
     if (!groups.has(era)) groups.set(era, []);
-    groups.get(era)!.push(a);
+    groups.get(era)!.push({ author: a, dates });
   }
+
+  for (const list of groups.values()) {
+    list.sort((x, y) => {
+      const ax = anchorYear(x.dates);
+      const ay = anchorYear(y.dates);
+      if (ax !== null && ay !== null && ax !== ay) return ax - ay;
+      return x.author.name.localeCompare(y.author.name);
+    });
+  }
+
   return order
     .filter((e) => groups.has(e))
-    .map((e) => ({ era: e, authors: groups.get(e)! }));
+    .map((e) => ({ era: e, entries: groups.get(e)! }));
 }
