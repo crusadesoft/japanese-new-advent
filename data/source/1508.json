@@ -1,8 +1,25 @@
 {
  "id": "1508",
  "title": "On the Soul and its Origin",
- "isToc": false,
- "children": [],
+ "isToc": true,
+ "children": [
+  {
+   "id": "15081",
+   "label": "Book I"
+  },
+  {
+   "id": "15082",
+   "label": "Book II"
+  },
+  {
+   "id": "15083",
+   "label": "Book III"
+  },
+  {
+   "id": "15084",
+   "label": "Book IV"
+  }
+ ],
  "blocks": [
   {
    "type": "p",

@@ -146,10 +146,9 @@ async function parseDocument(file, id) {
   const title = blocks[0].type === 'title' ? blocks[0].text : null;
   const body = title ? blocks.slice(1) : blocks;
 
-  // A table-of-contents page is mostly links to sibling documents with little
-  // prose of its own. Link labels must not count toward prose, or a long
-  // chapter list reads as a long document. Measure only the text that remains
-  // once the links are stripped out.
+  // Identify table-of-contents pages. Link labels must not count toward prose,
+  // or a long chapter list reads as a long document, so measure only the text
+  // that remains once links are stripped.
   const links = outboundDocIds($, scope);
   const uniqueLinks = [...new Set(links)].filter((l) => l !== id);
 
@@ -159,8 +158,19 @@ async function parseDocument(file, id) {
     .split(/\s+/)
     .filter(Boolean).length;
 
-  // Two links is enough: plenty of works are split into just "Book I / Book II".
-  const isToc = uniqueLinks.length >= 2 && residualWords < 120;
+  // Brevity alone is the wrong test. Many contents pages annotate each entry
+  // with a paragraph-long summary of the book it points to — Augustine's
+  // Confessions and City of God both do — which reads as prose and orphans
+  // every chapter beneath them. Document ids are hierarchical, so a page
+  // linking to ids that extend its own is a contents page however much it
+  // says about them.
+  const childLinks = uniqueLinks.filter(
+    (l) => l.startsWith(id) && l.length > id.length
+  );
+
+  // Two is enough: plenty of works split into just "Book I / Book II".
+  const isToc =
+    uniqueLinks.length >= 2 && (residualWords < 120 || childLinks.length >= 2);
 
   // For TOC pages, capture the child ordering and their labels.
   let children = [];
@@ -378,6 +388,42 @@ async function main() {
   }
 
   console.log(`  resolved ${resolved} work trees`);
+
+  // Safety net. A handful of documents are unreachable because the upstream
+  // parent page simply never links them — Gregory of Nyssa's Great Catechism
+  // lists no parts at all. Document ids are hierarchical, so adopt any orphan
+  // onto the nearest ancestor id already in the tree. Without this the text
+  // exists but nothing on the site points at it.
+  const inTree = new Map();
+  const indexTree = (node) => {
+    inTree.set(node.id, node);
+    for (const c of node.children ?? []) indexTree(c);
+  };
+  for (const author of authors) for (const w of author.works) indexTree(w);
+
+  let adopted = 0;
+  for (const id of [...docs.keys()].sort()) {
+    if (inTree.has(id)) continue;
+    // Walk back through shorter id prefixes to find the closest ancestor.
+    for (let len = id.length - 1; len >= 3; len--) {
+      const parent = inTree.get(id.slice(0, len));
+      if (!parent) continue;
+      const doc = docs.get(id);
+      const node = {
+        id,
+        title: doc.title,
+        label: doc.title,
+        isToc: doc.isToc,
+        words: doc.words,
+        children: [],
+      };
+      parent.children.push(node);
+      inTree.set(id, node);
+      adopted++;
+      break;
+    }
+  }
+  if (adopted) console.log(`  adopted ${adopted} orphaned documents`);
 
   const manifest = {
     generatedAt: new Date().toISOString(),

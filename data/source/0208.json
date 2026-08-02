@@ -1,8 +1,101 @@
 {
  "id": "0208",
  "title": "Exhortation to the Heathen",
- "isToc": false,
- "children": [],
+ "isToc": true,
+ "children": [
+  {
+   "id": "020801",
+   "label": "**Chapter 1.**"
+  },
+  {
+   "id": "10662a",
+   "label": "mysteries"
+  },
+  {
+   "id": "07636a",
+   "label": "idolatry"
+  },
+  {
+   "id": "06608a",
+   "label": "God"
+  },
+  {
+   "id": "020802",
+   "label": "**Chapter 2.**"
+  },
+  {
+   "id": "11388a",
+   "label": "heathen"
+  },
+  {
+   "id": "020803",
+   "label": "**Chapter 3.**"
+  },
+  {
+   "id": "13309a",
+   "label": "sacrifices"
+  },
+  {
+   "id": "020804",
+   "label": "**Chapter 4.**"
+  },
+  {
+   "id": "020805",
+   "label": "**Chapter 5.**"
+  },
+  {
+   "id": "12025c",
+   "label": "philosophers"
+  },
+  {
+   "id": "020806",
+   "label": "**Chapter 6.**"
+  },
+  {
+   "id": "15073a",
+   "label": "truth"
+  },
+  {
+   "id": "020807",
+   "label": "**Chapter 7.**"
+  },
+  {
+   "id": "020808",
+   "label": "**Chapter 8.**"
+  },
+  {
+   "id": "12477a",
+   "label": "prophets"
+  },
+  {
+   "id": "020809",
+   "label": "**Chapter 9.**"
+  },
+  {
+   "id": "14004b",
+   "label": "sin"
+  },
+  {
+   "id": "020810",
+   "label": "**Chapter 10.**"
+  },
+  {
+   "id": "020811",
+   "label": "**Chapter 11.**"
+  },
+  {
+   "id": "08374c",
+   "label": "Christ"
+  },
+  {
+   "id": "020812",
+   "label": "**Chapter 12.**"
+  },
+  {
+   "id": "05525a",
+   "label": "errors"
+  }
+ ],
  "blocks": [
   {
    "type": "p",

@@ -1,8 +1,29 @@
 {
  "id": "1202",
  "title": "On Christian Doctrine",
- "isToc": false,
- "children": [],
+ "isToc": true,
+ "children": [
+  {
+   "id": "12020",
+   "label": "PREFACE"
+  },
+  {
+   "id": "12021",
+   "label": "I"
+  },
+  {
+   "id": "12022",
+   "label": "II"
+  },
+  {
+   "id": "12023",
+   "label": "III"
+  },
+  {
+   "id": "12024",
+   "label": "IV"
+  }
+ ],
  "blocks": [
   {
    "type": "p",

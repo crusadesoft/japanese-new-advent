@@ -1,8 +1,25 @@
 {
  "id": "1409",
  "title": "Answer to Petilian the Donatist",
- "isToc": false,
- "children": [],
+ "isToc": true,
+ "children": [
+  {
+   "id": "05121a",
+   "label": "Donatist"
+  },
+  {
+   "id": "14091",
+   "label": "Book I"
+  },
+  {
+   "id": "14092",
+   "label": "Book II"
+  },
+  {
+   "id": "14093",
+   "label": "Book III"
+  }
+ ],
  "blocks": [
   {
    "type": "p",

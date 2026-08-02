@@ -1,8 +1,21 @@
 {
  "id": "0201",
  "title": "The Shepherd of Hermas",
- "isToc": false,
- "children": [],
+ "isToc": true,
+ "children": [
+  {
+   "id": "02011",
+   "label": "FIRST VISION"
+  },
+  {
+   "id": "02012",
+   "label": "FIRST COMMANDMENT"
+  },
+  {
+   "id": "02013",
+   "label": "FIRST SIMILITUDE"
+  }
+ ],
  "blocks": [
   {
    "type": "heading",

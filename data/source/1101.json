@@ -1,8 +1,61 @@
 {
  "id": "1101",
  "title": "The Confessions",
- "isToc": false,
- "children": [],
+ "isToc": true,
+ "children": [
+  {
+   "id": "110101",
+   "label": "**BOOK 1**"
+  },
+  {
+   "id": "110102",
+   "label": "**BOOK 2**"
+  },
+  {
+   "id": "110103",
+   "label": "**BOOK 3**"
+  },
+  {
+   "id": "110104",
+   "label": "**BOOK 4**"
+  },
+  {
+   "id": "110105",
+   "label": "**BOOK 5**"
+  },
+  {
+   "id": "110106",
+   "label": "**BOOK 6**"
+  },
+  {
+   "id": "110107",
+   "label": "**BOOK 7**"
+  },
+  {
+   "id": "110108",
+   "label": "**BOOK 8**"
+  },
+  {
+   "id": "110109",
+   "label": "**BOOK 9**"
+  },
+  {
+   "id": "110110",
+   "label": "**BOOK 10**"
+  },
+  {
+   "id": "110111",
+   "label": "**BOOK 11**"
+  },
+  {
+   "id": "110112",
+   "label": "**BOOK 12**"
+  },
+  {
+   "id": "110113",
+   "label": "**BOOK 13**"
+  }
+ ],
  "blocks": [
   {
    "type": "p",

@@ -1,8 +1,21 @@
 {
  "id": "1507",
  "title": "On Marriage and Concupiscence",
- "isToc": false,
- "children": [],
+ "isToc": true,
+ "children": [
+  {
+   "id": "15070",
+   "label": "Companion Letter"
+  },
+  {
+   "id": "15071",
+   "label": "Book I"
+  },
+  {
+   "id": "15072",
+   "label": "Book II"
+  }
+ ],
  "blocks": [
   {
    "type": "p",
