@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import WorkTree from '../../components/WorkTree.astro';
 import { getManifest, authorNameJa } from '../../lib/corpus';
+import { authors as authorsUrl } from '../../lib/paths';
 
 export function getStaticPaths() {
   return getManifest().authors.map((author) => ({
@@ -33,5 +34,5 @@ const words = author.works.reduce((n: number, w: any) => n + (w.words ?? 0), 0);
   <h2>著作</h2>
   <WorkTree nodes={author.works} />
 
-  <p style="margin-top:2.5rem"><a href="/authors/">← 教父一覧へ戻る</a></p>
+  <p style="margin-top:2.5rem"><a href={authorsUrl()}>← 教父一覧へ戻る</a></p>
 </Base>

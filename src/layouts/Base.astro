@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { home, authors, about, withBase } from '../lib/paths';
 
 interface Props {
   title?: string;
@@ -16,13 +17,18 @@ const desc =
   '古代教会の教父たちの著作を日本語で読むための文庫。パブリックドメインの原典にもとづく翻訳を無償で公開しています。';
 
 const path = Astro.url.pathname;
+const root = home();
+// Compare against base-prefixed hrefs, and treat the root tab as exact so it
+// is not marked current on every page.
 const isCurrent = (href: string) =>
-  href === '/' ? path === '/' : path.startsWith(href);
+  href === root
+    ? path === root || path === root.replace(/\/$/, '')
+    : path.startsWith(href);
 
 const tabs = [
-  { href: '/', label: 'ホーム' },
-  { href: '/authors/', label: '教父一覧' },
-  { href: '/about/', label: 'このサイトについて' },
+  { href: root, label: 'ホーム' },
+  { href: authors(), label: '教父一覧' },
+  { href: about(), label: 'このサイトについて' },
 ];
 ---
 
@@ -43,7 +49,7 @@ const tabs = [
     <header class="masthead">
       <div class="masthead-inner">
         <div class="wordmark">
-          <a href="/">{SITE}</a>
+          <a href={root}>{SITE}</a>
           <span class="romaji">THE CHURCH FATHERS IN JAPANESE</span>
         </div>
         <nav class="tabs" aria-label="メインナビゲーション">
@@ -86,7 +92,7 @@ const tabs = [
       </div>
       <div class="footer-bar">
         教父文庫 ｜ 本文はパブリックドメイン ｜
-        <a href="/about/">翻訳について</a>
+        <a href={about()}>翻訳について</a>
       </div>
     </footer>
   </body>

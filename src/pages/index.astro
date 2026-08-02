@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getManifest, progress, authorNameJa } from '../lib/corpus';
+import { author as authorUrl, authors as authorsUrl } from '../lib/paths';
 
 const manifest = getManifest();
 const p = progress();
@@ -66,7 +67,7 @@ const fmt = (n: number) => n.toLocaleString('ja-JP');
     {
       cards.map((a) => (
         <li>
-          <a href={`/authors/${a!.slug}/`}>{authorNameJa(a!.name)}</a>
+          <a href={authorUrl(a!.slug)}>{authorNameJa(a!.name)}</a>
           {a!.isSaint && <span class="badge badge-saint">聖人</span>}
           {a!.isDoctor && <span class="badge badge-doctor">教会博士</span>}
           <span class="en">{a!.name}{a!.dates ? `（${a!.dates}）` : ''}</span>
@@ -77,6 +78,6 @@ const fmt = (n: number) => n.toLocaleString('ja-JP');
   </ul>
 
   <p>
-    <a href="/authors/">教父一覧（全 {manifest.counts.authors} 名）→</a>
+    <a href={authorsUrl()}>教父一覧（全 {manifest.counts.authors} 名）→</a>
   </p>
 </Base>

@@ -5,6 +5,7 @@
  * structure is navigable before translation reaches them.
  */
 import { getDocument, type WorkNode } from '../lib/corpus';
+import { text as textUrl } from '../lib/paths';
 
 interface Props {
   nodes: WorkNode[];
@@ -28,7 +29,7 @@ const label = (n: WorkNode) => {
       const l = label(n);
       return (
         <li>
-          <a href={`/text/${n.id}/`} class={l.translated ? undefined : 'pending'}>
+          <a href={textUrl(n.id)} class={l.translated ? undefined : 'pending'}>
             {l.ja ?? l.en}
           </a>
           {l.ja && <span class="en">{l.en}</span>}

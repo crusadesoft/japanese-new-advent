@@ -131,13 +131,31 @@ proceeds.
 
 GitHub Actions builds and publishes to GitHub Pages on every push to `main`.
 
-The production domain is **教父.jp**, an internationalized domain name whose
-punycode form is `xn--wcv59z.jp` — that is the value in `public/CNAME` and in
-`SITE_URL`. Note that `.jp` registration generally requires a Japanese
-address or a registrar trustee service.
+The site currently deploys as a **project page** at a subpath, so the build
+sets `base` accordingly:
 
-To deploy under a different domain, change `public/CNAME` and the `SITE_URL`
-environment variable in `.github/workflows/deploy.yml`.
+```
+SITE_URL=https://crusadesoft.github.io
+BASE_PATH=/japanese-new-advent
+```
+
+Every internal link is built through `withBase()` in `src/lib/paths.ts`.
+Hardcoding `/authors/…` will silently 404 on the subpath deployment — use the
+helpers.
+
+### Moving to 教父.jp
+
+The intended production domain is **教父.jp**, an internationalized domain
+name. Astro and the `CNAME` file both need the punycode form,
+`xn--wcv59z.jp`. Once the domain is registered:
+
+1. Add `public/CNAME` containing `xn--wcv59z.jp`.
+2. Point the domain's DNS at GitHub Pages.
+3. Change the workflow environment to `SITE_URL=https://xn--wcv59z.jp` and
+   `BASE_PATH=/`.
+
+`.jp` registration generally requires a Japanese address or a registrar
+trustee service — worth confirming before committing to the name.
 
 ---
 

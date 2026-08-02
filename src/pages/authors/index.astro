@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getManifest, authorsByEra, authorNameJa } from '../../lib/corpus';
+import { author as authorUrl } from '../../lib/paths';
 
 const manifest = getManifest();
 const groups = authorsByEra(manifest.authors);
@@ -20,7 +21,7 @@ const groups = authorsByEra(manifest.authors);
         <ul class="author-list">
           {g.authors.map((a) => (
             <li>
-              <a href={`/authors/${a.slug}/`}>{authorNameJa(a.name)}</a>
+              <a href={authorUrl(a.slug)}>{authorNameJa(a.name)}</a>
               {a.isSaint && <span class="badge badge-saint">聖人</span>}
               {a.isDoctor && <span class="badge badge-doctor">教会博士</span>}
               <span class="en">

@@ -8,6 +8,7 @@ import {
   type Block,
 } from '../../lib/corpus';
 import { renderInline } from '../../lib/render';
+import { author as authorUrl, text as textUrl } from '../../lib/paths';
 
 export function getStaticPaths() {
   return allDocumentIds().map((id) => ({ params: { id } }));
@@ -38,11 +39,11 @@ const tag = (t: string) =>
     {
       place && (
         <>
-          <a href={`/authors/${place.author.slug}/`}>
+          <a href={authorUrl(place.author.slug)}>
             {authorNameJa(place.author.name)}
           </a>
           {place.work.id !== id && (
-            <> ／ <a href={`/text/${place.work.id}/`}>{place.work.title}</a></>
+            <> ／ <a href={textUrl(place.work.id)}>{place.work.title}</a></>
           )}
           <br />
         </>
@@ -69,7 +70,7 @@ const tag = (t: string) =>
           return (
             <li>
               <a
-                href={`/text/${c.id}/`}
+                href={textUrl(c.id)}
                 class={child?.translated ? undefined : 'pending'}
               >
                 {child?.title ?? c.label}
@@ -101,7 +102,7 @@ const tag = (t: string) =>
   {
     place && (
       <p style="margin-top:3rem">
-        <a href={`/authors/${place.author.slug}/`}>
+        <a href={authorUrl(place.author.slug)}>
           ← {authorNameJa(place.author.name)} の著作一覧へ
         </a>
       </p>
