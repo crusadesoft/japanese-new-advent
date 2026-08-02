@@ -96,14 +96,14 @@ a:focus {
   text-decoration: none;
 }
 
-.wordmark .romaji {
+.wordmark .series {
   display: block;
-  font-family: var(--gothic);
-  font-size: 0.6rem;
-  letter-spacing: 0.34em;
+  font-family: var(--mincho);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
   color: var(--muted);
   font-weight: 400;
-  margin-top: 0.15rem;
+  margin-top: 0.2rem;
 }
 
 .tabs {

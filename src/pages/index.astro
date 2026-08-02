@@ -29,21 +29,19 @@ const fmt = (n: number) => n.toLocaleString('ja-JP');
 ---
 
 <Base>
-  <h1>教父の著作を、日本語で。</h1>
+  <h1>古代教会の教父たち</h1>
 
   <p>
-    本サイトは、古代教会の教父たち——使徒教父からニカイア公会議を経て
-    大グレゴリウスにいたるまで——の著作を日本語で読むための文庫です。
-    英語圏で標準的に用いられてきた
-    <em>Ante-Nicene Fathers</em> および
-    <em>Nicene and Post-Nicene Fathers</em>（1885–1900年）を底本とし、
-    全 {fmt(manifest.counts.documents)} 篇、
-    約 {fmt(Math.round(manifest.counts.words / 10000) * 10000)} 語を順次翻訳しています。
+    使徒教父から大グレゴリウスにいたるまで、古代教会が書き遺した著作を
+    ひとつの文庫に収めます。教父 {fmt(manifest.counts.authors)} 名、
+    {fmt(manifest.counts.works)} 作品、{fmt(manifest.counts.documents)} 篇。
+    護教論、書簡、説教、注解、教会史、修道規則——四世紀にわたる
+    キリスト教思想の形成過程を、原典に即してたどることができます。
   </p>
 
   <p>
-    底本はいずれもパブリックドメインであり、訳文も CC0 により公有に供します。
-    登録も課金もありません。
+    全文を無償で公開しています。会員登録も広告もありません。
+    本文は自由に複製・引用していただけます。
   </p>
 
   <div class="progress">

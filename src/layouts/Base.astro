@@ -11,10 +11,11 @@ interface Props {
 const { title, description, wide = false } = Astro.props;
 
 const SITE = '教父文庫';
-const fullTitle = title ? `${title}｜${SITE}` : `${SITE} — 教父著作集 日本語版`;
+const SERIES = '古代キリスト教文献集成';
+const fullTitle = title ? `${title}｜${SITE}` : `${SITE}｜${SERIES}`;
 const desc =
   description ??
-  '古代教会の教父たちの著作を日本語で読むための文庫。パブリックドメインの原典にもとづく翻訳を無償で公開しています。';
+  '使徒教父から大グレゴリウスにいたる古代教会の著作を収める文庫。全文を無償で公開しています。';
 
 const path = Astro.url.pathname;
 const root = home();
@@ -50,7 +51,7 @@ const tabs = [
       <div class="masthead-inner">
         <div class="wordmark">
           <a href={root}>{SITE}</a>
-          <span class="romaji">THE CHURCH FATHERS IN JAPANESE</span>
+          <span class="series">{SERIES}</span>
         </div>
         <nav class="tabs" aria-label="メインナビゲーション">
           {
@@ -72,22 +73,22 @@ const tabs = [
     <footer>
       <div class="footer-note">
         <p>
-          底本は <em>Ante-Nicene Fathers</em> および <em>Nicene and Post-Nicene
-          Fathers</em>（Philip Schaff ほか編、1885–1900年）。いずれも著作権の保護期間が満了した
-          パブリックドメインの文献です。日本語訳は本サイトが作成したもので、
+          底本｜<em>Ante-Nicene Fathers</em>／<em>Nicene and Post-Nicene Fathers</em>
+          （Philip Schaff ほか編、1885–1900年）。保護期間満了。
+          本文は
           <a
             href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja"
             rel="license noopener"
             target="_blank">CC0 1.0</a
-          > により公有に供します。自由に複製・改変・再配布できます。
+          >。複製・改変・再配布は自由です。
         </p>
         <p>
-          誤訳・誤植のご指摘を歓迎します。
+          誤りのご指摘は
           <a
             href="https://github.com/crusadesoft/japanese-new-advent/issues"
             rel="noopener"
-            target="_blank">GitHub の Issues</a
-          > よりお知らせください。
+            target="_blank">こちら</a
+          >まで。随時反映します。
         </p>
       </div>
       <div class="footer-bar">
