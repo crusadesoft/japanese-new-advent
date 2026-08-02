@@ -193,55 +193,80 @@ async function parseDocument(file, id) {
   };
 }
 
-/** Parse the corpus index into an author -> works tree. */
+/**
+ * Parse the corpus index into an author -> works tree.
+ *
+ * The index annotates entries with bracketed markers — [SAINT] and [DOCTOR]
+ * on authors, and [SPURIOUS], [LOCAL], [ECUMENICAL], [GNOSTIC] and others on
+ * individual works. Placement is positional rather than structural: a marker
+ * belongs to whatever was named most recently before it. So the parser walks
+ * each paragraph's children in document order and attaches markers to the
+ * current target, which starts as the author and becomes each work in turn.
+ */
 async function parseIndex(file) {
-  const html = await readFile(file, 'utf8');
+  const html = sanitizeHtml(await readFile(file, 'utf8'));
   const $ = cheerio.load(html);
   const scope = $(CONTENT_SELECTOR);
 
   const authors = [];
-  let current = null;
 
-  // The index is a flat run of <p><strong>Author</strong> [flags] <br>- <a>work</a>...
-  // so we walk it linearly and attach works to the most recent author heading.
-  for (const node of scope.contents().toArray()) {
-    if (node.type !== 'tag') continue;
-    const $node = $(node);
+  const markersOf = (text) =>
+    [...text.matchAll(/\[([A-Z]+)\]/g)].map((m) => m[1]);
 
-    if (node.name.toLowerCase() === 'p') {
-      const strong = $node.find('strong').first();
-      if (!strong.length) continue;
+  for (const p of scope.children('p').toArray()) {
+    const $p = $(p);
+    const strong = $p.find('strong').first();
+    if (!strong.length) continue;
 
-      const raw = normalize(inlineText($, strong)).replace(/\*/g, '');
-      const flags = normalize($node.text());
-      const cathen = $node.find('a[href*="cathen"]').first().attr('href') || null;
+    const raw = normalize(inlineText($, strong)).replace(/\*/g, '');
+    const cathen = $p.find('a[href*="cathen"]').first().attr('href') || null;
 
-      // Split a trailing "(340-397)" style life-dates hint off the name.
-      const dm = raw.match(/^(.*?)\s*\(([^)]*\d[^)]*)\)\s*$/);
-      const name = (dm ? dm[1] : raw).trim();
-      const dates = dm ? dm[2].trim() : null;
+    // Split a trailing "(340-397)" style life-dates hint off the name.
+    const dm = raw.match(/^(.*?)\s*\(([^)]*\d[^)]*)\)\s*$/);
+    const name = (dm ? dm[1] : raw).trim();
+    const dates = dm ? dm[2].trim() : null;
 
-      current = {
-        slug: slugify(name),
-        name,
-        dates,
-        isSaint: /\[SAINT\]/i.test(flags),
-        isDoctor: /\[DOCTOR\]/i.test(flags),
-        cathen: cathen ? (cathen.match(/(\w+)\.htm$/) || [])[1] || null : null,
-        works: [],
-      };
-      authors.push(current);
+    const author = {
+      slug: slugify(name),
+      name,
+      dates,
+      markers: [],
+      isSaint: false,
+      isDoctor: false,
+      cathen: cathen ? (cathen.match(/(\w+)\.htm$/) || [])[1] || null : null,
+      works: [],
+    };
 
-      // Works are siblings inside the same <p> in this markup.
-      $node.find('a[href*="fathers/"]').each((_, a) => {
-        const href = $(a).attr('href') || '';
-        const m = href.match(/(\d{4,9}[a-z]?)\.htm$/);
-        if (!m) return;
-        const label = normalize(inlineText($, a));
-        if (!label) return;
-        current.works.push({ id: m[1], title: label });
-      });
+    // Markers land on the author until the first work link appears.
+    let target = author;
+
+    for (const node of $p.contents().toArray()) {
+      if (node.type !== 'tag') continue;
+      const tag = node.name.toLowerCase();
+      const $n = $(node);
+
+      if (tag === 'font') {
+        target.markers.push(...markersOf($n.text()));
+        continue;
+      }
+
+      // A work link may be the node itself or wrapped one level down.
+      const $a = tag === 'a' ? $n : $n.find('a[href*="fathers/"]').first();
+      const href = $a.attr('href') || '';
+      const m = href.match(/(\d{4,9}[a-z]?)\.htm$/);
+      if (!m || !/fathers\//.test(href)) continue;
+
+      const label = normalize(inlineText($, $a[0]));
+      if (!label) continue;
+
+      const work = { id: m[1], title: label, markers: [] };
+      author.works.push(work);
+      target = work;
     }
+
+    author.isSaint = author.markers.includes('SAINT');
+    author.isDoctor = author.markers.includes('DOCTOR');
+    authors.push(author);
   }
 
   return authors.filter((a) => a.works.length > 0);

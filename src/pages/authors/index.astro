@@ -1,38 +1,69 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getManifest, authorsByEra, authorNameJa } from '../../lib/corpus';
-import { author as authorUrl } from '../../lib/paths';
+import {
+  getManifest,
+  authorNameJa,
+  authorDates,
+  getDocument,
+  marker,
+} from '../../lib/corpus';
+import { author as authorUrl, text as textUrl } from '../../lib/paths';
 
 const manifest = getManifest();
-const groups = authorsByEra(manifest.authors);
+
+// Flat alphabetical listing, ordered by the English name as the source index
+// orders it — the Japanese renderings are mostly katakana transliterations, so
+// sorting on them would scatter related figures apart.
+const authors = [...manifest.authors].sort((a, b) =>
+  a.name.localeCompare(b.name)
+);
+
+const titleOf = (id: string, fallback: string) =>
+  getDocument(id)?.title ?? fallback;
 ---
 
-<Base title="教父一覧" description="本文庫に収録する教父の一覧。時代順に配列しています。">
+<Base
+  title="教父一覧"
+  description="本文庫に収録する教父と著作の総目録。"
+  wide
+>
   <h1>教父一覧</h1>
   <p>
-    全 {manifest.counts.authors} 名、{manifest.counts.works.toLocaleString('ja-JP')} 作品。
-    生没年の判明する著者は時代順に配列しています。
+    教父 {manifest.counts.authors} 名、{manifest.counts.works} 作品の総目録です。
+    聖人・教会博士の別、および偽作・会議の種別を原典目録にしたがって注記しています。
   </p>
 
-  {
-    groups.map((g) => (
-      <>
-        <h2>{g.era}</h2>
-        <ul class="author-list">
-          {g.entries.map(({ author: a, dates }) => (
-            <li>
+  <div class="index-list">
+    {
+      authors.map((a) => {
+        const dates = authorDates(a);
+        return (
+          <section class="entry">
+            <h2 class="entry-name">
               <a href={authorUrl(a.slug)}>{authorNameJa(a.name)}</a>
-              {a.isSaint && <span class="badge badge-saint">聖人</span>}
-              {a.isDoctor && <span class="badge badge-doctor">教会博士</span>}
-              <span class="en">
+              {(a.markers ?? []).map((k) => (
+                <span class={`mark mark-${marker(k).tone}`}>[{marker(k).ja}]</span>
+              ))}
+              <span class="entry-en">
                 {a.name}
                 {dates ? `（${dates}）` : ''}
               </span>
-              <span class="count">{a.works.length} 作品</span>
-            </li>
-          ))}
-        </ul>
-      </>
-    ))
-  }
+            </h2>
+            <ul class="entry-works">
+              {a.works.map((w) => (
+                <li>
+                  <a href={textUrl(w.id)}>{titleOf(w.id, w.title!)}</a>
+                  {(w.markers ?? []).map((k) => (
+                    <span class={`mark mark-${marker(k).tone}`}>
+                      [{marker(k).ja}]
+                    </span>
+                  ))}
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })
+    }
+  </div>
 </Base>

@@ -29,6 +29,7 @@ export interface WorkNode {
   slug?: string;
   isToc: boolean;
   words: number;
+  markers?: string[];
   children: WorkNode[];
 }
 
@@ -36,10 +37,36 @@ export interface Author {
   slug: string;
   name: string;
   dates: string | null;
+  markers?: string[];
   isSaint: boolean;
   isDoctor: boolean;
   cathen: string | null;
   works: WorkNode[];
+}
+
+/**
+ * Classification markers carried by the source index. Sainthood and doctorate
+ * attach to authors; the rest attach to individual works and record how the
+ * tradition regards them — attribution, origin, or the standing of a council.
+ * `tone` drives colour, following the source's own three-way distinction.
+ */
+export const MARKERS: Record<string, { ja: string; tone: 'saint' | 'doctor' | 'note' }> = {
+  SAINT: { ja: '聖人', tone: 'saint' },
+  DOCTOR: { ja: '教会博士', tone: 'doctor' },
+  SPURIOUS: { ja: '偽作', tone: 'note' },
+  ECUMENICAL: { ja: '公会議', tone: 'note' },
+  LOCAL: { ja: '地方教会会議', tone: 'note' },
+  SYRIAC: { ja: 'シリア語', tone: 'note' },
+  GNOSTIC: { ja: 'グノーシス派', tone: 'note' },
+  JUDAISTIC: { ja: 'ユダヤ主義', tone: 'note' },
+  DOCETIC: { ja: '仮現論', tone: 'note' },
+  EBIONITIC: { ja: 'エビオン派', tone: 'note' },
+  NESTORIAN: { ja: 'ネストリウス派', tone: 'note' },
+  ABYSSINIAN: { ja: 'エチオピア教会', tone: 'note' },
+};
+
+export function marker(key: string) {
+  return MARKERS[key] ?? { ja: key, tone: 'note' as const };
 }
 
 export interface Manifest {

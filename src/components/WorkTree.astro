@@ -4,7 +4,7 @@
  * a Japanese title show it; the rest fall back to the English label so the
  * structure is navigable before translation reaches them.
  */
-import { getDocument, type WorkNode } from '../lib/corpus';
+import { getDocument, marker, type WorkNode } from '../lib/corpus';
 import { text as textUrl } from '../lib/paths';
 
 interface Props {
@@ -32,6 +32,9 @@ const label = (n: WorkNode) => {
           <a href={textUrl(n.id)} class={l.translated ? undefined : 'pending'}>
             {l.ja ?? l.en}
           </a>
+          {(n.markers ?? []).map((k) => (
+            <span class={`mark mark-${marker(k).tone}`}>[{marker(k).ja}]</span>
+          ))}
           {l.ja && <span class="en">{l.en}</span>}
           {!l.translated && <span class="count">未訳</span>}
           {n.children?.length > 0 && <Astro.self nodes={n.children} />}

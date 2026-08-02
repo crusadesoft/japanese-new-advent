@@ -274,6 +274,96 @@ blockquote {
   color: #8a5a00;
 }
 
+/* ---------- A-Z index of authors and works ---------- */
+
+.index-list {
+  margin-top: 2rem;
+  /* Two columns on wide screens keeps a 420-work index scannable. */
+  columns: 2;
+  column-gap: 3rem;
+}
+
+.entry {
+  break-inside: avoid;
+  margin: 0 0 1.6rem;
+  text-align: left;
+}
+
+.entry-name {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+  padding: 0;
+  border: 0;
+  line-height: 1.7;
+}
+
+.entry-en {
+  font-family: var(--gothic);
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-left: 0.5rem;
+  white-space: nowrap;
+}
+
+.entry-works {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entry-works li {
+  position: relative;
+  padding-left: 1.1rem;
+  line-height: 1.85;
+  font-size: 0.94rem;
+}
+
+/* The source index prefixes each work with a dash; keep that read. */
+.entry-works li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--rule);
+}
+
+.mark {
+  font-family: var(--gothic);
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+  margin-left: 0.35rem;
+  font-weight: 400;
+  white-space: nowrap;
+  vertical-align: 0.08em;
+}
+
+/* Three tones, following the source index's own colour distinction:
+   sainthood, doctorate, and everything else as a neutral note. */
+.mark-saint {
+  color: #cc0000;
+}
+
+.mark-doctor {
+  color: #b06a00;
+}
+
+.mark-note {
+  color: #007700;
+}
+
+@media (max-width: 780px) {
+  .index-list {
+    columns: 1;
+  }
+  .entry-en {
+    display: block;
+    margin-left: 0;
+    white-space: normal;
+  }
+}
+
 .work-tree {
   list-style: none;
   padding-left: 0;

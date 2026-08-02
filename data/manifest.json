@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-02T21:03:38.272Z",
+ "generatedAt": "2026-08-02T22:00:37.550Z",
  "source": "Ante-Nicene Fathers / Nicene & Post-Nicene Fathers (Schaff, 1885-1900), public domain",
  "counts": {
   "authors": 69,
@@ -12,6 +12,9 @@
    "slug": "alexander-of-alexandria",
    "name": "Alexander of Alexandria",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "01296a",
@@ -19,6 +22,7 @@
     {
      "id": "0622",
      "title": "Epistles on the Arian Heresy and the Deposition of Arius",
+     "markers": [],
      "slug": "epistles-on-the-arian-heresy-and-the-deposition-of-arius",
      "isToc": false,
      "children": [],
@@ -30,6 +34,7 @@
    "slug": "alexander-of-lycopolis",
    "name": "Alexander of Lycopolis",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "01299a",
@@ -37,6 +42,7 @@
     {
      "id": "0618",
      "title": "Of the Manicheans",
+     "markers": [],
      "slug": "of-the-manicheans",
      "isToc": false,
      "children": [],
@@ -48,6 +54,10 @@
    "slug": "ambrose",
    "name": "Ambrose",
    "dates": "340-397",
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "01383c",
@@ -55,6 +65,7 @@
     {
      "id": "3404",
      "title": "On the Christian Faith (De fide)",
+     "markers": [],
      "slug": "on-the-christian-faith-de-fide",
      "isToc": true,
      "children": [
@@ -104,6 +115,7 @@
     {
      "id": "3402",
      "title": "On the Holy Spirit",
+     "markers": [],
      "slug": "on-the-holy-spirit",
      "isToc": true,
      "children": [
@@ -137,6 +149,7 @@
     {
      "id": "3405",
      "title": "On the Mysteries",
+     "markers": [],
      "slug": "on-the-mysteries",
      "isToc": false,
      "children": [],
@@ -145,6 +158,7 @@
     {
      "id": "3406",
      "title": "On Repentance",
+     "markers": [],
      "slug": "on-repentance",
      "isToc": true,
      "children": [
@@ -170,6 +184,7 @@
     {
      "id": "3401",
      "title": "On the Duties of the Clergy",
+     "markers": [],
      "slug": "on-the-duties-of-the-clergy",
      "isToc": true,
      "children": [
@@ -203,6 +218,7 @@
     {
      "id": "3407",
      "title": "Concerning Virgins",
+     "markers": [],
      "slug": "concerning-virgins",
      "isToc": true,
      "children": [
@@ -236,6 +252,7 @@
     {
      "id": "3408",
      "title": "Concerning Widows",
+     "markers": [],
      "slug": "concerning-widows",
      "isToc": false,
      "children": [],
@@ -244,6 +261,7 @@
     {
      "id": "3403",
      "title": "On the Death of Satyrus",
+     "markers": [],
      "slug": "on-the-death-of-satyrus",
      "isToc": true,
      "children": [
@@ -269,6 +287,7 @@
     {
      "id": "3410",
      "title": "Memorial of Symmachus",
+     "markers": [],
      "slug": "memorial-of-symmachus",
      "isToc": false,
      "children": [],
@@ -277,6 +296,7 @@
     {
      "id": "3411",
      "title": "Sermon against Auxentius",
+     "markers": [],
      "slug": "sermon-against-auxentius",
      "isToc": false,
      "children": [],
@@ -285,6 +305,7 @@
     {
      "id": "3409",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": true,
      "children": [
@@ -393,6 +414,7 @@
    "slug": "aphrahat-aphraates",
    "name": "Aphrahat/Aphraates",
    "dates": "c. 280-367",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "01593c",
@@ -400,6 +422,7 @@
     {
      "id": "3701",
      "title": "Demonstrations",
+     "markers": [],
      "slug": "demonstrations",
      "isToc": true,
      "children": [
@@ -476,6 +499,7 @@
    "slug": "archelaus",
    "name": "Archelaus",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -483,6 +507,7 @@
     {
      "id": "0616",
      "title": "Acts of the Disputation with the Heresiarch Manes",
+     "markers": [],
      "slug": "acts-of-the-disputation-with-the-heresiarch-manes",
      "isToc": false,
      "children": [],
@@ -494,6 +519,7 @@
    "slug": "aristides-the-philosopher",
    "name": "Aristides the Philosopher",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "01712d",
@@ -501,6 +527,7 @@
     {
      "id": "1012",
      "title": "The Apology",
+     "markers": [],
      "slug": "the-apology",
      "isToc": false,
      "children": [],
@@ -512,6 +539,7 @@
    "slug": "arnobius",
    "name": "Arnobius",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "01746c",
@@ -519,6 +547,7 @@
     {
      "id": "0631",
      "title": "Against the Heathen",
+     "markers": [],
      "slug": "against-the-heathen",
      "isToc": true,
      "children": [
@@ -587,6 +616,10 @@
    "slug": "athanasius",
    "name": "Athanasius",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "02035a",
@@ -594,6 +627,7 @@
     {
      "id": "2801",
      "title": "Against the Heathen",
+     "markers": [],
      "slug": "against-the-heathen",
      "isToc": false,
      "children": [],
@@ -602,6 +636,7 @@
     {
      "id": "2802",
      "title": "On the Incarnation of the Word",
+     "markers": [],
      "slug": "on-the-incarnation-of-the-word",
      "isToc": false,
      "children": [],
@@ -610,6 +645,7 @@
     {
      "id": "2803",
      "title": "Deposition of Arius",
+     "markers": [],
      "slug": "deposition-of-arius",
      "isToc": false,
      "children": [],
@@ -618,6 +654,7 @@
     {
      "id": "2821",
      "title": "Statement of Faith",
+     "markers": [],
      "slug": "statement-of-faith",
      "isToc": false,
      "children": [],
@@ -626,6 +663,7 @@
     {
      "id": "2805",
      "title": "On Luke 10:22 (Matthew 11:27)",
+     "markers": [],
      "slug": "on-luke-10-22-matthew-11-27",
      "isToc": false,
      "children": [],
@@ -634,6 +672,7 @@
     {
      "id": "2807",
      "title": "Circular Letter",
+     "markers": [],
      "slug": "circular-letter",
      "isToc": false,
      "children": [],
@@ -642,6 +681,7 @@
     {
      "id": "2808",
      "title": "Apologia Contra Arianos",
+     "markers": [],
      "slug": "apologia-contra-arianos",
      "isToc": true,
      "children": [
@@ -667,6 +707,7 @@
     {
      "id": "2809",
      "title": "De Decretis",
+     "markers": [],
      "slug": "de-decretis",
      "isToc": false,
      "children": [],
@@ -675,6 +716,7 @@
     {
      "id": "2810",
      "title": "De Sententia Dionysii",
+     "markers": [],
      "slug": "de-sententia-dionysii",
      "isToc": false,
      "children": [],
@@ -683,6 +725,7 @@
     {
      "id": "2811",
      "title": "Vita S. Antoni (Life of St. Anthony)",
+     "markers": [],
      "slug": "vita-s-antoni-life-of-st-anthony",
      "isToc": false,
      "children": [],
@@ -691,6 +734,7 @@
     {
      "id": "2812",
      "title": "Ad Episcopus Aegypti et Libyae",
+     "markers": [],
      "slug": "ad-episcopus-aegypti-et-libyae",
      "isToc": false,
      "children": [],
@@ -699,6 +743,7 @@
     {
      "id": "2813",
      "title": "Apologia ad Constantium",
+     "markers": [],
      "slug": "apologia-ad-constantium",
      "isToc": false,
      "children": [],
@@ -707,6 +752,7 @@
     {
      "id": "2814",
      "title": "Apologia de Fuga",
+     "markers": [],
      "slug": "apologia-de-fuga",
      "isToc": false,
      "children": [],
@@ -715,6 +761,7 @@
     {
      "id": "2815",
      "title": "Historia Arianorum",
+     "markers": [],
      "slug": "historia-arianorum",
      "isToc": true,
      "children": [
@@ -788,6 +835,7 @@
     {
      "id": "2816",
      "title": "Four Discourses Against the Arians",
+     "markers": [],
      "slug": "four-discourses-against-the-arians",
      "isToc": true,
      "children": [
@@ -829,6 +877,7 @@
     {
      "id": "2817",
      "title": "De Synodis",
+     "markers": [],
      "slug": "de-synodis",
      "isToc": false,
      "children": [],
@@ -837,6 +886,7 @@
     {
      "id": "2818",
      "title": "Tomus ad Antiochenos",
+     "markers": [],
      "slug": "tomus-ad-antiochenos",
      "isToc": false,
      "children": [],
@@ -845,6 +895,7 @@
     {
      "id": "2819",
      "title": "Ad Afros Epistola Synodica",
+     "markers": [],
      "slug": "ad-afros-epistola-synodica",
      "isToc": false,
      "children": [],
@@ -853,6 +904,7 @@
     {
      "id": "2820",
      "title": "Historia Acephala",
+     "markers": [],
      "slug": "historia-acephala",
      "isToc": false,
      "children": [],
@@ -861,6 +913,7 @@
     {
      "id": "2806",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": true,
      "children": [
@@ -1217,6 +1270,7 @@
    "slug": "athenagoras",
    "name": "Athenagoras",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "02042b",
@@ -1224,6 +1278,7 @@
     {
      "id": "0205",
      "title": "A Plea for the Christians",
+     "markers": [],
      "slug": "a-plea-for-the-christians",
      "isToc": false,
      "children": [],
@@ -1232,6 +1287,7 @@
     {
      "id": "0206",
      "title": "The Resurrection of the Dead",
+     "markers": [],
      "slug": "the-resurrection-of-the-dead",
      "isToc": false,
      "children": [],
@@ -1243,6 +1299,10 @@
    "slug": "augustine-of-hippo",
    "name": "Augustine of Hippo",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "02084a",
@@ -1250,6 +1310,7 @@
     {
      "id": "1101",
      "title": "Confessions",
+     "markers": [],
      "slug": "confessions",
      "isToc": false,
      "children": [],
@@ -1258,6 +1319,7 @@
     {
      "id": "1102",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": false,
      "children": [],
@@ -1266,6 +1328,7 @@
     {
      "id": "1201",
      "title": "City of God",
+     "markers": [],
      "slug": "city-of-god",
      "isToc": false,
      "children": [],
@@ -1274,6 +1337,7 @@
     {
      "id": "1202",
      "title": "Christian Doctrine",
+     "markers": [],
      "slug": "christian-doctrine",
      "isToc": false,
      "children": [],
@@ -1282,6 +1346,7 @@
     {
      "id": "1301",
      "title": "On the Holy Trinity",
+     "markers": [],
      "slug": "on-the-holy-trinity",
      "isToc": true,
      "children": [
@@ -1411,6 +1476,7 @@
     {
      "id": "1302",
      "title": "The Enchiridion",
+     "markers": [],
      "slug": "the-enchiridion",
      "isToc": false,
      "children": [],
@@ -1419,6 +1485,7 @@
     {
      "id": "1303",
      "title": "On the Catechising of the Uninstructed",
+     "markers": [],
      "slug": "on-the-catechising-of-the-uninstructed",
      "isToc": false,
      "children": [],
@@ -1427,6 +1494,7 @@
     {
      "id": "1304",
      "title": "On Faith and the Creed",
+     "markers": [],
      "slug": "on-faith-and-the-creed",
      "isToc": false,
      "children": [],
@@ -1435,6 +1503,7 @@
     {
      "id": "1305",
      "title": "Concerning Faith of Things Not Seen",
+     "markers": [],
      "slug": "concerning-faith-of-things-not-seen",
      "isToc": false,
      "children": [],
@@ -1443,6 +1512,7 @@
     {
      "id": "1306",
      "title": "On the Profit of Believing",
+     "markers": [],
      "slug": "on-the-profit-of-believing",
      "isToc": false,
      "children": [],
@@ -1451,6 +1521,7 @@
     {
      "id": "1307",
      "title": "On the Creed: A Sermon to Catechumens",
+     "markers": [],
      "slug": "on-the-creed-a-sermon-to-catechumens",
      "isToc": false,
      "children": [],
@@ -1459,6 +1530,7 @@
     {
      "id": "1308",
      "title": "On Continence",
+     "markers": [],
      "slug": "on-continence",
      "isToc": false,
      "children": [],
@@ -1467,6 +1539,7 @@
     {
      "id": "1309",
      "title": "On the Good of Marriage",
+     "markers": [],
      "slug": "on-the-good-of-marriage",
      "isToc": false,
      "children": [],
@@ -1475,6 +1548,7 @@
     {
      "id": "1310",
      "title": "On Holy Virginity",
+     "markers": [],
      "slug": "on-holy-virginity",
      "isToc": false,
      "children": [],
@@ -1483,6 +1557,7 @@
     {
      "id": "1311",
      "title": "On the Good of Widowhood",
+     "markers": [],
      "slug": "on-the-good-of-widowhood",
      "isToc": false,
      "children": [],
@@ -1491,6 +1566,7 @@
     {
      "id": "1312",
      "title": "On Lying",
+     "markers": [],
      "slug": "on-lying",
      "isToc": false,
      "children": [],
@@ -1499,6 +1575,7 @@
     {
      "id": "1313",
      "title": "To Consentius: Against Lying",
+     "markers": [],
      "slug": "to-consentius-against-lying",
      "isToc": false,
      "children": [],
@@ -1507,6 +1584,7 @@
     {
      "id": "1314",
      "title": "On the Work of Monks",
+     "markers": [],
      "slug": "on-the-work-of-monks",
      "isToc": false,
      "children": [],
@@ -1515,6 +1593,7 @@
     {
      "id": "1315",
      "title": "On Patience",
+     "markers": [],
      "slug": "on-patience",
      "isToc": false,
      "children": [],
@@ -1523,6 +1602,7 @@
     {
      "id": "1316",
      "title": "On Care to be Had For the Dead",
+     "markers": [],
      "slug": "on-care-to-be-had-for-the-dead",
      "isToc": false,
      "children": [],
@@ -1531,6 +1611,7 @@
     {
      "id": "1401",
      "title": "On the Morals of the Catholic Church",
+     "markers": [],
      "slug": "on-the-morals-of-the-catholic-church",
      "isToc": false,
      "children": [],
@@ -1539,6 +1620,7 @@
     {
      "id": "1402",
      "title": "On the Morals of the Manichaeans",
+     "markers": [],
      "slug": "on-the-morals-of-the-manichaeans",
      "isToc": false,
      "children": [],
@@ -1547,6 +1629,7 @@
     {
      "id": "1403",
      "title": "On Two Souls, Against the Manichaeans",
+     "markers": [],
      "slug": "on-two-souls-against-the-manichaeans",
      "isToc": false,
      "children": [],
@@ -1555,6 +1638,7 @@
     {
      "id": "1404",
      "title": "Acts or Disputation Against Fortunatus the Manichaean",
+     "markers": [],
      "slug": "acts-or-disputation-against-fortunatus-the-manichaean",
      "isToc": false,
      "children": [],
@@ -1563,6 +1647,7 @@
     {
      "id": "1405",
      "title": "Against the Epistle of Manichaeus Called Fundamental",
+     "markers": [],
      "slug": "against-the-epistle-of-manichaeus-called-fundamental",
      "isToc": false,
      "children": [],
@@ -1571,6 +1656,7 @@
     {
      "id": "1406",
      "title": "Reply to Faustus the Manichaean",
+     "markers": [],
      "slug": "reply-to-faustus-the-manichaean",
      "isToc": true,
      "children": [
@@ -1844,6 +1930,7 @@
     {
      "id": "1407",
      "title": "Concerning the Nature of Good, Against the Manichaeans",
+     "markers": [],
      "slug": "concerning-the-nature-of-good-against-the-manichaeans",
      "isToc": false,
      "children": [],
@@ -1852,6 +1939,7 @@
     {
      "id": "1408",
      "title": "On Baptism, Against the Donatists",
+     "markers": [],
      "slug": "on-baptism-against-the-donatists",
      "isToc": true,
      "children": [
@@ -1917,6 +2005,7 @@
     {
      "id": "1409",
      "title": "Answer to Letters of Petilian, Bishop of Cirta",
+     "markers": [],
      "slug": "answer-to-letters-of-petilian-bishop-of-cirta",
      "isToc": false,
      "children": [],
@@ -1925,6 +2014,7 @@
     {
      "id": "1501",
      "title": "Merits and Remission of Sin, and Infant Baptism",
+     "markers": [],
      "slug": "merits-and-remission-of-sin-and-infant-baptism",
      "isToc": true,
      "children": [
@@ -1958,6 +2048,7 @@
     {
      "id": "1502",
      "title": "On the Spirit and the Letter",
+     "markers": [],
      "slug": "on-the-spirit-and-the-letter",
      "isToc": false,
      "children": [],
@@ -1966,6 +2057,7 @@
     {
      "id": "1503",
      "title": "On Nature and Grace",
+     "markers": [],
      "slug": "on-nature-and-grace",
      "isToc": false,
      "children": [],
@@ -1974,6 +2066,7 @@
     {
      "id": "1504",
      "title": "On Man's Perfection in Righteousness",
+     "markers": [],
      "slug": "on-mans-perfection-in-righteousness",
      "isToc": false,
      "children": [],
@@ -1982,6 +2075,7 @@
     {
      "id": "1505",
      "title": "On the Proceedings of Pelagius",
+     "markers": [],
      "slug": "on-the-proceedings-of-pelagius",
      "isToc": false,
      "children": [],
@@ -1990,6 +2084,7 @@
     {
      "id": "1506",
      "title": "On the Grace of Christ, and on Original Sin",
+     "markers": [],
      "slug": "on-the-grace-of-christ-and-on-original-sin",
      "isToc": true,
      "children": [
@@ -2015,6 +2110,7 @@
     {
      "id": "1507",
      "title": "On Marriage and Concupiscence",
+     "markers": [],
      "slug": "on-marriage-and-concupiscence",
      "isToc": false,
      "children": [],
@@ -2023,6 +2119,7 @@
     {
      "id": "1508",
      "title": "On the Soul and its Origin",
+     "markers": [],
      "slug": "on-the-soul-and-its-origin",
      "isToc": false,
      "children": [],
@@ -2031,6 +2128,7 @@
     {
      "id": "1509",
      "title": "Against Two Letters of the Pelagians",
+     "markers": [],
      "slug": "against-two-letters-of-the-pelagians",
      "isToc": true,
      "children": [
@@ -2072,6 +2170,7 @@
     {
      "id": "1510",
      "title": "On Grace and Free Will",
+     "markers": [],
      "slug": "on-grace-and-free-will",
      "isToc": false,
      "children": [],
@@ -2080,6 +2179,7 @@
     {
      "id": "1513",
      "title": "On Rebuke and Grace",
+     "markers": [],
      "slug": "on-rebuke-and-grace",
      "isToc": false,
      "children": [],
@@ -2088,6 +2188,7 @@
     {
      "id": "1512",
      "title": "The Predestination of the Saints/Gift of Perseverance",
+     "markers": [],
      "slug": "the-predestination-of-the-saints-gift-of-perseverance",
      "isToc": true,
      "children": [
@@ -2113,6 +2214,7 @@
     {
      "id": "1601",
      "title": "Our Lord's Sermon on the Mount",
+     "markers": [],
      "slug": "our-lords-sermon-on-the-mount",
      "isToc": true,
      "children": [
@@ -2138,6 +2240,7 @@
     {
      "id": "1602",
      "title": "The Harmony of the Gospels",
+     "markers": [],
      "slug": "the-harmony-of-the-gospels",
      "isToc": false,
      "children": [],
@@ -2146,6 +2249,7 @@
     {
      "id": "1603",
      "title": "Sermons on Selected Lessons of the New Testament",
+     "markers": [],
      "slug": "sermons-on-selected-lessons-of-the-new-testament",
      "isToc": true,
      "children": [
@@ -2931,6 +3035,7 @@
     {
      "id": "1701",
      "title": "Tractates on the Gospel of John",
+     "markers": [],
      "slug": "tractates-on-the-gospel-of-john",
      "isToc": false,
      "children": [],
@@ -2939,6 +3044,7 @@
     {
      "id": "1702",
      "title": "Homilies on the First Epistle of John",
+     "markers": [],
      "slug": "homilies-on-the-first-epistle-of-john",
      "isToc": true,
      "children": [
@@ -3028,6 +3134,7 @@
     {
      "id": "1703",
      "title": "Soliloquies",
+     "markers": [],
      "slug": "soliloquies",
      "isToc": true,
      "children": [
@@ -3053,6 +3160,7 @@
     {
      "id": "1801",
      "title": "The Enarrations, or Expositions, on the Psalms",
+     "markers": [],
      "slug": "the-enarrations-or-expositions-on-the-psalms",
      "isToc": true,
      "children": [
@@ -4265,6 +4373,7 @@
    "slug": "bardesanes",
    "name": "Bardesanes",
    "dates": "154-222",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "02293a",
@@ -4272,6 +4381,7 @@
     {
      "id": "0862",
      "title": "The Book of the Laws of Various Countries",
+     "markers": [],
      "slug": "the-book-of-the-laws-of-various-countries",
      "isToc": false,
      "children": [],
@@ -4283,6 +4393,9 @@
    "slug": "barnabas",
    "name": "Barnabas",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "02300a",
@@ -4290,6 +4403,7 @@
     {
      "id": "0124",
      "title": "Epistle of Barnabas",
+     "markers": [],
      "slug": "epistle-of-barnabas",
      "isToc": false,
      "children": [],
@@ -4301,6 +4415,10 @@
    "slug": "basil-the-great",
    "name": "Basil the Great",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "02330b",
@@ -4308,6 +4426,7 @@
     {
      "id": "3203",
      "title": "De Spiritu Sancto",
+     "markers": [],
      "slug": "de-spiritu-sancto",
      "isToc": false,
      "children": [],
@@ -4316,6 +4435,7 @@
     {
      "id": "3201",
      "title": "Nine Homilies of Hexaemeron",
+     "markers": [],
      "slug": "nine-homilies-of-hexaemeron",
      "isToc": true,
      "children": [
@@ -4397,6 +4517,7 @@
     {
      "id": "3202",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": true,
      "children": [
@@ -7009,6 +7130,7 @@
    "slug": "caius",
    "name": "Caius",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "03144a",
@@ -7016,6 +7138,7 @@
     {
      "id": "0510",
      "title": "Fragments",
+     "markers": [],
      "slug": "fragments",
      "isToc": false,
      "children": [],
@@ -7027,6 +7150,9 @@
    "slug": "clement-of-alexandria",
    "name": "Clement of Alexandria",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "04045a",
@@ -7034,6 +7160,7 @@
     {
      "id": "0207",
      "title": "Who is the Rich Man That Shall Be Saved?",
+     "markers": [],
      "slug": "who-is-the-rich-man-that-shall-be-saved",
      "isToc": false,
      "children": [],
@@ -7042,6 +7169,7 @@
     {
      "id": "0208",
      "title": "Exhortation to the Heathen",
+     "markers": [],
      "slug": "exhortation-to-the-heathen",
      "isToc": false,
      "children": [],
@@ -7050,6 +7178,7 @@
     {
      "id": "0209",
      "title": "The Instructor",
+     "markers": [],
      "slug": "the-instructor",
      "isToc": true,
      "children": [
@@ -7083,6 +7212,7 @@
     {
      "id": "0210",
      "title": "The Stromata, or Miscellanies",
+     "markers": [],
      "slug": "the-stromata-or-miscellanies",
      "isToc": true,
      "children": [
@@ -7156,6 +7286,7 @@
     {
      "id": "0211",
      "title": "Fragments",
+     "markers": [],
      "slug": "fragments",
      "isToc": false,
      "children": [],
@@ -7167,6 +7298,9 @@
    "slug": "clement-of-rome",
    "name": "Clement of Rome",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "04012c",
@@ -7174,6 +7308,7 @@
     {
      "id": "1010",
      "title": "First Epistle",
+     "markers": [],
      "slug": "first-epistle",
      "isToc": false,
      "children": [],
@@ -7182,6 +7317,9 @@
     {
      "id": "1011",
      "title": "Second Epistle",
+     "markers": [
+      "SPURIOUS"
+     ],
      "slug": "second-epistle",
      "isToc": false,
      "children": [],
@@ -7190,6 +7328,9 @@
     {
      "id": "0803",
      "title": "Two Epistles Concerning Virginity",
+     "markers": [
+      "SPURIOUS"
+     ],
      "slug": "two-epistles-concerning-virginity",
      "isToc": false,
      "children": [],
@@ -7198,6 +7339,9 @@
     {
      "id": "0804",
      "title": "Recognitions",
+     "markers": [
+      "SPURIOUS"
+     ],
      "slug": "recognitions",
      "isToc": true,
      "children": [
@@ -7295,6 +7439,9 @@
     {
      "id": "0808",
      "title": "Clementine Homilies",
+     "markers": [
+      "SPURIOUS"
+     ],
      "slug": "clementine-homilies",
      "isToc": true,
      "children": [
@@ -7475,6 +7622,7 @@
    "slug": "commodianus",
    "name": "Commodianus",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "04165a",
@@ -7482,6 +7630,7 @@
     {
      "id": "0411",
      "title": "Writings",
+     "markers": [],
      "slug": "writings",
      "isToc": false,
      "children": [],
@@ -7493,6 +7642,9 @@
    "slug": "cyprian-of-carthage",
    "name": "Cyprian of Carthage",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "04583b",
@@ -7500,6 +7652,7 @@
     {
      "id": "0505",
      "title": "The Life and Passion of Cyprian",
+     "markers": [],
      "slug": "the-life-and-passion-of-cyprian",
      "isToc": false,
      "children": [],
@@ -7508,6 +7661,7 @@
     {
      "id": "0506",
      "title": "The Epistles of Cyprian",
+     "markers": [],
      "slug": "the-epistles-of-cyprian",
      "isToc": true,
      "children": [
@@ -8173,6 +8327,7 @@
     {
      "id": "0507",
      "title": "The Treatises of Cyprian",
+     "markers": [],
      "slug": "the-treatises-of-cyprian",
      "isToc": true,
      "children": [
@@ -8294,6 +8449,7 @@
     {
      "id": "0508",
      "title": "The Seventh Council of Carthage",
+     "markers": [],
      "slug": "the-seventh-council-of-carthage",
      "isToc": false,
      "children": [],
@@ -8305,6 +8461,10 @@
    "slug": "cyril-of-jerusalem",
    "name": "Cyril of Jerusalem",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "04595b",
@@ -8312,6 +8472,7 @@
     {
      "id": "3101",
      "title": "Catechetical Lectures",
+     "markers": [],
      "slug": "catechetical-lectures",
      "isToc": true,
      "children": [
@@ -8516,6 +8677,9 @@
    "slug": "dionysius-of-rome",
    "name": "Dionysius of Rome",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "05009b",
@@ -8523,6 +8687,7 @@
     {
      "id": "0713",
      "title": "Against the Sabellians",
+     "markers": [],
      "slug": "against-the-sabellians",
      "isToc": false,
      "children": [],
@@ -8534,6 +8699,7 @@
    "slug": "dionysius-the-great",
    "name": "Dionysius the Great",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "05011a",
@@ -8541,6 +8707,7 @@
     {
      "id": "0632",
      "title": "Epistles and Epistolary Fragments",
+     "markers": [],
      "slug": "epistles-and-epistolary-fragments",
      "isToc": false,
      "children": [],
@@ -8549,6 +8716,7 @@
     {
      "id": "0613",
      "title": "Exegetical Fragments",
+     "markers": [],
      "slug": "exegetical-fragments",
      "isToc": false,
      "children": [],
@@ -8557,6 +8725,7 @@
     {
      "id": "0612",
      "title": "Miscellaneous Fragments",
+     "markers": [],
      "slug": "miscellaneous-fragments",
      "isToc": false,
      "children": [],
@@ -8568,6 +8737,10 @@
    "slug": "ephraim-the-syrian",
    "name": "Ephraim the Syrian",
    "dates": "306-373",
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "05498a",
@@ -8575,6 +8748,7 @@
     {
      "id": "3702",
      "title": "Nisibene Hymns",
+     "markers": [],
      "slug": "nisibene-hymns",
      "isToc": true,
      "children": [
@@ -8632,6 +8806,7 @@
     {
      "id": "3703",
      "title": "On the Nativity of Christ in the Flesh",
+     "markers": [],
      "slug": "on-the-nativity-of-christ-in-the-flesh",
      "isToc": false,
      "children": [],
@@ -8640,6 +8815,7 @@
     {
      "id": "3704",
      "title": "For the Feast of the Epiphany",
+     "markers": [],
      "slug": "for-the-feast-of-the-epiphany",
      "isToc": false,
      "children": [],
@@ -8648,6 +8824,7 @@
     {
      "id": "3705",
      "title": "On the Faith (\"The Pearl\")",
+     "markers": [],
      "slug": "on-the-faith-the-pearl",
      "isToc": false,
      "children": [],
@@ -8656,6 +8833,7 @@
     {
      "id": "3706",
      "title": "On Our Lord",
+     "markers": [],
      "slug": "on-our-lord",
      "isToc": false,
      "children": [],
@@ -8664,6 +8842,7 @@
     {
      "id": "3707",
      "title": "On Admonition and Repentance",
+     "markers": [],
      "slug": "on-admonition-and-repentance",
      "isToc": false,
      "children": [],
@@ -8672,6 +8851,7 @@
     {
      "id": "3708",
      "title": "On the Sinful Woman",
+     "markers": [],
      "slug": "on-the-sinful-woman",
      "isToc": false,
      "children": [],
@@ -8683,6 +8863,7 @@
    "slug": "eusebius-of-caesarea",
    "name": "Eusebius of Caesarea",
    "dates": "c. 265-c. 340",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "05617b",
@@ -8690,6 +8871,7 @@
     {
      "id": "2501",
      "title": "Church History",
+     "markers": [],
      "slug": "church-history",
      "isToc": true,
      "children": [
@@ -8787,6 +8969,7 @@
     {
      "id": "2502",
      "title": "Life of Constantine",
+     "markers": [],
      "slug": "life-of-constantine",
      "isToc": true,
      "children": [
@@ -8828,6 +9011,7 @@
     {
      "id": "2503",
      "title": "Oration of Constantine \"to the Assembly of the Saints\"",
+     "markers": [],
      "slug": "oration-of-constantine-to-the-assembly-of-the-saints",
      "isToc": false,
      "children": [],
@@ -8836,6 +9020,7 @@
     {
      "id": "2504",
      "title": "Oration in Praise of Constantine",
+     "markers": [],
      "slug": "oration-in-praise-of-constantine",
      "isToc": false,
      "children": [],
@@ -8844,6 +9029,7 @@
     {
      "id": "2804",
      "title": "Letter on the Council of Nicaea",
+     "markers": [],
      "slug": "letter-on-the-council-of-nicaea",
      "isToc": false,
      "children": [],
@@ -8855,6 +9041,7 @@
    "slug": "gennadius-of-marseilles",
    "name": "Gennadius of Marseilles",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "06417a",
@@ -8862,6 +9049,7 @@
     {
      "id": "2719",
      "title": "Illustrious Men (Supplement to Jerome)",
+     "markers": [],
      "slug": "illustrious-men-supplement-to-jerome",
      "isToc": false,
      "children": [],
@@ -8873,6 +9061,10 @@
    "slug": "gregory-the-great-pope",
    "name": "Gregory the Great, Pope",
    "dates": "c. 540-604",
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "06780a",
@@ -8880,6 +9072,7 @@
     {
      "id": "3601",
      "title": "Pastoral Rule",
+     "markers": [],
      "slug": "pastoral-rule",
      "isToc": true,
      "children": [
@@ -8921,6 +9114,7 @@
     {
      "id": "3602",
      "title": "Register of Letters",
+     "markers": [],
      "slug": "register-of-letters",
      "isToc": false,
      "children": [],
@@ -8932,6 +9126,10 @@
    "slug": "gregory-nazianzen",
    "name": "Gregory Nazianzen",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "07010b",
@@ -8939,6 +9137,7 @@
     {
      "id": "3102",
      "title": "Orations",
+     "markers": [],
      "slug": "orations",
      "isToc": true,
      "children": [
@@ -9140,6 +9339,7 @@
     {
      "id": "3103",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": true,
      "children": [
@@ -9176,6 +9376,9 @@
    "slug": "gregory-of-nyssa",
    "name": "Gregory of Nyssa",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "07016a",
@@ -9183,6 +9386,7 @@
     {
      "id": "2901",
      "title": "Against Eunomius",
+     "markers": [],
      "slug": "against-eunomius",
      "isToc": true,
      "children": [
@@ -9288,6 +9492,7 @@
     {
      "id": "2902",
      "title": "Answer to Eunomius' Second Book",
+     "markers": [],
      "slug": "answer-to-eunomius-second-book",
      "isToc": false,
      "children": [],
@@ -9296,6 +9501,7 @@
     {
      "id": "2903",
      "title": "On the Holy Spirit (Against the Followers of Macedonius)",
+     "markers": [],
      "slug": "on-the-holy-spirit-against-the-followers-of-macedonius",
      "isToc": false,
      "children": [],
@@ -9304,6 +9510,7 @@
     {
      "id": "2904",
      "title": "On the Holy Trinity, and of the Godhead of the Holy Spirit (To Eustathius)",
+     "markers": [],
      "slug": "on-the-holy-trinity-and-of-the-godhead-of-the-holy-spirit-to-eustathius",
      "isToc": false,
      "children": [],
@@ -9312,6 +9519,7 @@
     {
      "id": "2905",
      "title": "On \"Not Three Gods\" (To Ablabius)",
+     "markers": [],
      "slug": "on-not-three-gods-to-ablabius",
      "isToc": false,
      "children": [],
@@ -9320,6 +9528,7 @@
     {
      "id": "2906",
      "title": "On the Faith (To Simplicius)",
+     "markers": [],
      "slug": "on-the-faith-to-simplicius",
      "isToc": false,
      "children": [],
@@ -9328,6 +9537,7 @@
     {
      "id": "2907",
      "title": "On Virginity",
+     "markers": [],
      "slug": "on-virginity",
      "isToc": false,
      "children": [],
@@ -9336,6 +9546,7 @@
     {
      "id": "2912",
      "title": "On Infants' Early Deaths",
+     "markers": [],
      "slug": "on-infants-early-deaths",
      "isToc": false,
      "children": [],
@@ -9344,6 +9555,7 @@
     {
      "id": "2913",
      "title": "On Pilgrimages",
+     "markers": [],
      "slug": "on-pilgrimages",
      "isToc": false,
      "children": [],
@@ -9352,6 +9564,7 @@
     {
      "id": "2914",
      "title": "On the Making of Man",
+     "markers": [],
      "slug": "on-the-making-of-man",
      "isToc": false,
      "children": [],
@@ -9360,6 +9573,7 @@
     {
      "id": "2915",
      "title": "On the Soul and the Resurrection",
+     "markers": [],
      "slug": "on-the-soul-and-the-resurrection",
      "isToc": false,
      "children": [],
@@ -9368,6 +9582,7 @@
     {
      "id": "2908",
      "title": "The Great Catechism",
+     "markers": [],
      "slug": "the-great-catechism",
      "isToc": false,
      "children": [],
@@ -9376,6 +9591,7 @@
     {
      "id": "2909",
      "title": "Funeral Oration on Meletius",
+     "markers": [],
      "slug": "funeral-oration-on-meletius",
      "isToc": false,
      "children": [],
@@ -9384,6 +9600,7 @@
     {
      "id": "2910",
      "title": "On the Baptism of Christ (Sermon for the Day of Lights)",
+     "markers": [],
      "slug": "on-the-baptism-of-christ-sermon-for-the-day-of-lights",
      "isToc": false,
      "children": [],
@@ -9392,6 +9609,7 @@
     {
      "id": "2911",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": true,
      "children": [
@@ -9548,6 +9766,9 @@
    "slug": "gregory-thaumaturgus",
    "name": "Gregory Thaumaturgus",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "07015a",
@@ -9555,6 +9776,7 @@
     {
      "id": "0601",
      "title": "A Declaration of Faith",
+     "markers": [],
      "slug": "a-declaration-of-faith",
      "isToc": false,
      "children": [],
@@ -9563,6 +9785,7 @@
     {
      "id": "0602",
      "title": "A Metaphrase of the Book of Ecclesiastes",
+     "markers": [],
      "slug": "a-metaphrase-of-the-book-of-ecclesiastes",
      "isToc": false,
      "children": [],
@@ -9571,6 +9794,7 @@
     {
      "id": "0603",
      "title": "Canonical Epistle",
+     "markers": [],
      "slug": "canonical-epistle",
      "isToc": false,
      "children": [],
@@ -9579,6 +9803,7 @@
     {
      "id": "0604",
      "title": "The Oration and Panegyric Addressed to Origen",
+     "markers": [],
      "slug": "the-oration-and-panegyric-addressed-to-origen",
      "isToc": false,
      "children": [],
@@ -9587,6 +9812,7 @@
     {
      "id": "0605",
      "title": "A Sectional Confession of Faith",
+     "markers": [],
      "slug": "a-sectional-confession-of-faith",
      "isToc": false,
      "children": [],
@@ -9595,6 +9821,7 @@
     {
      "id": "0606",
      "title": "On the Trinity",
+     "markers": [],
      "slug": "on-the-trinity",
      "isToc": false,
      "children": [],
@@ -9603,6 +9830,7 @@
     {
      "id": "0607",
      "title": "Twelve Topics on the Faith",
+     "markers": [],
      "slug": "twelve-topics-on-the-faith",
      "isToc": false,
      "children": [],
@@ -9611,6 +9839,7 @@
     {
      "id": "0608",
      "title": "On the Subject of the Soul",
+     "markers": [],
      "slug": "on-the-subject-of-the-soul",
      "isToc": false,
      "children": [],
@@ -9619,6 +9848,7 @@
     {
      "id": "0609",
      "title": "Four Homilies",
+     "markers": [],
      "slug": "four-homilies",
      "isToc": true,
      "children": [
@@ -9660,6 +9890,7 @@
     {
      "id": "0610",
      "title": "On All the Saints",
+     "markers": [],
      "slug": "on-all-the-saints",
      "isToc": false,
      "children": [],
@@ -9668,6 +9899,7 @@
     {
      "id": "0611",
      "title": "On Matthew 6:22-23",
+     "markers": [],
      "slug": "on-matthew-6-22-23",
      "isToc": false,
      "children": [],
@@ -9679,6 +9911,7 @@
    "slug": "hermas",
    "name": "Hermas",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "07268b",
@@ -9686,6 +9919,7 @@
     {
      "id": "0201",
      "title": "The Pastor (or \"The Shepherd\")",
+     "markers": [],
      "slug": "the-pastor-or-the-shepherd",
      "isToc": false,
      "children": [],
@@ -9697,6 +9931,10 @@
    "slug": "hilary-of-poitiers",
    "name": "Hilary of Poitiers",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "07349b",
@@ -9704,6 +9942,7 @@
     {
      "id": "3301",
      "title": "On the Councils, or the Faith of the Easterns",
+     "markers": [],
      "slug": "on-the-councils-or-the-faith-of-the-easterns",
      "isToc": false,
      "children": [],
@@ -9712,6 +9951,7 @@
     {
      "id": "3302",
      "title": "On the Trinity",
+     "markers": [],
      "slug": "on-the-trinity",
      "isToc": true,
      "children": [
@@ -9817,6 +10057,7 @@
     {
      "id": "3303",
      "title": "Homilies on the Psalms",
+     "markers": [],
      "slug": "homilies-on-the-psalms",
      "isToc": true,
      "children": [
@@ -9853,6 +10094,9 @@
    "slug": "hippolytus",
    "name": "Hippolytus",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "07360c",
@@ -9860,6 +10104,7 @@
     {
      "id": "0501",
      "title": "The Refutation of All Heresies",
+     "markers": [],
      "slug": "the-refutation-of-all-heresies",
      "isToc": true,
      "children": [
@@ -9933,6 +10178,7 @@
     {
      "id": "0502",
      "title": "Some Exegetical Fragments of Hippolytus",
+     "markers": [],
      "slug": "some-exegetical-fragments-of-hippolytus",
      "isToc": false,
      "children": [],
@@ -9941,6 +10187,7 @@
     {
      "id": "0503",
      "title": "Expository Treatise Against the Jews",
+     "markers": [],
      "slug": "expository-treatise-against-the-jews",
      "isToc": false,
      "children": [],
@@ -9949,6 +10196,7 @@
     {
      "id": "0520",
      "title": "Against Plato, On the Cause of the Universe",
+     "markers": [],
      "slug": "against-plato-on-the-cause-of-the-universe",
      "isToc": false,
      "children": [],
@@ -9957,6 +10205,7 @@
     {
      "id": "0521",
      "title": "Against the Heresy of Noetus",
+     "markers": [],
      "slug": "against-the-heresy-of-noetus",
      "isToc": false,
      "children": [],
@@ -9965,6 +10214,7 @@
     {
      "id": "0523",
      "title": "Discourse on the Holy Theophany",
+     "markers": [],
      "slug": "discourse-on-the-holy-theophany",
      "isToc": false,
      "children": [],
@@ -9973,6 +10223,7 @@
     {
      "id": "0516",
      "title": "The Antichrist",
+     "markers": [],
      "slug": "the-antichrist",
      "isToc": false,
      "children": [],
@@ -9981,6 +10232,7 @@
     {
      "id": "0504",
      "title": "The End of the World (Pseudonymous)",
+     "markers": [],
      "slug": "the-end-of-the-world-pseudonymous",
      "isToc": false,
      "children": [],
@@ -9989,6 +10241,7 @@
     {
      "id": "0524",
      "title": "The Apostles and the Disciples (Pseudonymous)",
+     "markers": [],
      "slug": "the-apostles-and-the-disciples-pseudonymous",
      "isToc": false,
      "children": [],
@@ -10000,6 +10253,9 @@
    "slug": "ignatius-of-antioch",
    "name": "Ignatius of Antioch",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "07644a",
@@ -10007,6 +10263,7 @@
     {
      "id": "0104",
      "title": "Epistle to the Ephesians",
+     "markers": [],
      "slug": "epistle-to-the-ephesians",
      "isToc": false,
      "children": [],
@@ -10015,6 +10272,7 @@
     {
      "id": "0105",
      "title": "Epistle to the Magnesians",
+     "markers": [],
      "slug": "epistle-to-the-magnesians",
      "isToc": false,
      "children": [],
@@ -10023,6 +10281,7 @@
     {
      "id": "0106",
      "title": "Epistle to the Trallians",
+     "markers": [],
      "slug": "epistle-to-the-trallians",
      "isToc": false,
      "children": [],
@@ -10031,6 +10290,7 @@
     {
      "id": "0107",
      "title": "Epistle to the Romans",
+     "markers": [],
      "slug": "epistle-to-the-romans",
      "isToc": false,
      "children": [],
@@ -10039,6 +10299,7 @@
     {
      "id": "0108",
      "title": "Epistle to the Philadelphians",
+     "markers": [],
      "slug": "epistle-to-the-philadelphians",
      "isToc": false,
      "children": [],
@@ -10047,6 +10308,7 @@
     {
      "id": "0109",
      "title": "Epistle to the Smyrnæans",
+     "markers": [],
      "slug": "epistle-to-the-smyrn-ans",
      "isToc": false,
      "children": [],
@@ -10055,6 +10317,7 @@
     {
      "id": "0110",
      "title": "Epistle to Polycarp",
+     "markers": [],
      "slug": "epistle-to-polycarp",
      "isToc": false,
      "children": [],
@@ -10063,6 +10326,7 @@
     {
      "id": "0123",
      "title": "The Martyrdom of Ignatius",
+     "markers": [],
      "slug": "the-martyrdom-of-ignatius",
      "isToc": false,
      "children": [],
@@ -10071,6 +10335,7 @@
     {
      "id": "0114",
      "title": "The Spurious Epistles",
+     "markers": [],
      "slug": "the-spurious-epistles",
      "isToc": false,
      "children": [],
@@ -10082,6 +10347,9 @@
    "slug": "irenaeus-of-lyons",
    "name": "Irenaeus of Lyons",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "08130b",
@@ -10089,6 +10357,7 @@
     {
      "id": "0103",
      "title": "Adversus haereses",
+     "markers": [],
      "slug": "adversus-haereses",
      "isToc": false,
      "children": [],
@@ -10097,6 +10366,7 @@
     {
      "id": "0134",
      "title": "Fragments from the Lost Writings of Irenaeus",
+     "markers": [],
      "slug": "fragments-from-the-lost-writings-of-irenaeus",
      "isToc": false,
      "children": [],
@@ -10108,6 +10378,10 @@
    "slug": "jerome",
    "name": "Jerome",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "08341a",
@@ -10115,6 +10389,7 @@
     {
      "id": "3001",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": false,
      "children": [],
@@ -10123,6 +10398,7 @@
     {
      "id": "3007",
      "title": "The Perpetual Virginity of Blessed Mary",
+     "markers": [],
      "slug": "the-perpetual-virginity-of-blessed-mary",
      "isToc": false,
      "children": [],
@@ -10131,6 +10407,7 @@
     {
      "id": "3004",
      "title": "To Pammachius Against John of Jerusalem",
+     "markers": [],
      "slug": "to-pammachius-against-john-of-jerusalem",
      "isToc": false,
      "children": [],
@@ -10139,6 +10416,7 @@
     {
      "id": "3005",
      "title": "The Dialogue Against the Luciferians",
+     "markers": [],
      "slug": "the-dialogue-against-the-luciferians",
      "isToc": false,
      "children": [],
@@ -10147,6 +10425,7 @@
     {
      "id": "3006",
      "title": "The Life of Malchus, the Captive Monk",
+     "markers": [],
      "slug": "the-life-of-malchus-the-captive-monk",
      "isToc": false,
      "children": [],
@@ -10155,6 +10434,7 @@
     {
      "id": "3003",
      "title": "The Life of S. Hilarion",
+     "markers": [],
      "slug": "the-life-of-s-hilarion",
      "isToc": false,
      "children": [],
@@ -10163,6 +10443,7 @@
     {
      "id": "3008",
      "title": "The Life of Paulus the First Hermit",
+     "markers": [],
      "slug": "the-life-of-paulus-the-first-hermit",
      "isToc": false,
      "children": [],
@@ -10171,6 +10452,7 @@
     {
      "id": "3009",
      "title": "Against Jovinianus",
+     "markers": [],
      "slug": "against-jovinianus",
      "isToc": true,
      "children": [
@@ -10196,6 +10478,7 @@
     {
      "id": "3010",
      "title": "Against Vigilantius",
+     "markers": [],
      "slug": "against-vigilantius",
      "isToc": false,
      "children": [],
@@ -10204,6 +10487,7 @@
     {
      "id": "3011",
      "title": "Against the Pelagians",
+     "markers": [],
      "slug": "against-the-pelagians",
      "isToc": true,
      "children": [
@@ -10237,6 +10521,7 @@
     {
      "id": "3002",
      "title": "Prefaces",
+     "markers": [],
      "slug": "prefaces",
      "isToc": false,
      "children": [],
@@ -10245,6 +10530,7 @@
     {
      "id": "2708",
      "title": "De Viris Illustribus (Illustrious Men)",
+     "markers": [],
      "slug": "de-viris-illustribus-illustrious-men",
      "isToc": false,
      "children": [],
@@ -10253,6 +10539,7 @@
     {
      "id": "2710",
      "title": "Apology for himself against the Books of Rufinus",
+     "markers": [],
      "slug": "apology-for-himself-against-the-books-of-rufinus",
      "isToc": true,
      "children": [
@@ -10289,6 +10576,10 @@
    "slug": "john-of-damascus",
    "name": "John of Damascus",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "08459b",
@@ -10296,6 +10587,7 @@
     {
      "id": "3304",
      "title": "Exposition of the Faith",
+     "markers": [],
      "slug": "exposition-of-the-faith",
      "isToc": true,
      "children": [
@@ -10340,6 +10632,7 @@
    "slug": "john-cassian",
    "name": "John Cassian",
    "dates": "c. 360-c. 435",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "03404a",
@@ -10347,6 +10640,7 @@
     {
      "id": "3507",
      "title": "Institutes",
+     "markers": [],
      "slug": "institutes",
      "isToc": true,
      "children": [
@@ -10444,6 +10738,7 @@
     {
      "id": "3508",
      "title": "Conferences",
+     "markers": [],
      "slug": "conferences",
      "isToc": false,
      "children": [],
@@ -10452,6 +10747,7 @@
     {
      "id": "3509",
      "title": "On the Incarnation of the Lord (Against Nestorius)",
+     "markers": [],
      "slug": "on-the-incarnation-of-the-lord-against-nestorius",
      "isToc": true,
      "children": [
@@ -10520,6 +10816,10 @@
    "slug": "john-chrysostom",
    "name": "John Chrysostom",
    "dates": null,
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "08452b",
@@ -10527,6 +10827,7 @@
     {
      "id": "2001",
      "title": "Homilies on the Gospel of St. Matthew",
+     "markers": [],
      "slug": "homilies-on-the-gospel-of-st-matthew",
      "isToc": true,
      "children": [
@@ -11256,6 +11557,7 @@
     {
      "id": "2101",
      "title": "Homilies on Acts",
+     "markers": [],
      "slug": "homilies-on-acts",
      "isToc": true,
      "children": [
@@ -11705,6 +12007,7 @@
     {
      "id": "2102",
      "title": "Homilies on Romans",
+     "markers": [],
      "slug": "homilies-on-romans",
      "isToc": true,
      "children": [
@@ -11970,6 +12273,7 @@
     {
      "id": "2201",
      "title": "Homilies on First Corinthians",
+     "markers": [],
      "slug": "homilies-on-first-corinthians",
      "isToc": false,
      "children": [],
@@ -11978,6 +12282,7 @@
     {
      "id": "2202",
      "title": "Homilies on Second Corinthians",
+     "markers": [],
      "slug": "homilies-on-second-corinthians",
      "isToc": true,
      "children": [
@@ -12227,6 +12532,7 @@
     {
      "id": "2301",
      "title": "Homilies on Ephesians",
+     "markers": [],
      "slug": "homilies-on-ephesians",
      "isToc": true,
      "children": [
@@ -12436,6 +12742,7 @@
     {
      "id": "2302",
      "title": "Homilies on Philippians",
+     "markers": [],
      "slug": "homilies-on-philippians",
      "isToc": true,
      "children": [
@@ -12573,6 +12880,7 @@
     {
      "id": "2303",
      "title": "Homilies on Colossians",
+     "markers": [],
      "slug": "homilies-on-colossians",
      "isToc": true,
      "children": [
@@ -12678,6 +12986,7 @@
     {
      "id": "2304",
      "title": "Homilies on First Thessalonians",
+     "markers": [],
      "slug": "homilies-on-first-thessalonians",
      "isToc": true,
      "children": [
@@ -12775,6 +13084,7 @@
     {
      "id": "2305",
      "title": "Homilies on Second Thessalonians",
+     "markers": [],
      "slug": "homilies-on-second-thessalonians",
      "isToc": true,
      "children": [
@@ -12824,6 +13134,7 @@
     {
      "id": "2306",
      "title": "Homilies on First Timothy",
+     "markers": [],
      "slug": "homilies-on-first-timothy",
      "isToc": true,
      "children": [
@@ -12985,6 +13296,7 @@
     {
      "id": "2307",
      "title": "Homilies on Second Timothy",
+     "markers": [],
      "slug": "homilies-on-second-timothy",
      "isToc": true,
      "children": [
@@ -13074,6 +13386,7 @@
     {
      "id": "2308",
      "title": "Homilies on Titus",
+     "markers": [],
      "slug": "homilies-on-titus",
      "isToc": true,
      "children": [
@@ -13131,6 +13444,7 @@
     {
      "id": "2309",
      "title": "Homilies on Philemon",
+     "markers": [],
      "slug": "homilies-on-philemon",
      "isToc": true,
      "children": [
@@ -13172,6 +13486,7 @@
     {
      "id": "2310",
      "title": "Commentary on Galatians",
+     "markers": [],
      "slug": "commentary-on-galatians",
      "isToc": true,
      "children": [
@@ -13229,6 +13544,7 @@
     {
      "id": "2401",
      "title": "Homilies on the Gospel of John",
+     "markers": [],
      "slug": "homilies-on-the-gospel-of-john",
      "isToc": false,
      "children": [],
@@ -13237,6 +13553,7 @@
     {
      "id": "2402",
      "title": "Homilies on the Epistle to the Hebrews",
+     "markers": [],
      "slug": "homilies-on-the-epistle-to-the-hebrews",
      "isToc": true,
      "children": [
@@ -13526,6 +13843,7 @@
     {
      "id": "1901",
      "title": "Homilies on the Statues",
+     "markers": [],
      "slug": "homilies-on-the-statues",
      "isToc": true,
      "children": [
@@ -13703,6 +14021,7 @@
     {
      "id": "1902",
      "title": "No One Can Harm the Man Who Does Not Injure Himself",
+     "markers": [],
      "slug": "no-one-can-harm-the-man-who-does-not-injure-himself",
      "isToc": false,
      "children": [],
@@ -13711,6 +14030,7 @@
     {
      "id": "1903",
      "title": "Two Letters to Theodore After His Fall",
+     "markers": [],
      "slug": "two-letters-to-theodore-after-his-fall",
      "isToc": false,
      "children": [],
@@ -13719,6 +14039,7 @@
     {
      "id": "1904",
      "title": "Letter to a Young Widow",
+     "markers": [],
      "slug": "letter-to-a-young-widow",
      "isToc": false,
      "children": [],
@@ -13727,6 +14048,7 @@
     {
      "id": "1905",
      "title": "Homily on St. Ignatius",
+     "markers": [],
      "slug": "homily-on-st-ignatius",
      "isToc": false,
      "children": [],
@@ -13735,6 +14057,7 @@
     {
      "id": "1906",
      "title": "Homily on St. Babylas",
+     "markers": [],
      "slug": "homily-on-st-babylas",
      "isToc": false,
      "children": [],
@@ -13743,6 +14066,7 @@
     {
      "id": "1907",
      "title": "Homily Concerning \"Lowliness of Mind\"",
+     "markers": [],
      "slug": "homily-concerning-lowliness-of-mind",
      "isToc": false,
      "children": [],
@@ -13751,6 +14075,7 @@
     {
      "id": "1908",
      "title": "Instructions to Catechumens",
+     "markers": [],
      "slug": "instructions-to-catechumens",
      "isToc": false,
      "children": [],
@@ -13759,6 +14084,7 @@
     {
      "id": "1919",
      "title": "Three Homilies on the Power of Satan",
+     "markers": [],
      "slug": "three-homilies-on-the-power-of-satan",
      "isToc": false,
      "children": [],
@@ -13767,6 +14093,7 @@
     {
      "id": "1910",
      "title": "Homily on the Passage \"Father, if it be possible . . .\"",
+     "markers": [],
      "slug": "homily-on-the-passage-father-if-it-be-possible",
      "isToc": false,
      "children": [],
@@ -13775,6 +14102,7 @@
     {
      "id": "1911",
      "title": "Homily on the Paralytic Lowered Through the Roof",
+     "markers": [],
      "slug": "homily-on-the-paralytic-lowered-through-the-roof",
      "isToc": false,
      "children": [],
@@ -13783,6 +14111,7 @@
     {
      "id": "1912",
      "title": "Homily on the Passage \"If your enemy hunger, feed him.\"",
+     "markers": [],
      "slug": "homily-on-the-passage-if-your-enemy-hunger-feed-him",
      "isToc": false,
      "children": [],
@@ -13791,6 +14120,7 @@
     {
      "id": "1913",
      "title": "Homily Against Publishing the Errors of the Brethren",
+     "markers": [],
      "slug": "homily-against-publishing-the-errors-of-the-brethren",
      "isToc": false,
      "children": [],
@@ -13799,6 +14129,7 @@
     {
      "id": "1914",
      "title": "First Homily on Eutropius",
+     "markers": [],
      "slug": "first-homily-on-eutropius",
      "isToc": false,
      "children": [],
@@ -13807,6 +14138,7 @@
     {
      "id": "1915",
      "title": "Second Homily on Eutropius (After His Captivity)",
+     "markers": [],
      "slug": "second-homily-on-eutropius-after-his-captivity",
      "isToc": false,
      "children": [],
@@ -13815,6 +14147,7 @@
     {
      "id": "1916",
      "title": "Four Letters to Olympias",
+     "markers": [],
      "slug": "four-letters-to-olympias",
      "isToc": false,
      "children": [],
@@ -13823,6 +14156,7 @@
     {
      "id": "1917",
      "title": "Letter to Some Priests of Antioch",
+     "markers": [],
      "slug": "letter-to-some-priests-of-antioch",
      "isToc": false,
      "children": [],
@@ -13831,6 +14165,7 @@
     {
      "id": "1918",
      "title": "Correspondence with Pope Innocent I",
+     "markers": [],
      "slug": "correspondence-with-pope-innocent-i",
      "isToc": false,
      "children": [],
@@ -13839,6 +14174,7 @@
     {
      "id": "1922",
      "title": "On the Priesthood",
+     "markers": [],
      "slug": "on-the-priesthood",
      "isToc": true,
      "children": [
@@ -13899,6 +14235,7 @@
    "slug": "julius-africanus",
    "name": "Julius Africanus",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "08565a",
@@ -13906,6 +14243,7 @@
     {
      "id": "0614",
      "title": "Extant Writings",
+     "markers": [],
      "slug": "extant-writings",
      "isToc": false,
      "children": [],
@@ -13917,6 +14255,9 @@
    "slug": "justin-martyr",
    "name": "Justin Martyr",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "08580c",
@@ -13924,6 +14265,7 @@
     {
      "id": "0126",
      "title": "First Apology",
+     "markers": [],
      "slug": "first-apology",
      "isToc": false,
      "children": [],
@@ -13932,6 +14274,7 @@
     {
      "id": "0127",
      "title": "Second Apology",
+     "markers": [],
      "slug": "second-apology",
      "isToc": false,
      "children": [],
@@ -13940,6 +14283,7 @@
     {
      "id": "0128",
      "title": "Dialogue with Trypho",
+     "markers": [],
      "slug": "dialogue-with-trypho",
      "isToc": true,
      "children": [
@@ -14021,6 +14365,7 @@
     {
      "id": "0129",
      "title": "Hortatory Address to the Greeks",
+     "markers": [],
      "slug": "hortatory-address-to-the-greeks",
      "isToc": false,
      "children": [],
@@ -14029,6 +14374,7 @@
     {
      "id": "0130",
      "title": "On the Sole Government of God",
+     "markers": [],
      "slug": "on-the-sole-government-of-god",
      "isToc": false,
      "children": [],
@@ -14037,6 +14383,7 @@
     {
      "id": "0131",
      "title": "Fragments of the Lost Work on the Resurrection",
+     "markers": [],
      "slug": "fragments-of-the-lost-work-on-the-resurrection",
      "isToc": false,
      "children": [],
@@ -14045,6 +14392,7 @@
     {
      "id": "0132",
      "title": "Miscellaneous Fragments from Lost Writings",
+     "markers": [],
      "slug": "miscellaneous-fragments-from-lost-writings",
      "isToc": false,
      "children": [],
@@ -14053,6 +14401,7 @@
     {
      "id": "0133",
      "title": "Martyrdom of Justin, Chariton, and other Roman Martyrs",
+     "markers": [],
      "slug": "martyrdom-of-justin-chariton-and-other-roman-martyrs",
      "isToc": false,
      "children": [],
@@ -14061,6 +14410,7 @@
     {
      "id": "0135",
      "title": "Discourse to the Greeks",
+     "markers": [],
      "slug": "discourse-to-the-greeks",
      "isToc": false,
      "children": [],
@@ -14072,6 +14422,7 @@
    "slug": "lactantius",
    "name": "Lactantius",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "08736a",
@@ -14079,6 +14430,7 @@
     {
      "id": "0701",
      "title": "The Divine Institutes",
+     "markers": [],
      "slug": "the-divine-institutes",
      "isToc": true,
      "children": [
@@ -14144,6 +14496,7 @@
     {
      "id": "0702",
      "title": "The Epitome of the Divine Institutes",
+     "markers": [],
      "slug": "the-epitome-of-the-divine-institutes",
      "isToc": false,
      "children": [],
@@ -14152,6 +14505,7 @@
     {
      "id": "0703",
      "title": "On the Anger of God",
+     "markers": [],
      "slug": "on-the-anger-of-god",
      "isToc": false,
      "children": [],
@@ -14160,6 +14514,7 @@
     {
      "id": "0704",
      "title": "On the Workmanship of God",
+     "markers": [],
      "slug": "on-the-workmanship-of-god",
      "isToc": false,
      "children": [],
@@ -14168,6 +14523,7 @@
     {
      "id": "0705",
      "title": "Of the Manner In Which the Persecutors Died",
+     "markers": [],
      "slug": "of-the-manner-in-which-the-persecutors-died",
      "isToc": false,
      "children": [],
@@ -14176,6 +14532,7 @@
     {
      "id": "0706",
      "title": "Fragments of Lactantius",
+     "markers": [],
      "slug": "fragments-of-lactantius",
      "isToc": false,
      "children": [],
@@ -14184,6 +14541,7 @@
     {
      "id": "0707",
      "title": "The Phoenix",
+     "markers": [],
      "slug": "the-phoenix",
      "isToc": false,
      "children": [],
@@ -14192,6 +14550,7 @@
     {
      "id": "0708",
      "title": "A Poem on the Passion of the Lord",
+     "markers": [],
      "slug": "a-poem-on-the-passion-of-the-lord",
      "isToc": false,
      "children": [],
@@ -14203,6 +14562,10 @@
    "slug": "leo-the-great-pope",
    "name": "Leo the Great, Pope",
    "dates": "c. 395-461",
+   "markers": [
+    "SAINT",
+    "DOCTOR"
+   ],
    "isSaint": true,
    "isDoctor": true,
    "cathen": "09154b",
@@ -14210,6 +14573,7 @@
     {
      "id": "3603",
      "title": "Sermons",
+     "markers": [],
      "slug": "sermons",
      "isToc": true,
      "children": [
@@ -14603,6 +14967,7 @@
     {
      "id": "3604",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": true,
      "children": [
@@ -15199,6 +15564,7 @@
    "slug": "malchion",
    "name": "Malchion",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -15206,6 +15572,7 @@
     {
      "id": "0617",
      "title": "Epistle",
+     "markers": [],
      "slug": "epistle",
      "isToc": false,
      "children": [],
@@ -15217,6 +15584,7 @@
    "slug": "mar-jacob",
    "name": "Mar Jacob",
    "dates": "452-521",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -15224,6 +15592,7 @@
     {
      "id": "0851",
      "title": "Canticle on Edessa",
+     "markers": [],
      "slug": "canticle-on-edessa",
      "isToc": false,
      "children": [],
@@ -15232,6 +15601,7 @@
     {
      "id": "0860",
      "title": "Homily on Habib the Martyr",
+     "markers": [],
      "slug": "homily-on-habib-the-martyr",
      "isToc": false,
      "children": [],
@@ -15240,6 +15610,7 @@
     {
      "id": "0861",
      "title": "Homily on Guria and Shamuna",
+     "markers": [],
      "slug": "homily-on-guria-and-shamuna",
      "isToc": false,
      "children": [],
@@ -15251,6 +15622,7 @@
    "slug": "mathetes",
    "name": "Mathetes",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -15258,6 +15630,7 @@
     {
      "id": "0101",
      "title": "Epistle to Diognetus",
+     "markers": [],
      "slug": "epistle-to-diognetus",
      "isToc": false,
      "children": [],
@@ -15269,6 +15642,7 @@
    "slug": "methodius",
    "name": "Methodius",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -15276,6 +15650,7 @@
     {
      "id": "0623",
      "title": "The Banquet of the Ten Virgins",
+     "markers": [],
      "slug": "the-banquet-of-the-ten-virgins",
      "isToc": true,
      "children": [
@@ -15381,6 +15756,7 @@
     {
      "id": "0624",
      "title": "Concerning Free Will",
+     "markers": [],
      "slug": "concerning-free-will",
      "isToc": false,
      "children": [],
@@ -15389,6 +15765,7 @@
     {
      "id": "0625",
      "title": "From the Discourse on the Resurrection",
+     "markers": [],
      "slug": "from-the-discourse-on-the-resurrection",
      "isToc": false,
      "children": [],
@@ -15397,6 +15774,7 @@
     {
      "id": "0626",
      "title": "Fragments",
+     "markers": [],
      "slug": "fragments",
      "isToc": false,
      "children": [],
@@ -15405,6 +15783,7 @@
     {
      "id": "0627",
      "title": "Oration Concerning Simeon and Anna",
+     "markers": [],
      "slug": "oration-concerning-simeon-and-anna",
      "isToc": false,
      "children": [],
@@ -15413,6 +15792,7 @@
     {
      "id": "0628",
      "title": "Oration on the Psalms",
+     "markers": [],
      "slug": "oration-on-the-psalms",
      "isToc": false,
      "children": [],
@@ -15421,6 +15801,7 @@
     {
      "id": "0629",
      "title": "Three Fragments from the Homily on the Cross and Passion of Christ",
+     "markers": [],
      "slug": "three-fragments-from-the-homily-on-the-cross-and-passion-of-christ",
      "isToc": false,
      "children": [],
@@ -15432,6 +15813,7 @@
    "slug": "minucius-felix",
    "name": "Minucius Felix",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "10336a",
@@ -15439,6 +15821,7 @@
     {
      "id": "0410",
      "title": "Octavius",
+     "markers": [],
      "slug": "octavius",
      "isToc": false,
      "children": [],
@@ -15450,6 +15833,7 @@
    "slug": "moses-of-chorene",
    "name": "Moses of Chorene",
    "dates": "c. 400-c. 490",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "10598a",
@@ -15457,6 +15841,7 @@
     {
      "id": "0859",
      "title": "History of Armenia",
+     "markers": [],
      "slug": "history-of-armenia",
      "isToc": false,
      "children": [],
@@ -15468,6 +15853,7 @@
    "slug": "novatian",
    "name": "Novatian",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "11138a",
@@ -15475,6 +15861,7 @@
     {
      "id": "0511",
      "title": "Treatise Concerning the Trinity",
+     "markers": [],
      "slug": "treatise-concerning-the-trinity",
      "isToc": false,
      "children": [],
@@ -15483,6 +15870,7 @@
     {
      "id": "0512",
      "title": "On the Jewish Meats",
+     "markers": [],
      "slug": "on-the-jewish-meats",
      "isToc": false,
      "children": [],
@@ -15494,6 +15882,7 @@
    "slug": "origen",
    "name": "Origen",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "11306b",
@@ -15501,6 +15890,7 @@
     {
      "id": "0412",
      "title": "De Principiis",
+     "markers": [],
      "slug": "de-principiis",
      "isToc": true,
      "children": [
@@ -15550,6 +15940,7 @@
     {
      "id": "0413",
      "title": "Africanus to Origen",
+     "markers": [],
      "slug": "africanus-to-origen",
      "isToc": false,
      "children": [],
@@ -15558,6 +15949,7 @@
     {
      "id": "0414",
      "title": "Origen to Africanus",
+     "markers": [],
      "slug": "origen-to-africanus",
      "isToc": false,
      "children": [],
@@ -15566,6 +15958,7 @@
     {
      "id": "0415",
      "title": "Origen to Gregory",
+     "markers": [],
      "slug": "origen-to-gregory",
      "isToc": false,
      "children": [],
@@ -15574,6 +15967,7 @@
     {
      "id": "0416",
      "title": "Against Celsus",
+     "markers": [],
      "slug": "against-celsus",
      "isToc": true,
      "children": [
@@ -15647,6 +16041,7 @@
     {
      "id": "1014",
      "title": "Letter of Origen to Gregory",
+     "markers": [],
      "slug": "letter-of-origen-to-gregory",
      "isToc": false,
      "children": [],
@@ -15655,6 +16050,7 @@
     {
      "id": "1015",
      "title": "Commentary on the Gospel of John",
+     "markers": [],
      "slug": "commentary-on-the-gospel-of-john",
      "isToc": true,
      "children": [
@@ -15712,6 +16108,7 @@
     {
      "id": "1016",
      "title": "Commentary on the Gospel of Matthew",
+     "markers": [],
      "slug": "commentary-on-the-gospel-of-matthew",
      "isToc": true,
      "children": [
@@ -15780,6 +16177,9 @@
    "slug": "pamphilus",
    "name": "Pamphilus",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "11436b",
@@ -15787,6 +16187,7 @@
     {
      "id": "0615",
      "title": "Exposition on the Acts of the Apostles",
+     "markers": [],
      "slug": "exposition-on-the-acts-of-the-apostles",
      "isToc": false,
      "children": [],
@@ -15798,6 +16199,9 @@
    "slug": "papias",
    "name": "Papias",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "11457c",
@@ -15805,6 +16209,7 @@
     {
      "id": "0125",
      "title": "Fragments",
+     "markers": [],
      "slug": "fragments",
      "isToc": false,
      "children": [],
@@ -15816,6 +16221,9 @@
    "slug": "peter-of-alexandria",
    "name": "Peter of Alexandria",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "11771a",
@@ -15823,6 +16231,7 @@
     {
      "id": "0619",
      "title": "The Genuine Acts",
+     "markers": [],
      "slug": "the-genuine-acts",
      "isToc": false,
      "children": [],
@@ -15831,6 +16240,7 @@
     {
      "id": "0620",
      "title": "The Canonical Epistle",
+     "markers": [],
      "slug": "the-canonical-epistle",
      "isToc": false,
      "children": [],
@@ -15839,6 +16249,7 @@
     {
      "id": "0621",
      "title": "Fragments",
+     "markers": [],
      "slug": "fragments",
      "isToc": false,
      "children": [],
@@ -15850,6 +16261,9 @@
    "slug": "polycarp",
    "name": "Polycarp",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "12219b",
@@ -15857,6 +16271,7 @@
     {
      "id": "0136",
      "title": "Epistle to the Philippians",
+     "markers": [],
      "slug": "epistle-to-the-philippians",
      "isToc": false,
      "children": [],
@@ -15865,6 +16280,7 @@
     {
      "id": "0102",
      "title": "The Martyrdom of Polycarp",
+     "markers": [],
      "slug": "the-martyrdom-of-polycarp",
      "isToc": false,
      "children": [],
@@ -15876,6 +16292,7 @@
    "slug": "rufinus",
    "name": "Rufinus",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -15883,6 +16300,7 @@
     {
      "id": "2709",
      "title": "Apology",
+     "markers": [],
      "slug": "apology",
      "isToc": false,
      "children": [],
@@ -15891,6 +16309,7 @@
     {
      "id": "2711",
      "title": "Commentary on the Apostles' Creed",
+     "markers": [],
      "slug": "commentary-on-the-apostles-creed",
      "isToc": false,
      "children": [],
@@ -15899,6 +16318,7 @@
     {
      "id": "2712",
      "title": "Prefaces and Other Works",
+     "markers": [],
      "slug": "prefaces-and-other-works",
      "isToc": false,
      "children": [],
@@ -15910,6 +16330,7 @@
    "slug": "socrates-scholasticus",
    "name": "Socrates Scholasticus",
    "dates": "c. 379-c. 450",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "14118b",
@@ -15917,6 +16338,7 @@
     {
      "id": "2601",
      "title": "Ecclesiastical History",
+     "markers": [],
      "slug": "ecclesiastical-history",
      "isToc": true,
      "children": [
@@ -15985,6 +16407,7 @@
    "slug": "sozomen",
    "name": "Sozomen",
    "dates": "c. 375-c. 447",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "14165c",
@@ -15992,6 +16415,7 @@
     {
      "id": "2602",
      "title": "Ecclesiastical History",
+     "markers": [],
      "slug": "ecclesiastical-history",
      "isToc": true,
      "children": [
@@ -16084,6 +16508,7 @@
    "slug": "sulpitius-severus",
    "name": "Sulpitius Severus",
    "dates": "c. 363-c. 420",
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "14332a",
@@ -16091,6 +16516,7 @@
     {
      "id": "3501",
      "title": "On the Life of St. Martin",
+     "markers": [],
      "slug": "on-the-life-of-st-martin",
      "isToc": false,
      "children": [],
@@ -16099,6 +16525,7 @@
     {
      "id": "3502",
      "title": "Genuine",
+     "markers": [],
      "slug": "genuine",
      "isToc": false,
      "children": [],
@@ -16107,6 +16534,7 @@
     {
      "id": "3504",
      "title": "Dubious",
+     "markers": [],
      "slug": "dubious",
      "isToc": false,
      "children": [],
@@ -16115,6 +16543,7 @@
     {
      "id": "3503",
      "title": "Dialogues",
+     "markers": [],
      "slug": "dialogues",
      "isToc": true,
      "children": [
@@ -16148,6 +16577,7 @@
     {
      "id": "3505",
      "title": "Sacred History",
+     "markers": [],
      "slug": "sacred-history",
      "isToc": true,
      "children": [
@@ -16176,6 +16606,7 @@
    "slug": "tatian",
    "name": "Tatian",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "14464b",
@@ -16183,6 +16614,7 @@
     {
      "id": "0202",
      "title": "Address to the Greeks",
+     "markers": [],
      "slug": "address-to-the-greeks",
      "isToc": false,
      "children": [],
@@ -16191,6 +16623,7 @@
     {
      "id": "0203",
      "title": "Fragments",
+     "markers": [],
      "slug": "fragments",
      "isToc": false,
      "children": [],
@@ -16199,6 +16632,7 @@
     {
      "id": "1002",
      "title": "The Diatessaron",
+     "markers": [],
      "slug": "the-diatessaron",
      "isToc": true,
      "children": [
@@ -16651,6 +17085,7 @@
    "slug": "tertullian",
    "name": "Tertullian",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "14520c",
@@ -16658,6 +17093,7 @@
     {
      "id": "0301",
      "title": "The Apology",
+     "markers": [],
      "slug": "the-apology",
      "isToc": false,
      "children": [],
@@ -16666,6 +17102,7 @@
     {
      "id": "0302",
      "title": "On Idolatry",
+     "markers": [],
      "slug": "on-idolatry",
      "isToc": false,
      "children": [],
@@ -16674,6 +17111,7 @@
     {
      "id": "0303",
      "title": "De Spectaculis (The Shows)",
+     "markers": [],
      "slug": "de-spectaculis-the-shows",
      "isToc": false,
      "children": [],
@@ -16682,6 +17120,7 @@
     {
      "id": "0304",
      "title": "De Corona (The Chaplet)",
+     "markers": [],
      "slug": "de-corona-the-chaplet",
      "isToc": false,
      "children": [],
@@ -16690,6 +17129,7 @@
     {
      "id": "0305",
      "title": "To Scapula",
+     "markers": [],
      "slug": "to-scapula",
      "isToc": false,
      "children": [],
@@ -16698,6 +17138,7 @@
     {
      "id": "0306",
      "title": "Ad Nationes",
+     "markers": [],
      "slug": "ad-nationes",
      "isToc": true,
      "children": [
@@ -16723,6 +17164,7 @@
     {
      "id": "0308",
      "title": "An Answer to the Jews",
+     "markers": [],
      "slug": "an-answer-to-the-jews",
      "isToc": false,
      "children": [],
@@ -16731,6 +17173,7 @@
     {
      "id": "0309",
      "title": "The Soul's Testimony",
+     "markers": [],
      "slug": "the-souls-testimony",
      "isToc": false,
      "children": [],
@@ -16739,6 +17182,7 @@
     {
      "id": "0310",
      "title": "A Treatise on the Soul",
+     "markers": [],
      "slug": "a-treatise-on-the-soul",
      "isToc": false,
      "children": [],
@@ -16747,6 +17191,7 @@
     {
      "id": "0311",
      "title": "The Prescription Against Heretics",
+     "markers": [],
      "slug": "the-prescription-against-heretics",
      "isToc": false,
      "children": [],
@@ -16755,6 +17200,7 @@
     {
      "id": "0312",
      "title": "Against Marcion",
+     "markers": [],
      "slug": "against-marcion",
      "isToc": true,
      "children": [
@@ -16804,6 +17250,7 @@
     {
      "id": "0313",
      "title": "Against Hermogenes",
+     "markers": [],
      "slug": "against-hermogenes",
      "isToc": false,
      "children": [],
@@ -16812,6 +17259,7 @@
     {
      "id": "0314",
      "title": "Against the Valentinians",
+     "markers": [],
      "slug": "against-the-valentinians",
      "isToc": false,
      "children": [],
@@ -16820,6 +17268,7 @@
     {
      "id": "0315",
      "title": "On the Flesh of Christ",
+     "markers": [],
      "slug": "on-the-flesh-of-christ",
      "isToc": false,
      "children": [],
@@ -16828,6 +17277,7 @@
     {
      "id": "0316",
      "title": "On the Resurrection of the Flesh",
+     "markers": [],
      "slug": "on-the-resurrection-of-the-flesh",
      "isToc": false,
      "children": [],
@@ -16836,6 +17286,7 @@
     {
      "id": "0317",
      "title": "Against Praxeas",
+     "markers": [],
      "slug": "against-praxeas",
      "isToc": false,
      "children": [],
@@ -16844,6 +17295,7 @@
     {
      "id": "0318",
      "title": "Scorpiace",
+     "markers": [],
      "slug": "scorpiace",
      "isToc": false,
      "children": [],
@@ -16852,6 +17304,7 @@
     {
      "id": "0319",
      "title": "Appendix (Against All Heresies)",
+     "markers": [],
      "slug": "appendix-against-all-heresies",
      "isToc": false,
      "children": [],
@@ -16860,6 +17313,7 @@
     {
      "id": "0320",
      "title": "On Repentance",
+     "markers": [],
      "slug": "on-repentance",
      "isToc": false,
      "children": [],
@@ -16868,6 +17322,7 @@
     {
      "id": "0321",
      "title": "On Baptism",
+     "markers": [],
      "slug": "on-baptism",
      "isToc": false,
      "children": [],
@@ -16876,6 +17331,7 @@
     {
      "id": "0322",
      "title": "On Prayer",
+     "markers": [],
      "slug": "on-prayer",
      "isToc": false,
      "children": [],
@@ -16884,6 +17340,7 @@
     {
      "id": "0323",
      "title": "Ad Martyras",
+     "markers": [],
      "slug": "ad-martyras",
      "isToc": false,
      "children": [],
@@ -16892,6 +17349,7 @@
     {
      "id": "0324",
      "title": "The Martyrdom of Perpetua and Felicity",
+     "markers": [],
      "slug": "the-martyrdom-of-perpetua-and-felicity",
      "isToc": false,
      "children": [],
@@ -16900,6 +17358,7 @@
     {
      "id": "0325",
      "title": "Of Patience",
+     "markers": [],
      "slug": "of-patience",
      "isToc": false,
      "children": [],
@@ -16908,6 +17367,7 @@
     {
      "id": "0401",
      "title": "On the Pallium",
+     "markers": [],
      "slug": "on-the-pallium",
      "isToc": false,
      "children": [],
@@ -16916,6 +17376,7 @@
     {
      "id": "0402",
      "title": "On the Apparel of Women",
+     "markers": [],
      "slug": "on-the-apparel-of-women",
      "isToc": false,
      "children": [],
@@ -16924,6 +17385,7 @@
     {
      "id": "0403",
      "title": "On the Veiling of Virgins",
+     "markers": [],
      "slug": "on-the-veiling-of-virgins",
      "isToc": false,
      "children": [],
@@ -16932,6 +17394,7 @@
     {
      "id": "0404",
      "title": "To His Wife",
+     "markers": [],
      "slug": "to-his-wife",
      "isToc": false,
      "children": [],
@@ -16940,6 +17403,7 @@
     {
      "id": "0405",
      "title": "On Exhortation to Chastity",
+     "markers": [],
      "slug": "on-exhortation-to-chastity",
      "isToc": false,
      "children": [],
@@ -16948,6 +17412,7 @@
     {
      "id": "0406",
      "title": "On Monogamy",
+     "markers": [],
      "slug": "on-monogamy",
      "isToc": false,
      "children": [],
@@ -16956,6 +17421,7 @@
     {
      "id": "0407",
      "title": "On Modesty",
+     "markers": [],
      "slug": "on-modesty",
      "isToc": false,
      "children": [],
@@ -16964,6 +17430,7 @@
     {
      "id": "0408",
      "title": "On Fasting",
+     "markers": [],
      "slug": "on-fasting",
      "isToc": false,
      "children": [],
@@ -16972,6 +17439,7 @@
     {
      "id": "0409",
      "title": "De Fuga in Persecutione",
+     "markers": [],
      "slug": "de-fuga-in-persecutione",
      "isToc": false,
      "children": [],
@@ -16983,6 +17451,7 @@
    "slug": "theodoret",
    "name": "Theodoret",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "14574b",
@@ -16990,6 +17459,7 @@
     {
      "id": "2701",
      "title": "Counter-Statements to Cyril's 12 Anathemas against Nestorius",
+     "markers": [],
      "slug": "counter-statements-to-cyrils-12-anathemas-against-nestorius",
      "isToc": false,
      "children": [],
@@ -16998,6 +17468,7 @@
     {
      "id": "2702",
      "title": "Ecclesiastical History",
+     "markers": [],
      "slug": "ecclesiastical-history",
      "isToc": true,
      "children": [
@@ -17047,6 +17518,7 @@
     {
      "id": "2703",
      "title": "Dialogues (\"Eranistes\" or \"Polymorphus\")",
+     "markers": [],
      "slug": "dialogues-eranistes-or-polymorphus",
      "isToc": true,
      "children": [
@@ -17088,6 +17560,7 @@
     {
      "id": "2704",
      "title": "Demonstrations by Syllogism",
+     "markers": [],
      "slug": "demonstrations-by-syllogism",
      "isToc": false,
      "children": [],
@@ -17096,6 +17569,7 @@
     {
      "id": "2707",
      "title": "Letters",
+     "markers": [],
      "slug": "letters",
      "isToc": true,
      "children": [
@@ -18556,6 +19030,7 @@
    "slug": "theodotus",
    "name": "Theodotus",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -18563,6 +19038,7 @@
     {
      "id": "0802",
      "title": "Excerpts",
+     "markers": [],
      "slug": "excerpts",
      "isToc": false,
      "children": [],
@@ -18574,6 +19050,7 @@
    "slug": "theophilus",
    "name": "Theophilus",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "14625a",
@@ -18581,6 +19058,7 @@
     {
      "id": "0204",
      "title": "Theophilus to Autolycus",
+     "markers": [],
      "slug": "theophilus-to-autolycus",
      "isToc": true,
      "children": [
@@ -18617,6 +19095,7 @@
    "slug": "venantius",
    "name": "Venantius",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -18624,6 +19103,7 @@
     {
      "id": "0709",
      "title": "Poem on Easter",
+     "markers": [],
      "slug": "poem-on-easter",
      "isToc": false,
      "children": [],
@@ -18635,6 +19115,9 @@
    "slug": "victorinus",
    "name": "Victorinus",
    "dates": null,
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "15414a",
@@ -18642,6 +19125,7 @@
     {
      "id": "0711",
      "title": "On the Creation of the World",
+     "markers": [],
      "slug": "on-the-creation-of-the-world",
      "isToc": false,
      "children": [],
@@ -18650,6 +19134,7 @@
     {
      "id": "0712",
      "title": "Commentary on the Apocalypse of the Blessed John",
+     "markers": [],
      "slug": "commentary-on-the-apocalypse-of-the-blessed-john",
      "isToc": false,
      "children": [],
@@ -18661,6 +19146,9 @@
    "slug": "vincent-of-lerins",
    "name": "Vincent of Lérins",
    "dates": "d. c. 450",
+   "markers": [
+    "SAINT"
+   ],
    "isSaint": true,
    "isDoctor": false,
    "cathen": "15439b",
@@ -18668,6 +19156,7 @@
     {
      "id": "3506",
      "title": "Commonitory for the Antiquity and Universality of the Catholic Faith",
+     "markers": [],
      "slug": "commonitory-for-the-antiquity-and-universality-of-the-catholic-faith",
      "isToc": false,
      "children": [],
@@ -18679,6 +19168,7 @@
    "slug": "liturgies",
    "name": "Liturgies",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -18686,6 +19176,7 @@
     {
      "id": "0717",
      "title": "The Liturgy of James",
+     "markers": [],
      "slug": "the-liturgy-of-james",
      "isToc": false,
      "children": [],
@@ -18694,6 +19185,7 @@
     {
      "id": "0718",
      "title": "The Liturgy of Mark",
+     "markers": [],
      "slug": "the-liturgy-of-mark",
      "isToc": false,
      "children": [],
@@ -18702,6 +19194,7 @@
     {
      "id": "0719",
      "title": "The Liturgy of the Blessed Apostles",
+     "markers": [],
      "slug": "the-liturgy-of-the-blessed-apostles",
      "isToc": false,
      "children": [],
@@ -18713,6 +19206,7 @@
    "slug": "councils",
    "name": "Councils",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "04423f",
@@ -18720,6 +19214,9 @@
     {
      "id": "3818",
      "title": "Carthage under Cyprian (257)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "carthage-under-cyprian-257",
      "isToc": false,
      "children": [],
@@ -18728,6 +19225,9 @@
     {
      "id": "3802",
      "title": "Ancyra (314)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "ancyra-314",
      "isToc": false,
      "children": [],
@@ -18736,6 +19236,9 @@
     {
      "id": "3803",
      "title": "Neocaesarea (315)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "neocaesarea-315",
      "isToc": false,
      "children": [],
@@ -18744,6 +19247,9 @@
     {
      "id": "3801",
      "title": "Nicaea I (325)",
+     "markers": [
+      "ECUMENICAL"
+     ],
      "slug": "nicaea-i-325",
      "isToc": false,
      "children": [],
@@ -18752,6 +19258,9 @@
     {
      "id": "3805",
      "title": "Antioch in Encaeniis (341)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "antioch-in-encaeniis-341",
      "isToc": false,
      "children": [],
@@ -18760,6 +19269,9 @@
     {
      "id": "3804",
      "title": "Gangra (343)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "gangra-343",
      "isToc": false,
      "children": [],
@@ -18768,6 +19280,9 @@
     {
      "id": "3815",
      "title": "Sardica (344)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "sardica-344",
      "isToc": false,
      "children": [],
@@ -18776,6 +19291,9 @@
     {
      "id": "3808",
      "title": "Constantinople I (381)",
+     "markers": [
+      "ECUMENICAL"
+     ],
      "slug": "constantinople-i-381",
      "isToc": false,
      "children": [],
@@ -18784,6 +19302,9 @@
     {
      "id": "3809",
      "title": "Constantinople (382)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "constantinople-382",
      "isToc": false,
      "children": [],
@@ -18792,6 +19313,9 @@
     {
      "id": "3806",
      "title": "Laodicea (390)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "laodicea-390",
      "isToc": false,
      "children": [],
@@ -18800,6 +19324,9 @@
     {
      "id": "3817",
      "title": "Constantinople under Nectarius (394)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "constantinople-under-nectarius-394",
      "isToc": false,
      "children": [],
@@ -18808,6 +19335,9 @@
     {
      "id": "3816",
      "title": "Carthage (419)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "carthage-419",
      "isToc": false,
      "children": [],
@@ -18816,6 +19346,9 @@
     {
      "id": "3810",
      "title": "Ephesus (431)",
+     "markers": [
+      "ECUMENICAL"
+     ],
      "slug": "ephesus-431",
      "isToc": false,
      "children": [],
@@ -18824,6 +19357,9 @@
     {
      "id": "3811",
      "title": "Chalcedon (451)",
+     "markers": [
+      "ECUMENICAL"
+     ],
      "slug": "chalcedon-451",
      "isToc": false,
      "children": [],
@@ -18832,6 +19368,9 @@
     {
      "id": "3812",
      "title": "Constantinople II (553)",
+     "markers": [
+      "ECUMENICAL"
+     ],
      "slug": "constantinople-ii-553",
      "isToc": false,
      "children": [],
@@ -18840,6 +19379,9 @@
     {
      "id": "3813",
      "title": "Constantinople III (680)",
+     "markers": [
+      "ECUMENICAL"
+     ],
      "slug": "constantinople-iii-680",
      "isToc": false,
      "children": [],
@@ -18848,6 +19390,9 @@
     {
      "id": "3814",
      "title": "Constantinople/\"Trullo\"/Quinisext (692)",
+     "markers": [
+      "LOCAL"
+     ],
      "slug": "constantinople-trullo-quinisext-692",
      "isToc": false,
      "children": [],
@@ -18856,6 +19401,9 @@
     {
      "id": "3819",
      "title": "Nicaea II (787)",
+     "markers": [
+      "ECUMENICAL"
+     ],
      "slug": "nicaea-ii-787",
      "isToc": false,
      "children": [],
@@ -18867,6 +19415,7 @@
    "slug": "apocrypha",
    "name": "Apocrypha",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": "01601a",
@@ -18874,6 +19423,7 @@
     {
      "id": "1003",
      "title": "Apocalypse of Peter (c. 130)",
+     "markers": [],
      "slug": "apocalypse-of-peter-c-130",
      "isToc": false,
      "children": [],
@@ -18882,6 +19432,7 @@
     {
      "id": "0847",
      "title": "Protoevangelium of James (c. 150)",
+     "markers": [],
      "slug": "protoevangelium-of-james-c-150",
      "isToc": false,
      "children": [],
@@ -18890,6 +19441,7 @@
     {
      "id": "0816",
      "title": "Acts of Paul and Thecla (c. 180)",
+     "markers": [],
      "slug": "acts-of-paul-and-thecla-c-180",
      "isToc": false,
      "children": [],
@@ -18898,6 +19450,9 @@
     {
      "id": "1001",
      "title": "Gospel of Peter (c. 190)",
+     "markers": [
+      "DOCETIC"
+     ],
      "slug": "gospel-of-peter-c-190",
      "isToc": false,
      "children": [],
@@ -18906,6 +19461,9 @@
     {
      "id": "0801",
      "title": "The Testaments of the Twelve Patriarchs (c. 192)",
+     "markers": [
+      "EBIONITIC"
+     ],
      "slug": "the-testaments-of-the-twelve-patriarchs-c-192",
      "isToc": false,
      "children": [],
@@ -18914,6 +19472,7 @@
     {
      "id": "0815",
      "title": "Acts of Peter and Paul (c. 200)",
+     "markers": [],
      "slug": "acts-of-peter-and-paul-c-200",
      "isToc": false,
      "children": [],
@@ -18922,6 +19481,9 @@
     {
      "id": "0846",
      "title": "Gospel of Thomas (c. 200)",
+     "markers": [
+      "GNOSTIC"
+     ],
      "slug": "gospel-of-thomas-c-200",
      "isToc": false,
      "children": [],
@@ -18930,6 +19492,9 @@
     {
      "id": "0823",
      "title": "Acts of Thomas (c. 240)",
+     "markers": [
+      "GNOSTIC"
+     ],
      "slug": "acts-of-thomas-c-240",
      "isToc": false,
      "children": [],
@@ -18938,6 +19503,7 @@
     {
      "id": "0826",
      "title": "Acts of Thaddaeus (c. 250)",
+     "markers": [],
      "slug": "acts-of-thaddaeus-c-250",
      "isToc": false,
      "children": [],
@@ -18946,6 +19512,9 @@
     {
      "id": "0819",
      "title": "Acts of Andrew (c. 260)",
+     "markers": [
+      "GNOSTIC"
+     ],
      "slug": "acts-of-andrew-c-260",
      "isToc": false,
      "children": [],
@@ -18954,6 +19523,7 @@
     {
      "id": "1008",
      "title": "Acts of Xanthippe and Polyxena (c. 270)",
+     "markers": [],
      "slug": "acts-of-xanthippe-and-polyxena-c-270",
      "isToc": false,
      "children": [],
@@ -18962,6 +19532,9 @@
     {
      "id": "0827",
      "title": "Acts of John",
+     "markers": [
+      "DOCETIC"
+     ],
      "slug": "acts-of-john",
      "isToc": false,
      "children": [],
@@ -18970,6 +19543,7 @@
     {
      "id": "0818",
      "title": "Acts of Philip (c. 350)",
+     "markers": [],
      "slug": "acts-of-philip-c-350",
      "isToc": false,
      "children": [],
@@ -18978,6 +19552,7 @@
     {
      "id": "1017",
      "title": "Apocalypse of Paul (c. 380)",
+     "markers": [],
      "slug": "apocalypse-of-paul-c-380",
      "isToc": false,
      "children": [],
@@ -18986,6 +19561,7 @@
     {
      "id": "0807",
      "title": "Gospel of Nicodemus",
+     "markers": [],
      "slug": "gospel-of-nicodemus",
      "isToc": true,
      "children": [
@@ -19043,6 +19619,7 @@
     {
      "id": "0853",
      "title": "The Doctrine of Addai (c. 400)",
+     "markers": [],
      "slug": "the-doctrine-of-addai-c-400",
      "isToc": false,
      "children": [],
@@ -19051,6 +19628,7 @@
     {
      "id": "0832",
      "title": "Assumption of Mary (c. 400)",
+     "markers": [],
      "slug": "assumption-of-mary-c-400",
      "isToc": false,
      "children": [],
@@ -19059,6 +19637,7 @@
     {
      "id": "0805",
      "title": "History of Joseph the Carpenter (c. 400)",
+     "markers": [],
      "slug": "history-of-joseph-the-carpenter-c-400",
      "isToc": false,
      "children": [],
@@ -19067,6 +19646,7 @@
     {
      "id": "0848",
      "title": "Gospel of Pseudo-Matthew (c. 400)",
+     "markers": [],
      "slug": "gospel-of-pseudo-matthew-c-400",
      "isToc": false,
      "children": [],
@@ -19075,6 +19655,7 @@
     {
      "id": "0817",
      "title": "Acts of Barnabas (c. 500)",
+     "markers": [],
      "slug": "acts-of-barnabas-c-500",
      "isToc": false,
      "children": [],
@@ -19083,6 +19664,9 @@
     {
      "id": "0825",
      "title": "Acts of Bartholomew (c. 500)",
+     "markers": [
+      "NESTORIAN"
+     ],
      "slug": "acts-of-bartholomew-c-500",
      "isToc": false,
      "children": [],
@@ -19091,6 +19675,9 @@
     {
      "id": "0822",
      "title": "Acts and Martyrdom of St. Matthew the Apostle (c. 550)",
+     "markers": [
+      "ABYSSINIAN"
+     ],
      "slug": "acts-and-martyrdom-of-st-matthew-the-apostle-c-550",
      "isToc": false,
      "children": [],
@@ -19099,6 +19686,7 @@
     {
      "id": "0806",
      "title": "Arabic Gospel of the Infancy of the Saviour (c. 600)",
+     "markers": [],
      "slug": "arabic-gospel-of-the-infancy-of-the-saviour-c-600",
      "isToc": false,
      "children": [],
@@ -19107,6 +19695,7 @@
     {
      "id": "0814",
      "title": "Avenging of the Saviour (c. 700)",
+     "markers": [],
      "slug": "avenging-of-the-saviour-c-700",
      "isToc": false,
      "children": [],
@@ -19115,6 +19704,7 @@
     {
      "id": "0831",
      "title": "Apocalypse of John (unknown date; late)",
+     "markers": [],
      "slug": "apocalypse-of-john-unknown-date-late",
      "isToc": false,
      "children": [],
@@ -19123,6 +19713,9 @@
     {
      "id": "0828",
      "title": "Apocalypse of Moses (unknown date)",
+     "markers": [
+      "JUDAISTIC"
+     ],
      "slug": "apocalypse-of-moses-unknown-date",
      "isToc": false,
      "children": [],
@@ -19131,6 +19724,9 @@
     {
      "id": "0829",
      "title": "Apocalypse of Esdras (unknown date)",
+     "markers": [
+      "JUDAISTIC"
+     ],
      "slug": "apocalypse-of-esdras-unknown-date",
      "isToc": false,
      "children": [],
@@ -19139,6 +19735,9 @@
     {
      "id": "1007",
      "title": "Testament of Abraham (unknown date)",
+     "markers": [
+      "JUDAISTIC"
+     ],
      "slug": "testament-of-abraham-unknown-date",
      "isToc": false,
      "children": [],
@@ -19147,6 +19746,7 @@
     {
      "id": "1009",
      "title": "Narrative of Zosimus (unknown date)",
+     "markers": [],
      "slug": "narrative-of-zosimus-unknown-date",
      "isToc": false,
      "children": [],
@@ -19155,6 +19755,7 @@
     {
      "id": "0849",
      "title": "Gospel of the Nativity of Mary (unknown date; late)",
+     "markers": [],
      "slug": "gospel-of-the-nativity-of-mary-unknown-date-late",
      "isToc": false,
      "children": [],
@@ -19163,6 +19764,7 @@
     {
      "id": "0813",
      "title": "Narrative of Joseph of Arimathea (unknown date; late)",
+     "markers": [],
      "slug": "narrative-of-joseph-of-arimathea-unknown-date-late",
      "isToc": false,
      "children": [],
@@ -19171,6 +19773,7 @@
     {
      "id": "0809",
      "title": "Report of Pontius Pilate (unknown date; late)",
+     "markers": [],
      "slug": "report-of-pontius-pilate-unknown-date-late",
      "isToc": false,
      "children": [],
@@ -19179,6 +19782,7 @@
     {
      "id": "0810",
      "title": "Letter of Pontius Pilate (unknown date; late)",
+     "markers": [],
      "slug": "letter-of-pontius-pilate-unknown-date-late",
      "isToc": false,
      "children": [],
@@ -19187,6 +19791,7 @@
     {
      "id": "0811",
      "title": "Giving Up of Pontius Pilate (unknown date; late)",
+     "markers": [],
      "slug": "giving-up-of-pontius-pilate-unknown-date-late",
      "isToc": false,
      "children": [],
@@ -19195,6 +19800,7 @@
     {
      "id": "0812",
      "title": "Death of Pilate (unknown date; late)",
+     "markers": [],
      "slug": "death-of-pilate-unknown-date-late",
      "isToc": false,
      "children": [],
@@ -19203,6 +19809,7 @@
     {
      "id": "1005",
      "title": "Apocalypse of the Virgin (unknown date; very late)",
+     "markers": [],
      "slug": "apocalypse-of-the-virgin-unknown-date-very-late",
      "isToc": false,
      "children": [],
@@ -19211,6 +19818,7 @@
     {
      "id": "1006",
      "title": "Apocalypse of Sedrach (unknown date; very late)",
+     "markers": [],
      "slug": "apocalypse-of-sedrach-unknown-date-very-late",
      "isToc": false,
      "children": [],
@@ -19219,6 +19827,7 @@
     {
      "id": "0820",
      "title": "Acts of Andrew and Matthias",
+     "markers": [],
      "slug": "acts-of-andrew-and-matthias",
      "isToc": false,
      "children": [],
@@ -19227,6 +19836,7 @@
     {
      "id": "0821",
      "title": "Acts of Peter and Andrew",
+     "markers": [],
      "slug": "acts-of-peter-and-andrew",
      "isToc": false,
      "children": [],
@@ -19235,6 +19845,7 @@
     {
      "id": "0824",
      "title": "Consummation of Thomas the Apostle",
+     "markers": [],
      "slug": "consummation-of-thomas-the-apostle",
      "isToc": false,
      "children": [],
@@ -19246,6 +19857,7 @@
    "slug": "miscellaneous",
    "name": "Miscellaneous",
    "dates": null,
+   "markers": [],
    "isSaint": false,
    "isDoctor": false,
    "cathen": null,
@@ -19253,6 +19865,7 @@
     {
      "id": "0714",
      "title": "The Didache (c. 100)",
+     "markers": [],
      "slug": "the-didache-c-100",
      "isToc": false,
      "children": [],
@@ -19261,6 +19874,7 @@
     {
      "id": "0715",
      "title": "Apostolic Constitutions (c. 400)",
+     "markers": [],
      "slug": "apostolic-constitutions-c-400",
      "isToc": true,
      "children": [
@@ -19334,6 +19948,7 @@
     {
      "id": "1004",
      "title": "The Legend of Barlaam and Josaphat",
+     "markers": [],
      "slug": "the-legend-of-barlaam-and-josaphat",
      "isToc": false,
      "children": [],
@@ -19342,6 +19957,7 @@
     {
      "id": "1013",
      "title": "The Passion of the Scillitan Martyrs (c. 180)",
+     "markers": [],
      "slug": "the-passion-of-the-scillitan-martyrs-c-180",
      "isToc": false,
      "children": [],
@@ -19350,6 +19966,7 @@
     {
      "id": "0514",
      "title": "A Treatise Against the Heretic Novatian (c. 255)",
+     "markers": [],
      "slug": "a-treatise-against-the-heretic-novatian-c-255",
      "isToc": false,
      "children": [],
@@ -19358,6 +19975,7 @@
     {
      "id": "0515",
      "title": "A Treatise on Re-Baptism (c. 255)",
+     "markers": [],
      "slug": "a-treatise-on-re-baptism-c-255",
      "isToc": false,
      "children": [],
@@ -19366,6 +19984,7 @@
     {
      "id": "0850",
      "title": "Remains of the Second and Third Centuries (various dates)",
+     "markers": [],
      "slug": "remains-of-the-second-and-third-centuries-various-dates",
      "isToc": false,
      "children": [],
@@ -19374,6 +19993,7 @@
     {
      "id": "07158",
      "title": "Apostolic Constitutions, Book VIII, Chapter 47",
+     "markers": [],
      "slug": "apostolic-constitutions-book-viii-chapter-47",
      "isToc": false,
      "children": [],
@@ -19382,6 +20002,9 @@
     {
      "id": "0856",
      "title": "Acts of Sharbil (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "acts-of-sharbil-unknown-date",
      "isToc": false,
      "children": [],
@@ -19390,6 +20013,9 @@
     {
      "id": "0865",
      "title": "The Martyrdom of Barsamya (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "the-martyrdom-of-barsamya-unknown-date",
      "isToc": false,
      "children": [],
@@ -19398,6 +20024,9 @@
     {
      "id": "0852",
      "title": "Extracts from Various Books Concerning Abgar the King and Addaeus the Apostle (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "extracts-from-various-books-concerning-abgar-the-king-and-addaeus-the-apostle-unknown-date",
      "isToc": false,
      "children": [],
@@ -19406,6 +20035,9 @@
     {
      "id": "0854",
      "title": "The Teaching of the Apostles (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "the-teaching-of-the-apostles-unknown-date",
      "isToc": false,
      "children": [],
@@ -19414,6 +20046,9 @@
     {
      "id": "0855",
      "title": "The Teaching of Simon Cephas in the City of Rome (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "the-teaching-of-simon-cephas-in-the-city-of-rome-unknown-date",
      "isToc": false,
      "children": [],
@@ -19422,6 +20057,9 @@
     {
      "id": "0857",
      "title": "Martyrdom of Habib the Deacon (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "martyrdom-of-habib-the-deacon-unknown-date",
      "isToc": false,
      "children": [],
@@ -19430,6 +20068,9 @@
     {
      "id": "0858",
      "title": "Martyrdom of the Holy Confessors Shamuna, Guria, and Habib (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "martyrdom-of-the-holy-confessors-shamuna-guria-and-habib-unknown-date",
      "isToc": false,
      "children": [],
@@ -19438,6 +20079,9 @@
     {
      "id": "0863",
      "title": "A Letter of Mara, Son of Serapion (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "a-letter-of-mara-son-of-serapion-unknown-date",
      "isToc": false,
      "children": [],
@@ -19446,6 +20090,9 @@
     {
      "id": "0864",
      "title": "Ambrose (unknown date)",
+     "markers": [
+      "SYRIAC"
+     ],
      "slug": "ambrose-unknown-date",
      "isToc": false,
      "children": [],
@@ -19454,6 +20101,7 @@
     {
      "id": "0835",
      "title": "The False Decretals (c. 850)",
+     "markers": [],
      "slug": "the-false-decretals-c-850",
      "isToc": false,
      "children": [],
