@@ -7,9 +7,8 @@ import { defineConfig } from 'astro/config';
 //   Pages project site (default):
 //     SITE_URL=https://crusadesoft.github.io  BASE_PATH=/japanese-new-advent
 //
-//   Custom domain, once 教父.jp is registered — Astro needs the punycode
-//   form (教父.jp -> xn--wcv59z.jp) for generated URLs to be valid:
-//     SITE_URL=https://xn--wcv59z.jp          BASE_PATH=/
+//   Custom domain, once patres.jp is registered:
+//     SITE_URL=https://patres.jp              BASE_PATH=/
 //
 // Internal links must be built with withBase() from src/lib/paths.ts so the
 // base is applied consistently.

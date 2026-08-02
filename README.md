@@ -151,19 +151,26 @@ Every internal link is built through `withBase()` in `src/lib/paths.ts`.
 Hardcoding `/authors/…` will silently 404 on the subpath deployment — use the
 helpers.
 
-### Moving to 教父.jp
+### Moving to patres.jp
 
-The intended production domain is **教父.jp**, an internationalized domain
-name. Astro and the `CNAME` file both need the punycode form,
-`xn--wcv59z.jp`. Once the domain is registered:
+The intended production domain is **patres.jp** — Latin for "the Fathers",
+read as パトレス. Once it is registered:
 
-1. Add `public/CNAME` containing `xn--wcv59z.jp`.
+1. Add `public/CNAME` containing `patres.jp`.
 2. Point the domain's DNS at GitHub Pages.
-3. Change the workflow environment to `SITE_URL=https://xn--wcv59z.jp` and
+3. Change the workflow environment to `SITE_URL=https://patres.jp` and
    `BASE_PATH=/`.
 
+Do not add the `CNAME` file before the domain resolves — GitHub will switch
+the site onto a hostname that does not answer, taking it offline.
+
 `.jp` registration generally requires a Japanese address or a registrar
-trustee service — worth confirming before committing to the name.
+trustee service, worth confirming before committing to the name.
+
+A note on the rejected alternative: 教父 (kyōfu, "Church Fathers") and 恐怖
+(kyōfu, "terror") are exact homophones and identical in romaji, so any
+`kyofu`-based domain is a permanent liability. `kyofu.jp` is registered in any
+case.
 
 ---
 
