@@ -1,0 +1,86 @@
+{
+ "id": "2911",
+ "title": "Letters",
+ "isToc": true,
+ "children": [
+  {
+   "id": "291101",
+   "label": "LETTER 1"
+  },
+  {
+   "id": "291102",
+   "label": "LETTER 2"
+  },
+  {
+   "id": "291103",
+   "label": "LETTER 3"
+  },
+  {
+   "id": "291104",
+   "label": "LETTER 4"
+  },
+  {
+   "id": "291105",
+   "label": "LETTER 5"
+  },
+  {
+   "id": "291106",
+   "label": "LETTER 6"
+  },
+  {
+   "id": "291107",
+   "label": "LETTER 7"
+  },
+  {
+   "id": "291108",
+   "label": "LETTER 8"
+  },
+  {
+   "id": "291109",
+   "label": "LETTER 9"
+  },
+  {
+   "id": "291110",
+   "label": "LETTER 10"
+  },
+  {
+   "id": "291111",
+   "label": "LETTER 11"
+  },
+  {
+   "id": "291112",
+   "label": "LETTER 12"
+  },
+  {
+   "id": "291113",
+   "label": "LETTER 13"
+  },
+  {
+   "id": "291114",
+   "label": "LETTER 14"
+  },
+  {
+   "id": "291115",
+   "label": "LETTER 15"
+  },
+  {
+   "id": "291116",
+   "label": "LETTER 16"
+  },
+  {
+   "id": "291117",
+   "label": "LETTER 17"
+  },
+  {
+   "id": "291118",
+   "label": "LETTER 18"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "LETTER 1 TO EUSEBIUS\nLETTER 2 TO THE CITY OF SEBASTEIA\nLETTER 3 TO ABLABIUS\nLETTER 4 TO CYNEGIUS\nLETTER 5 A TESTIMONIAL\nLETTER 6 TO STAGIRIUS\nLETTER 7 TO A FRIEND\nLETTER 8 TO A STUDENT OF THE CLASSICS\nLETTER 9 AN INVITATION\nLETTER 10 TO LIBANIUS\nLETTER 11 TO LIBANIUS\nLETTER 12 ON HIS WORK AGAINST EUNOMIUS\nLETTER 13 TO THE CHURCH AT NICOMEDIA\nLETTER 14 TO THE BISHOP OF MELITENE\nLETTER 15 TO ADELPHIUS THE LAWYER\nLETTER 16 TO AMPHILOCHIUS\nLETTER 17 TO EUSTATHIA, AMBROSIA, AND BASILISSA\nLETTER 18 TO FLAVIAN"
+  }
+ ],
+ "words": 94
+}

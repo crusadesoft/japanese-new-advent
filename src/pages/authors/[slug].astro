@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import WorkTree from '../../components/WorkTree.astro';
+import { getManifest, authorNameJa } from '../../lib/corpus';
+
+export function getStaticPaths() {
+  return getManifest().authors.map((author) => ({
+    params: { slug: author.slug },
+    props: { author },
+  }));
+}
+
+const { author } = Astro.props;
+const nameJa = authorNameJa(author.name);
+const words = author.works.reduce((n: number, w: any) => n + (w.words ?? 0), 0);
+---
+
+<Base
+  title={nameJa}
+  description={`${nameJa}（${author.name}）の著作一覧。${author.works.length} 作品を収録。`}
+>
+  <h1>
+    {nameJa}
+    {author.isSaint && <span class="badge badge-saint">聖人</span>}
+    {author.isDoctor && <span class="badge badge-doctor">教会博士</span>}
+  </h1>
+
+  <div class="doc-meta">
+    {author.name}{author.dates ? `（${author.dates}）` : ''}<br />
+    {author.works.length} 作品 ／ 約 {words.toLocaleString('ja-JP')} 語（原文）
+  </div>
+
+  <h2>著作</h2>
+  <WorkTree nodes={author.works} />
+
+  <p style="margin-top:2.5rem"><a href="/authors/">← 教父一覧へ戻る</a></p>
+</Base>

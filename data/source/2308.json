@@ -1,0 +1,38 @@
+{
+ "id": "2308",
+ "title": "Homilies on Titus",
+ "isToc": true,
+ "children": [
+  {
+   "id": "23081",
+   "label": "Homily 1"
+  },
+  {
+   "id": "23082",
+   "label": "Homily 2"
+  },
+  {
+   "id": "23083",
+   "label": "Homily 3"
+  },
+  {
+   "id": "23084",
+   "label": "Homily 4"
+  },
+  {
+   "id": "23085",
+   "label": "Homily 5"
+  },
+  {
+   "id": "23086",
+   "label": "Homily 6"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Homily 1\nHomily 2\nHomily 3\nHomily 4\nHomily 5\nHomily 6"
+  }
+ ],
+ "words": 12
+}

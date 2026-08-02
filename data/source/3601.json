@@ -1,0 +1,30 @@
+{
+ "id": "3601",
+ "title": "Pastoral Rule",
+ "isToc": true,
+ "children": [
+  {
+   "id": "36011",
+   "label": "**Book I**"
+  },
+  {
+   "id": "36012",
+   "label": "**Book II**"
+  },
+  {
+   "id": "36013",
+   "label": "**Book III**"
+  },
+  {
+   "id": "36014",
+   "label": "**Book IV**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book I**\n**Book II**\n**Book III**\n**Book IV**"
+  }
+ ],
+ "words": 8
+}

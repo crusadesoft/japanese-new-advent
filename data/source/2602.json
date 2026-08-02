@@ -1,0 +1,54 @@
+{
+ "id": "2602",
+ "title": "Ecclesiastical History",
+ "isToc": true,
+ "children": [
+  {
+   "id": "26020",
+   "label": "**Address and Proposal**"
+  },
+  {
+   "id": "26021",
+   "label": "**Book I**"
+  },
+  {
+   "id": "26022",
+   "label": "**Book II**"
+  },
+  {
+   "id": "26023",
+   "label": "**Book III**"
+  },
+  {
+   "id": "26024",
+   "label": "**Book IV**"
+  },
+  {
+   "id": "26025",
+   "label": "**Book V**"
+  },
+  {
+   "id": "26026",
+   "label": "**Book VI**"
+  },
+  {
+   "id": "26027",
+   "label": "**Book VII**"
+  },
+  {
+   "id": "26028",
+   "label": "**Book VIII**"
+  },
+  {
+   "id": "26029",
+   "label": "**Book IX**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Address and Proposal**\n**Book I**\n**Book II**\n**Book III**\n**Book IV**\n**Book V**\n**Book VI**\n**Book VII**\n**Book VIII**\n**Book IX**"
+  }
+ ],
+ "words": 21
+}

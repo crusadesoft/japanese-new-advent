@@ -1,0 +1,38 @@
+{
+ "id": "2310",
+ "title": "Homilies on Galatians",
+ "isToc": true,
+ "children": [
+  {
+   "id": "23101",
+   "label": "Chapter 1"
+  },
+  {
+   "id": "23102",
+   "label": "Chapter 2"
+  },
+  {
+   "id": "23103",
+   "label": "Chapter 3"
+  },
+  {
+   "id": "23104",
+   "label": "Chapter 4"
+  },
+  {
+   "id": "23105",
+   "label": "Chapter 5"
+  },
+  {
+   "id": "23106",
+   "label": "Chapter 6"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Chapter 1\nChapter 2\nChapter 3\nChapter 4\nChapter 5\nChapter 6"
+  }
+ ],
+ "words": 12
+}

@@ -1,0 +1,54 @@
+{
+ "id": "2307",
+ "title": "Homilies on Second Timothy",
+ "isToc": true,
+ "children": [
+  {
+   "id": "230701",
+   "label": "Homily 1"
+  },
+  {
+   "id": "230702",
+   "label": "Homily 2"
+  },
+  {
+   "id": "230703",
+   "label": "Homily 3"
+  },
+  {
+   "id": "230704",
+   "label": "Homily 4"
+  },
+  {
+   "id": "230705",
+   "label": "Homily 5"
+  },
+  {
+   "id": "230706",
+   "label": "Homily 6"
+  },
+  {
+   "id": "230707",
+   "label": "Homily 7"
+  },
+  {
+   "id": "230708",
+   "label": "Homily 8"
+  },
+  {
+   "id": "230709",
+   "label": "Homily 9"
+  },
+  {
+   "id": "230710",
+   "label": "Homily 10"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Homily 1\nHomily 2\nHomily 3\nHomily 4\nHomily 5\nHomily 6\nHomily 7\nHomily 8\nHomily 9\nHomily 10"
+  }
+ ],
+ "words": 20
+}

@@ -1,0 +1,34 @@
+{
+ "id": "0312",
+ "title": "Against Marcion",
+ "isToc": true,
+ "children": [
+  {
+   "id": "03121",
+   "label": "Book I"
+  },
+  {
+   "id": "03122",
+   "label": "Book II"
+  },
+  {
+   "id": "03123",
+   "label": "Book III"
+  },
+  {
+   "id": "03124",
+   "label": "Book IV"
+  },
+  {
+   "id": "03125",
+   "label": "Book V"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III\nBook IV\nBook V"
+  }
+ ],
+ "words": 10
+}

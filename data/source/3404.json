@@ -1,0 +1,34 @@
+{
+ "id": "3404",
+ "title": "Exposition of the Christian Faith",
+ "isToc": true,
+ "children": [
+  {
+   "id": "34041",
+   "label": "Book I"
+  },
+  {
+   "id": "34042",
+   "label": "Book II"
+  },
+  {
+   "id": "34043",
+   "label": "Book III"
+  },
+  {
+   "id": "34044",
+   "label": "Book IV"
+  },
+  {
+   "id": "34045",
+   "label": "Book V"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III\nBook IV\nBook V"
+  }
+ ],
+ "words": 10
+}

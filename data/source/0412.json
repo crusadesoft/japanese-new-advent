@@ -1,0 +1,34 @@
+{
+ "id": "0412",
+ "title": "De Principiis",
+ "isToc": true,
+ "children": [
+  {
+   "id": "04120",
+   "label": "PREFACE"
+  },
+  {
+   "id": "04121",
+   "label": "BOOK I"
+  },
+  {
+   "id": "04122",
+   "label": "BOOK II"
+  },
+  {
+   "id": "04123",
+   "label": "BOOK III"
+  },
+  {
+   "id": "04124",
+   "label": "BOOK IV"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "PREFACE\nBOOK I\nBOOK II\nBOOK III\nBOOK IV"
+  }
+ ],
+ "words": 9
+}

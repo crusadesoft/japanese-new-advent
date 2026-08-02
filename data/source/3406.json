@@ -1,0 +1,22 @@
+{
+ "id": "3406",
+ "title": "Concerning Repentance",
+ "isToc": true,
+ "children": [
+  {
+   "id": "34061",
+   "label": "Book I"
+  },
+  {
+   "id": "34062",
+   "label": "Book II"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II"
+  }
+ ],
+ "words": 4
+}

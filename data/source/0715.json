@@ -1,0 +1,46 @@
+{
+ "id": "0715",
+ "title": "The Apostolic Constitutions",
+ "isToc": true,
+ "children": [
+  {
+   "id": "07151",
+   "label": "**Book I**"
+  },
+  {
+   "id": "07152",
+   "label": "**Book II**"
+  },
+  {
+   "id": "07153",
+   "label": "**Book III**"
+  },
+  {
+   "id": "07154",
+   "label": "**Book IV**"
+  },
+  {
+   "id": "07155",
+   "label": "**Book V**"
+  },
+  {
+   "id": "07156",
+   "label": "**Book VI**"
+  },
+  {
+   "id": "07157",
+   "label": "**Book VII**"
+  },
+  {
+   "id": "07158",
+   "label": "**Book VIII**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book I**\n**Book II**\n**Book III**\n**Book IV**\n**Book V**\n**Book VI**\n**Book VII**\n**Book VIII**"
+  }
+ ],
+ "words": 16
+}

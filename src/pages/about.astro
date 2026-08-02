@@ -1,0 +1,115 @@
+---
+import Base from '../layouts/Base.astro';
+import { getManifest, progress } from '../lib/corpus';
+
+const manifest = getManifest();
+const p = progress();
+const fmt = (n: number) => n.toLocaleString('ja-JP');
+---
+
+<Base
+  title="このサイトについて"
+  description="底本・翻訳方針・権利関係について。"
+>
+  <h1>このサイトについて</h1>
+
+  <p>
+    本文庫は、古代教会の教父たちの著作を日本語で読めるようにすることを目的とした、
+    非営利のオープンソース事業です。全文を無償で公開し、広告も登録も課金もありません。
+  </p>
+
+  <h2>底本</h2>
+  <p>
+    英訳底本は、19世紀末に編纂された二つの叢書です。
+  </p>
+  <ul>
+    <li><em>Ante-Nicene Fathers</em>（1885–1887年）</li>
+    <li>
+      <em>Nicene and Post-Nicene Fathers</em>, First and Second Series（1886–1900年）
+    </li>
+  </ul>
+  <p>
+    いずれも Philip Schaff らの編集によるもので、刊行から一世紀以上を経ており、
+    著作権の保護期間が満了したパブリックドメインの文献です。
+    本文の照合には Christian Classics Ethereal Library（CCEL）等が公開する
+    同版のテキストを用いています。
+  </p>
+  <p>
+    収録範囲は教父 {fmt(manifest.counts.authors)} 名、
+    {fmt(manifest.counts.works)} 作品、{fmt(manifest.counts.documents)} 篇、
+    原文で約 {fmt(manifest.counts.words)} 語です。
+  </p>
+
+  <h2>翻訳方針</h2>
+  <p>
+    訳文は大規模言語モデルによる翻訳を基礎とし、神学用語については
+    カトリック中央協議会の用語法に準拠した統制語彙を適用しています。
+    数千篇にわたる文書の全体で用語を一貫させることを優先しており、
+    「三位一体」「受肉」「聖体」「位格」といった語の訳し分けは
+    <a
+      href="https://github.com/crusadesoft/japanese-new-advent/blob/main/scripts/glossary.json"
+      rel="noopener"
+      target="_blank">用語集</a
+    >として公開しています。
+  </p>
+  <p>
+    文体は、論考・書簡・歴史については <strong>である体</strong>、
+    会衆に向けた説教については <strong>ですます体</strong> を基本とします。
+    原文の段落と見出しの構造は一対一で保存されるため、英語原文との対照が可能です。
+  </p>
+  <p>
+    聖書引用は教父の本文の一部として訳しています。
+    現行の日本語訳聖書（新共同訳・聖書協会共同訳など）は著作権が存続しているため、
+    本文庫では使用していません。
+  </p>
+
+  <div class="progress">
+    <strong>翻訳の進捗</strong><br />
+    {fmt(p.translatedDocuments)} / {fmt(p.documents)} 篇（{p.percent.toFixed(1)}％）
+    <div class="bar">
+      <span style={`width:${Math.max(p.percent, 0.4).toFixed(2)}%`}></span>
+    </div>
+  </div>
+
+  <h2>機械翻訳であることについて</h2>
+  <p>
+    本文庫の訳文は人手による全面的な校閲を経ていません。
+    教父の文章は難解であり、とりわけ三位一体論・キリスト論の術語や、
+    古代の修辞・法制度・地理に関する言及には誤訳が生じうる余地があります。
+    研究上の引用にあたっては、必ず原典または定評ある刊行訳にあたってください。
+  </p>
+  <p>
+    誤りを見つけられた場合は
+    <a
+      href="https://github.com/crusadesoft/japanese-new-advent/issues"
+      rel="noopener"
+      target="_blank">GitHub の Issues</a
+    >よりご報告ください。訂正は随時反映します。
+  </p>
+
+  <h2>権利</h2>
+  <p>
+    底本はパブリックドメインです。本文庫が作成した日本語訳、用語集、
+    およびサイトのソースコードは
+    <a
+      href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja"
+      rel="license noopener"
+      target="_blank">CC0 1.0 全世界</a
+    >により公有に供します。出典表示は不要ですが、していただければ幸いです。
+  </p>
+  <p>
+    本サイトは newadvent.org の構成を参考にしていますが、同サイトとは
+    無関係であり、その本文を複製したものでもありません。
+    翻訳はパブリックドメインの原典から独自に行っています。
+  </p>
+
+  <h2>ソースコード</h2>
+  <p>
+    取り込み・翻訳・サイト生成のすべての工程を
+    <a
+      href="https://github.com/crusadesoft/japanese-new-advent"
+      rel="noopener"
+      target="_blank">GitHub</a
+    >で公開しています。再現・検証・改良を歓迎します。
+  </p>
+</Base>

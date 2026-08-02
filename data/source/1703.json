@@ -1,0 +1,22 @@
+{
+ "id": "1703",
+ "title": "Soliloquies",
+ "isToc": true,
+ "children": [
+  {
+   "id": "170301",
+   "label": "**Book I**"
+  },
+  {
+   "id": "170302",
+   "label": "**Book II**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book I**\n**Book II**"
+  }
+ ],
+ "words": 4
+}

@@ -1,0 +1,82 @@
+{
+ "id": "0128",
+ "title": "Dialogue with Trypho (Justin Martyr)",
+ "isToc": true,
+ "children": [
+  {
+   "id": "01281",
+   "label": "**Chapters 1-9**"
+  },
+  {
+   "id": "01282",
+   "label": "**Chapters 10-30**"
+  },
+  {
+   "id": "01283",
+   "label": "**Chapters 31-47**"
+  },
+  {
+   "id": "01284",
+   "label": "**Chapters 48-54**"
+  },
+  {
+   "id": "01285",
+   "label": "**Chapters 55-68**"
+  },
+  {
+   "id": "01286",
+   "label": "**Chapters 69-88**"
+  },
+  {
+   "id": "01287",
+   "label": "**Chapters 89-108**"
+  },
+  {
+   "id": "01288",
+   "label": "**Chapters 109-124**"
+  },
+  {
+   "id": "01289",
+   "label": "**Chapters 125-142**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "li",
+   "text": "**Chapters 1-9**"
+  },
+  {
+   "type": "li",
+   "text": "**Chapters 10-30**"
+  },
+  {
+   "type": "li",
+   "text": "**Chapters 31-47**"
+  },
+  {
+   "type": "li",
+   "text": "**Chapters 48-54**"
+  },
+  {
+   "type": "li",
+   "text": "**Chapters 55-68**"
+  },
+  {
+   "type": "li",
+   "text": "**Chapters 69-88**"
+  },
+  {
+   "type": "li",
+   "text": "**Chapters 89-108**"
+  },
+  {
+   "type": "li",
+   "text": "**Chapters 109-124**"
+  },
+  {
+   "type": "li",
+   "text": "**Chapters 125-142**"
+  }
+ ],
+ "words": 18
+}

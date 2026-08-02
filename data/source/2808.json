@@ -1,0 +1,22 @@
+{
+ "id": "2808",
+ "title": "Apologia Contra Arianos",
+ "isToc": true,
+ "children": [
+  {
+   "id": "28081",
+   "label": "**Part I**"
+  },
+  {
+   "id": "28082",
+   "label": "**Part II**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Part I**\n**Part II**"
+  }
+ ],
+ "words": 4
+}

@@ -1,0 +1,937 @@
+{
+ "id": "30112",
+ "title": "Against the Pelagians (Book II)",
+ "isToc": false,
+ "children": [],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "This book can hardly be said to form part of a dialogue. It is rather an argument from Scripture to prove the point of the Augustinian arguer, Atticus. From the fourth chapter onwards it consists, like the last five chapters of Book I., of a chain of Scripture texts, taken from the New Testament and the Prophets, to show the universality of sin, and thus to refute the Pelagian assertion that a man can be without sin if he wills. We shall, therefore, give, as in the previous case, a list of the texts and the first words of them, only giving Jerome's words where he introduces some original remark of his own, or some noteworthy comment."
+  },
+  {
+   "type": "p",
+   "text": "The Pelagian begins by reiterating the dilemma: If the commandments are given to be obeyed, then man can be without sin; if he is, by his creation, such that he must be a sinner, then God, not he, is the author of sin. To the argument that sacrifices are enjoined for sins of ignorance, he replies by appealing from the Old Testament to the New, which leads to a discussion (2, 3) on St. Paul's description of the conflict with sin, in Romans 7. Paul, it is argued, speaks not as a sinner, but as a *man*, and thus confesses the sinfulness of humanity. That men may be without ingrained vice is possible; that they can be without sin is not. This leads the Augustinian, Atticus, resuming his list of testimonies, to the fact that, though men are found who are righteous as avoiding wickedness (κακία), yet none is without sin (ἀ ναμάρτητος)."
+  },
+  {
+   "type": "p",
+   "text": "In Psalm xxxii. 5. One who speaks of himself as holy, yet confesses his transgression."
+  },
+  {
+   "type": "p",
+   "text": "Prov. xxiv. 16. Explains this, The righteous falls, but sins again."
+  },
+  {
+   "type": "p",
+   "text": "xviii. 17, LXX. and Vulgate. A righteous man accuses himself when he begins to speak."
+  },
+  {
+   "type": "p",
+   "text": "Ps. lviii. 3. Sinners are estranged from the womb; that is, either, as St. Paul says Romans 5:14, they sin after the similitude of Adam; or, when Christ, as the firstborn, opened the virgin's womb Exodus 13:2. The heretics refused to acknowledge the mystery, which was prefigured by the Eastern door of the Temple Ezekiel 44:2, which closed again when once the High Priest had gone through it."
+  },
+  {
+   "type": "p",
+   "text": "Job iv. 17-21. Shall mortal man be just with God?"
+  },
+  {
+   "type": "p",
+   "text": "vii. 1. The life of man is temptation."
+  },
+  {
+   "type": "p",
+   "text": "20, 21. If I have sinned, what can I do?"
+  },
+  {
+   "type": "p",
+   "text": "ix. 15, 16. If I were righteous, he would not hear me."
+  },
+  {
+   "type": "p",
+   "text": "29-31. If I wash myself with snow water, etc."
+  },
+  {
+   "type": "p",
+   "text": "x. 15. If I be righteous, etc."
+  },
+  {
+   "type": "p",
+   "text": "xiv. 4, 5. Who will be free from uncleanliness? Not one."
+  },
+  {
+   "type": "p",
+   "text": "Prov. xvi. 26, LXX. Man toils in sorrow."
+  },
+  {
+   "type": "p",
+   "text": "Job xl. 4. What shall I answer you?"
+  },
+  {
+   "type": "p",
+   "text": "Prov. xx. 9. Who will boast that he has a clean heart? which shows at least that the commandments are not easy, as Pelagius says they are."
+  },
+  {
+   "type": "p",
+   "text": "1 John v. 3. His commandments are not grievous, and"
+  },
+  {
+   "type": "p",
+   "text": "Matt. xi. 30. My yoke is easy, are true only in comparison with Judaism, and should be compared with"
+  },
+  {
+   "type": "p",
+   "text": "Acts xv. 10. A yoke ...which neither our fathers nor we are able to bear."
+  },
+  {
+   "type": "p",
+   "text": "James iv. 11. You judge the law, that is, if you say that the condemnation of sins of ignorance is unreasonable. That we all sin in such ways is evident from"
+  },
+  {
+   "type": "p",
+   "text": "James i. 20. The wrath of man works not the righteousness of God. But anger is constantly condemned as in"
+  },
+  {
+   "type": "p",
+   "text": "Prov. xv. 1, LXX. Wrath destroys even wise men."
+  },
+  {
+   "type": "p",
+   "text": "Eph. iv. 26. Let not the sun go down upon your wrath."
+  },
+  {
+   "type": "p",
+   "text": "Matt. v. 22. He who is angry...shall be in danger of council."
+  },
+  {
+   "type": "p",
+   "text": "Eccles. xi. 19. I am the most foolish of all men. This is said by Christ in the person of humanity. So"
+  },
+  {
+   "type": "p",
+   "text": "Ps. lxix. 5. God, You know my foolishness. But"
+  },
+  {
+   "type": "p",
+   "text": "1 Cor. i. 25. The foolishness of God is wiser than men."
+  },
+  {
+   "type": "p",
+   "text": "Ecclus. i. 18. In much wisdom is much grief, shows the wise man's sense of imperfection. So"
+  },
+  {
+   "type": "p",
+   "text": "viii. 7. I hated my life, and"
+  },
+  {
+   "type": "p",
+   "text": "14. There be righteous men unto whom it happens according to the work of the wicked; that is, God sees evil where we do not."
+  },
+  {
+   "type": "p",
+   "text": "17. However much a man may labor, yet he shall not find it; and"
+  },
+  {
+   "type": "p",
+   "text": "ix. 2, 3. There is one event to all. The heart...is full of evil."
+  },
+  {
+   "type": "p",
+   "text": "x. 1. Dead flies cause the ointment to stink; That is, almost everyone is defiled by heresy or other faults."
+  },
+  {
+   "type": "p",
+   "text": "1 Peter 2:17, 18. Judgement must begin at the house of God."
+  },
+  {
+   "type": "p",
+   "text": "6. There are four emotions which agitate mankind, two relating to the present, two to the future; two to good, and two to evil. There is sorrow, called in Greek λύπη, and joy, in Greek χαρά or ἡ δονή, although many translate the latter word by *voluptas*, pleasure; the one of which is referred to evil, the other to good. And we go too far if we rejoice over such things as we ought not, as, for example, riches, power, distinctions, the bad fortune of enemies, or their death; or, on the other hand, if we are tortured with grief on account of present evils, adversity, exile, poverty, weakness, and the death of kindred, all of which is forbidden by the Apostle. And again, if we covet those things which we consider good, inheritance, distinctions, unvaried prosperity, bodily health, and the like, in the possession of which we rejoice and find enjoyment; or if we fear those things which we deem adverse. Now, according to the Stoics, Zeno that is to say and Chrysippus, it is possible for a perfect man to be free from these emotions; according to the Peripatetics, it is difficult and even impossible, an opinion which has the constant support of all Scripture. Hence Josephus, the historian of the Maccabees, said that the emotions can be subdued and governed, not extirpated, and Cicero's five books of Tusculan Disputations are full of these discussions. Ephesians 6:12 According to the Apostle, the weakness of the body and spiritual hosts of wickedness in the heavenly places fight against us. And the same writer Galatians 5:19 tells us that the works of the flesh and the works of the spirit are manifest, and these are contrary the one to the other, so that we do not the things that we would. If we do not what we would, but what we would not, how can you say that a man can be without sin if he chooses? You see that neither an Apostle, nor any believer can perform what he wishes. 1 Peter 4:8 Love covers a multitude of sins, not so much sins of the past as sins of the present, that we may not sin any more while the love of God abides in us. Wherefore it is said concerning the woman that was a sinner, Luke 7:47 Her sins which are many are forgiven her, for she loved much. And this shows us that the doing what we wish does not depend merely upon our own power, but upon the assistance which God in His mercy gives to our will."
+  },
+  {
+   "type": "p",
+   "text": "7. The quotations from Scripture are now continued:"
+  },
+  {
+   "type": "p",
+   "text": "In 1 John 1:5, John 1:7, 8, Matthew 5:14, Christ and the Apostles are called the Light of the world. The world therefore is darkness."
+  },
+  {
+   "type": "p",
+   "text": "1 Tim. vi. 16. God only has immortality and is only wise; yet others, like the Prince of Tyre Ezekiel 28:3, are wise derivatively. So we are pure, but only by grace. Thus"
+  },
+  {
+   "type": "p",
+   "text": "1 John i. 7. The blood of Christ cleanses us."
+  },
+  {
+   "type": "p",
+   "text": "Job 25:5, 6. The stars are not pure in his sight."
+  },
+  {
+   "type": "p",
+   "text": "Gal. ii. 16. By the law no flesh shall be justified; but"
+  },
+  {
+   "type": "p",
+   "text": "Romans 3:1, 24, 28, 30. Being justified freely through His grace, etc."
+  },
+  {
+   "type": "p",
+   "text": "vi. 14. Not under the law, but under grace."
+  },
+  {
+   "type": "p",
+   "text": "ix. 16. Not of him that wills, but of God which shows mercy."
+  },
+  {
+   "type": "p",
+   "text": "ix. 30-32. The Gentiles...attained to the righteousness by faith."
+  },
+  {
+   "type": "p",
+   "text": "x. 2. Christ is the end of the law to every one that believes."
+  },
+  {
+   "type": "p",
+   "text": "8. The Apostle confesses his need of this grace for his work."
+  },
+  {
+   "type": "p",
+   "text": "1 Cor. i. 1-3. Grace to you from God."
+  },
+  {
+   "type": "p",
+   "text": "7, 8. That ye come behind in no gift— that no flesh may glory in His sight."
+  },
+  {
+   "type": "p",
+   "text": "1 Cor. iii. 6-10. Paul planted...but God gave the increase."
+  },
+  {
+   "type": "p",
+   "text": "18, 19. If any man thinks himself to be wise, let him become a fool."
+  },
+  {
+   "type": "p",
+   "text": "iv. 4. I know nothing against myself, yet I am not hereby justified."
+  },
+  {
+   "type": "p",
+   "text": "7. What have ye that you did not receive?"
+  },
+  {
+   "type": "p",
+   "text": "19. I will come to you, *if the Lord will.*"
+  },
+  {
+   "type": "p",
+   "text": "9. The Apostle shows also his need of grace himself."
+  },
+  {
+   "type": "p",
+   "text": "1 Corinthians 15:9, 10. By the grace of God I am what I am, etc."
+  },
+  {
+   "type": "p",
+   "text": "2 Cor. iii. 4-6. Our sufficiency is of God."
+  },
+  {
+   "type": "p",
+   "text": "Gal. ii. 16. We have believed, that we might, be justified by faith."
+  },
+  {
+   "type": "p",
+   "text": "ii. 21. If righteousness come by the law, Christ is dead for nought."
+  },
+  {
+   "type": "p",
+   "text": "iii. 10, 13. Christ has redeemed us from the curse of the law."
+  },
+  {
+   "type": "p",
+   "text": "24. The law our teacher to bring us to Christ."
+  },
+  {
+   "type": "p",
+   "text": "v. 4. You are severed from Christ, you that would be justified by the law."
+  },
+  {
+   "type": "p",
+   "text": "10."
+  },
+  {
+   "type": "p",
+   "text": "Phil. ii. 13. It is God that works in you."
+  },
+  {
+   "type": "p",
+   "text": "2 Thess. iii. 3. The Lord is faithful, He shall establish you."
+  },
+  {
+   "type": "p",
+   "text": "1 Timothy 6:20, 21. O Timothy, guard that which is committed unto you."
+  },
+  {
+   "type": "p",
+   "text": "Tit. iii. 4-7. The kindness and mercy of God our Saviour saved us."
+  },
+  {
+   "type": "p",
+   "text": "11. We now turn to the Gospels and supplement the flickering flame of the Apostolic light with the brightness of the lamp of Christ."
+  },
+  {
+   "type": "p",
+   "text": "Matt. v. 22. Every man who is angry...shall be in danger of the council. Which of us is not here condemned?"
+  },
+  {
+   "type": "p",
+   "text": "23, 24. First be reconciled to your brother. Who is there that finds this command easy?"
+  },
+  {
+   "type": "p",
+   "text": "37. Let your speech be Yea, yea, Nay, nay. Who has ever kept this commandment? The Psalmist says Ps. cxvi. 11. All men are liars."
+  },
+  {
+   "type": "p",
+   "text": "12."
+  },
+  {
+   "type": "p",
+   "text": "Matt. vi. 34. Be not anxious for tomorrow. Do you fulfil this?"
+  },
+  {
+   "type": "p",
+   "text": "vii. 14. Narrow is the gate which leads to life. How can you say that the commandments are easy?"
+  },
+  {
+   "type": "p",
+   "text": "Luke ix. 58. The Son of Man has not where to lay His head. This is interpreted by"
+  },
+  {
+   "type": "p",
+   "text": "Is. xxviii. 12. Receive him that is weary, and this is my rest; and"
+  },
+  {
+   "type": "p",
+   "text": "Isaiah 66:1, 2. On whom shall I rest but on him that is humble? Christ finds few on whom to rest. How then can His commands be said to be easy?"
+  },
+  {
+   "type": "p",
+   "text": "Matthew 9:12, 13. I came not to call the righteous. They that are whole need not the physician. Had the world not been full of sin, Christ would not have come. So"
+  },
+  {
+   "type": "p",
+   "text": "Ps. xii. 1. Help, Lord, for the godly man ceases."
+  },
+  {
+   "type": "p",
+   "text": "xiv. 1, 3. They are corrupt...none does good."
+  },
+  {
+   "type": "p",
+   "text": "Matt. x. 9. Get you no gold...nor shoes. Who has fulfilled this? Not even the Apostles, for"
+  },
+  {
+   "type": "p",
+   "text": "Acts xii. 8. The angel bids Peter to bind on his sandals."
+  },
+  {
+   "type": "p",
+   "text": "13."
+  },
+  {
+   "type": "p",
+   "text": "Matt. x. 22-34. Describes the persecutions of Christ's followers, and gives the command to take up the cross. Are these easy?"
+  },
+  {
+   "type": "p",
+   "text": "xiv. 31. Even Peter's faith fails, and he begins to sink."
+  },
+  {
+   "type": "p",
+   "text": "xv. 19, 20. Out of the heart came evil thoughts, etc."
+  },
+  {
+   "type": "p",
+   "text": "xvi. 25. Whosoever will lose his life will find it."
+  },
+  {
+   "type": "p",
+   "text": "xviii. 7. Woe to the man through whom stumbling comes. But"
+  },
+  {
+   "type": "p",
+   "text": "James iii. 2. In many things we all stumble or err."
+  },
+  {
+   "type": "p",
+   "text": "Phil. ii. 21. All seek their own."
+  },
+  {
+   "type": "p",
+   "text": "Matt. xix. 21. The young lawyer had kept all the law, yet failed."
+  },
+  {
+   "type": "p",
+   "text": "xxiii. 26-28. The woes on the Pharisees fall in their measure upon all."
+  },
+  {
+   "type": "p",
+   "text": "14."
+  },
+  {
+   "type": "p",
+   "text": "Matt. xxvi. 39. Not as I will, but as You will. Yet Critobulus says, by his own will he can do right."
+  },
+  {
+   "type": "p",
+   "text": "Mark xiv. 37. Could ye not watch with me one hour? They *could* not."
+  },
+  {
+   "type": "p",
+   "text": "vi. 5. He could do no mighty works because of their unbelief."
+  },
+  {
+   "type": "p",
+   "text": "vii. 24. He went into the borders of Tyre and Sidon. If Christ could not do as he wished, how can we?"
+  },
+  {
+   "type": "p",
+   "text": "ix. 5. Peter's request at the Transfiguration shows his ignorance."
+  },
+  {
+   "type": "p",
+   "text": "xiii. 32. Even the Son knows not all things; how then can we?"
+  },
+  {
+   "type": "p",
+   "text": "xiv. 35. If it be possible. How can you say it is possible every hour to avoid sin?"
+  },
+  {
+   "type": "p",
+   "text": "15."
+  },
+  {
+   "type": "p",
+   "text": "Mark xvi. 14. Even the Apostles showed unbelief and hardness of heart."
+  },
+  {
+   "type": "p",
+   "text": "1 John v. 19. The world lies in the evil one."
+  },
+  {
+   "type": "p",
+   "text": "Luke i. 20. Even Zacharias disbelieved God's message."
+  },
+  {
+   "type": "p",
+   "text": "Matt. xvii. 15. The disciples could not relieve the lunatic, because of unbelief."
+  },
+  {
+   "type": "p",
+   "text": "Mark iv. 34. The disciple's dispute about precedence."
+  },
+  {
+   "type": "p",
+   "text": "Luke ix. 54. James and John show a vindictive spirit."
+  },
+  {
+   "type": "p",
+   "text": "xiv. 26, 27. The commands to forsake all and take up the cross are not easy."
+  },
+  {
+   "type": "p",
+   "text": "xvi. 15. That which is exalted among men is abomination in the sight of God."
+  },
+  {
+   "type": "p",
+   "text": "xvii. 1. It is impossible but that occasions of stumbling should come."
+  },
+  {
+   "type": "p",
+   "text": "xvii. 6. The Apostles' faith was not even like a grain of mustard seed."
+  },
+  {
+   "type": "p",
+   "text": "James iii. 2."
+  },
+  {
+   "type": "p",
+   "text": "Matt. xvii. 19."
+  },
+  {
+   "type": "p",
+   "text": "16."
+  },
+  {
+   "type": "p",
+   "text": "Luke xviii. 1. We are always to pray. This shows our weakness."
+  },
+  {
+   "type": "p",
+   "text": "27. Who, then, can be saved? It is possible, but to God only."
+  },
+  {
+   "type": "p",
+   "text": "xxii. 24. The contest for precedence at the last supper."
+  },
+  {
+   "type": "p",
+   "text": "31, 32. Peter's faith almost overcome by Satan."
+  },
+  {
+   "type": "p",
+   "text": "Luke xxii. 43. Even Christ in his agony needs an angel to strengthen Him."
+  },
+  {
+   "type": "p",
+   "text": "46. Pray that you enter not into temptation."
+  },
+  {
+   "type": "p",
+   "text": "17."
+  },
+  {
+   "type": "p",
+   "text": "John v. 30. Even Christ says, I cannot do anything by myself; and"
+  },
+  {
+   "type": "p",
+   "text": "vii. 10. Was irresolute about going up to the Feast of Tabernacles."
+  },
+  {
+   "type": "p",
+   "text": "19. None of you does the law."
+  },
+  {
+   "type": "p",
+   "text": "viii. 3. None of the accusers of the woman taken in adultery were without sin. Christ wrote their names in the earth Jeremiah 17:13."
+  },
+  {
+   "type": "p",
+   "text": "x. 8. All who came not who were sent; Jeremiah 14:15 before Christ were robbers."
+  },
+  {
+   "type": "p",
+   "text": "xvii. 12. I kept them— they did not keep themselves."
+  },
+  {
+   "type": "p",
+   "text": "Acts xv. 39. Paul and Barnabas quarrelled."
+  },
+  {
+   "type": "p",
+   "text": "xvi. 6, 7. They were forbidden to preach where they chose."
+  },
+  {
+   "type": "p",
+   "text": "18. Even the Apostles, with their full light, show their dependence on grace."
+  },
+  {
+   "type": "p",
+   "text": "Acts xvii. 30. The times before Christ were times of ignorance."
+  },
+  {
+   "type": "p",
+   "text": "1 Cor. iv. 19. I will come *if the Lord will.*"
+  },
+  {
+   "type": "p",
+   "text": "James ii. 10. To stumble in one point is to be guilty of all."
+  },
+  {
+   "type": "p",
+   "text": "iii. 2. In many things we all stumble."
+  },
+  {
+   "type": "p",
+   "text": "8. The tongue is a deadly poison."
+  },
+  {
+   "type": "p",
+   "text": "19."
+  },
+  {
+   "type": "p",
+   "text": "James iv. 1. Wars arise from our lust. David indeed said,"
+  },
+  {
+   "type": "p",
+   "text": "Ps. xxvi. 2. Examine me and prove me, etc. This self-confidence led to his fall."
+  },
+  {
+   "type": "p",
+   "text": "li. 1. Have mercy on me, O God."
+  },
+  {
+   "type": "p",
+   "text": "lxxx. 5. You feed us with the bread of tears. Similarly"
+  },
+  {
+   "type": "p",
+   "text": "Psalm 30:6, 7. I said I shall never be moved...You hid Your face."
+  },
+  {
+   "type": "p",
+   "text": "xxxii. 5. I said I will confess my sin,"
+  },
+  {
+   "type": "p",
+   "text": "xxxvii. 5, 6. *He* shall make your righteousness as the light."
+  },
+  {
+   "type": "p",
+   "text": "39. The salvation of the righteous *is of the Lord.*"
+  },
+  {
+   "type": "p",
+   "text": "xxxviii. 7. There is no soundness in my flesh."
+  },
+  {
+   "type": "p",
+   "text": "Rom. vii. 18. In my flesh dwells no good thing."
+  },
+  {
+   "type": "p",
+   "text": "Ps. xxxviii. 8. Vulgate. My loins are filled with deceits."
+  },
+  {
+   "type": "p",
+   "text": "xxxix. 5. He has made our days as handbreadths."
+  },
+  {
+   "type": "p",
+   "text": "lxix. 5. My sins are not hid from you."
+  },
+  {
+   "type": "p",
+   "text": "lxxvii. 2. My soul refused to be comforted."
+  },
+  {
+   "type": "p",
+   "text": "10. This is the changing of the right hand of the Most High."
+  },
+  {
+   "type": "p",
+   "text": "20."
+  },
+  {
+   "type": "p",
+   "text": "Ps. lxxxix. 2. Mercy shall be *built up* forever."
+  },
+  {
+   "type": "p",
+   "text": "xci. 6. From the thing that walks in darkness who can be free? For"
+  },
+  {
+   "type": "p",
+   "text": "xi. 2. The wicked bend their bow— an image of the heretics."
+  },
+  {
+   "type": "p",
+   "text": "xcii. 14. Those that are planted in the house of the Lord shall flourish."
+  },
+  {
+   "type": "p",
+   "text": "ciii. 8, 10. The Lord is full of compassion."
+  },
+  {
+   "type": "p",
+   "text": "2 Samuel 8:13, 14. David receives the promises with the humble confession of his weakness. Is this the law of man, O God?"
+  },
+  {
+   "type": "p",
+   "text": "xvi. 10. He humbles himself under Abishai's violence and Shimei's curse."
+  },
+  {
+   "type": "p",
+   "text": "xvii. 14. And is delivered only by God's confounding the counsel of Ahithophel."
+  },
+  {
+   "type": "p",
+   "text": "1 Kings xiv. 8. It was God who gave Jeroboam the kingdom."
+  },
+  {
+   "type": "p",
+   "text": "21."
+  },
+  {
+   "type": "p",
+   "text": "1 Kings xv. 11. Asa, though a good man, was faulty."
+  },
+  {
+   "type": "p",
+   "text": "xix. 4. Elijah fled from Jezebel."
+  },
+  {
+   "type": "p",
+   "text": "Ps. cxviii. 6. The Lord is my keeper."
+  },
+  {
+   "type": "p",
+   "text": "2 Chron. xvii. 3. Jehoshaphat prospers because the Lord is with him. Yet"
+  },
+  {
+   "type": "p",
+   "text": "xix. 2. He is rebuked for joining with Ahab."
+  },
+  {
+   "type": "p",
+   "text": "2 Chron. xxii. 9. Ahaziah received burial among kings because descended from righteous Jehoshaphat."
+  },
+  {
+   "type": "p",
+   "text": "2 Kings 18:3, 4, 7. Hezekiah did great things, but only through the Lord's help."
+  },
+  {
+   "type": "p",
+   "text": "14. He gave the consecrated gold to the king of Assyria."
+  },
+  {
+   "type": "p",
+   "text": "22. Even the best kings of Judah were imperfect."
+  },
+  {
+   "type": "p",
+   "text": "2 Kings 20:1, 5. Hezekiah wept when death was at hand, and recovered through special mercy."
+  },
+  {
+   "type": "p",
+   "text": "13, 17. But he sinned in receiving the Babylonian envoys."
+  },
+  {
+   "type": "p",
+   "text": "2 Chron. xxxii. 26. He fell by the lifting up of his heart."
+  },
+  {
+   "type": "p",
+   "text": "xxxiv. 2. Josiah was a righteous man; yet"
+  },
+  {
+   "type": "p",
+   "text": "22, 23. He needed the aid of Huldah; and"
+  },
+  {
+   "type": "p",
+   "text": "xxxv. 22. He was slain through not heeding God's warning; and"
+  },
+  {
+   "type": "p",
+   "text": "23. The prophets also are weak and sinful."
+  },
+  {
+   "type": "p",
+   "text": "Lam. iv. 20. Jeremiah lamented his fall."
+  },
+  {
+   "type": "p",
+   "text": "Numbers 20:10, 12. Moses is punished for his sin at Meribah. This is the meaning of Ps. cxli. 6. Vulgate. Their judges were swallowed up, joined to the Rock, etc."
+  },
+  {
+   "type": "p",
+   "text": "Hosea ii. 19. God in mercy forgives Israel's unfaithfulness."
+  },
+  {
+   "type": "p",
+   "text": "xi. 9. I will not enter into the city. Only the Holy One is not joined to the mass of ungodliness."
+  },
+  {
+   "type": "p",
+   "text": "Amos vi. 13. We turn righteousness into wormwood."
+  },
+  {
+   "type": "p",
+   "text": "Jonah i. 14. The sailors confess that God is just in raising the storm."
+  },
+  {
+   "type": "p",
+   "text": "Micah vii. 2. The godly man is perished from the earth, etc."
+  },
+  {
+   "type": "p",
+   "text": "vi. 8. The command of justice, mercy, and a humble walk with God is only possible to humble faith, for"
+  },
+  {
+   "type": "p",
+   "text": "Ps. cxl. 6. The wicked walk on every side, and"
+  },
+  {
+   "type": "p",
+   "text": "James iv. 6. God gives grace to the humble."
+  },
+  {
+   "type": "p",
+   "text": "24."
+  },
+  {
+   "type": "p",
+   "text": "Habakkuk iii. 16. Let rottenness enter into my bones, if only I may rest, etc."
+  },
+  {
+   "type": "p",
+   "text": "Zech. iii. 1. Joshua is represented as clothed in filthy garments, and is freed through God's mercy."
+  },
+  {
+   "type": "p",
+   "text": "But Jovinian's heir says I am quite free from sin, I have no filthy garments, I am governed by my own will, I am greater than an Apostle. The Apostle does what he would not, and what he would he does not; but I do what I will, and what I would not I do not: the kingdom of heaven has been prepared for me, or rather I have by my virtuous life prepared it for myself. Adam was subject to punishment, and so are others who think themselves guilty after the similitude of Adam's transgressions; I and my crew alone have nothing to fear. Other men shut up in their cells and who never see women, because, poor creatures! They do not listen to my words, are tormented with desire: crowds of women may surround me, I feel no stirring of concupiscence. For to me may be applied the words, 'Holy stones are rolled upon the ground,' and the reason why I am insensible to the attraction of sin is that in the power of free will I carry Christ's trophy about with me. But let us listen to God Isaiah 3:12 proclaiming by the mouth of Isaiah: O my people, they which call you happy cause you to err, and destroy the way of your paths. Who is the greatest subverter of the people of God— he who, relying on the power of free choice, despises the help of the Creator, and is satisfied with following his own will, or he who dreads to be judged by the details of the Lord's commandments? To men of this sort, God says, Woe unto you that are wise in your own eyes, and prudent in your own sight. Isaiah, if we follow the Hebrew, laments and says, Woe is me because I have been silent, because I am a man of unclean lips: and I dwell in the midst of a people of unclean lips, for my eyes have seen the Lord of Hosts. He for his meritorious and virtuous life enjoyed the sight of God, and conscious of his sins confessed that he had unclean lips. Not that he had said anything repugnant to the will of God, but because, either from fear, or from a deep sense of shame, he had been silent, and had not reproved the errors of the people so freely as a prophet should. When do we sinners rebuke offenders, we who flatter wealth and accept the persons of sinners for the sake of filthy lucre? For we shall hardly say that we speak with perfect frankness to men of whose assistance we stand in need. Suppose that we do not such things as they, suppose we keep ourselves from every form of sin; to refrain from speaking the truth is certainly sin. In the Septuagint, however, we do not find the words because I have been silent, but because I was pricked, that is with the consciousness of sin; and thus the words of the prophet are fulfilled. My life was turned into misery while I was pierced by the thorn. He was pricked by the thorn of sin: you are decked with the flowers of virtue. Isaiah 24:21 The moon shall be ashamed, and the sun confounded, when the Lord shall punish the host of heaven on high. This is explained by another passage. Job 25:5 Even the stars are unclean in His sight, and again, Job 4:18 He charges His angels with folly. The moon is ashamed, the sun is confounded, and the sky covered with sackcloth, and shall we fearlessly and joyously, as though we were free from all sin, face the majesty of the Judge, when the mountains shall melt away, that is, all who are lifted up by pride, and all the host of the heavens, whether they be stars, or angelic powers, when the heavens shall be rolled together as a scroll, and all their host shall fade away like leaves?"
+  },
+  {
+   "type": "p",
+   "text": "The argument is now carried on mostly by the quotation of passages from the prophets:"
+  },
+  {
+   "type": "p",
+   "text": "25."
+  },
+  {
+   "type": "p",
+   "text": "Is. xxxiv. 5. My sword has drunk its fill in the heavens. It will come down in Edom. How much more is there wrath against sin on earth! Edom means blood, which cannot inherit the kingdom 1 Corinthians 15:50."
+  },
+  {
+   "type": "p",
+   "text": "xlv. 9. Woe unto him who strives with his Maker."
+  },
+  {
+   "type": "p",
+   "text": "liii. 6. We have all gone astray like sheep."
+  },
+  {
+   "type": "p",
+   "text": "Ezek. xvi. 14. Jerusalem is perfect in beauty; yet"
+  },
+  {
+   "type": "p",
+   "text": "Ezekiel 16:60, 61. Her salvation is not of merit but of mercy."
+  },
+  {
+   "type": "p",
+   "text": "Nahum i. 3. Though he cleanse, yet will he not make you innocent."
+  },
+  {
+   "type": "p",
+   "text": "1 Cor. xv. 9. I am not worthy— because I persecuted."
+  },
+  {
+   "type": "p",
+   "text": "Ezekiel 20:43, 44. When pardoned, Jerusalem will still remember her sin."
+  },
+  {
+   "type": "p",
+   "text": "Let us confess with shame that these are the utterances of men who have already won their reward; sinners upon earth, and still in our frail and mortal bodies let us adopt the language of the saints in heaven who have even been endowed with incorruption and immortality. Ezekiel 32:17 And ye say the way of the Lord is not equal, when your ways are not equal. It is Pharisaic pride to attribute to the injustice of the Creator sins which are due to our own will, and to slander His righteousness. The sons of Zadok, the priests of the spiritual temple, that is the Church, go not out to the people in their ministerial robes, lest by human intercourse they may lose their holiness and be defiled. And do you suppose that you, in the thick of the throng, and an ordinary individual, are pure?"
+  },
+  {
+   "type": "p",
+   "text": "26. Let us hastily run through the prophet Jeremiah:"
+  },
+  {
+   "type": "p",
+   "text": "Jeremiah 5:1, 2. Is there any that does justly, etc."
+  },
+  {
+   "type": "p",
+   "text": "vii. 21, 22. God rejects the sacrifices, because of the worshippers' evil lives."
+  },
+  {
+   "type": "p",
+   "text": "xiii. 23. Can the Ethiopian change his skin?"
+  },
+  {
+   "type": "p",
+   "text": "27."
+  },
+  {
+   "type": "p",
+   "text": "Jerem. xvii. 14. Heal me, O Lord. Otherwise Jeremiah could only say, as in the text next quoted,"
+  },
+  {
+   "type": "p",
+   "text": "xx. 14, 17, 18. Cursed be the day wherein I was born, etc."
+  },
+  {
+   "type": "p",
+   "text": "xxiii. 23. Am I a God at hand, etc. So conscious is he of God's power."
+  },
+  {
+   "type": "p",
+   "text": "xxiv. 6, 7. God, not they themselves, will plant them, etc."
+  },
+  {
+   "type": "p",
+   "text": "xxvi. 21-24. Jeremiah needed the help of Ahikam. How much more do we need that of God."
+  },
+  {
+   "type": "p",
+   "text": "28."
+  },
+  {
+   "type": "p",
+   "text": "Jerem. xxxi. 34. The promise of the new covenant."
+  },
+  {
+   "type": "p",
+   "text": "xxxii. 30. The children of Israel have perpetually done evil."
+  },
+  {
+   "type": "p",
+   "text": "xxxvii. 18, 19. Yet Jeremiah himself trembled before Zedekiah."
+  },
+  {
+   "type": "p",
+   "text": "Jeremiah 30:10, 11. Fear not, O Jacob, for *I am with you.*"
+  },
+  {
+   "type": "p",
+   "text": "29."
+  },
+  {
+   "type": "p",
+   "text": "Amos vi. 14. We have taken us horns by our own strength. These are the boasts of heretics. But"
+  },
+  {
+   "type": "p",
+   "text": "Is. xvi. 6. His strength (Moab's) is by no means according to his arrogance."
+  },
+  {
+   "type": "p",
+   "text": "Jeremiah 1:7, 20. Men's sin will only be abolished because God is gracious to them. If you will abandon your assertions of natural ability, I will concede that your whole contention stands good, but only by the gift of God."
+  },
+  {
+   "type": "p",
+   "text": "Lam. iii. 26-42. It is good that a man should quietly wait for the salvation of the Lord."
+  },
+  {
+   "type": "p",
+   "text": "30."
+  },
+  {
+   "type": "p",
+   "text": "Dan. iv. 17. The Most High rules in the kingdom of men."
+  },
+  {
+   "type": "p",
+   "text": "Psalm 113:7, 8. He raises up the poor out of the dust."
+  },
+  {
+   "type": "p",
+   "text": "Is. xl. 17. He does what He will in heaven and in earth."
+  },
+  {
+   "type": "p",
+   "text": "The words of 2 Maccabees v. 17, which say that Antiochus Epiphanes had power to overthrow the Temple, because of the multitude of sins, are quoted in connection with the confessions of Daniel."
+  },
+  {
+   "type": "p",
+   "text": "Dan. ix. 5. We have sinned and dealt perversely, which is shown by"
+  },
+  {
+   "type": "p",
+   "text": "20. While I was yet praying, etc., to be a personal, not only a national confession."
+  },
+  {
+   "type": "p",
+   "text": "24. The prophecy of the seventy weeks shows that the prophet looked to God alone for the establishment of righteousness."
+  },
+  {
+   "type": "p",
+   "text": "So then, until that end shall come, and this corruptible and mortal shall put on incorruption and immortality, we must be liable to sin; not, as you falsely say, owing to the fault of our nature and creation, but through the frailty and fickleness of human will, which varies from moment to moment; because God alone changes not. You ask in what respects Abel, Enoch, Joshua the son of Nun, or Elisha, and the rest of the saints have sinned. There is no need to look for a knot in a bulrush; I freely confess I do not know; and I only wish that, when sins are manifest, I might still be silent. 1 Corinthians 4:4 I know nothing against myself, says St. Paul, yet am I not hereby justified. 1 Samuel 16:7 Man looks on the outward appearance, but the Lord looks on the heart. Before Him no man is justified. And so Paul says confidently, Romans 3:23 All have sinned, and come short of the glory of God; and Galatians 3:22 God has shut up all under sin that He may have mercy upon all; and similarly in other passages which we have repeated again and again."
+  }
+ ],
+ "words": 4565
+}

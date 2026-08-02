@@ -1,0 +1,42 @@
+{
+ "id": "3509",
+ "title": "On the Incarnation",
+ "isToc": true,
+ "children": [
+  {
+   "id": "35091",
+   "label": "Book I"
+  },
+  {
+   "id": "35092",
+   "label": "Book II"
+  },
+  {
+   "id": "35093",
+   "label": "Book III"
+  },
+  {
+   "id": "35094",
+   "label": "Book IV"
+  },
+  {
+   "id": "35095",
+   "label": "Book V"
+  },
+  {
+   "id": "35096",
+   "label": "Book VI"
+  },
+  {
+   "id": "35097",
+   "label": "Book VII"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III\nBook IV\nBook V\nBook VI\nBook VII"
+  }
+ ],
+ "words": 14
+}

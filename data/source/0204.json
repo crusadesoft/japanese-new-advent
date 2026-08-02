@@ -1,0 +1,26 @@
+{
+ "id": "0204",
+ "title": "Theophilus to Autolycus",
+ "isToc": true,
+ "children": [
+  {
+   "id": "02041",
+   "label": "**Book I**"
+  },
+  {
+   "id": "02042",
+   "label": "**Book II**"
+  },
+  {
+   "id": "02043",
+   "label": "**Book III**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book I**\n**Book II**\n**Book III**"
+  }
+ ],
+ "words": 6
+}

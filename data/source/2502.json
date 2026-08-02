@@ -1,0 +1,30 @@
+{
+ "id": "2502",
+ "title": "Life of Constantine",
+ "isToc": true,
+ "children": [
+  {
+   "id": "25021",
+   "label": "**Book I**"
+  },
+  {
+   "id": "25022",
+   "label": "**Book II**"
+  },
+  {
+   "id": "25023",
+   "label": "**Book III**"
+  },
+  {
+   "id": "25024",
+   "label": "**Book IV**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book I**\n**Book II**\n**Book III**\n**Book IV**"
+  }
+ ],
+ "words": 8
+}

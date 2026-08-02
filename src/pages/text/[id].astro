@@ -1,0 +1,110 @@
+---
+import Base from '../../layouts/Base.astro';
+import {
+  allDocumentIds,
+  getDocument,
+  locate,
+  authorNameJa,
+  type Block,
+} from '../../lib/corpus';
+import { renderInline } from '../../lib/render';
+
+export function getStaticPaths() {
+  return allDocumentIds().map((id) => ({ params: { id } }));
+}
+
+const { id } = Astro.params;
+const doc = getDocument(id!)!;
+const place = locate(id!);
+
+const heading = doc.title ?? doc.titleEn ?? id;
+const blocks: Block[] = doc.translated ? doc.blocks : doc.blocksEn;
+
+const tag = (t: string) =>
+  t === 'heading' ? 'h2' : t === 'subheading' ? 'h3' : t === 'quote' ? 'blockquote' : 'p';
+---
+
+<Base
+  title={heading}
+  description={
+    place
+      ? `${authorNameJa(place.author.name)}『${heading}』の日本語訳。`
+      : `${heading} — 教父文庫`
+  }
+>
+  <h1>{heading}</h1>
+
+  <div class="doc-meta">
+    {
+      place && (
+        <>
+          <a href={`/authors/${place.author.slug}/`}>
+            {authorNameJa(place.author.name)}
+          </a>
+          {place.work.id !== id && (
+            <> ／ <a href={`/text/${place.work.id}/`}>{place.work.title}</a></>
+          )}
+          <br />
+        </>
+      )
+    }
+    {doc.titleEn && doc.title && <>{doc.titleEn}<br /></>}
+    {doc.words > 0 && <>約 {doc.words.toLocaleString('ja-JP')} 語（原文）</>}
+  </div>
+
+  {
+    !doc.translated && blocks.length > 0 && (
+      <div class="notice">
+        <strong>この文書はまだ翻訳されていません。</strong>
+        以下に底本の英語原文を表示しています。訳文が用意でき次第、差し替えられます。
+      </div>
+    )
+  }
+
+  {
+    doc.isToc && doc.children.length > 0 && (
+      <ul class="work-tree">
+        {doc.children.map((c) => {
+          const child = getDocument(c.id);
+          return (
+            <li>
+              <a
+                href={`/text/${c.id}/`}
+                class={child?.translated ? undefined : 'pending'}
+              >
+                {child?.title ?? c.label}
+              </a>
+              {child?.title && <span class="en">{c.label}</span>}
+              {!child?.translated && <span class="count">未訳</span>}
+            </li>
+          );
+        })}
+      </ul>
+    )
+  }
+
+  <div class={doc.translated ? undefined : 'en-body'}>
+    {
+      blocks.map((b) => {
+        const T = tag(b.type);
+        return <T set:html={renderInline(b.text)} />;
+      })
+    }
+  </div>
+
+  {
+    !doc.isToc && blocks.length === 0 && (
+      <p class="pending">この文書には本文がありません（底本に収録なし）。</p>
+    )
+  }
+
+  {
+    place && (
+      <p style="margin-top:3rem">
+        <a href={`/authors/${place.author.slug}/`}>
+          ← {authorNameJa(place.author.name)} の著作一覧へ
+        </a>
+      </p>
+    )
+  }
+</Base>

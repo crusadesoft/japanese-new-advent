@@ -1,0 +1,62 @@
+{
+ "id": "3507",
+ "title": "Institutes",
+ "isToc": true,
+ "children": [
+  {
+   "id": "350701",
+   "label": "Book I"
+  },
+  {
+   "id": "350702",
+   "label": "Book II"
+  },
+  {
+   "id": "350703",
+   "label": "Book III"
+  },
+  {
+   "id": "350704",
+   "label": "Book IV"
+  },
+  {
+   "id": "350705",
+   "label": "Book V"
+  },
+  {
+   "id": "350707",
+   "label": "Book VII"
+  },
+  {
+   "id": "350708",
+   "label": "Book VIII"
+  },
+  {
+   "id": "350709",
+   "label": "Book IX"
+  },
+  {
+   "id": "350710",
+   "label": "Book X"
+  },
+  {
+   "id": "350711",
+   "label": "Book XI"
+  },
+  {
+   "id": "350712",
+   "label": "Book XII"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "THE TWELVE BOOKS OF JOHN CASSIAN ON THE INSTITUTES OF THE COENOBIA, AND THE REMEDIES FOR THE EIGHT PRINCIPAL FAULTS."
+  },
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III\nBook IV\nBook V\nBook VII\nBook VIII\nBook IX\nBook X\nBook XI\nBook XII"
+  }
+ ],
+ "words": 42
+}

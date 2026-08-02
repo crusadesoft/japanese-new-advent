@@ -1,0 +1,78 @@
+{
+ "id": "2302",
+ "title": "Homilies on Philippians",
+ "isToc": true,
+ "children": [
+  {
+   "id": "230200",
+   "label": "Introductory Discourse"
+  },
+  {
+   "id": "230201",
+   "label": "Homily 1"
+  },
+  {
+   "id": "230202",
+   "label": "Homily 2"
+  },
+  {
+   "id": "230203",
+   "label": "Homily 3"
+  },
+  {
+   "id": "230204",
+   "label": "Homily 4"
+  },
+  {
+   "id": "230205",
+   "label": "Homily 5"
+  },
+  {
+   "id": "230206",
+   "label": "Homily 6"
+  },
+  {
+   "id": "230207",
+   "label": "Homily 7"
+  },
+  {
+   "id": "230208",
+   "label": "Homily 8"
+  },
+  {
+   "id": "230209",
+   "label": "Homily 9"
+  },
+  {
+   "id": "230210",
+   "label": "Homily 10"
+  },
+  {
+   "id": "230211",
+   "label": "Homily 11"
+  },
+  {
+   "id": "230212",
+   "label": "Homily 12"
+  },
+  {
+   "id": "230213",
+   "label": "Homily 13"
+  },
+  {
+   "id": "230214",
+   "label": "Homily 14"
+  },
+  {
+   "id": "230215",
+   "label": "Homily 15"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Introductory Discourse\nHomily 1\nHomily 2\nHomily 3\nHomily 4\nHomily 5\nHomily 6\nHomily 7\nHomily 8\nHomily 9\nHomily 10\nHomily 11\nHomily 12\nHomily 13\nHomily 14\nHomily 15"
+  }
+ ],
+ "words": 32
+}

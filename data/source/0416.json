@@ -1,0 +1,46 @@
+{
+ "id": "0416",
+ "title": "Contra Celsus",
+ "isToc": true,
+ "children": [
+  {
+   "id": "04161",
+   "label": "BOOK I"
+  },
+  {
+   "id": "04162",
+   "label": "BOOK II"
+  },
+  {
+   "id": "04163",
+   "label": "BOOK III"
+  },
+  {
+   "id": "04164",
+   "label": "BOOK IV"
+  },
+  {
+   "id": "04165",
+   "label": "BOOK V"
+  },
+  {
+   "id": "04166",
+   "label": "BOOK VI"
+  },
+  {
+   "id": "04167",
+   "label": "BOOK VII"
+  },
+  {
+   "id": "04168",
+   "label": "BOOK VIII"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "BOOK I\nBOOK II\nBOOK III\nBOOK IV\nBOOK V\nBOOK VI\nBOOK VII\nBOOK VIII"
+  }
+ ],
+ "words": 16
+}

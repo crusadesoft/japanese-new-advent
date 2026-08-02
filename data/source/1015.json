@@ -1,0 +1,38 @@
+{
+ "id": "1015",
+ "title": "Commentary on the Gospel of John",
+ "isToc": true,
+ "children": [
+  {
+   "id": "101501",
+   "label": "**Book I**"
+  },
+  {
+   "id": "101502",
+   "label": "**Book II**"
+  },
+  {
+   "id": "101504",
+   "label": "**Book IV**"
+  },
+  {
+   "id": "101505",
+   "label": "**Book V**"
+  },
+  {
+   "id": "101506",
+   "label": "**Book VI**"
+  },
+  {
+   "id": "101510",
+   "label": "**Book X**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book I**\n**Book II**\n**Book IV**\n**Book V**\n**Book VI**\n**Book X**"
+  }
+ ],
+ "words": 12
+}

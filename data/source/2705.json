@@ -1,0 +1,26 @@
+{
+ "id": "2705",
+ "title": "Apology Against Jerome",
+ "isToc": true,
+ "children": [
+  {
+   "id": "27051",
+   "label": "**Book I**"
+  },
+  {
+   "id": "27052",
+   "label": "**Book II**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "*\"Eranistes\" or \"Polymorphus\"*"
+  },
+  {
+   "type": "p",
+   "text": "**Book I**\n**Book II**"
+  }
+ ],
+ "words": 7
+}

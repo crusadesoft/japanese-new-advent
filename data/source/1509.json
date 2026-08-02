@@ -1,0 +1,50 @@
+{
+ "id": "1509",
+ "title": "Against Two Letters of the Pelagians",
+ "isToc": true,
+ "children": [
+  {
+   "id": "02581b",
+   "label": "bishop"
+  },
+  {
+   "id": "11604a",
+   "label": "Pelagians"
+  },
+  {
+   "id": "03190c",
+   "label": "calumnious"
+  },
+  {
+   "id": "08673a",
+   "label": "known"
+  },
+  {
+   "id": "15091",
+   "label": "Book I"
+  },
+  {
+   "id": "15092",
+   "label": "Book II"
+  },
+  {
+   "id": "15093",
+   "label": "Book III"
+  },
+  {
+   "id": "15094",
+   "label": "Book IV"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "EXTRACT FROM AUGUSTIN'S \"RETRACTATIONS,\" Book II, Chapter 61.\n*Then follow four books which I wrote to Boniface, bishop of the\nRoman Church, in opposition to two letters of the Pelagians, because\nwhen they came into his hands he had sent them to me, finding in\nthem a calumnious mention of my name. This work commences on this\nwise: \"I had indeed known you by the praise of your renowned fame.\"*"
+  },
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III\nBook IV"
+  }
+ ],
+ "words": 78
+}

@@ -1,0 +1,46 @@
+{
+ "id": "0210",
+ "title": "The Stromata",
+ "isToc": true,
+ "children": [
+  {
+   "id": "02101",
+   "label": "Book I"
+  },
+  {
+   "id": "02102",
+   "label": "Book II"
+  },
+  {
+   "id": "02103",
+   "label": "Book III"
+  },
+  {
+   "id": "02104",
+   "label": "Book IV"
+  },
+  {
+   "id": "02105",
+   "label": "Book V"
+  },
+  {
+   "id": "02106",
+   "label": "Book VI"
+  },
+  {
+   "id": "02107",
+   "label": "Book VII"
+  },
+  {
+   "id": "02108",
+   "label": "Book VIII"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III\nBook IV\nBook V\nBook VI\nBook VII\nBook VIII"
+  }
+ ],
+ "words": 16
+}

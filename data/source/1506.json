@@ -1,0 +1,22 @@
+{
+ "id": "1506",
+ "title": "On the Grace of Christ, and on Original Sin",
+ "isToc": true,
+ "children": [
+  {
+   "id": "15061",
+   "label": "Book I"
+  },
+  {
+   "id": "15062",
+   "label": "Book II"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II"
+  }
+ ],
+ "words": 4
+}

@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getManifest, authorsByEra, authorNameJa } from '../../lib/corpus';
+
+const manifest = getManifest();
+const groups = authorsByEra(manifest.authors);
+---
+
+<Base title="教父一覧" description="本文庫に収録する教父の一覧。時代順に配列しています。">
+  <h1>教父一覧</h1>
+  <p>
+    全 {manifest.counts.authors} 名、{manifest.counts.works.toLocaleString('ja-JP')} 作品。
+    生没年の判明する著者は時代順に配列しています。
+  </p>
+
+  {
+    groups.map((g) => (
+      <>
+        <h2>{g.era}</h2>
+        <ul class="author-list">
+          {g.authors.map((a) => (
+            <li>
+              <a href={`/authors/${a.slug}/`}>{authorNameJa(a.name)}</a>
+              {a.isSaint && <span class="badge badge-saint">聖人</span>}
+              {a.isDoctor && <span class="badge badge-doctor">教会博士</span>}
+              <span class="en">
+                {a.name}
+                {a.dates ? `（${a.dates}）` : ''}
+              </span>
+              <span class="count">{a.works.length} 作品</span>
+            </li>
+          ))}
+        </ul>
+      </>
+    ))
+  }
+</Base>

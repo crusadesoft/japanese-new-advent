@@ -1,0 +1,1617 @@
+{
+ "id": "27031",
+ "title": "Dialogue 1",
+ "isToc": false,
+ "children": [],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Orthodoxos and Eranistes.**"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Better were it for us to agree and abide by the apostolic doctrine in its purity. But since, I know not how, you have broken the harmony, and are now offering us new doctrines, let us, if you please, with no kind of quarrel, investigate the truth."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— We need no investigation, for we exactly hold the truth."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— This is what every heretic supposes. Aye, even Jews and Pagans reckon that they are defending the doctrines of the truth; and so also do not only the followers of Plato and Pythagoras, but Epicureans too, and they that are wholly without God or belief. It becomes us, however, not to be the slaves of a priori assumption, but to search for the knowledge of the truth."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I admit the force of what you say and am ready to act on your suggestion."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Since then you have made no difficulty in yielding to this my preliminary exhortation, I ask you in the next place not to suffer the investigation of the truth to depend on the reasonings of men, but to track the footprints of the apostles and prophets, and saints who followed them. For so wayfarers when they wander from the high-road are wont to consider well the pathways, if haply they show any prints of men or horses or asses or mules going this way or that, and when they find any such they trace the tracks as dogs do and leave them not till once more they are in the right road."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— So let us do. Lead on yourself, as you began the discussion."
+  },
+  {
+   "type": "p",
+   "text": "*Orth*— Let us, therefore, first make careful and thorough investigation into the divine names—I mean substance, and essences, and persons and proprieties, and let us learn and define how they differ the one from the other. Then let us thus handle afterwards what follows."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— You give us a very admirable and proper introduction to our argument. When these points are clear, our discussion will go forward without let or obstacle."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Since we have decided then that this must be our course of procedure, tell me, my friend, do we acknowledge one substance of God, alike of Father and of the only begotten Son and of the Holy Ghost, as we have been taught by Holy Scripture, both Old and New, and by the Fathers in Council in Nicæa, or do we follow the blasphemy of Arius?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— We confess one substance of the Holy Trinity."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And do we reckon hypostasis to signify anything else than substance, or do we take it for another name of substance?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Is there any difference between substance and hypostasis?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth*— In extra Christian philosophy there is not, for οὐσία signifies τὸ ὄν, that which is, and ὑ πόστασις that which subsists. But according to the doctrine of the Fathers there is the same difference between οὐσία and ὑ πόστασις as between the common and the particular, and the species and the individual."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Tell me more clearly what is meant by race or kind, and species and individual."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— We speak of race or kind with regard to the animal, for it means many things at once. It indicates both the rational and the irrational; and again there are many species of irrational, creatures that fly, creatures that are amphibious, creatures that go on foot, and creatures that swim. And of these species each is marked by many subdivisions; of creatures that go on foot there is the lion, the leopard, the bull, and countless others. So, too, of flying creatures and the rest there are many species; yet all of them, though the species are the aforesaid, belong to one and the same animal race. Similarly the name man is the common name of mankind; for it means the Roman, the Athenian, the Persian, the Sauromatian, the Egyptian, and, in a word, all who are human, but the name Paulus or Petrus does not signify what is common to the kind but some particular man; for no one on hearing of Paul turns in thought to Adam or Abraham or Jacob, but thinks of him alone whose name he has heard. But if he hears the word man simply, he does not fix his mind on the individual, but bethinks him of the Indian, the Scythian, and the Massagete, and of all the race of men together, and we learn this not only from nature, but also from Holy Scripture, for God said, we read, I will destroy man from the face of the earth, and this he spoke of countless multitudes, and when more than two thousand and two hundred years had gone by after Adam, he brought universal destruction on men through the flood, and so the blessed David says: Man that is in honour and understands not, accusing not one here nor one there, but all men in common. A thousand similar examples might be found, but we must not be tedious."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The difference between the common and the proper is showed clearly. Now let us return to discussion about οὐσία and ὑ πόστασις"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— As then the name man is common to human nature, so we understand the divine substance to indicate the Holy Trinity; but the hypostasis denotes any person, as the Father, the Son and the Holy Ghost; for, following the definitions of the Holy Fathers, we say that hypostasis and individuality mean the same thing."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— We agree that this is so."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Whatever then is predicated of the divine nature is common both to the Father, to the Son, and to the Holy Ghost, as for instance God, Lord, Creator, Almighty, and so forth."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Without question these words are common to the Trinity."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— But all that naturally denotes the hypostasis ceases to be common to the Holy Trinity, and denotes the hypostasis to which it is proper, as, for instance, the names Father, Unbegotten, are peculiar to the Father; while again the names Son, Only Begotten, God the Word, do not denote the Father, nor yet the Holy Ghost, but the Son, and the words Holy Ghost, Paraclete, naturally denote the hypostasis of the Spirit."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— But does not Holy Scripture call both the Father and the Son Spirit?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Yes, it calls both the Father and the Son Spirit, signifying by this term the incorporeal illimitable character of the divine nature. The Holy Scripture only calls the hypostasis of the Spirit Holy Ghost."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— This is indisputable."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Since then we assert that some terms are common to the Holy Trinity, and some peculiar to each hypostasis, do we assert the term immutable to be common to the substance or peculiar to any hypostasis?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The term immutable is common to the Trinity, for it is impossible for part of the substance to be mutable and part immutable."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You have well said, for as the term mortal is common to mankind, so are immutable and invariable to the Holy Trinity. So the only-begotten Son is immutable, as are both the Father that begot Him and the Holy Ghost."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Immutable."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— How then do you advance the statement in the gospel the word became flesh, and predicate mutation of the immutable nature?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— We assert Him to have been made flesh not by mutation, but as He Himself knows."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If He is not said to have become flesh by taking flesh, one of two things must be asserted, either that he underwent the mutation into flesh, or was only so seen in appearance, and in reality was God without flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— This is the doctrine of the disciples of Valentinus, Marcion, and of the Manichees, but we have been taught without dispute that the divine Word was made flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— But in what sense do you mean was made flesh? Took flesh, or was changed into flesh?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— As we have heard the evangelist say, the word was made flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— In what sense do you understand was made?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— He who underwent mutation into flesh was made flesh, and, as I said just now, as He knows. But we know that with Him all things are possible, for He changed the water of the Nile into blood, and day into night, and made the sea dry land, and filled the dry wilderness with water, and we hear the prophet saying Whatsoever the Lord pleased that did He in heaven, and in earth, in the seas and all deep places."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— The creature is transformed by the Creator as He will, for it is mutable and obeys the nod of Him that fashioned it. But His nature is immutable and invariable, wherefore of the creature the prophet says He that makes and transforms all things. But of the divine Word the great David says You are the same and your years shall not fail. And again the same God says of Himself For I am the Lord and I change not."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— What is hidden ought not to be enquired into."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Nor yet what is plain to be altogether ignored."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I am not aware of the manner of the incarnation. I have heard that the Word was made flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If He was made flesh by mutation He did not remain what He was before, and this is easily intelligible from several analogies. Sand, for instance, when it is subjected to heat, first becomes fluid, then is changed and congealed into glass, and at the time of the change alters its name, for it is no longer called sand but glass."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— So it is."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And while we call the fruit of the vine grape, when once we have pressed it, we speak of it no longer as grape, but as wine."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Certainly."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And the wine itself, after it has undergone a change, it is our custom to name no longer wine, but vinegar."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— True."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And similarly stone when burnt and in solution is no longer called stone, but lime. And innumerable other similar instances might be found where mutation involves a change of name."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Agreed."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If therefore you assert that the Divine Word underwent the change in the flesh, why do you call Him God and not flesh? For change of name fits in with the alteration of nature. For if where the things which undergo change have some relation to their former condition (for there is a certain approximation of vinegar to wine and of wine to the fruit of the vine, and of glass to sand) they receive another name after their alteration, how, where the difference between them is infinite and as wide as that which divides a gnat from the whole visible and invisible creation (for so wide, nay much wider, is the difference between the nature of flesh and of Godhead) is it possible for the same name to obtain after the change?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I have said more than once that He was made flesh not by mutation, but continuing still to be what He was, He was made what He was not."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— But unless this word was made becomes quite clear it suggests mutation and alteration, for unless He was made flesh by taking flesh He was made flesh by undergoing mutation."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— But the word take is your own invention. The Evangelist says the Word was made flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You seem either to be ignorant of the sacred Scripture, or to do it wrong knowingly. Now if you are ignorant, I will teach you; if you are doing wrong, I will convict you. Answer then; do you acknowledge the teaching of the divine Paul to be of the Spirit?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Certainly."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And do you allow that the same Spirit wrought through both Evangelists and Apostles?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Yes, for so have I learned from the Apostolic Scripture There are diversities of gifts but the same spirit, and again All these things works that one and the selfsame spirit, dividing to every man severally as He will, and again Having the same Spirit of the Faith."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Your introduction of the apostolic testimony is in season. If we assert that the instruction alike of the evangelists and of the apostles is of the same spirit, listen how the apostle interprets the words of the Gospel, for in the Epistle to the Hebrews he says, Verily he took not on him the nature of angels, but he took on him the seed of Abraham. Now tell me what you mean by the seed of Abraham. Was not that which was naturally proper to Abraham proper also to the seed of Abraham?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— No; not without exception, for Christ did no sin."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Sin is not of nature, but of corrupt will. On this very account, therefore, I did not say indefinitely what Abraham had, but what he had according to nature, that is to say, body and reasonable soul. Now tell me plainly; will you acknowledge that the seed of Abraham was endowed with body and reasonable soul? If not, in this point you agree with the ravings of Apollinarius. But I will compel you to confess this by other means. Tell me now; had the Jews a body and a reasonable soul?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Of course they had."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— So when we hear the prophet saying, But you, Israel, art my servant, Jacob whom I have chosen, the seed of Abraham my friend, are we to understand the Jews to be bodies only? Are we not to understand them to be men consisting of bodies and souls?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— True."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And the seed of Abraham not without soul nor yet intelligence, but with everything which characterizes the seed of Abraham?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— He who so says puts forward two sons."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— But he who says that the Divine Word is changed into the flesh does not even acknowledge one Son, for mere flesh by itself is not a son; but we confess one Son who took upon Him the seed of Abraham, according to the divine apostle, and wrought the salvation of mankind. But if you do not accept the apostolic preaching, say so openly."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— But we maintain that the utterances of the apostles are inconsistent, for there appears to be a certain inconsistency between the Word was made flesh and took upon Him the seed of Abraham."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— It is because you lack intelligence, or because you are arguing for arguing's sake, that the consistent seems inconsistent. It does not so appear to men who use sound reasoning; for the divine apostle teaches that the Divine Word was made Flesh, not by mutation, but by taking on Him the seed of Abraham. At the same time, too, he recalls the promise given to Abraham. Or do you not remember the promises given to the Patriarch by the God of the Universe?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— What promises?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— When He brought him out of his father's house, and ordered him to come into Palestine, did He not say to him I will bless them that bless you, and curse him that curses you, and in your seed shall all families of the earth be blessed?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I remember these promises."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Remember, too, the covenants made by God with Isaac and Jacob, for He gave them, too, the same promises, confirming the former by the second and the third."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I remember them too."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— It is in relation to these covenants that the divine apostle writes in his Epistle to the Galatians Now to Abraham and his seed were the promises made. He says not seeds as of many, but as of one...which is Christ, very plainly showing that the manhood of Christ sprang from the seed of Abraham, and fulfilled the promise made to Abraham."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— So the apostle says."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Enough has been said to remove all the controversy raised on this point. But I will nevertheless remind you of another prediction. The blessing given to the Patriarch Jacob and to his father and his grandfather was given by him to his son Judah alone. He said A Prince shall not fail Judah, nor a leader from his loins, until he shall have come to whom it is in store, and he is the expectation of the Gentiles. Or do you not accept this prediction as spoken of the Saviour Christ?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Jews give erroneous interpretations of prophecies of this kind, but I am a Christian; I trust in the Divine word; and I receive the prophecies without doubt."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Since then you confess that you believe the prophecies and acknowledge the predictions have been divinely uttered about our Saviour, consider what follows as to the intention of the words of the apostle, for while pointing out that the promises made to the patriarchs have reached their fulfilment, he uttered those remarkable words He took not on Him the nature of angels, all but saying the promise is true; the Lord has fulfilled His pledges; the fount of blessing is open to the gentiles; God had taken on Him the seed of Abraham; through it He brings about the promised salvation; through it He confirms the promise of the gentiles."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The words of the Prophet fit in admirably with those of the apostle."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— So again the divine apostle, reminding us of the blessing of Judah, and pointing out how it received its fulfilment exclaims For it is evident that our Lord sprang out of Judah. So too the Prophet Micah and the evangelist Matthew. For the former spoke his prediction, and the latter connects the prophecy with his narrative. What is extraordinary is that he says that the open enemies of the truth plainly told Herod that the Christ is born in Bethlehem, for it is written, he says, And thou Bethlehem in the land of Judah art not the least among the Princes of Judah for out of you shall come a Governor who shall rule my people Israel. Now let us subjoin what the Jews in their malignity omitted and so made the witness imperfect. For the prophet, after saying Out of you shall he come forth unto me that is to be Ruler in Israel adds Whose goings forth have been of old, from everlasting."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— You have done well in adducing the whole evidence of the Prophet, for he points out that He who was born in Bethlehem was God."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Not God only but also Man; Man as sprung from Judah after the flesh and born in Bethlehem; and God as existing before the ages. For the words Out of you shall he come forth unto me that is to be Ruler, show his birth after the flesh which has taken place in the last days; while the words Whose goings forth have been of old, from everlasting plainly proclaim His existence before the ages. In like manner also the divine apostle in his Epistle to the Romans bewailing the change to the worse of the ancient felicity of the Jews, and calling to mind their divine promises and legislation, goes on to say Whose are the fathers, and of whom concerning the flesh Christ came, who is over all God blessed for ever Amen, and in this same passage he exhibits Him both as Creator of all things and Lord and Ruler as God and as sprung from the Jews as man."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Well; you have explained these passages, what should you say to the prophecy of Jeremiah? For this proclaims him to be God only."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Of what prophecy do you speak?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— This is our God and there shall none other be accounted of in comparison to him— he has found out all the way of knowledge, and has given it unto Jacob his servant and to Israel his beloved. Afterward did he show himself upon earth and conversed with men."
+  },
+  {
+   "type": "p",
+   "text": "In these words the Prophet speaks neither of the flesh, nor of manhood, nor of man, but of God alone."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— What then is the good of reasoning? Do we say that the Divine nature is invisible? Or do we dissent from the Apostle when he says Immortal, invisible, the only God."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Indubitably the Divine nature is invisible."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— How then was it possible for the invisible nature to be seen without a body? Or do you not remember those words of the apostle in which he distinctly teaches the invisibility of the divine nature? He says Whom no man has seen nor can see. If therefore the Divine Nature is invisible to men, and I will add too to Angels, tell me how he who cannot be seen or beheld was seen upon earth?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The Prophet says he was seen on the earth."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And the apostle says Immortal, invisible, the only God and Whom no man has seen and can see."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— What then? Is the Prophet lying?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— God forbid. Both utterances are the words of the Holy Ghost."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Let us inquire then how the invisible was seen."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Do not, I beg you, bring in human reason. I shall yield to scripture alone."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— You shall receive no argument unconfirmed by Holy Scripture, and if you bring me any solution of the question deduced from Holy Scripture I will receive it, and will in no wise gainsay it."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You know how a moment ago we made the word of the evangelist clear by means of the testimony of the apostle; and that the divine apostle showed us how the Word became Flesh, saying plainly for verily He took not on Him the nature of angels but He took on Him the seed of Abraham. The same teacher will teach us how the divine Word was seen upon the earth and dwelt among men."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I submit to the words both of apostles and of prophets. Show me then in accordance with your promise the interpretation of the prophecy."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— The divine apostle, writing to Timothy, also says without controversy great is the mystery of godliness. God was manifest in the flesh, justified in the spirit, seen of angels, preached unto the Gentiles, believed on in the world, received up into glory."
+  },
+  {
+   "type": "p",
+   "text": "It is therefore plain that the divine nature is invisible, but the flesh visible, and that through the visible the invisible was seen, by its means working wonders and unveiling its own power, for with the hand He fashioned the sense of seeing and healed him that was blind from birth. Again He gave the power of hearing to the deaf, and loosed the fettered tongue, using his fingers for a tool and applying his spittle like some healing medicine. So again when He walked upon the sea He displayed the almighty power of the Godhead. Fitly, therefore, did the apostle say God was manifest in the flesh. For through it appeared the invisible nature beheld by its means by the angel hosts, for He was seen, he says, of angels."
+  },
+  {
+   "type": "p",
+   "text": "The nature then of bodiless beings has shared with us the enjoyment of this boon."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Then did not the angels see God before the manifestation of the Saviour?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— The apostle says that He was made manifest in the flesh and seen of angels."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— But the Lord said, Take heed that you despise not one of these little ones, for I say unto you that their angels do always behold the face of my Father which is in heaven."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— But the Lord said again, Not that any man has seen the Father save he which is of God, he has seen the Father. Wherefore the evangelist plainly exclaims, No man has seen God at any time, and confirms the word of the Lord, for he says, The only begotten Son which is in the bosom of the Father He has declared Him, and the great Moses, when he desired to see the invisible nature, heard the Lord God saying, There shall no man see me and live."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— How then are we to understand the words, Their angels do always behold the face of my Father which is in heaven?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Just as we commonly understand what is said about men who have been supposed to see God."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Pray make this plainer, for I do not understand. Can God be seen of men also?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Certainly not."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Yet we hear the divine scripture saying God appeared unto Abraham at the oak of Mamre; and Isaiah says I saw the Lord sitting upon a throne high and lifted up, and the same thing is said by Micah, by Daniel and Ezekiel. And of the lawgiver Moses it is related that The Lord spoke to Moses face to face as a man speaks unto his friend, and the God of the universe Himself said, With him will I speak mouth to mouth, even apparently and not in dark speeches. What then shall we say; did they behold the divine nature?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— By no means, for God Himself said, There shall no man see me and live."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Then they who say that they have seen God are liars?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— God forbid— they saw what it was possible for them to see."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Then the loving Lord accommodates his revelation to the capacity of them that see Him?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Yes; and this He has shown through the Prophet, for I, He says, have multiplied visions and by the hands of the Prophets was made like."
+  },
+  {
+   "type": "p",
+   "text": "He does not say was seen but was made like. And making like does not show the very nature of the thing seen. For even the image of the emperor does not exhibit the emperor's nature, though it distinctly preserves his features."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— This is obscure and not sufficiently plain. Was not then the substance of God seen by them who beheld those revelations?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— No; for who is mad enough to dare to say so?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— But yet it is said that they saw."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Yes; it is said; but we both in the exercise of reverent reason, and in reliance on the Divine utterances, which exclaim distinctly, No man has seen God at any time, affirm that they did not see the Divine Nature, but certain visions adapted to their capacity."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— So we say."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— So also then let us understand of the angels when we hear that they daily see the face of your Father. For what they see is not the divine substance which cannot be circumscribed, comprehended, or apprehended, which embraces the universe, but some glory made commensurate with their nature."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— This is acknowledged."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— After the incarnation, however, He was seen also of angels, as the divine apostle says, not however by similitude of glory, but using the true and living covering of the flesh as a kind of screen. God, he says, was made manifest in the flesh, justified in the Spirit, seen of angels."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I accept this as Scripture, but I am not prepared to accept the novelties of phrase."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— What novelties of phrase have we introduced?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— That of the screen. What Scripture calls the flesh of the Lord a screen?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You do not seem to be a very diligent reader of your Bible; if you had been you would not have found fault with what we have said as in a figure. For first of all the fact that the divine apostle says that the invisible nature was made manifest through the flesh allows us to understand the flesh as a screen of the Godhead. Secondly, the divine apostle in his Epistle to the Hebrews, distinctly uses the phrase, for he says, Having therefore, brethren, boldness to enter into the Holiest by the blood of Jesus by a new and living way, which he has consecrated for us, through the veil, that is to say his flesh; and having an High Priest over the House of God. Coming with truth drawing near with a true heart in fullness of faith."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Your demonstration is unanswerable, for it is based on apostolic authority."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Do not then charge us with innovation. We will adduce for you yet another prophetic authority, distinctly calling the Lord's flesh a robe and mantle."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Should it not appear obscure and ambiguous we will say nothing against it, and be thankful for it."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— I will make you yourself testify to the truth of the promise. You know how the Patriarch Jacob, when he was addressing Judah, limited the sovereignty of Judah by the birth of the Lord. A prince shall not fail Judah, nor a leader from his loins until he shall have come to whom it is in store and he is the expectation of the Gentiles. You have already confessed that this prophecy was uttered about the saviour."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I have."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Remember then what follows; for he says And unto him shall the gathering of the people be...he shall wash his robe in wine and his mantle in the blood of the grape."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The Patriarch spoke of garments, not of a body."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Tell me, then, when or where he washed his cloak in the blood of the grape?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Nay; tell me you when he reddened his body in it?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Answer I beseech you more reverently. Perhaps some of the uninitiated are within hearing."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I will both hear and answer in mystic language."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You know that the Lord called himself a vine?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Yes I know that he said I am the true vine."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Now what is the fruit of a vine called after it is pressed?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— It is called wine."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— When the soldiers wounded the Saviour's side with the spear, what did the evangelist say was poured out from it?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Blood and water."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Well, then; he called the Saviour's blood blood of the grape, for if the Lord is called a vine, and the fruit of the vine wine, and from the Lord's side streams of blood and water flowed downwards over the rest of his body, fitly and appropriately the Patriarch foretells He shall wash his robe in wine and his mantle in blood of the grape. For as we after the consecration call the mystic fruit of the vine the Lord's blood, so he called the blood of the true vine blood of the grape."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The point before us has been set forth in language at once mystical and clear."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Although what has been said is enough for your faith, I will, for confirmation of the faith, give you yet another proof."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I shall be grateful to you for so doing, for you will increase the favour done me."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You know how God called His own body bread?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Yes."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And how in another place he called His flesh grain?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Yes, I know. For I have heard Him saying The hour has come that the Son of man should be glorified, and Except a grain of wheat fall into the ground and die, it abides alone; but if it die it brings forth much fruit."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Yes; and in the giving of the mysteries He called the bread, body, and what had been mixed, blood."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— He so did."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Yet naturally the body would properly be called body, and the blood, blood."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Agreed."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— But our Saviour changed the names, and to His body gave the name of the symbol and to the symbol that of his body. So, after calling himself a vine, he spoke of the symbol as blood."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— True. But I am desirous of knowing the reason of the change of names."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— To them that are initiated in divine things the intention is plain. For he wished the partakers in the divine mysteries not to give heed to the nature of the visible objects, but, by means of the variation of the names, to believe the change wrought of grace. For He, we know, who spoke of his natural body as grain and bread, and, again, called Himself a vine, dignified the visible symbols by the appellation of the body and blood, not because He had changed their nature, but because to their nature He had added grace."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The mysteries are spoken of in mystic language, and there is a clear declaration of that which is not known to all."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Since then it is agreed that the body of the Lord is called by the patriarch robe and mantle and we have reached the discussion of the divine mysteries, tell me truly, of what do you understand the Holy Food to be a symbol and type? Of the godhead of the Lord Christ, or of His body and His blood?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Plainly of those things of which they received the names."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You mean of the body and of the blood?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I do."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You have spoken as a lover of truth should speak, for when the Lord had taken the symbol, He did not say this is my godhead, but this is my body; and again this is my blood and in another place the bread that I will give is my flesh which I will give for the life of the world."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— These words are true, for they are the divine oracles."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If then they are true, I suppose the Lord had a body."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— No; for I maintain him to be bodiless."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— But you confess that He had a body?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I say that the Word was made flesh, for so I have been taught."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— It seems, as the proverb has it, as if we are drawing water in a pail with a hole in it. For after all our demonstrations and solutions of difficulties, you are bringing the same arguments round again."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I am not giving you my arguments, but those of the gospels."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And have I not given you the interpretation of the words of the gospels from those of prophets and apostles?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— They do not serve to clear up the point at issue."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— And yet we showed how, being invisible, He was made manifest through flesh, and the relationship of this very flesh we have been taught by the sacred writers— He took on Him the seed of Abraham. And the Lord God said to the patriarch, in your seed shall all the nations of the earth be blessed, and the apostle, It is evident our Lord sprang out of Judah. We adduced further several similar testimonies; but, since you are desirous of hearing yet others, listen to the apostle when he says, For every high priest taken from among men is ordained that he may offer both gifts and sacrifices, wherefore it is of necessity that this man have somewhat also to offer."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Point out, then, how He offered after taking a body."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— The divine apostle himself clearly teaches in the very passage, for after a few words he says: Wherefore, when He comes into the world, He says, sacrifice and offering you would not, but a body have you prepared me. He does not say into a body have you changed, but a body have you prepared, and he shows plainly that the formation of the body was wrought by the Spirit in accordance with the utterance of the gospel, Fear not to take unto you Mary your wife; for that which is generated in her is of the Holy Ghost."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The virgin then gave birth only to a body?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— It appears that you do not even understand the composition of words, much less their meaning, for he is teaching Joseph the manner, not of the generation, but of the conception. For he does not say that which is generated *of* her, i.e. made, or formed, is of the Holy Ghost. Joseph, ignorant of the mystery, was suspicions of adultery; he was therefore plainly taught the formation by the Spirit. It is this which He signified through the prophet when He said A body have you prepared me for the divine Apostle being full of the Spirit interpreted the prediction. If then the offering of gifts is the special function of priests and Christ in His humanity was called priest and offered no other sacrifice save His own body, then the Lord Christ had a body."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— This even I have repeatedly affirmed, and I do not say that the divine Word appeared without a body. What I maintain is not that He took a body but that He was made flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— So far as I see our contest lies with the supporters of Valentinus, of Marcion, and of Manes; but even they never had the hardihood to say that the immutable nature underwent mutation into flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Reviling is unchristian."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— We do not revile, but we are fighting for truth, and we are vexed at your arguing about the indisputable as though it could be disputed. However, I will endeavour to put an end to your ungracious contention. Answer now; do you remember the promises which God made to David?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Which?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Those which the prophet inserted in the 88th Psalm."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I know that many promises were made to David. Which are you enquiring about now?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Those which refer to the Lord Christ."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Recall the utterances yourself, for you promised to adduce your proofs."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Listen now how the prophet praises God at the very beginning of the Psalm. He saw with his prophetic eyes the future iniquity of his people, and the captivity that was in consequence foredoomed; yet he praised his own Lord for unfailing promises. I will sing, he says, of the mercies of the Lord forever, with my mouth will I make known Your faithfulness to all generations, for you have said, Mercy shall be built up for ever, Your faithfulness shall You establish in the very heavens."
+  },
+  {
+   "type": "p",
+   "text": "Through all this the prophet teaches that the promise was made by God on account of lovingkindness, and that the promise is faithful. Then he goes on to say what He promised, and to whom, introducing God Himself as the speaker. (I have made a covenant with my chosen. ) It is the Patriarchs that He called chosen; then He goes on I have sworn unto David my servant, and He states concerning what He swore, Your seed will I establish for ever, and build up your throne to all generations."
+  },
+  {
+   "type": "p",
+   "text": "Now whom do you suppose to be called the seed of David?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The promise was made about Solomon."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Then he made his covenant with the Patriarchs about Solomon, for before what was said about David he mentioned the promises made to the Patriarchs I have made a covenant with my chosen, and He promised the Patriarchs that in their seed He would bless all nations. Kindly point out how the nations were blessed through Solomon."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Then God fulfilled this promise, not by means of Solomon, but of our Saviour."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— So then our Lord Christ gave the fulfilment to the promises made to David."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I hold that these promises were made by God, either about Solomon, or about Zerubbabel."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Just now you used the arguments of Marcion and Valentinus and of Manes. Now you have gone over to the directly opposite faction, and are advocating the impudence of the Jews. This is just like all those who turn out of a straight road; they err and stray first one way and then another, wandering in a wilderness."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Revilers are excluded by the Apostle from the kingdom."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Yes, if their revilings are vain. Sometimes the divine Apostle himself opportunely uses this mode of speech. He calls the Galatians foolish, and of others he says men of corrupt minds, reprobate concerning the faith, and again of another set, Whose God is their belly, whose glory is in their shame, and so forth."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— What occasion did I give you for reviling?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Do you really not think that the willing advocacy of the declared enemies of the truth furnishes the pious with very reasonable ground of indignation?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— And what enemies of the truth have I patronized?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Now, Jews."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— How so?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Jews connect prophecies of this kind with Solomon and Zerubbabel, in order to exhibit the groundlessness of the Christian position; but the mere words are quite enough to convict them of their iniquity, for it is written I will establish my throne for ever. Now not only Solomon and Zerubbabel, to whom such prophecies are applied by the Jews, have lived out their appointed time, and reached the end of life, but the whole race of David has become extinct; for who ever heard of any one at the present day descended from the root of David?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— But are not, then, those who are called Patriarchs of the Jews of the family of David?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Certainly not."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Whence, then, are they sprung?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— From the foreigner Herod, who, on his father's side, was an Ascalonite, and on his mother's an Idumæan; but they, too, have all disappeared, and many years have gone by since their sovereignty came to an end. But our Lord God promised not only to maintain the seed of David for ever, but to establish his kingdom undestroyed; for He said, I will build up my throne to all generations."
+  },
+  {
+   "type": "p",
+   "text": "But we see that his race is gone, and his kingdom come to an end. Yet though we see this, we know that the God of the Universe is true."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— That God is true is plain."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If, then, God is true, as in truth He is, and promised David that He would establish His race for ever, and keep his kingdom through all time, and if neither race nor kingdom are to be seen, for both have come to an end, how can we convince our opponents that God is true?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I suppose, then, the prophecy really points to the Lord Christ."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If, then, you confess this, let us investigate together a passage in the middle of the Psalm; we shall then more clearly see what the prophecy means."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Lead on; I will religiously follow in your footsteps."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— After making many promises about this seed that it should be Lord both by sea and land and higher than the kings of the earth and be called the first begotten of God, and should boldly call God, Father God also added this, My mercy will I keep for him for evermore and my covenant shall stand fast with him. His seed also will I make to endure for ever and his throne as the days of heaven."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The promise goes beyond the bounds of human nature, for both the life and the honour are indestructible and eternal. But men endure but for a season; their nature is short lived and their kingdom even during its lifetime undergoes many and various vicissitudes, so that truly the greatness of the prophecy befits none but the Saviour Christ."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Go on then to what follows and your opinion upon this point will be in every way confirmed, for again says the God of the universe, Once have I sworn by my holiness, if I lie unto David, his seed shall endure for ever and his throne as the sun before me. It shall be established for ever as the moon."
+  },
+  {
+   "type": "p",
+   "text": "Then, pointing out the truth of the promise He adds, And the witness is faithful in heaven."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— We must believe without doubt in the promises given by the faithful witness, for, if we are wont to believe men who have promised to speak the truth even if they do not confirm their words with an oath, who can be so mad as to disbelieve the Creator of the Universe, when He adds an oath to his words? For He who forbids others to swear confirmed the immutability of his counsel by an oath, that by two immutable things in which it was impossible for God to lie we might have a strong consolation who have fled for refuge to lay hold upon the hope set before us."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If then the promise is irrefragable, and among the Jews there is now neither family nor kingdom of the prophet David to be seen, let us believe that our Lord Jesus Christ is plainly called seed of David in His humanity, for of Him the life and the kingdom are both alike eternal."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— We have no doubt; and this I own to be the truth."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— These proofs then are sufficient to show clearly the manhood which our Lord and Saviour took of David's seed. But to remove all possibility of doubt by the witness of the majority, let us hear how God makes mention of the promises given to David through the voice of the prophet Isaiah. I will make, he says, an everlasting covenant with you, and, signifying the law-giver, he adds, even the sure mercies of David."
+  },
+  {
+   "type": "p",
+   "text": "Since He made this promise to David, and spoke through Esaias, He will assuredly bring the promise to pass. And what follows after the prophecy is in harmony with what I say, for he says Behold I have given him for a witness to the people, a leader and commander to the people. Behold nations that know you not shall call upon you, and peoples that understand you not shall run unto you. Now this fits in with none that are sprung from David, for who of David's descendants, as Esaias says, was made a ruler of nations? And what nations in their prayers ever called on David's descendants as God?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— About what is perfectly clear it is unbecoming to dispute, and this plainly refers to the Lord Christ."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Then let us pass on to another prophetic testimony and let us hear the same prophet saying There shall come forth a rod out of the stem of Jesse and a branch shall grow out of his roots."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I think this prophecy was delivered about Zerubbabel."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If you hear what follows, you will not remain in your opinion. The Jews have never so understood this prediction, for the prophet goes on, and the Spirit of the Lord shall rest upon him, the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and the fear of the Lord. This would never be attributed by any one to a mere man, for even to the very holy the gifts of the Spirit are given by division, as the divine apostle witnesses when he says, To one is given by the Spirit the word of wisdom, to another the word of knowledge by the same Spirit, and so on. The prophet describes Him who sprang from the root of Jesse as possessing all the powers of the spirit."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— To gainsay this were sheer folly."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Now hear what follows. You will see some things that transcend human nature, he goes on. He shall not judge after the sight of His eyes, neither reprove after the hearing of His ears, but with righteousness shall He judge the poor, and reprove with equity the mighty of the earth, and He shall smite the earth with the word of His mouth, and with the breath of His lips shall he slay the wicked. Now of these predictions some are human and some divine. Justice, truth, equity, and rectitude in giving judgment exhibit virtue in human nature."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— We have so far clearly learned that the prophet predicts the coming of our Saviour Christ."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— The sequel will show you yet more plainly the truth of the interpretation. For he goes on, The wolf shall dwell with the lamb, and so on, whereby he teaches at once the distinction of modes of life and the harmony of faith; and experience furnishes a proof of the prediction, for they that abound in wealth, they that live in poverty, servants and masters, rulers and ruled, soldiers and citizens and they that wield the sceptre of the world are received in one font, are all taught one doctrine, are all admitted to one mystic table, and each of the believers enjoys an equal share."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— It is thus shown that God is spoken of."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Not only God but man. So at the very beginning of this prediction he says that a rod shall grow out of the root of Jesse. Then at the conclusion of the prediction he takes up once more the strain with which he began, for he says There shall be a root of Jesse which shall stand for an ensign of the people, to it shall the Gentiles seek and his rest shall be glorious. Now Jesse was the father of David, and the promise with an oath was made to David. The prophet would not have spoken of the Lord Christ as a rod growing out of Jesse if he had only known Him as God. The prediction also foretold the change of the world, for the earth he says shall be full of the knowledge of the Lord as the waters cover the sea."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I have heard the prophetic utterances. But I was anxious to know clearly if the divine company of the apostles also says that the Lord Christ sprang from the seed of David according to the flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You have asked for information which so far from being hard is exceedingly easy to give you. Only listen to the first of the apostles exclaiming David being a prophet and knowing that God had sworn an oath to him that of the fruit of his loins, according to the flesh, He would raise up Christ to sit upon His throne; he seeing this before spoke of the resurrection of Christ, that His soul was not left in hell neither His flesh did see corruption."
+  },
+  {
+   "type": "p",
+   "text": "Hence you may perceive that of the seed of David according to the flesh sprang the Lord Christ, and had not flesh only but also a soul."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— What other apostle preached this?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— The great Peter alone was sufficient to testify to the truth, for the Lord after receiving the confession of the truth given by Peter alone confirmed it by a memorable approval. But since you are anxious to hear others proclaiming this same thing, hear Paul and Barnabas preaching in Antioch in Pisidia; for they, when they had made mention of David, continued Of this man's seed has God according to his promise raised unto Israel a Saviour, Jesus, and so on. And in a letter to Timothy the divine Paul says Remember that Jesus Christ of the seed of David was raised from the dead according to my gospel. And, when writing to the Romans, at the very outset he calls attention to the Davidic kin, for he says Paul a servant of Jesus Christ, called to be an apostle, separated unto the gospel of God which He had promised before by his prophets in the holy scriptures concerning His Son which was made of the seed of David according to the flesh, and so on."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Your proofs are numerous and convincing; but tell me why you have omitted what follows?"
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Because it is not about the Godhead, but about the manhood, that you are in difficulties. Had you been in doubt about the Godhead, I would have given you proof of it. It is enough to say according to the Flesh to declare the Godhead which is not expressed in terms. When speaking of a relationship of man in general I do not say the son of such an one according to the flesh, but simply son, so the divine Evangelist writing his genealogy says Abraham begot Isaac and does not add according to the flesh, for Isaac was merely man, and he mentions the rest in like manner, for they were men and had no qualities transcending their nature. But when the heralds of the truth are discoursing of our Lord Christ, and are pointing out to the ignorant His lower relation, they add the words according to the flesh, thus indicating His Godhead and teaching that the Lord Christ was not only man but also Eternal God."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— You have adduced many proofs from the apostles and prophets, but I follow the words of the Evangelist The Word was made Flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— I also follow this divine teaching, but I understand it in a pious sense, as meaning that He was made Flesh by taking flesh and a reasonable soul. But if the divine Word took nothing of our nature, then the covenants made with the patriarchs by the God of all with oaths were not true, and the blessing of Judah was vain, and the promise to David was false, and the Virgin was superfluous, because she did not contribute anything of our nature to the Incarnate God. Then the predictions of the prophets have no fulfilment. Then vain is our preaching, vain our faith and vain the hope of the resurrection for the Apostle, it appears, lies when he says and has raised us up together and made us sit together in heavenly places in Christ Jesus. For if the Lord Christ had nothing of our nature then He is falsely described as our first fruits, and His bodily nature has not risen from the dead and has not taken the seat in Heaven on the right hand; and if He has obtained none of these things, how has God raised us up together and made us sit together with Christ, when we in no wise belong to Him in Nature? But it is impious to say this, for the divine apostle, though the general resurrection has not yet taken place, though the kingdom of heaven has not yet been bestowed upon the faithful, exclaims, He has raised us up together and made us sit together in heavenly places in Christ Jesus, in order to teach that since the resurrection of our first fruits, and His sitting on the right hand has come to pass, we too in general shall attain the resurrection, and that all they who share in His nature and have adopted His faith, share too in the first fruits of His glory."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— We have gone through many and sound arguments, but I was anxious to know the force of the Gospel saying."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You stand in need of no interpretation from without. The evangelist himself interprets himself. For after saying the Word was made flesh, he goes on and dwelt among us. That is to say by dwelling in us, and using the flesh taken from us as a kind of temple, He is said to have been made flesh, and, teaching that He remained unchanged, the evangelist adds and we beheld His glory— the glory as of the only begotten of the Father, full of grace and truth. For though clad with flesh He exhibited His Father's nobility, shot forth the beams of the Godhead, and emitted the radiance of the power of the Lord, revealing by His works of wonder His hidden nature. A similar illustration is afforded by the words of the divine apostle to the Philippians: Let this mind be in you which was also in Christ Jesus, who being in the form of God thought it not robbery to be equal with God, but made Himself of no reputation and took upon Him the form of a servant and was made in the likeness of men, and being found in fashion as a man he humbled Himself and became obedient unto death even the death of the cross."
+  },
+  {
+   "type": "p",
+   "text": "Look at the relation of the utterances. The evangelist says the Word was made flesh and dwelt among us, the apostle, took upon him the form of a servant; the evangelist We beheld His glory, the glory as of the only begotten of the Father— the apostle, who being in the form of God thought it not robbery to be equal with God. To put the matter briefly, both teach that being God and son of God, and clad with His Father's glory, and having the same nature and power with Him that begot Him, He that was in the beginning and was with God, and was God, and was Creator of the world, took upon Him the form of a servant, and it seemed that this was all which was seen; but it was God clad in human nature, and working out the salvation of men. This is what was meant by The word was made flesh and was made in the likeness of men and being found in fashion as a man. This is all that was looked at by the Jews, and therefore they said to him For a good work we stone You not but for blasphemy and because that You being a man make Yourself God, and again This man is not of God because He keeps not the Sabbath Day."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The Jews were blind on account of their unbelief, and therefore used these words."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— If you find even the apostles before the resurrection thus saying, will you receive the interpretation? I hear them in the boat, after the mighty miracle of the calm, saying what manner of man is this, that even the winds and the sea obey Him?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— This is made plain. But now tell me this—the divine apostle says that He was made in the likeness of man."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— What was taken of him was not man's likeness, but man's nature. For form of a servant is understood just as the form of God is understood to mean God's nature. He took this, and so was made in the likeness of man, and was found in fashion as a man. For, being God, He seemed to be man, on account of the nature which He took. The evangelist, however, speaks of His being made in the likeness of man as His being made flesh. But that you may know that they who deny the flesh of the Saviour are of the opposite spirit, hear the great John in his Catholic Epistle saying Every spirit that confesses that Jesus Christ has come in the flesh is of God, and every spirit that confesses not that Jesus Christ has come in the flesh is not of God, and this is that spirit of Anti-Christ."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— You have given a plausible interpretation, but I was anxious to know how the old teachers of the Church have understood the passage the word was made flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— You ought to have been persuaded by the apostolic and prophetic proofs; but since you require further the interpretations of the holy Fathers I will also furnish you, God helping me, this medicine."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Do not bring me men of obscure position or doubtful doctrine. I shall not receive the interpretation of such as these."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Does the far famed Athanasius, brightest light of the church of Alexandria, seem to you to be worthy of credit?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Certainly, for he ratified his teaching by the suffering he underwent for the Truth's sake."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Hear then how he wrote to Epictetus. The expression of John 'the Word was made flesh' has this interpretation, so far as can be discovered from the similar passage which we find in St. Paul 'Christ was made a curse for us.' It is not because He was made a curse but because He received the curse on our behalf that He is said to have been made a curse, and so it is not because He was turned into flesh, but because He took flesh on our behalf, that He is said to have been made flesh. So far the divine Athanasius. Gregory, too, whose glory among all men is great, who formerly ruled the Imperial city at the mouth of the Bosphorus and afterwards dwelt at Nazianzus, thus wrote to Cledonius against the specious fallacies of Apollinarius."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— He was an illustrious man and a foremost fighter in the cause of piety."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Hear him then. He says the expression 'He was made Flesh' seems to be parallel to His being said to have been made sin and a curse, not because the Lord was transmuted into these—for how could He?— but because He accepted these when He took on Him our iniquities and bore our infirmities."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— The two interpretations agree."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— We have shown you the pastors of the south and north in harmony; now then let us introduce too the illustrious teachers of the west, who have written their interpretation, if with another tongue, yet with one and the same mind."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I am told that Ambrosius, who adorned the episcopal throne at Milan, fought in the first ranks against all heresy, and wrote works of great beauty and in agreement with the teaching of the apostles."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— I will give you his interpretation. Ambrosius says in his work concerning the faith It is written that the Word was made flesh. I do not deny that it is written, but look at the terms used; for there follows 'and dwelt among us,' that is to say dwelt in human flesh. You are therefore astonished at the terms in which it is written that the Word was made flesh, on the assumption of flesh, by the divine Word, when also concerning sin which He had not, it is said that He was made sin, that is to say not that He was made the nature and operation of sin, but that he might crucify our sin in the flesh; let them then give over asserting that the nature of the Word has undergone change and alteration, for He who took is one and that which was taken other."
+  },
+  {
+   "type": "p",
+   "text": "It is now fitting that you should hear the teachers of the east, this being the only quarter of the east, this being the only quarter of the world which we have hitherto left unnoticed, though they indeed might well have first witnessed to the truth, for to them was first imparted the teaching of the apostles. But since you have sharpened your tongues against the first-born sons of piety by whetting them on the hone of falsehood, we have reserved for them the last place, that after first hearing the rest, you might lay witness by the side of witness, and so at once admire their harmony, and cease from your own interminable talk. Listen then to Flavianus who for a long time right wisely moved the tiller of the church of Antioch, and made the churches which he guided ride safe over the Arian storm, by expounding to them the word of the gospel. The Word was made flesh and dwelt among us; He is not turned into flesh, nor yet did he cease from being God, for this he was from all eternity and became flesh in the dispensation of the incarnation after himself building his own temple, and taking up his abode in the passible creature. And if you desire to hear the ancients of Palestine, lend your ears to the admirable Gelasius, who did diligent husbandry in the church of Cæsarea. Now these are his words in his homily on the festival of the Lord's epiphany. Learn the truth from the words of John the Fisherman, 'And the word was made flesh,' not having himself undergone change, but having taken up his abode with us. The dwelling is one thing; the Word is another; the temple is one thing, and God who dwells in it, another."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I am much struck by the agreement."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Now do you not suppose that the rule of the apostolic faith was kept by John, who first nobly watered the field of the church of the Antiochenes, and then was a wise husbandman of that of the imperial city?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I hold this teacher to be in all respects an admirable one."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Well, this most excellent man has interpreted this passage of the Gospel. He writes, When you hear that the Word was made flesh, be not startled or cast down, for the substance did not deteriorate into flesh— an idea of the uttermost impiety— but continuing to be just what it is, so took the form of a servant. For just as when the apostle says 'Christ has redeemed us from the curse of the law, being made a curse for us,' he does not say that the substance of Christ departed from His own glory, and took the substance of a curse, a position which not even devils would imagine, nor the utterly senseless, and the naturally idiotic— so remarkable being the connection between impiety and insanity. But what he does assert is that after receiving the curse due to us, He does not suffer us to be cursed for the future. It is in this sense that He is stated to have been made flesh, not because he had changed the substance into flesh, but because he had assumed the flesh, the substance remaining all the while unimpaired."
+  },
+  {
+   "type": "p",
+   "text": "You may like to hear also Severianus, Bishop of Gabala. If so, I will adduce his testimony and do you lend your ears."
+  },
+  {
+   "type": "p",
+   "text": "The text 'the Word was made flesh' does not indicate a deterioration of nature but the assumption of our nature. Suppose you take the word 'was made' to indicate a change; then when you hear Paul saying 'Christ has redeemed us from the curse of the law, being made a curse for us,' do you understand him to mean a change into the nature of a curse? Just as being made a curse had no other meaning than that He took our curse upon Himself, so the words was made flesh and dwelt among us mean nothing other than the assumption of flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I admire the exact agreement of these men. For they are as unanimous in giving the same interpretations of evangelical writings as if they had met in the same place and written down their opinion together."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Mountains and seas separate them very far from one another, yet distance does not damage their harmony, for they were all inspired by the same gift of the spirit. I would also have offered you the interpretations of the victorious champions of piety Diodorus and Theodorus, had I not seen that you were ill disposed towards them, and had inherited the hostility of Apollinarius; you would have seen that they have expressed similar experiences, drawing water from the divine Fount, and becoming themselves too, streams of the spirit. But I will pass them by, for you have declared a truceless war against them. I will, however, show you the famous teacher of the Church, and his mind about the divine incarnation, that you may know what opinion he held concerning the assumed nature. You have no doubt heard of the illustrious Ignatius, who received episcopal grace by the hand of the great Peter, and after ruling the church of Antioch, wore the crown of martyrdom. You have heard too of Irenæus, who enjoyed the teaching of Polycarp, and became a light of the western Gauls;— of Hippolytus and Methodius, bishops and martyrs, and the rest, whose names I will append to their expressions of opinion."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I am exceedingly desirous of hearing their testimony too."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Hear them now bringing forward the apostolic teaching. *Testimony of Saint Ignatius, bishop of Antioch, and martyr.*"
+  },
+  {
+   "type": "p",
+   "text": "*From the letter to the Smyrnæans* (I.):—"
+  },
+  {
+   "type": "p",
+   "text": "Having a full conviction with respect to our Lord as being truly descended from David according to the flesh, son of God according to Godhead and power, born really of a virgin, baptized by John that all righteousness might be fulfilled by Him, really in the time of Pontius Pilate and of Herod the tetrarch crucified for our sake in the flesh."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same in the same epistle:*—"
+  },
+  {
+   "type": "p",
+   "text": "For what advantages it me if a man praises me but blasphemes my Lord, in not confessing him to be a bearer of flesh? But he who does not make this confession really denies Him and is himself bearer of a corpse."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same epistle:*—"
+  },
+  {
+   "type": "p",
+   "text": "For if these things were done by our Lord in appearance only, then it is in appearance only that I am a prisoner in chains; and why have I delivered myself to death, to fire, to sword, to the beasts? But he who is near to the sword is near to God. Only in the name of Jesus Christ that I may share his sufferings I endure all things while He, Perfect Man whom some in their ignorance deny, gives me strength."
+  },
+  {
+   "type": "p",
+   "text": "*From the same in the letter to the Ephesians:*—"
+  },
+  {
+   "type": "p",
+   "text": "For our God Jesus Christ was born in Mary's womb by dispensation of God of the seed of David and of the Holy Ghost who was born and was baptized that our mortality might be purified."
+  },
+  {
+   "type": "p",
+   "text": "*From the same epistle:*—"
+  },
+  {
+   "type": "p",
+   "text": "If you all individually come together by grace name by name in one faith, and in one Jesus Christ according to the flesh of David's race Son of God and Son of man."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same epistle:*—"
+  },
+  {
+   "type": "p",
+   "text": "There is one Physician of flesh and of spirit generate and ingenerate, God in man, true life in death, Son of Mary and of God, first passible and then impassible, Jesus Christ our Lord."
+  },
+  {
+   "type": "p",
+   "text": "*Lastly of the same in his epistle to the Trallians:*—"
+  },
+  {
+   "type": "p",
+   "text": "Be made deaf therefore when any man speaks to you apart from Jesus Christ, who was of David's race and of Mary, who was really born and really ate and drank and was persecuted in the time of Pontius Pilate, was crucified and died, while beings on earth and beings in heaven and beings under the earth were looking on."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of Irenæus bishop of Lyons, from his third book Against the heresies:*—"
+  },
+  {
+   "type": "p",
+   "text": "Why then did they add the words 'In the city of David,' save to proclaim the good news that the promise made by God to David, that of the fruit of his loins should come an everlasting king, was fulfilled; a promise which indeed the Creator of the world had made."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same book:*—"
+  },
+  {
+   "type": "p",
+   "text": "And when he says 'Hear now, Oh House of David' he means that the everlasting King whom God promised to David that he would raise up from his body is He who was born of David's Virgin."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same book:*—"
+  },
+  {
+   "type": "p",
+   "text": "If then the first Adam had had a human father and had been begotten of seed, it would have been reasonable to say that the second Adam had been begotten of Joseph. But if the former was taken from earth, and his creator was God, it was necessary also that He who renews in himself the man created by God should have the same likeness of generation with that former. Why then did not God again take dust? Why did he on the other hand ordain that the formation should be made of Mary? That there might be no other creation; that that which was being saved might be no other thing; but that the former might himself be renewed without loss of the likeness. For then do they too fall away who allege that He took nothing from the Virgin, that they may repudiate the inheritance of the flesh and cast off the likeness."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same book:*—"
+  },
+  {
+   "type": "p",
+   "text": "Since his going down into Mary is useless; for why went He down into her if He was designed to take nothing from her? And further, if He had taken nothing from Mary He would not have accepted the food taken from earth whereby is nourished the body taken from earth, nor would He like Moses and Elias, after fasting forty days, have hungered, on account of His body demanding its own food, nor yet would John his disciple when writing about him have said— 'Jesus being wearied from his journey sat,' nor would David have uttered the prediction about him 'And they added to the pain of my wounds,' nor would he have wept over Lazarus, nor would He have sweated drops of blood, nor would He have said, 'my soul is exceedingly sorrowful,' nor yet when He was pierced would blood and water have issued from His side. For all these things are proofs of the flesh taken from earth, which He had renewed in Himself in the salvation of his own creature."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same book:*—"
+  },
+  {
+   "type": "p",
+   "text": "For as by the disobedience of the one man who was first formed from rude earth the many were made sinners and lost their life, so also was it fitting that through obedience of one man, the firstborn of a virgin, many should be made righteous and receive their salvation."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same work:*—"
+  },
+  {
+   "type": "p",
+   "text": "'I have said you are gods and all of you children of the Most High but you shall die like man.' This He says to them that did not accept the gift of adoption, but dishonour the incarnation of the pure generation of the word of God, deprive man of his ascent to God, and are ungrateful to the Word of God who for their sakes was made flesh. For this cause was the word made man that man receiving the word and accepting the adoption should be made God's son."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same book:*—"
+  },
+  {
+   "type": "p",
+   "text": "Since then on account of the foreordained dispensation the spirit came down, and the only begotten Son of God, who also is Word of the Father, when the fullness of time had come, was made flesh in man and our Lord Jesus Christ— being one and the same— fulfilled all the human dispensation as the Lord himself testifies, and the apostles confess, all the teachings of men who invented the ogdoads and tetrads and similitudes are proved plainly false."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of the Holy Hippolytus, Bishop and Martyr, from his discourse on* *The Lord is my shepherd:*—"
+  },
+  {
+   "type": "p",
+   "text": "And an ark of incorruptible wood was the Saviour Himself, for the incorruptibility and indestructibility of His Tabernacle signified its producing no corruption of sin. For the sinner who confesses his sin says 'My wounds stink and are corrupt because of my foolishness.' But the Lord was without sin, made in His human nature of incorruptible wood, that is to say, of the Virgin and the Holy Ghost, overlaid within and without, as it were, by purest gold of the word of God."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his discourse on Elkanah and Hannah:*—"
+  },
+  {
+   "type": "p",
+   "text": "Bring me then, O Samuel, the Heifer drawn to Bethlehem, that you may show the King begotten of David, and anointed King and Priest by the Father."
+  },
+  {
+   "type": "p",
+   "text": "*From the same discourse:*—"
+  },
+  {
+   "type": "p",
+   "text": "Tell me, O Blessed Mary, what it was that was conceived by you in the womb; what it was that was borne by you in a Virgin's womb. It was the Word of God, firstborn from Heaven, on you descending, and man firstborn being formed in a womb, that the first born Word of God might be shown united to a firstborn man."
+  },
+  {
+   "type": "p",
+   "text": "*From the same discourse:*—"
+  },
+  {
+   "type": "p",
+   "text": "The second, which was through the prophets as through Samuel, he revokes, and turns his people from the slavery of strangers. The third, in which He took the manhood of the Virgin and was present in the flesh; who, when He saw the city wept over it."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his discourse on the beginning of Isaiah:* —"
+  },
+  {
+   "type": "p",
+   "text": "He likens the world to Egypt; its idolatry, to images; its removal and destruction to an earthquake. The Word he calls the 'Lord' and by a 'swift cloud' he means the right pure tabernacle enthroned on which our Lord Jesus Christ entered into life to undo the fall."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of the Holy Methodius*, *bishop and martyr, from his discourse on the martyrs:*—"
+  },
+  {
+   "type": "p",
+   "text": "So wonderful and precious is martyrdom that our Lord Jesus Christ Himself, the Son of God, testified in its honour that He thought it not robbery to be equal with God, that He might crown with this grace the Manhood into whom He had come down."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of the holy Eustathius, bishop* *of Antioch, confessor. From his interpretation of the xvith Psalm:*—"
+  },
+  {
+   "type": "p",
+   "text": "The soul of Jesus experienced both. For it was in the place of the souls of men and being made without the flesh, lives and survives. So it is reasonable and of the same substance as the souls of men, just as the flesh is of the same substance as the flesh of men, coming forth from Mary."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his work about the soul:*—"
+  },
+  {
+   "type": "p",
+   "text": "On looking at the education of the child, or at the increase of his stature, or at the extension of time, or at the growth of the body, what would they say? But, to omit the miracles wrought upon earth, let them behold the raisings of the dead to life, the signs of the Passion, the marks of the scourges, the bruises and the blows, the wounded side, the prints of the nails, the shedding of the blood, the evidences of the death, and in a word the actual resurrection of the very body."
+  },
+  {
+   "type": "p",
+   "text": "*From the same work:*—"
+  },
+  {
+   "type": "p",
+   "text": "Indeed if any one looks to the generation of the body, he would clearly discover that after being born at Bethlehem He was wrapped in swaddling clothes, and was brought up for some time in Egypt, because of the evil counsel of the cruel Herod, and grew to man's estate at Nazareth."
+  },
+  {
+   "type": "p",
+   "text": "*From the same work:*—"
+  },
+  {
+   "type": "p",
+   "text": "For the tabernacle of the Word and of God is not the same, whereby the blessed Stephen beheld the divine glory."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his sermon on the Lord created me in the beginning of His way: *—"
+  },
+  {
+   "type": "p",
+   "text": "If the Word received a beginning of His generation from the time when passing through His mother's womb He wore the human frame, it is clear that He was made of a woman; but if He was from the first Word and God with the Father, and if we assert that the universe was made by Him, then He who is and is the cause of all created things was not made of a woman, but is by nature God, self existent, infinite, incomprehensible; and of a woman was made man, formed in the Virgin's womb by the Holy Ghost."
+  },
+  {
+   "type": "p",
+   "text": "*From the same work:*—"
+  },
+  {
+   "type": "p",
+   "text": "For a temple absolutely holy and undefiled is the tabernacle of the word according to the flesh, wherein God visibly made his habitation and dwelt, and we assert this not of conjecture, for He who is by nature the Son of this God when predicting the destruction and resurrection of the temple distinctly instructs us by His teaching when He says to the murderous Jews, 'Destroy this temple and in three days I will raise it up.'"
+  },
+  {
+   "type": "p",
+   "text": "*From the same work:*—"
+  },
+  {
+   "type": "p",
+   "text": "When then the Word built a temple and carried the manhood, companying in a body with men, He invisibly displayed various miracles, and sent forth the apostles as heralds of His everlasting kingdom."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his interpretation of Psalm xcii:*—"
+  },
+  {
+   "type": "p",
+   "text": "It is plain then if 'He that anoints' means God whose throne He calls 'everlasting,' the anointer is plainly by nature God, begotten of God. But the anointed took an acquired virtue, being adorned with a chosen temple of the Godhead dwelling in it."
+  },
+  {
+   "type": "p",
+   "text": "*The testimony of the holy Athanasius, Bishop of Alexandria and Confessor. From the defence of Dionysius Bishop of Alexandria:*—"
+  },
+  {
+   "type": "p",
+   "text": "'I am the vine, you are the branches. My Father is the husbandman.' For we according to the body are of kin to the Lord, and for this reason He himself said 'I will declare your name unto my brethren.' And just as the branches are of one substance with the vine, and of it, so too we, since we have bodies akin to the body of the Lord, receive them of His fullness, and have it as a root for our resurrection and salvation. And the Father is called a husbandman, for He Himself through the Word tilled the vine which is the Lord's body."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same treatise:*—"
+  },
+  {
+   "type": "p",
+   "text": "The Lord was called a vine on account of His bodily relationship to the branches which are ourselves."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his greater oration concerning the faith:*—"
+  },
+  {
+   "type": "p",
+   "text": "The scripture 'in the beginning was the Word' clearly indicates the Godhead. The passage 'the Word was made flesh' shows the human nature of the Lord."
+  },
+  {
+   "type": "p",
+   "text": "*From the same discourse:*—"
+  },
+  {
+   "type": "p",
+   "text": "'He shall wash His garments in wine' that is His body, which is the vestment of the Godhead in His own blood."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same discourse:*—"
+  },
+  {
+   "type": "p",
+   "text": "The Word 'was' is referred to His divinity, the words 'was made flesh' to His body, the Word was made flesh not by being reduced to flesh, but by bearing flesh, just as any one might say such an one became or was made an old man, though not so born from the beginning, or the soldier became a veteran, not being previously such as he became. John says, 'I became,' or 'was in the island of Patmos on the Lord's day.' Not that he was made or born there, but he says 'I became or was in Patmos' instead of saying 'I arrived;' so the Word 'arrived' at flesh, as it is said 'the Word was made flesh.' Hear the words 'I became like a broken vessel,' and 'I became like a man that has no strength, free among the dead.'"
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his letter to Epictetus:*—"
+  },
+  {
+   "type": "p",
+   "text": "Whoever heard such things? Who taught them? Who learned them? 'Out of Zion shall go forth the law and the Word of the Lord from Jerusalem.' But whence did these things come forth? What hell vomited them out? To say that the body taken of Mary was of the same substance as the Godhead of the Word, or that the Word was changed into flesh and bones and hairs and a whole body; whoever heard in a church or at all among Christians that God bore a body by adoption and not by birth?"
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same Epistle:*—"
+  },
+  {
+   "type": "p",
+   "text": "But who, hearing that the Word made for Himself a passible body, not of Mary, but of His own substance, would call the sayer of these things a Christian? Who has invented so unfounded an impiety, as even to think and to say that they who affirm the Lord's body to be of Mary, conceive no longer of a Trinity, but of a quaternity in the godhead? As though they that are of this opinion described the flesh which the Saviour clothed himself with of Mary as of the substance of the Trinity."
+  },
+  {
+   "type": "p",
+   "text": "Whence further have some men vomited forth an impiety as bad as the foregoing, and alleged that the body is not of later time than the godhead of the Word, but has always been co-eternal with it, since it is formed of the substance of wisdom."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same letter:*—"
+  },
+  {
+   "type": "p",
+   "text": "So the body taken of Mary was human according to the scriptures, and real in that it was the same as our own. For Mary was our sister, since we are all of Adam, a fact which no one could doubt who remembers the words of Luke."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of the holy Basil, bishop of Cæsarea:*—"
+  },
+  {
+   "type": "p",
+   "text": "*From the interpretation of Psalm LX.*"
+  },
+  {
+   "type": "p",
+   "text": "All strangers have stooped and been put under the yoke of Christ, wherefore also 'over Edom?' does he 'cast out' his 'shoe.' Now the shoe of the Godhead is the flesh which bore God whereby he came among men."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his writings about the Holy Ghost to Amphilochius:*—"
+  },
+  {
+   "type": "p",
+   "text": "He uses the phrase 'of whom' instead of 'through whom;' as when Paul says 'made of a woman.' He clearly made this distinction for us in another place where he says that the being made of the man is proper to a woman, but to a man the being made by the woman, in the words 'For as the woman is of the man so is the man by the woman.' But with the object at once of pointing out the different use of these expressions, and of correcting *obiter* an error of certain men who supposed the body of the Lord to be spiritual, that he may show how the God-bearing flesh was composed of human matter, he gives prominence to the more emphatic expression, for the expression 'by a woman' was in danger of suggesting that the sense of the word generation was merely in passing through, while the phrase 'of the woman' makes the common nature of the child and of the mother plain enough."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of the holy Gregory bishop of Nazianus. From the former exposition to Cledonius:*—"
+  },
+  {
+   "type": "p",
+   "text": "If any one says that the flesh came down from heaven, and not from this earth, and from us, let him be Anathema. For the words 'The second man is from heaven,' and 'as is the heavenly such are they also that are heavenly' and 'no man has ascended up to heaven but the son of man that came down from heaven,' and any other similar passage, must be understood to be spoken on account of the union with man, as also the statement that 'all things were made by Christ,' and that 'Christ dwells in our hearts,' must be understood not according to the sensible, but according to the intellectual conception of the Godhead, the terms being commingled together just as are the natures."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same work:*—"
+  },
+  {
+   "type": "p",
+   "text": "Let us see from their own words what reason they give for the being made man, that is for the incarnation. If indeed it was that God otherwise not contained in space, might be contained in space and, as it were under a veil, might converse with men in the flesh, then their mask and their stage play are exquisite: not to say that it was possible for Him otherwise to converse with us, as of yore, in a burning bush and in human form, but if that He might undo the damnation of sin by taking like to like then just as He required flesh on account of the condemned flesh, and a soul on account of the soul, so too he required a mind on account of the mind, which in Adam not only fell but—to employ a term which physicians are accustomed to use about diseases— was affected with original malady. For that which did not keep the commandment was what had received the commandment; and that which dared transgression was what had not kept the commandment; and that which specially needed salvation was what had transgressed, and that which was assumed was what needed salvation; so the mind was assumed. Now this point has been demonstrated, whether they will or no, by proofs which are so to say mathematical and necessary. But you are doing just as though, if a man were to have a diseased eye and a limping foot you were to cure the foot but leave the eye uncured; or, if a painter had painted a picture badly, were to alter the picture, but leave the painter alone, as though he were doing his work well. But if they are so constrained by these arguments as to take refuge in the statement that it is possible for God to save man, even without a mind, why then clearly He might have done so even without flesh, by the mere expression of His will, just as He works and has worked in the universe without a body. Away then with the flesh as well as with the mind! Let there be no inconsistency in your absurdity."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of the Holy Gregory, bishop of Nyssa. From his sermon on Abraham:*—"
+  },
+  {
+   "type": "p",
+   "text": "So the Word came down not naked, but after having been made flesh, not in the form of God, but in the form of a servant. This then is He who said that He could do nothing of Himself. For the not being able is the part of powerlessness. For as darkness is opposed to light, and death to life, so is weakness to power. But yet Christ is Power of God. Power is wholly inconsistent with not being able. For if power were powerless what is powerful? When then the Word declares that He can do nothing it is plain that He does not attribute his powerlessness to the Godhead of the Only-begotten, but connects his not being able with the powerlessness of our nature. The flesh is weak, as it is written, 'The spirit is willing, but the flesh is weak.'"
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his Book on the Perfection of Life:*—"
+  },
+  {
+   "type": "p",
+   "text": "Again the true lawgiver, of whom Moses was a type, hewed for Himself out of our earth the slabs of nature. No wedlock fashioned for Him the flesh that was to receive the godhead, but He Himself is made the hewer of His own flesh, graven as it is by the finger of God. For the Holy Ghost came upon the Virgin, and the power of the Highest overshadowed her. And when this had come to pass, nature once again took its indestructible character, being made immortal by the marks of the divine finger."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his Book against Eunomius:*—"
+  },
+  {
+   "type": "p",
+   "text": "We assert therefore that when He said above that wisdom built for herself a house, he intimates by the phrase the formation of the flesh of the Lord, for the very wisdom made its home in no strange dwelling, but built itself its dwelling of the Virgin's body."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same treatise:*—"
+  },
+  {
+   "type": "p",
+   "text": "The Word was before the ages, but the flesh was made in the last times, and no one would say on the contrary either that the flesh was before the ages, or the Word made in the last times."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the same treatise:*—"
+  },
+  {
+   "type": "p",
+   "text": "The expression 'created me' is not to be understood of the divine and the undefiled, but, as has been said, of our created nature, according to the dispensation of the incarnation."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the first discourse on the Beatitudes:*—"
+  },
+  {
+   "type": "p",
+   "text": "'Who being in the form of God, thought it not robbery to be equal with God, but emptied himself, and took the form of a servant.' What poorer, in respect of God, than the form of a servant? What more lowly, in respect of the King of all, than approach to fellowship in our poor nature? The King of Kings and Lord of Lords voluntarily dons the form of servitude."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of the Holy Flavianus, bishop of Antioch. From his sermon on John the Baptist:*—"
+  },
+  {
+   "type": "p",
+   "text": "Do not think of connection in any physical sense, nor entertain the idea of conjugal intercourse. For your Creator is creating His own bodily temple now being born of you."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his book on The Spirit of the Lord is upon me:*—"
+  },
+  {
+   "type": "p",
+   "text": "Hear Him saying, 'The Spirit is upon me because He has anointed me.' You do not know, He says, what you read, for I, the anointed with the Spirit, have come to you. Now what is akin to us, and not the invisible nature, is anointed with the Spirit."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of Amphilochius, bishop of Iconium. From his Discourse on My Father is greater than I:* —"
+  },
+  {
+   "type": "p",
+   "text": "Distinguish me now the natures, the Divine and the human. For man was not made from God by falling away, nor was God made of man by advancement. I am speaking of God and man. When, however, you attribute the passions to the flesh and the miracles to God, you of necessity and involuntarily assign the lowly titles to the man born of Mary, and the exalted and divine to the Word Who in the beginning was God. Wherefore in some cases I utter exalted words, in others lowly, to the end that by means of the lofty I may show the nature of the indwelling Word, and by the lowly, own the weakness of the lowly flesh. Whence sometimes I call myself equal to the Father and sometimes greater than the Father, not contradicting myself, but showing that I am God and man, for God is of the lofty, man of the lowly; but if you wish to know how my Father is greater than I, I spoke of the flesh and not of the person of the Godhead."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his discourse on The Son, can do nothing of Himself:* —"
+  },
+  {
+   "type": "p",
+   "text": "How was Adam disobedient in Heaven, and how of heavenly body was he formed first-formed beside the first formation? But it was the Adam of the earth who was formed at the beginning; the Adam of the earth disobeyed; the Adam of the earth was assumed. Wherefore also the Adam of the earth was saved that thus the reason of the incarnation may be proved necessary and true."
+  },
+  {
+   "type": "p",
+   "text": "*Testimony of the Holy John Bishop of Constantinople. From the speech which he made when the Gothic envoy had spoken before him:*—"
+  },
+  {
+   "type": "p",
+   "text": "See from the beginning what He does. He clothes Himself in our nature, powerless and vanquished, that by its means He may fight and struggle and from the beginning He uproots the nature of rebellion."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from his discourse on* *The Festival of the Nativity:*—"
+  },
+  {
+   "type": "p",
+   "text": "For is it not of the very last stupidity for them to bring down their own gods into stones and cheap wooden images, shutting them up as it were in a kind of prison, and to fancy that there is nothing disgraceful in what they either say or do, and then to find fault with us for saying that God made a living temple for Himself of the Holy Ghost, by means of which he brought succour to the world? For if it is disgraceful for God to dwell in a human body, then in proportion as the stone and the wood are more worthless than man is it much more disgraceful for him to dwell in stone and wood. But perhaps mankind seems to them to be of less value than these senseless objects. They bring down the substance of God into stones and into dogs; but many heretics into fouler things than these. But we could never endure even to hear of these things. But what we say is that of a virgin's womb the Christ took pure flesh, holy and without spot, and made impervious to all sin, and restored the body that was His own."
+  },
+  {
+   "type": "p",
+   "text": "A little further on: And we assert that when the divine Word had fashioned for Himself a holy temple by its means he brought the heavenly state into our life."
+  },
+  {
+   "type": "p",
+   "text": "*Of the same from the oration: That the lowly words and deeds of Christ were not spoken and done through lack of power, but through distinctions of dispensation.*"
+  },
+  {
+   "type": "p",
+   "text": "What then are the causes of many humble things having been said about Him both by Himself and by His apostles? The first and greatest cause is the fact of His having clothed Himself with flesh, and wishing all his contemporaries and all who have lived since, to believe that He was not a shadow, nor what was seen merely a form, but reality of nature. For if when He Himself and His apostles had spoken about Him so often in humble and in human sense, the devil yet had power to persuade some wretched and miserable men to deny the reason of the incarnation, and dare to say that He did not take flesh and so to destroy all the ground of His love for man, how many would not have fallen into this abyss if He had never said anything of the kind?"
+  },
+  {
+   "type": "p",
+   "text": "I have now produced for you a few out of many authorities of the heralds of the truth, not to stun you with too many. They are quite enough to show the bent of the mind of the excellent writers. It is now for you to say what force their writings seem to have."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— They have all spoken in harmony with one another, and the workers in the vineyard of the West agree with them whose husbandry is done in the region of the rising sun. Yet I perceived a considerable difference in their sayings."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— They are successors of the divine apostles; some even of those apostles were privileged to hear the holy voice and see the goodly sight. The majority of them too were adorned with the crown of martyrdom. Does it seem right for you to wag the tongue of blasphemy against them?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I shrink from doing this; at the same time I do not approve of their great divergence."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— But now I will bring you an unexpected remedy. I will adduce one of your own beautiful heresy— your teacher Apollinarius, and I will show you that he understood the text The Word was made flesh just as the holy Fathers did. Hear now what he wrote about it in his Summary."
+  },
+  {
+   "type": "p",
+   "text": "*The testimony of Apollinarius from his Summary:*—"
+  },
+  {
+   "type": "p",
+   "text": "If no one is turned into that which he assumes, and Christ assumed flesh, then He was not turned into flesh."
+  },
+  {
+   "type": "p",
+   "text": "And immediately afterward he continues:—"
+  },
+  {
+   "type": "p",
+   "text": "For also He gave himself to us in relationship by means of the body to save us. Now that which saves is far more excellent than that which is being saved. Far more excellent then than we are, is He in the assumption of a body! But He would not have been more excellent had He been turned into flesh."
+  },
+  {
+   "type": "p",
+   "text": "A little further on he says:—"
+  },
+  {
+   "type": "p",
+   "text": "The simple is one, but the complex cannot be one; he then that alleges that He was made flesh affirms the mutation of the one Word. But if the complex is also one, as man, then he who on account of the union with the flesh says the Word was made flesh means the one in complexity."
+  },
+  {
+   "type": "p",
+   "text": "And again a little further on he says— To be made flesh is to be made empty, but the being made empty declares not man, but the Son of man, who 'emptied Himself' not by undergoing change, but by investiture."
+  },
+  {
+   "type": "p",
+   "text": "There; you see the teacher of your own doctrines has introduced the word 'investiture' and indeed in his little work upon the faith he says— We then believe that he was made flesh, while His Godhead remained unchanged for the renewal of the manhood. For in the holy power of God there has been neither alteration nor change of place, nor inclusion— and then shortly again— We worship God who took flesh of the blessed virgin, and on this account in the flesh is man, but in the spirit God. And in another exposition he says— We confess the Son of God to have been made the Son of man, not nominally but verily, on taking flesh of the Virgin Mary."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— I did not suppose that Apollinarius held these sentiments. I had other ideas about him."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Well; now you have learned that not only the prophets and apostles, and they who after them were ordained teachers of the world, but even Apollinarius, the writer of heretical babbling, confesses the divine Word to be immutable, states that He was not turned into flesh but assumed flesh, and this over and over again, as you have heard. Do not then struggle to throw your master's blasphemy into the shade by your own. For, says the Lord the disciple is not above his master."
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Yes, I confess that the divine Word of God is immutable and took flesh. It were the uttermost foolishness to withstand authorities so many and so great."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Do you wish to have a solution of the rest of the difficulties?"
+  },
+  {
+   "type": "p",
+   "text": "*Eran.*— Let us put off their investigation until tomorrow."
+  },
+  {
+   "type": "p",
+   "text": "*Orth.*— Very well; our synod is dismissed. Let us depart, and bear in mind what we have agreed upon."
+  }
+ ],
+ "words": 16799
+}

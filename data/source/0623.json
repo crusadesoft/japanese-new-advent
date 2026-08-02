@@ -1,0 +1,62 @@
+{
+ "id": "0623",
+ "title": "Banquet of the Ten Virgins",
+ "isToc": true,
+ "children": [
+  {
+   "id": "062300",
+   "label": "**Introduction**"
+  },
+  {
+   "id": "062301",
+   "label": "**Discourse I**"
+  },
+  {
+   "id": "062302",
+   "label": "**Discourse II**"
+  },
+  {
+   "id": "062303",
+   "label": "**Discourse III**"
+  },
+  {
+   "id": "062304",
+   "label": "**Discourse IV**"
+  },
+  {
+   "id": "062305",
+   "label": "**Discourse V**"
+  },
+  {
+   "id": "062306",
+   "label": "**Discourse VI**"
+  },
+  {
+   "id": "062307",
+   "label": "**Discourse VII**"
+  },
+  {
+   "id": "062308",
+   "label": "**Discourse VIII**"
+  },
+  {
+   "id": "062309",
+   "label": "**Discourse IX**"
+  },
+  {
+   "id": "062310",
+   "label": "**Discourse X**"
+  },
+  {
+   "id": "062311",
+   "label": "**Discourse XI**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Introduction**\n**Discourse I**\n**Discourse II**\n**Discourse III**\n**Discourse IV**\n**Discourse V**\n**Discourse VI**\n**Discourse VII**\n**Discourse VIII**\n**Discourse IX**\n**Discourse X**\n**Discourse XI**"
+  }
+ ],
+ "words": 23
+}

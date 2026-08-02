@@ -1,0 +1,26 @@
+{
+ "id": "0209",
+ "title": "The Paedagogus (The Instructor)",
+ "isToc": true,
+ "children": [
+  {
+   "id": "02091",
+   "label": "Book I"
+  },
+  {
+   "id": "02092",
+   "label": "Book II"
+  },
+  {
+   "id": "02093",
+   "label": "Book III"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III"
+  }
+ ],
+ "words": 6
+}

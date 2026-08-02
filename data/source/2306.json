@@ -1,0 +1,90 @@
+{
+ "id": "2306",
+ "title": "Homilies on First Timothy",
+ "isToc": true,
+ "children": [
+  {
+   "id": "230600",
+   "label": "Argument"
+  },
+  {
+   "id": "230601",
+   "label": "Homily 1"
+  },
+  {
+   "id": "230602",
+   "label": "Homily 2"
+  },
+  {
+   "id": "230603",
+   "label": "Homily 3"
+  },
+  {
+   "id": "230604",
+   "label": "Homily 4"
+  },
+  {
+   "id": "230605",
+   "label": "Homily 5"
+  },
+  {
+   "id": "230606",
+   "label": "Homily 6"
+  },
+  {
+   "id": "230607",
+   "label": "Homily 7"
+  },
+  {
+   "id": "230608",
+   "label": "Homily 8"
+  },
+  {
+   "id": "230609",
+   "label": "Homily 9"
+  },
+  {
+   "id": "230610",
+   "label": "Homily 10"
+  },
+  {
+   "id": "230611",
+   "label": "Homily 11"
+  },
+  {
+   "id": "230612",
+   "label": "Homily 12"
+  },
+  {
+   "id": "230613",
+   "label": "Homily 13"
+  },
+  {
+   "id": "230614",
+   "label": "Homily 14"
+  },
+  {
+   "id": "230615",
+   "label": "Homily 15"
+  },
+  {
+   "id": "230616",
+   "label": "Homily 16"
+  },
+  {
+   "id": "230617",
+   "label": "Homily 17"
+  },
+  {
+   "id": "230618",
+   "label": "Homily 18"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Argument\nHomily 1\nHomily 2\nHomily 3\nHomily 4\nHomily 5\nHomily 6\nHomily 7\nHomily 8\nHomily 9\nHomily 10\nHomily 11\nHomily 12\nHomily 13\nHomily 14\nHomily 15\nHomily 16\nHomily 17\nHomily 18"
+  }
+ ],
+ "words": 37
+}

@@ -1,0 +1,38 @@
+{
+ "id": "3702",
+ "title": "The Nisibene Hymns",
+ "isToc": true,
+ "children": [
+  {
+   "id": "3702a",
+   "label": "THE SIEGE OF NISIBIS (I-III)"
+  },
+  {
+   "id": "3702b",
+   "label": "THE PERSIAN INVASION (IV-XII)"
+  },
+  {
+   "id": "3702c",
+   "label": "THE BISHOPS OF NISIBIS (XIII-XVI)"
+  },
+  {
+   "id": "3702d",
+   "label": "ABRAHAM THEIR SUCCESSOR (XVII-XXI)"
+  },
+  {
+   "id": "3702e",
+   "label": "CONCERNING SATAN AND DEATH (XXXV-XLII)"
+  },
+  {
+   "id": "3702f",
+   "label": "CONCERNING SATAN AND DEATH (LII-LXVIII)"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "1. THE SIEGE OF NISIBIS (I-III)\n2. THE PERSIAN INVASION (IV-XII)\n3. THE BISHOPS OF NISIBIS (XIII-XVI)\n4. ABRAHAM THEIR SUCCESSOR (XVII-XXI)\n5. CONCERNING SATAN AND DEATH (XXXV-XLII)\n6. CONCERNING SATAN AND DEATH (LII-LXVIII)"
+  }
+ ],
+ "words": 34
+}

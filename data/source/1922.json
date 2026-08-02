@@ -1,0 +1,38 @@
+{
+ "id": "1922",
+ "title": "On the Priesthood",
+ "isToc": true,
+ "children": [
+  {
+   "id": "19221",
+   "label": "**Book I**"
+  },
+  {
+   "id": "19222",
+   "label": "**Book II**"
+  },
+  {
+   "id": "19223",
+   "label": "**Book III**"
+  },
+  {
+   "id": "19224",
+   "label": "**Book IV**"
+  },
+  {
+   "id": "19225",
+   "label": "**Book V**"
+  },
+  {
+   "id": "19226",
+   "label": "**Book VI**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book I**\n**Book II**\n**Book III**\n**Book IV**\n**Book V**\n**Book VI**"
+  }
+ ],
+ "words": 12
+}

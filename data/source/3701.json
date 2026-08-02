@@ -1,0 +1,46 @@
+{
+ "id": "3701",
+ "title": "Demonstrations",
+ "isToc": true,
+ "children": [
+  {
+   "id": "370101",
+   "label": "**Demonstration I**"
+  },
+  {
+   "id": "370105",
+   "label": "**Demonstration V**"
+  },
+  {
+   "id": "370106",
+   "label": "**Demonstration VI**"
+  },
+  {
+   "id": "370108",
+   "label": "**Demonstration VIII**"
+  },
+  {
+   "id": "370110",
+   "label": "**Demonstration X**"
+  },
+  {
+   "id": "370117",
+   "label": "**Demonstration XVII**"
+  },
+  {
+   "id": "370121",
+   "label": "**Demonstration XXI**"
+  },
+  {
+   "id": "370122",
+   "label": "**Demonstration XXII**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Demonstration I** Of Faith\n**Demonstration V** Of Wars\n**Demonstration VI** Of Monks\n**Demonstration VIII** Of the Resurrection of the Dead\n**Demonstration X** Of Pastors\n**Demonstration XVII** Of Christ the Son of God\n**Demonstration XXI** Of Persecution\n**Demonstration XXII** Of Death and the Latter Times"
+  }
+ ],
+ "words": 44
+}

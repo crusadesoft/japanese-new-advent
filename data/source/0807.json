@@ -1,0 +1,42 @@
+{
+ "id": "0807",
+ "title": "Gospel of Nicodemus",
+ "isToc": true,
+ "children": [
+  {
+   "id": "08071a",
+   "label": "**Part I, First Greek Form**"
+  },
+  {
+   "id": "08071b",
+   "label": "**Part I, Second Greek Form**"
+  },
+  {
+   "id": "08071c",
+   "label": "**Part I, Latin Form**"
+  },
+  {
+   "id": "08072a",
+   "label": "**Part II, Greek Form**"
+  },
+  {
+   "id": "08072b",
+   "label": "**Part II, First Latin Form**"
+  },
+  {
+   "id": "08072c",
+   "label": "**Part II, Second Latin Form**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "*Part I is known as the \"Acts of Pilate\"; Part II is called \"Christ's Descent Into Hell\"*"
+  },
+  {
+   "type": "p",
+   "text": "**Part I, First Greek Form**\n**Part I, Second Greek Form**\n**Part I, Latin Form**\n**Part II, Greek Form**\n**Part II, First Latin Form**\n**Part II, Second Latin Form**"
+  }
+ ],
+ "words": 45
+}

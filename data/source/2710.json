@@ -1,0 +1,26 @@
+{
+ "id": "2710",
+ "title": "Apology Against Rufinus",
+ "isToc": true,
+ "children": [
+  {
+   "id": "27101",
+   "label": "Book I"
+  },
+  {
+   "id": "27102",
+   "label": "Book II"
+  },
+  {
+   "id": "27103",
+   "label": "Book III"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III"
+  }
+ ],
+ "words": 6
+}

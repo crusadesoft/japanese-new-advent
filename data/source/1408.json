@@ -1,0 +1,70 @@
+{
+ "id": "1408",
+ "title": "On Baptism, Against the Donatists",
+ "isToc": true,
+ "children": [
+  {
+   "id": "05121a",
+   "label": "Donatists"
+  },
+  {
+   "id": "02581b",
+   "label": "bishop"
+  },
+  {
+   "id": "09736b",
+   "label": "martyr"
+  },
+  {
+   "id": "13529a",
+   "label": "schism"
+  },
+  {
+   "id": "03449a",
+   "label": "Catholic"
+  },
+  {
+   "id": "03744a",
+   "label": "Church"
+  },
+  {
+   "id": "14081",
+   "label": "Book 1"
+  },
+  {
+   "id": "14082",
+   "label": "Book 2"
+  },
+  {
+   "id": "14083",
+   "label": "Book 3"
+  },
+  {
+   "id": "14084",
+   "label": "Book 4"
+  },
+  {
+   "id": "14085",
+   "label": "Book 5"
+  },
+  {
+   "id": "14086",
+   "label": "Book 6"
+  },
+  {
+   "id": "14087",
+   "label": "Book 7"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "*This treatise was written about 400 A.D. Concerning it Aug. in\nRetract. Book II. c. xviii., says: I have written seven books on\nBaptism against the Donatists, who strive to defend themselves by\nthe authority of the most blessed bishop and martyr Cyprian; in\nwhich I show that nothing is so effectual for the refutation of the\nDonatists, and for shutting their mouths directly from upholding\ntheir schism against the Catholic Church, as the letters and act of\nCyprian.*"
+  },
+  {
+   "type": "p",
+   "text": "Book 1\nBook 2\nBook 3\nBook 4\nBook 5\nBook 6\nBook 7"
+  }
+ ],
+ "words": 93
+}

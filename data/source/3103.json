@@ -1,0 +1,26 @@
+{
+ "id": "3103",
+ "title": "Letters",
+ "isToc": true,
+ "children": [
+  {
+   "id": "3103a",
+   "label": "**Division I**"
+  },
+  {
+   "id": "3103b",
+   "label": "**Division II**"
+  },
+  {
+   "id": "3103c",
+   "label": "**Division III**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Division I** Letters on the Apollinarian controversy\n**Division II** Correspondence with St. Basil the Great\n**Division III** Miscellaneous letters"
+  }
+ ],
+ "words": 19
+}

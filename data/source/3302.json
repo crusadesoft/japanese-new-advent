@@ -1,0 +1,57 @@
+{
+ "id": "3302",
+ "title": "On the Trinity",
+ "isToc": true,
+ "children": [
+  {
+   "id": "330201",
+   "label": "Book I"
+  },
+  {
+   "id": "330202",
+   "label": "Book II"
+  },
+  {
+   "id": "330203",
+   "label": "Book III"
+  },
+  {
+   "id": "330204",
+   "label": "Book IV"
+  },
+  {
+   "id": "330205",
+   "label": "Book V"
+  },
+  {
+   "id": "330206",
+   "label": "Book VI"
+  },
+  {
+   "id": "330207",
+   "label": "Book VII"
+  },
+  {
+   "id": "330208",
+   "label": "Book VIII"
+  },
+  {
+   "id": "330209",
+   "label": "Book IX"
+  },
+  {
+   "id": "330210",
+   "label": "Book X"
+  },
+  {
+   "id": "330211",
+   "label": "Book XI"
+  },
+  {
+   "id": "330212",
+   "label": "Book XII"
+  }
+ ],
+ "blocks": [],
+ "words": 0
+}

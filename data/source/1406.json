@@ -1,0 +1,146 @@
+{
+ "id": "1406",
+ "title": "Contra Faustum",
+ "isToc": true,
+ "children": [
+  {
+   "id": "140601",
+   "label": "Book 1"
+  },
+  {
+   "id": "140602",
+   "label": "Book 2"
+  },
+  {
+   "id": "140603",
+   "label": "Book 3"
+  },
+  {
+   "id": "140604",
+   "label": "Book 4"
+  },
+  {
+   "id": "140605",
+   "label": "Book 5"
+  },
+  {
+   "id": "140606",
+   "label": "Book 6"
+  },
+  {
+   "id": "140607",
+   "label": "Book 7"
+  },
+  {
+   "id": "140608",
+   "label": "Book 8"
+  },
+  {
+   "id": "140609",
+   "label": "Book 9"
+  },
+  {
+   "id": "140610",
+   "label": "Book 10"
+  },
+  {
+   "id": "140611",
+   "label": "Book 11"
+  },
+  {
+   "id": "140612",
+   "label": "Book 12"
+  },
+  {
+   "id": "140613",
+   "label": "Book 13"
+  },
+  {
+   "id": "140614",
+   "label": "Book 14"
+  },
+  {
+   "id": "140615",
+   "label": "Book 15"
+  },
+  {
+   "id": "140616",
+   "label": "Book 16"
+  },
+  {
+   "id": "140617",
+   "label": "Book 17"
+  },
+  {
+   "id": "140618",
+   "label": "Book 18"
+  },
+  {
+   "id": "140619",
+   "label": "Book 19"
+  },
+  {
+   "id": "140620",
+   "label": "Book 20"
+  },
+  {
+   "id": "140621",
+   "label": "Book 21"
+  },
+  {
+   "id": "140622",
+   "label": "Book 22"
+  },
+  {
+   "id": "140623",
+   "label": "Book 23"
+  },
+  {
+   "id": "140624",
+   "label": "Book 24"
+  },
+  {
+   "id": "140625",
+   "label": "Book 25"
+  },
+  {
+   "id": "140626",
+   "label": "Book 26"
+  },
+  {
+   "id": "140627",
+   "label": "Book 27"
+  },
+  {
+   "id": "140628",
+   "label": "Book 28"
+  },
+  {
+   "id": "140629",
+   "label": "Book 29"
+  },
+  {
+   "id": "140630",
+   "label": "Book 30"
+  },
+  {
+   "id": "140631",
+   "label": "Book 31"
+  },
+  {
+   "id": "140632",
+   "label": "Book 32"
+  },
+  {
+   "id": "140633",
+   "label": "Book 33"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book 1\nBook 2\nBook 3\nBook 4\nBook 5\nBook 6\nBook 7\nBook 8\nBook 9\nBook 10\nBook 11\nBook 12\nBook 13\nBook 14\nBook 15\nBook 16\nBook 17\nBook 18\nBook 19\nBook 20\nBook 21\nBook 22\nBook 23\nBook 24\nBook 25\nBook 26\nBook 27\nBook 28\nBook 29\nBook 30\nBook 31\nBook 32\nBook 33"
+  }
+ ],
+ "words": 66
+}

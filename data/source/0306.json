@@ -1,0 +1,22 @@
+{
+ "id": "0306",
+ "title": "Ad Nationes",
+ "isToc": true,
+ "children": [
+  {
+   "id": "03061",
+   "label": "Book I"
+  },
+  {
+   "id": "03062",
+   "label": "Book II"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II"
+  }
+ ],
+ "words": 4
+}

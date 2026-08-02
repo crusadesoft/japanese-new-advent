@@ -1,0 +1,22 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.production
+.env.local
+
+# raw upstream HTML — not redistributed; see README on provenance.
+# Run `npm run ingest -- --src <path>` against your own copy to regenerate data/source.
+data/raw/
+
+# translation run logs and scratch
+data/.cache/
+*.log
+
+# macOS
+.DS_Store

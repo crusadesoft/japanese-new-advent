@@ -1,0 +1,62 @@
+{
+ "id": "2303",
+ "title": "Homilies on Colossians",
+ "isToc": true,
+ "children": [
+  {
+   "id": "230301",
+   "label": "Homily 1"
+  },
+  {
+   "id": "230302",
+   "label": "Homily 2"
+  },
+  {
+   "id": "230303",
+   "label": "Homily 3"
+  },
+  {
+   "id": "230304",
+   "label": "Homily 4"
+  },
+  {
+   "id": "230305",
+   "label": "Homily 5"
+  },
+  {
+   "id": "230306",
+   "label": "Homily 6"
+  },
+  {
+   "id": "230307",
+   "label": "Homily 7"
+  },
+  {
+   "id": "230308",
+   "label": "Homily 8"
+  },
+  {
+   "id": "230309",
+   "label": "Homily 9"
+  },
+  {
+   "id": "230310",
+   "label": "Homily 10"
+  },
+  {
+   "id": "230311",
+   "label": "Homily 11"
+  },
+  {
+   "id": "230312",
+   "label": "Homily 12"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Homily 1\nHomily 2\nHomily 3\nHomily 4\nHomily 5\nHomily 6\nHomily 7\nHomily 8\nHomily 9\nHomily 10\nHomily 11\nHomily 12"
+  }
+ ],
+ "words": 24
+}

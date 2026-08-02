@@ -1,0 +1,34 @@
+{
+ "id": "2703",
+ "title": "Dialogues",
+ "isToc": true,
+ "children": [
+  {
+   "id": "27030",
+   "label": "Prologue"
+  },
+  {
+   "id": "27031",
+   "label": "Dialogue 1"
+  },
+  {
+   "id": "27032",
+   "label": "Dialogue 2"
+  },
+  {
+   "id": "27033",
+   "label": "Dialogue 3"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "*\"Eranistes\" or \"Polymorphus\"*"
+  },
+  {
+   "type": "p",
+   "text": "Prologue\nDialogue 1\nDialogue 2\nDialogue 3"
+  }
+ ],
+ "words": 10
+}

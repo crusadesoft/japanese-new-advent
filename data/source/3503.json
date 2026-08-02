@@ -1,0 +1,26 @@
+{
+ "id": "3503",
+ "title": "Dialogues",
+ "isToc": true,
+ "children": [
+  {
+   "id": "35031",
+   "label": "Dialogue I"
+  },
+  {
+   "id": "35032",
+   "label": "Dialogue II"
+  },
+  {
+   "id": "35033",
+   "label": "Dialogue III"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Dialogue I\nDialogue II\nDialogue III"
+  }
+ ],
+ "words": 6
+}

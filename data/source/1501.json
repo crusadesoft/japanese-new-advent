@@ -1,0 +1,26 @@
+{
+ "id": "1501",
+ "title": "On Merit and the Forgiveness of Sins, and the Baptism of Infants",
+ "isToc": true,
+ "children": [
+  {
+   "id": "15011",
+   "label": "**Book 1**"
+  },
+  {
+   "id": "15012",
+   "label": "**Book 2**"
+  },
+  {
+   "id": "15013",
+   "label": "**Book 3**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book 1**\n**Book 2**\n**Book 3**"
+  }
+ ],
+ "words": 6
+}

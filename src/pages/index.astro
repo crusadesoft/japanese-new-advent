@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import { getManifest, progress, authorNameJa } from '../lib/corpus';
+
+const manifest = getManifest();
+const p = progress();
+
+// A short standing list of the Fathers most readers arrive looking for.
+const featured = [
+  'Augustine of Hippo',
+  'John Chrysostom',
+  'Athanasius',
+  'Irenaeus of Lyons',
+  'Tertullian',
+  'Origen',
+  'Basil the Great',
+  'Jerome',
+  'Ambrose',
+  'Justin Martyr',
+  'Ignatius of Antioch',
+  'Cyprian of Carthage',
+];
+
+const byName = new Map(manifest.authors.map((a) => [a.name, a]));
+const cards = featured.map((n) => byName.get(n)).filter(Boolean);
+
+const fmt = (n: number) => n.toLocaleString('ja-JP');
+---
+
+<Base>
+  <h1>教父の著作を、日本語で。</h1>
+
+  <p>
+    本サイトは、古代教会の教父たち——使徒教父からニカイア公会議を経て
+    大グレゴリウスにいたるまで——の著作を日本語で読むための文庫です。
+    英語圏で標準的に用いられてきた
+    <em>Ante-Nicene Fathers</em> および
+    <em>Nicene and Post-Nicene Fathers</em>（1885–1900年）を底本とし、
+    全 {fmt(manifest.counts.documents)} 篇、
+    約 {fmt(Math.round(manifest.counts.words / 10000) * 10000)} 語を順次翻訳しています。
+  </p>
+
+  <p>
+    底本はいずれもパブリックドメインであり、訳文も CC0 により公有に供します。
+    登録も課金もありません。
+  </p>
+
+  <div class="progress">
+    <strong>翻訳の進捗</strong><br />
+    {fmt(p.translatedDocuments)} / {fmt(p.documents)} 篇 　（
+    {p.percent.toFixed(1)}％ ／ 語数比）
+    <div class="bar">
+      <span style={`width:${Math.max(p.percent, 0.4).toFixed(2)}%`}></span>
+    </div>
+    {
+      p.translatedDocuments === 0 && (
+        <p style="margin:0.7rem 0 0">
+          翻訳はこれから開始します。未訳の文書は原文（英語）を表示しています。
+        </p>
+      )
+    }
+  </div>
+
+  <h2>主要な教父</h2>
+  <ul class="author-list">
+    {
+      cards.map((a) => (
+        <li>
+          <a href={`/authors/${a!.slug}/`}>{authorNameJa(a!.name)}</a>
+          {a!.isSaint && <span class="badge badge-saint">聖人</span>}
+          {a!.isDoctor && <span class="badge badge-doctor">教会博士</span>}
+          <span class="en">{a!.name}{a!.dates ? `（${a!.dates}）` : ''}</span>
+          <span class="count">{a!.works.length} 作品</span>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p>
+    <a href="/authors/">教父一覧（全 {manifest.counts.authors} 名）→</a>
+  </p>
+</Base>

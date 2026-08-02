@@ -1,0 +1,42 @@
+{
+ "id": "0631",
+ "title": "Against the Heathen",
+ "isToc": true,
+ "children": [
+  {
+   "id": "06311",
+   "label": "**Book 1**"
+  },
+  {
+   "id": "06312",
+   "label": "**Book 2**"
+  },
+  {
+   "id": "06313",
+   "label": "**Book 3**"
+  },
+  {
+   "id": "06314",
+   "label": "**Book 4**"
+  },
+  {
+   "id": "06315",
+   "label": "**Book 5**"
+  },
+  {
+   "id": "06316",
+   "label": "**Book 6**"
+  },
+  {
+   "id": "06317",
+   "label": "**Book 7**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book 1**\n**Book 2**\n**Book 3**\n**Book 4**\n**Book 5**\n**Book 6**\n**Book 7**"
+  }
+ ],
+ "words": 14
+}

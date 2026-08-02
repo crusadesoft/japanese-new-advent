@@ -1,0 +1,41 @@
+---
+/**
+ * Recursive listing of a work and its books/chapters. Nodes that already have
+ * a Japanese title show it; the rest fall back to the English label so the
+ * structure is navigable before translation reaches them.
+ */
+import { getDocument, type WorkNode } from '../lib/corpus';
+
+interface Props {
+  nodes: WorkNode[];
+}
+
+const { nodes } = Astro.props;
+
+const label = (n: WorkNode) => {
+  const doc = getDocument(n.id);
+  return {
+    ja: doc?.title ?? null,
+    en: doc?.titleEn ?? n.label ?? n.title ?? n.id,
+    translated: doc?.translated ?? false,
+  };
+};
+---
+
+<ul class="work-tree">
+  {
+    nodes.map((n) => {
+      const l = label(n);
+      return (
+        <li>
+          <a href={`/text/${n.id}/`} class={l.translated ? undefined : 'pending'}>
+            {l.ja ?? l.en}
+          </a>
+          {l.ja && <span class="en">{l.en}</span>}
+          {!l.translated && <span class="count">未訳</span>}
+          {n.children?.length > 0 && <Astro.self nodes={n.children} />}
+        </li>
+      );
+    })
+  }
+</ul>

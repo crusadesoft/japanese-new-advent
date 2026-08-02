@@ -1,0 +1,62 @@
+{
+ "id": "2901",
+ "title": "Against Eunomius",
+ "isToc": true,
+ "children": [
+  {
+   "id": "290101",
+   "label": "Book I"
+  },
+  {
+   "id": "290102",
+   "label": "Book II"
+  },
+  {
+   "id": "290103",
+   "label": "Book III"
+  },
+  {
+   "id": "290104",
+   "label": "Book IV"
+  },
+  {
+   "id": "290105",
+   "label": "Book V"
+  },
+  {
+   "id": "290106",
+   "label": "Book VI"
+  },
+  {
+   "id": "290107",
+   "label": "Book VII"
+  },
+  {
+   "id": "290108",
+   "label": "Book VIII"
+  },
+  {
+   "id": "290109",
+   "label": "Book IX"
+  },
+  {
+   "id": "290110",
+   "label": "Book X"
+  },
+  {
+   "id": "290111",
+   "label": "Book XI"
+  },
+  {
+   "id": "290112",
+   "label": "Book XII"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II\nBook III\nBook IV\nBook V\nBook VI\nBook VII\nBook VIII\nBook IX\nBook X\nBook XI\nBook XII"
+  }
+ ],
+ "words": 24
+}

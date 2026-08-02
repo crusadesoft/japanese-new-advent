@@ -1,0 +1,30 @@
+{
+ "id": "2816",
+ "title": "Four Discourses Against the Arians",
+ "isToc": true,
+ "children": [
+  {
+   "id": "28161",
+   "label": "**Discourse I**"
+  },
+  {
+   "id": "28162",
+   "label": "**Discourse II**"
+  },
+  {
+   "id": "28163",
+   "label": "**Discourse III**"
+  },
+  {
+   "id": "28164",
+   "label": "**Discourse IV**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Discourse I**\n**Discourse II**\n**Discourse III**\n**Discourse IV**"
+  }
+ ],
+ "words": 8
+}

@@ -1,0 +1,30 @@
+{
+ "id": "2309",
+ "title": "Homilies on Philemon",
+ "isToc": true,
+ "children": [
+  {
+   "id": "23090",
+   "label": "Argument"
+  },
+  {
+   "id": "23091",
+   "label": "Homily 1"
+  },
+  {
+   "id": "23092",
+   "label": "Homily 2"
+  },
+  {
+   "id": "23093",
+   "label": "Homily 3"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Argument\nHomily 1\nHomily 2\nHomily 3"
+  }
+ ],
+ "words": 7
+}

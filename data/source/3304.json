@@ -1,0 +1,30 @@
+{
+ "id": "3304",
+ "title": "An Exposition of the Orthodox Faith",
+ "isToc": true,
+ "children": [
+  {
+   "id": "33041",
+   "label": "BOOK I"
+  },
+  {
+   "id": "33042",
+   "label": "BOOK II"
+  },
+  {
+   "id": "33043",
+   "label": "BOOK III"
+  },
+  {
+   "id": "33044",
+   "label": "BOOK IV"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "BOOK I\nBOOK II\nBOOK III\nBOOK IV"
+  }
+ ],
+ "words": 8
+}

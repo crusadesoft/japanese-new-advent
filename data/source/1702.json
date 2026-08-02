@@ -1,0 +1,54 @@
+{
+ "id": "1702",
+ "title": "Homilies on the First Epistle of John",
+ "isToc": true,
+ "children": [
+  {
+   "id": "170201",
+   "label": "**Homily 1**"
+  },
+  {
+   "id": "170202",
+   "label": "**Homily 2**"
+  },
+  {
+   "id": "170203",
+   "label": "**Homily 3**"
+  },
+  {
+   "id": "170204",
+   "label": "**Homily 4**"
+  },
+  {
+   "id": "170205",
+   "label": "**Homily 5**"
+  },
+  {
+   "id": "170206",
+   "label": "**Homily 6**"
+  },
+  {
+   "id": "170207",
+   "label": "**Homily 7**"
+  },
+  {
+   "id": "170208",
+   "label": "**Homily 8**"
+  },
+  {
+   "id": "170209",
+   "label": "**Homily 9**"
+  },
+  {
+   "id": "170210",
+   "label": "**Homily 10**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Homily 1** 1 John 1:1-2:11\n**Homily 2** 1 John 2:12-17\n**Homily 3** 1 John 2:18-27\n**Homily 4** 1 John 2:27-3:8\n**Homily 5** 1 John 3:9-18\n**Homily 6** 1 John 3:19-4:3\n**Homily 7** 1 John 4:4-12\n**Homily 8** 1 John 4:12-16\n**Homily 9** 1 John 4:17-21\n**Homily 10** 1 John 5:1-3"
+  }
+ ],
+ "words": 50
+}

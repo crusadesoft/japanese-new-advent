@@ -1,0 +1,50 @@
+{
+ "id": "3201",
+ "title": "Hexaemeron",
+ "isToc": true,
+ "children": [
+  {
+   "id": "32011",
+   "label": "Homily I"
+  },
+  {
+   "id": "32012",
+   "label": "Homily II"
+  },
+  {
+   "id": "32013",
+   "label": "Homily III"
+  },
+  {
+   "id": "32014",
+   "label": "Homily IV"
+  },
+  {
+   "id": "32015",
+   "label": "Homily V"
+  },
+  {
+   "id": "32016",
+   "label": "Homily VI"
+  },
+  {
+   "id": "32017",
+   "label": "Homily VII"
+  },
+  {
+   "id": "32018",
+   "label": "Homily VIII"
+  },
+  {
+   "id": "32019",
+   "label": "Homily IX"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Homily I\nHomily II\nHomily III\nHomily IV\nHomily V\nHomily VI\nHomily VII\nHomily VIII\nHomily IX"
+  }
+ ],
+ "words": 18
+}

@@ -1,0 +1,22 @@
+{
+ "id": "1601",
+ "title": "On the Sermon on the Mount",
+ "isToc": true,
+ "children": [
+  {
+   "id": "16011",
+   "label": "**Book One**"
+  },
+  {
+   "id": "16012",
+   "label": "**Book Two**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**Book One** Concerning the first part of the Sermon on the Mount (Matthew 5)\n**Book Two** Concerning the second part of the Sermon on the Mount (Matthew 6-7)"
+  }
+ ],
+ "words": 28
+}

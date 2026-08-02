@@ -1,0 +1,22 @@
+{
+ "id": "3505",
+ "title": "Sacred History",
+ "isToc": true,
+ "children": [
+  {
+   "id": "35051",
+   "label": "Book I"
+  },
+  {
+   "id": "35052",
+   "label": "Book II"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Book I\nBook II"
+  }
+ ],
+ "words": 4
+}

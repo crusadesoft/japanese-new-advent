@@ -1,0 +1,93 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  wide?: boolean;
+}
+
+const { title, description, wide = false } = Astro.props;
+
+const SITE = '教父文庫';
+const fullTitle = title ? `${title}｜${SITE}` : `${SITE} — 教父著作集 日本語版`;
+const desc =
+  description ??
+  '古代教会の教父たちの著作を日本語で読むための文庫。パブリックドメインの原典にもとづく翻訳を無償で公開しています。';
+
+const path = Astro.url.pathname;
+const isCurrent = (href: string) =>
+  href === '/' ? path === '/' : path.startsWith(href);
+
+const tabs = [
+  { href: '/', label: 'ホーム' },
+  { href: '/authors/', label: '教父一覧' },
+  { href: '/about/', label: 'このサイトについて' },
+];
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={new URL(path, Astro.site)} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <div class="wordmark">
+          <a href="/">{SITE}</a>
+          <span class="romaji">THE CHURCH FATHERS IN JAPANESE</span>
+        </div>
+        <nav class="tabs" aria-label="メインナビゲーション">
+          {
+            tabs.map((t) => (
+              <a href={t.href} aria-current={isCurrent(t.href) ? 'page' : undefined}>
+                {t.label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+    <div class="rule-bar">古代教会 教父著作集</div>
+
+    <main class={wide ? 'wide' : undefined}>
+      <slot />
+    </main>
+
+    <footer>
+      <div class="footer-note">
+        <p>
+          底本は <em>Ante-Nicene Fathers</em> および <em>Nicene and Post-Nicene
+          Fathers</em>（Philip Schaff ほか編、1885–1900年）。いずれも著作権の保護期間が満了した
+          パブリックドメインの文献です。日本語訳は本サイトが作成したもので、
+          <a
+            href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja"
+            rel="license noopener"
+            target="_blank">CC0 1.0</a
+          > により公有に供します。自由に複製・改変・再配布できます。
+        </p>
+        <p>
+          誤訳・誤植のご指摘を歓迎します。
+          <a
+            href="https://github.com/crusadesoft/japanese-new-advent/issues"
+            rel="noopener"
+            target="_blank">GitHub の Issues</a
+          > よりお知らせください。
+        </p>
+      </div>
+      <div class="footer-bar">
+        教父文庫 ｜ 本文はパブリックドメイン ｜
+        <a href="/about/">翻訳について</a>
+      </div>
+    </footer>
+  </body>
+</html>

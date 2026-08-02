@@ -1,0 +1,46 @@
+{
+ "id": "0501",
+ "title": "Refutation of All Heresies",
+ "isToc": true,
+ "children": [
+  {
+   "id": "050101",
+   "label": "**BOOK 1**"
+  },
+  {
+   "id": "050104",
+   "label": "**BOOK 4**"
+  },
+  {
+   "id": "050105",
+   "label": "**BOOK 5**"
+  },
+  {
+   "id": "050106",
+   "label": "**BOOK 6**"
+  },
+  {
+   "id": "050107",
+   "label": "**BOOK 7**"
+  },
+  {
+   "id": "050108",
+   "label": "**BOOK 8**"
+  },
+  {
+   "id": "050109",
+   "label": "**BOOK 9**"
+  },
+  {
+   "id": "050110",
+   "label": "**BOOK 10**"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**BOOK 1**\n**BOOK 2** *Missing*\n**BOOK 3** *Missing*\n**BOOK 4**\n**BOOK 5**\n**BOOK 6**\n**BOOK 7**\n**BOOK 8**\n**BOOK 9**\n**BOOK 10**"
+  }
+ ],
+ "words": 22
+}

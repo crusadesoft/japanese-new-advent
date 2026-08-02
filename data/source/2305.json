@@ -1,0 +1,34 @@
+{
+ "id": "2305",
+ "title": "Homilies on Second Thessalonians",
+ "isToc": true,
+ "children": [
+  {
+   "id": "23051",
+   "label": "Homily 1"
+  },
+  {
+   "id": "23052",
+   "label": "Homily 2"
+  },
+  {
+   "id": "23053",
+   "label": "Homily 3"
+  },
+  {
+   "id": "23054",
+   "label": "Homily 4"
+  },
+  {
+   "id": "23055",
+   "label": "Homily 5"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Homily 1\nHomily 2\nHomily 3\nHomily 4\nHomily 5"
+  }
+ ],
+ "words": 10
+}
