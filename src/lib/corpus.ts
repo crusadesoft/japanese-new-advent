@@ -79,6 +79,21 @@ export function getManifest(): Manifest {
 const readJson = (file: string) =>
   existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : null;
 
+/**
+ * Titles-only pass output. Titles drive the entire navigation surface, so
+ * they are translated ahead of body text and land in a flat map rather than
+ * per-document files. A title here does NOT mark a document as translated —
+ * the body is still English and must keep its notice.
+ */
+let _titles: Record<string, string> | null = null;
+
+function titleJa(id: string): string | null {
+  if (_titles === null) {
+    _titles = readJson(path.join(ROOT, 'data', 'titles-ja.json')) ?? {};
+  }
+  return _titles![id] ?? null;
+}
+
 export function getDocument(id: string): Document | null {
   const src = readJson(path.join(SRC_DIR, `${id}.json`));
   if (!src) return null;
@@ -86,7 +101,7 @@ export function getDocument(id: string): Document | null {
 
   return {
     id,
-    title: ja?.title ?? null,
+    title: ja?.title ?? titleJa(id),
     titleEn: src.title ?? null,
     isToc: src.isToc,
     children: src.children ?? [],

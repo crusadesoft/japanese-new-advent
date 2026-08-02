@@ -76,10 +76,18 @@ documents if ignored:
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
 
-npm run translate -- --pilot            # 24 representative documents
+npm run translate:titles                # all 3,727 titles (~$0.94)
+npm run translate:pilot                 # 24 representative documents (~$4)
 npm run translate                       # full corpus (resumable)
 npm run translate -- --dry-run          # cost estimate only
 ```
+
+**Start with titles.** Document titles are ~0.1% of the corpus by volume but
+carry the entire navigation surface — author pages, work trees, chapter lists,
+page headings. Translating them alone makes the site read as Japanese
+throughout its structure for under a dollar, long before body text is done.
+Output goes to `data/titles-ja.json`; a translated title does not mark a
+document as translated, so the body keeps its English notice.
 
 Design points that matter at this scale:
 

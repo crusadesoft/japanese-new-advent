@@ -12,6 +12,7 @@
     "ingest": "node scripts/ingest.mjs",
     "translate": "node scripts/translate.mjs",
     "translate:pilot": "node scripts/translate.mjs --pilot",
+    "translate:titles": "node scripts/translate.mjs --titles",
     "status": "node scripts/status.mjs"
   },
   "dependencies": {

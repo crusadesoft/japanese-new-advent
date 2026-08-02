@@ -84,12 +84,14 @@ function parseArgs(argv) {
     model: 'claude-opus-5',
     concurrency: 4,
     pilot: false,
+    titles: false,
     limit: null,
     dryRun: false,
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--pilot') args.pilot = true;
+    else if (a === '--titles') args.titles = true;
     else if (a === '--dry-run') args.dryRun = true;
     else if (a === '--model') args.model = argv[++i];
     else if (a === '--concurrency') args.concurrency = Number(argv[++i]);
@@ -134,6 +136,46 @@ FORMATTING
 OUTPUT
 You receive an array of text blocks. Return exactly one Japanese translation per input block, in the same order. Never merge, split, reorder, or omit blocks. Translate every block, including short headings.`;
 }
+
+/**
+ * Titles carry the whole navigation surface — author pages, work trees,
+ * chapter lists, page headings — for about 0.1% of the corpus by volume.
+ * Translating them alone makes the site read as Japanese throughout its
+ * structure long before the body text is done, so it is worth a separate
+ * cheap pass.
+ */
+function titleSystemPrompt(glossaryText) {
+  return `You translate titles of patristic works into Japanese for a scholarly reference collection.
+
+These are titles of works, books, chapters, letters, homilies and sections from the Church Fathers, as given in the Schaff English editions.
+
+RULES
+- Render each title as a Japanese book or chapter title would be set: noun-final, no trailing punctuation, no ですます.
+- Use the controlled vocabulary below without deviation.
+- Keep structural numbering exactly as given, in Japanese form: "Book I" → 「第一巻」, "Chapter 12" → 「第十二章」, "Letter 68" → 「書簡六十八」, "Homily 5" → 「説教五」, "Psalm 53" → 「詩編五十三」.
+- "Against X" → 「X駁論」 or 「Xに対する反論」 as reads best. "On X" / "Concerning X" → 「Xについて」 or 「X論」.
+- Latin titles already given in Latin (De fide, Contra Faustum) may be kept in Latin with a Japanese gloss only if the English supplies one; otherwise translate the English.
+- Proper names not in the glossary: standard katakana transliteration of the Greek or Latin form.
+- Keep it short. A title is not a sentence.
+
+${glossaryText}
+
+OUTPUT
+You receive an array of English titles. Return exactly one Japanese title per input, in the same order. Never merge, split, reorder, or omit.`;
+}
+
+const TITLES_SCHEMA = {
+  type: 'object',
+  properties: {
+    titles: {
+      type: 'array',
+      description: 'Japanese titles, exactly one per input title, same order.',
+      items: { type: 'string' },
+    },
+  },
+  required: ['titles'],
+  additionalProperties: false,
+};
 
 const TRANSLATION_SCHEMA = {
   type: 'object',
@@ -326,6 +368,142 @@ function cost(model, usage) {
   );
 }
 
+/**
+ * Translate every document title in one cheap pass, writing a flat
+ * id -> title map. Titles are short, so many fit in a single request; the
+ * limit is the response size, not the prompt.
+ */
+async function runTitles(client, args, glossaryText) {
+  const TITLES_FILE = path.join(ROOT, 'data', 'titles-ja.json');
+  const TITLES_PER_CHUNK = 100;
+
+  const existing = existsSync(TITLES_FILE)
+    ? JSON.parse(await readFile(TITLES_FILE, 'utf8'))
+    : {};
+
+  const ids = (await readdir(SRC_DIR))
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => f.replace(/\.json$/, ''));
+
+  const pending = [];
+  for (const id of ids) {
+    if (existing[id]) continue;
+    const src = JSON.parse(
+      await readFile(path.join(SRC_DIR, `${id}.json`), 'utf8')
+    );
+    if (src.title) pending.push({ id, title: src.title });
+  }
+
+  const queue = args.limit ? pending.slice(0, args.limit) : pending;
+
+  console.log(`Titles already done: ${Object.keys(existing).length}`);
+  console.log(`Titles to translate: ${queue.length}`);
+
+  if (args.dryRun) {
+    const words = queue.reduce((n, t) => n + t.title.split(/\s+/).length, 0);
+    const p = PRICING[args.model] ?? PRICING['claude-opus-5'];
+    const live = (words * 1.4) / 1e6 * p.in + (words * 2.2) / 1e6 * p.out;
+    console.log(`\n${words.toLocaleString()} words of titles`);
+    console.log(`  est. live API : $${live.toFixed(2)}`);
+    console.log(`  est. batch API: $${(live / 2).toFixed(2)}`);
+    return;
+  }
+
+  if (!queue.length) {
+    console.log('\nNothing to do.');
+    return;
+  }
+
+  const system = titleSystemPrompt(glossaryText);
+  const chunks = [];
+  for (let i = 0; i < queue.length; i += TITLES_PER_CHUNK) {
+    chunks.push(queue.slice(i, i + TITLES_PER_CHUNK));
+  }
+
+  const usage = { input: 0, output: 0, cacheWrite: 0, cacheRead: 0 };
+  let done = 0;
+
+  const runChunk = async (chunk) => {
+    const stream = client.messages.stream({
+      model: args.model,
+      max_tokens: MAX_TOKENS,
+      system: [
+        { type: 'text', text: system, cache_control: { type: 'ephemeral' } },
+      ],
+      output_config: {
+        effort: 'low',
+        format: { type: 'json_schema', schema: TITLES_SCHEMA },
+      },
+      messages: [
+        {
+          role: 'user',
+          content: `Translate these ${chunk.length} titles into Japanese. Return ${chunk.length} titles, in order.\n\n${JSON.stringify(
+            chunk.map((c) => c.title),
+            null,
+            1
+          )}`,
+        },
+      ],
+    });
+
+    const message = await stream.finalMessage();
+    if (message.stop_reason === 'refusal') throw new Error('refused');
+    if (message.stop_reason === 'max_tokens') throw new Error('truncated');
+
+    const text = message.content.find((b) => b.type === 'text')?.text;
+    const out = JSON.parse(text).titles;
+    if (!Array.isArray(out) || out.length !== chunk.length) {
+      throw new Error(
+        `count mismatch: sent ${chunk.length}, got ${out?.length ?? '?'}`
+      );
+    }
+
+    chunk.forEach((c, i) => {
+      existing[c.id] = out[i];
+    });
+    usage.input += message.usage.input_tokens ?? 0;
+    usage.output += message.usage.output_tokens ?? 0;
+    usage.cacheWrite += message.usage.cache_creation_input_tokens ?? 0;
+    usage.cacheRead += message.usage.cache_read_input_tokens ?? 0;
+  };
+
+  // Warm the cache on one chunk before fanning out.
+  const rest = [...chunks];
+  const first = rest.shift();
+  await runChunk(first);
+  done += first.length;
+  await writeFile(TITLES_FILE, JSON.stringify(existing, null, 1), 'utf8');
+  console.log(`  ✓ ${done}/${queue.length}`);
+
+  const workers = Array.from(
+    { length: Math.max(1, args.concurrency) },
+    async () => {
+      while (rest.length) {
+        const chunk = rest.shift();
+        try {
+          await runChunk(chunk);
+          done += chunk.length;
+          // Persist as we go, so an interrupted run keeps its progress.
+          await writeFile(
+            TITLES_FILE,
+            JSON.stringify(existing, null, 1),
+            'utf8'
+          );
+          console.log(
+            `  ✓ ${done}/${queue.length}  $${cost(args.model, usage).toFixed(2)}`
+          );
+        } catch (err) {
+          console.error(`  ✗ chunk of ${chunk.length}: ${err.message}`);
+        }
+      }
+    }
+  );
+  await Promise.all(workers);
+
+  console.log(`\nTranslated ${done} titles. Cost: $${cost(args.model, usage).toFixed(2)}`);
+  console.log(`Wrote ${TITLES_FILE}`);
+}
+
 /** Map every document id to its author and work, for translation context. */
 function buildContextIndex(manifest) {
   const index = new Map();
@@ -348,10 +526,19 @@ async function main() {
 
   const glossary = JSON.parse(await readFile(GLOSSARY, 'utf8'));
   const manifest = JSON.parse(await readFile(MANIFEST, 'utf8'));
-  const system = systemPrompt(renderGlossary(glossary));
+  const glossaryText = renderGlossary(glossary);
+  const system = systemPrompt(glossaryText);
   const contextIndex = buildContextIndex(manifest);
 
   await mkdir(OUT_DIR, { recursive: true });
+
+  if (args.titles) {
+    console.log(`Model:       ${args.model}`);
+    // Dry run needs no client, so build it only when actually translating.
+    const client = args.dryRun ? null : new Anthropic();
+    await runTitles(client, args, glossaryText);
+    return;
+  }
 
   let ids;
   if (args.pilot) {
