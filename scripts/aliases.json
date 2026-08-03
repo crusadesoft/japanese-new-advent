@@ -1,0 +1,18 @@
+{
+  "$comment": "Other names the same author is catalogued under. The upstream index picks one name per author and drops the rest, which hides a writer from anyone searching the name they actually know — Mar Jacob is Jacob of Serugh, Caius is Gaius. Shown as 別名 beside the English name; nothing here affects slugs, sorting or grouping. Mathetes is the odd one: the word is not a name at all, but the index needs something to file the Epistle to Diognetus under, so the entry stands and the alias says what it really is.",
+
+  "Aphrahat/Aphraates": ["Aphrahat the Persian Sage"],
+  "Aristides the Philosopher": ["Aristides of Athens"],
+  "Barnabas": ["Pseudo-Barnabas"],
+  "Bardesanes": ["Bar Daisan"],
+  "Caius": ["Gaius"],
+  "Dionysius the Great": ["Dionysius of Alexandria"],
+  "Ephraim the Syrian": ["Ephrem the Syrian"],
+  "Gregory Thaumaturgus": ["Gregory the Wonderworker"],
+  "Mar Jacob": ["Jacob of Serugh"],
+  "Mathetes": ["Anonymous (μαθητής, “a disciple”)"],
+  "Moses of Chorene": ["Movses Khorenatsi"],
+  "Sulpitius Severus": ["Sulpicius Severus"],
+  "Theophilus": ["Theophilus of Antioch"],
+  "Venantius": ["Venantius Fortunatus"]
+}

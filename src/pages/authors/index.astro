@@ -4,6 +4,7 @@ import {
   getManifest,
   authorNameJa,
   authorDates,
+  authorAliases,
   getDocument,
   marker,
 } from '../../lib/corpus';
@@ -37,6 +38,7 @@ const titleOf = (id: string, fallback: string) =>
     {
       authors.map((a) => {
         const dates = authorDates(a);
+        const aliases = authorAliases(a.name);
         return (
           <section class="entry">
             <h2 class="entry-name">
@@ -47,6 +49,7 @@ const titleOf = (id: string, fallback: string) =>
               <span class="entry-en">
                 {a.name}
                 {dates ? `（${dates}）` : ''}
+                {aliases.length > 0 && ` 別名 ${aliases.join('／')}`}
               </span>
             </h2>
             <ul class="entry-works">

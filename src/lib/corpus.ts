@@ -286,6 +286,23 @@ export function authorNameJa(name: string): string {
 }
 
 /**
+ * Other names an author is catalogued under. The index files each writer
+ * under one name and drops the rest, so a reader who knows Jacob of Serugh
+ * will not find Mar Jacob. Same intent as `titleAltEn` on a document: keep
+ * the name that was dropped rather than assert that one of them is correct.
+ */
+let _aliases: Record<string, string[]> | null = null;
+
+export function authorAliases(name: string): string[] {
+  if (!_aliases) {
+    _aliases = JSON.parse(
+      readFileSync(path.join(ROOT, 'scripts', 'aliases.json'), 'utf8')
+    );
+  }
+  return _aliases![name] ?? [];
+}
+
+/**
  * Life dates. The upstream index carries them for only 14 of 69 authors, so
  * a curated table fills the rest — without it, era grouping puts four-fifths
  * of the corpus under "unknown" and stops being useful.
