@@ -14,7 +14,7 @@ Terminology is your judgment.
 
 ## Titles of works
 
-Where a patristic work shares its name with a book of the New Testament, use the form established in Japanese patristics rather than the Bishops' Conference title for the biblical book. Polycarp's letter is 「フィリピ人への手紙」, not 「フィリピの信徒への手紙」 — the latter is the name of Paul's epistle and makes Polycarp's letter read as if it were Paul's.
+Where a patristic work shares its name with a book of the New Testament, use the form established in Japanese patristics rather than the Bishops' Conference title for the biblical book.
 
 ## Formatting
 
