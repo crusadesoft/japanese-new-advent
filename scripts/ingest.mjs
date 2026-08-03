@@ -95,7 +95,18 @@ function inlineText($, el) {
       if (tag === 'i' || tag === 'em') out += `*${inner}*`;
       else if (tag === 'b' || tag === 'strong') out += `**${inner}**`;
       else if (tag === 'br') out += '\n';
-      else out += inner; // <a>, <font>, <span> etc. contribute text only
+      // Quotations carry their marks in the browser's stylesheet, not the
+      // text, so extracting textContent silently strips every quotation in
+      // the corpus. Emit real quote characters. `<quote>` is a non-standard
+      // spelling used in a few files for the same thing.
+      else if (tag === 'q' || tag === 'quote') out += `“${inner}”`;
+      // `span.stiki` is the upstream Scripture-citation apparatus, injected
+      // mid-sentence ("...not of works, Ephesians 2:8-9 but by the will..").
+      // Unmarked it reads as part of the Father's own prose. Parenthesise it
+      // so it is unambiguously a reference.
+      else if (tag === 'span' && $(node).attr('class') === 'stiki')
+        out += ` (${inner.trim()})`;
+      else out += inner; // <a>, <font>, other <span> contribute text only
     }
   }
   return out;
