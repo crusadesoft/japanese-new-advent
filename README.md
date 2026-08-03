@@ -94,6 +94,12 @@ Design points that matter at this scale:
 - **Structure-preserving.** A structured-output schema forces exactly one
   translated block per source block, so headings and paragraphs stay aligned
   with the original and side-by-side reading stays possible.
+- **Notes are apparatus, not exhaust.** Each document carries a `notes` array
+  rendered at the foot of its page as 訳注, in Japanese. `source` entries
+  record defects in the 1885 edition translated as they stand — Scripture
+  references pointing at the wrong verse, misnumbered chapters. `choice`
+  entries record renderings a competent translator could reasonably differ
+  on. A reader of a machine-assisted translation is entitled to see both.
 - **Resumable.** Completed documents are skipped; an interrupted run resumes.
 - **Cached.** The system prompt is byte-identical on every request and sits
   behind a cache breakpoint, billing at ~0.1× after the first call. One

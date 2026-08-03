@@ -33,7 +33,14 @@ Instructions
 OUTPUT
 Write `data/ja/{{ID}}.json`. Mirror the source file's structure: same keys, one translated block per source block in the same order with the same `type`. Set `title` to the Japanese title, add `titleEn` with the original English title, and add `model` and `translatedAt` fields.
 
-Then report back briefly: the Japanese title, and any translation choices you found genuinely difficult or debatable.
+Also add a `notes` array. These are printed at the foot of the page as 訳注, so write them in Japanese, for a Japanese reader, not as a report to me. Each entry is `{"kind": "source"|"choice", "locus": "第六章", "note": "..."}`, where `locus` is optional:
+
+- `source` — a defect in the 1885 edition you translated as it stands: a Scripture reference pointing at the wrong verse, a misnumbered chapter. Say what the source has and what it appears to be for.
+- `choice` — a rendering you judged genuinely debatable, where a competent translator could reasonably differ. Say what you chose and what the alternative was.
+
+Include only what a reader benefits from knowing. An empty array is a fine answer for a document that raised nothing.
+
+Then report back briefly: the Japanese title, and anything about the document worth my attention.
 ```
 
 ---

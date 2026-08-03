@@ -81,6 +81,21 @@ export interface Manifest {
   authors: Author[];
 }
 
+/**
+ * A translator's note, shown as apparatus at the foot of the page.
+ *
+ * `source` records a defect in the 1885 edition — a Scripture reference that
+ * points at the wrong verse, a misnumbered chapter — translated as it stands
+ * rather than silently corrected. `choice` records a rendering the translator
+ * judged debatable. Both are things a reader is entitled to see.
+ */
+export interface TranslationNote {
+  kind: 'source' | 'choice';
+  /** Where in the document, e.g. 第六章. Optional — some notes are general. */
+  locus?: string;
+  note: string;
+}
+
 export interface Document {
   id: string;
   /** Japanese title when translated, else null. */
@@ -90,6 +105,7 @@ export interface Document {
   children: { id: string; label: string }[];
   blocks: Block[];
   blocksEn: Block[];
+  notes: TranslationNote[];
   translated: boolean;
   words: number;
 }
@@ -134,6 +150,7 @@ export function getDocument(id: string): Document | null {
     children: src.children ?? [],
     blocks: ja?.blocks?.length ? ja.blocks : [],
     blocksEn: src.blocks ?? [],
+    notes: Array.isArray(ja?.notes) ? ja.notes : [],
     translated: Boolean(ja?.blocks?.length),
     words: src.words ?? 0,
   };

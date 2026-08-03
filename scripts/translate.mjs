@@ -117,7 +117,9 @@ async function systemPrompt() {
 
 ## Output
 
-You receive an array of text blocks. Return exactly one Japanese translation per input block, in the same order. Never merge, split, reorder, or omit blocks. Translate every block, including short headings.`;
+You receive an array of text blocks. Return exactly one Japanese translation per input block, in the same order. Never merge, split, reorder, or omit blocks. Translate every block, including short headings.
+
+Also return \`notes\`. These are printed at the foot of the page as 訳注, so write them in Japanese, for a Japanese reader, not as a report. Each has a \`kind\` of "source" (a defect in the 1885 edition you translated as it stands — a Scripture reference pointing at the wrong verse, a misnumbered chapter) or "choice" (a rendering you judged genuinely debatable), an optional \`locus\` such as 第六章, and the \`note\` itself. Include only what a reader benefits from knowing; an empty array is a fine answer.`;
 }
 
 /**
@@ -167,8 +169,23 @@ const TRANSLATION_SCHEMA = {
         'Japanese translations, exactly one per input block, in the same order.',
       items: { type: 'string' },
     },
+    notes: {
+      type: 'array',
+      description:
+        "Translator's notes in Japanese, printed as 訳注 at the foot of the page.",
+      items: {
+        type: 'object',
+        properties: {
+          kind: { type: 'string', enum: ['source', 'choice'] },
+          locus: { type: 'string' },
+          note: { type: 'string' },
+        },
+        required: ['kind', 'note'],
+        additionalProperties: false,
+      },
+    },
   },
-  required: ['blocks'],
+  required: ['blocks', 'notes'],
   additionalProperties: false,
 };
 
@@ -255,12 +272,19 @@ ${JSON.stringify(payload, null, 1)}`;
     );
   }
 
-  return { translations: out, usage: message.usage };
+  return {
+    translations: out,
+    notes: Array.isArray(parsed.notes) ? parsed.notes : [],
+    usage: message.usage,
+  };
 }
 
 async function translateDocument(client, args, system, doc, context) {
   const chunks = chunkBlocks(doc.blocks);
   const translated = [];
+  // A long document is translated in several requests, so notes arrive a
+  // chunk at a time and are collected into one apparatus for the page.
+  const notes = [];
   const usage = {
     input: 0,
     output: 0,
@@ -283,6 +307,7 @@ async function translateDocument(client, args, system, doc, context) {
         chunk.forEach((b, i) => {
           translated.push({ type: b.type, text: res.translations[i] });
         });
+        notes.push(...res.notes);
         usage.input += res.usage.input_tokens ?? 0;
         usage.output += res.usage.output_tokens ?? 0;
         usage.cacheWrite += res.usage.cache_creation_input_tokens ?? 0;
@@ -330,6 +355,7 @@ async function translateDocument(client, args, system, doc, context) {
       isToc: doc.isToc,
       children: doc.children,
       blocks: translated,
+      notes,
       model: args.model,
       translatedAt: new Date().toISOString(),
     },
@@ -591,7 +617,7 @@ async function main() {
     if (!doc.blocks.length) {
       await writeFile(
         path.join(OUT_DIR, `${id}.json`),
-        JSON.stringify({ ...doc, title: null, blocks: [] }, null, 1),
+        JSON.stringify({ ...doc, title: null, blocks: [], notes: [] }, null, 1),
         'utf8'
       );
       completed++;

@@ -100,6 +100,29 @@ const tag = (t: string) =>
   }
 
   {
+    doc.notes.length > 0 && (
+      <section class="notes">
+        <h2>訳注</h2>
+        <p class="notes-intro">
+          本文は機械翻訳を基礎としています。訳者が判断に迷った箇所、および
+          底本そのものの誤りと思われる箇所を以下に記します。
+        </p>
+        <ol>
+          {doc.notes.map((n) => (
+            <li>
+              <span class={`note-kind note-${n.kind}`}>
+                {n.kind === 'source' ? '底本' : '訳語'}
+              </span>
+              {n.locus && <span class="note-locus">{n.locus}</span>}
+              <span set:html={renderInline(n.note)} />
+            </li>
+          ))}
+        </ol>
+      </section>
+    )
+  }
+
+  {
     place && (
       <p style="margin-top:3rem">
         <a href={authorUrl(place.author.slug)}>

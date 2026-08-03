@@ -241,6 +241,73 @@ blockquote {
   line-height: 1.75;
 }
 
+/* ---------- translator's notes ---------- */
+
+/* Apparatus, not body text: set smaller and in gothic so it reads as the
+   editor speaking rather than the Father. */
+.notes {
+  margin-top: 4rem;
+  padding-top: 0.4rem;
+  border-top: 2px solid var(--rule);
+}
+
+.notes h2 {
+  font-size: 1rem;
+  margin: 0.9rem 0 0.5rem;
+  padding: 0;
+  border: 0;
+  letter-spacing: 0.12em;
+}
+
+.notes-intro {
+  font-family: var(--gothic);
+  font-size: 0.76rem;
+  line-height: 1.9;
+  color: var(--muted);
+  margin: 0 0 1.1rem;
+  text-align: left;
+}
+
+.notes ol {
+  margin: 0;
+  padding-left: 1.4rem;
+  font-size: 0.86rem;
+  line-height: 1.95;
+}
+
+.notes li {
+  margin-bottom: 0.85rem;
+  text-align: left;
+}
+
+.note-kind {
+  display: inline-block;
+  font-family: var(--gothic);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  padding: 0.06rem 0.4rem;
+  border-radius: 2px;
+  margin-right: 0.45rem;
+  vertical-align: 0.14em;
+  white-space: nowrap;
+}
+
+/* A defect in the 1885 edition, versus a debatable rendering. */
+.note-source {
+  background: #fdeaea;
+  color: var(--accent);
+}
+
+.note-choice {
+  background: #eef1f7;
+  color: var(--slate);
+}
+
+.note-locus {
+  font-weight: 700;
+  margin-right: 0.4rem;
+}
+
 /* ---------- listings ---------- */
 
 .author-list {
