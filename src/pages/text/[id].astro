@@ -21,6 +21,16 @@ const place = locate(id!);
 const heading = doc.title ?? doc.titleEn ?? id;
 const blocks: Block[] = doc.translated ? doc.blocks : doc.blocksEn;
 
+// Number the notes once, then index them by the block they annotate so each
+// passage can carry a marker back to its note and the note back to it.
+const numbered = doc.notes.map((n, i) => ({ ...n, n: i + 1 }));
+const notesByBlock = new Map<number, typeof numbered>();
+for (const note of numbered) {
+  if (note.block === undefined) continue;
+  if (!notesByBlock.has(note.block)) notesByBlock.set(note.block, []);
+  notesByBlock.get(note.block)!.push(note);
+}
+
 const tag = (t: string) =>
   t === 'heading' ? 'h2' : t === 'subheading' ? 'h3' : t === 'quote' ? 'blockquote' : 'p';
 ---
@@ -86,9 +96,19 @@ const tag = (t: string) =>
 
   <div class={doc.translated ? undefined : 'en-body'}>
     {
-      blocks.map((b) => {
+      blocks.map((b, i) => {
         const T = tag(b.type);
-        return <T set:html={renderInline(b.text)} />;
+        const here = notesByBlock.get(i);
+        const markers = here
+          ? here
+              .map(
+                (n) =>
+                  `<a class="note-ref" id="ref-${n.n}" href="#note-${n.n}" ` +
+                  `aria-label="訳注${n.n}へ">［注${n.n}］</a>`
+              )
+              .join('')
+          : '';
+        return <T id={`block-${i}`} set:html={renderInline(b.text) + markers} />;
       })
     }
   </div>
@@ -108,12 +128,18 @@ const tag = (t: string) =>
           底本そのものの誤りと思われる箇所を以下に記します。
         </p>
         <ol>
-          {doc.notes.map((n) => (
-            <li>
+          {numbered.map((n) => (
+            <li id={`note-${n.n}`}>
               <span class={`note-kind note-${n.kind}`}>
                 {n.kind === 'source' ? '底本' : '訳語'}
               </span>
-              {n.locus && <span class="note-locus">{n.locus}</span>}
+              {n.block !== undefined ? (
+                <a class="note-locus" href={`#ref-${n.n}`}>
+                  {n.locus ?? '本文'}
+                </a>
+              ) : (
+                n.locus && <span class="note-locus">{n.locus}</span>
+              )}
               <span set:html={renderInline(n.note)} />
             </li>
           ))}

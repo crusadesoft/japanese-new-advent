@@ -308,6 +308,42 @@ blockquote {
   margin-right: 0.4rem;
 }
 
+a.note-locus {
+  color: var(--link);
+}
+
+/* Marker in the body pointing down to its note. Kept small and raised so it
+   reads as apparatus rather than interrupting the Father's sentence. */
+.note-ref {
+  font-family: var(--gothic);
+  font-size: 0.6rem;
+  vertical-align: super;
+  line-height: 1;
+  margin-left: 0.15rem;
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* Both directions of the jump flash their target, so the reader can see
+   where they landed in a dense page of prose. */
+:target {
+  animation: note-flash 1.6s ease-out;
+}
+
+@keyframes note-flash {
+  from {
+    background: #fff3bf;
+  }
+  to {
+    background: transparent;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* ---------- listings ---------- */
 
 .author-list {

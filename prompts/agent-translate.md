@@ -33,10 +33,14 @@ Instructions
 OUTPUT
 Write `data/ja/{{ID}}.json`. Mirror the source file's structure: same keys, one translated block per source block in the same order with the same `type`. Set `title` to the Japanese title, add `titleEn` with the original English title, and add `model` and `translatedAt` fields.
 
-Also add a `notes` array. These are printed at the foot of the page as 訳注, so write them in Japanese, for a Japanese reader, not as a report to me. Each entry is `{"kind": "source"|"choice", "locus": "第六章", "note": "..."}`, where `locus` is optional:
+Also add a `notes` array. These are printed at the foot of the page as 訳注 and linked to the passage they annotate. Write them in Japanese, for a Japanese reader, not as a report to me. Use the impersonal register of scholarly apparatus: state what is the case about the text, not what you did or thought. Do not use the first person.
 
-- `source` — a defect in the 1885 edition you translated as it stands: a Scripture reference pointing at the wrong verse, a misnumbered chapter. Say what the source has and what it appears to be for.
-- `choice` — a rendering you judged genuinely debatable, where a competent translator could reasonably differ. Say what you chose and what the alternative was.
+Each entry is `{"kind": "source"|"choice", "block": 12, "locus": "第六章", "note": "..."}`.
+
+- `kind` — `source` for a defect in the 1885 edition rendered as it stands, `choice` for a rendering on which a competent translator could reasonably differ.
+- `block` — the zero-based index into the blocks array of the passage the note annotates. Omit only for a note about the document as a whole.
+- `locus` — a short Japanese label for that location, shown in the note.
+- `note` — the note itself. For a `source` entry, what the edition reads and what it appears to be for. For a `choice` entry, the rendering adopted and the alternative.
 
 Include only what a reader benefits from knowing. An empty array is a fine answer for a document that raised nothing.
 

@@ -119,7 +119,9 @@ async function systemPrompt() {
 
 You receive an array of text blocks. Return exactly one Japanese translation per input block, in the same order. Never merge, split, reorder, or omit blocks. Translate every block, including short headings.
 
-Also return \`notes\`. These are printed at the foot of the page as 訳注, so write them in Japanese, for a Japanese reader, not as a report. Each has a \`kind\` of "source" (a defect in the 1885 edition you translated as it stands — a Scripture reference pointing at the wrong verse, a misnumbered chapter) or "choice" (a rendering you judged genuinely debatable), an optional \`locus\` such as 第六章, and the \`note\` itself. Include only what a reader benefits from knowing; an empty array is a fine answer.`;
+Also return \`notes\`. These are printed at the foot of the page as 訳注 and linked to the passage they annotate. Write them in Japanese, for a Japanese reader, not as a report. Use the impersonal register of scholarly apparatus: state what is the case about the text, not what you did or thought. Do not use the first person.
+
+Each has a \`kind\` of "source" (a defect in the 1885 edition rendered as it stands) or "choice" (a rendering on which a competent translator could reasonably differ), a \`block\` giving the zero-based index into the blocks array of the passage annotated, a short Japanese \`locus\` label for that location, and the \`note\` itself. Omit \`block\` only for a note about the document as a whole. Include only what a reader benefits from knowing; an empty array is a fine answer.`;
 }
 
 /**
@@ -177,6 +179,11 @@ const TRANSLATION_SCHEMA = {
         type: 'object',
         properties: {
           kind: { type: 'string', enum: ['source', 'choice'] },
+          block: {
+            type: 'integer',
+            description:
+              'Zero-based index of the annotated block within this request.',
+          },
           locus: { type: 'string' },
           note: { type: 'string' },
         },
@@ -292,6 +299,10 @@ async function translateDocument(client, args, system, doc, context) {
     cacheRead: 0,
   };
 
+  // Each request sees only its own chunk, so a note's block index is relative
+  // to that chunk and has to be shifted to the document's own numbering.
+  let blockOffset = 0;
+
   for (const chunk of chunks) {
     let lastErr;
     // Retry transient failures, and shrink on truncation.
@@ -307,7 +318,13 @@ async function translateDocument(client, args, system, doc, context) {
         chunk.forEach((b, i) => {
           translated.push({ type: b.type, text: res.translations[i] });
         });
-        notes.push(...res.notes);
+        for (const note of res.notes) {
+          notes.push(
+            typeof note.block === 'number'
+              ? { ...note, block: note.block + blockOffset }
+              : note
+          );
+        }
         usage.input += res.usage.input_tokens ?? 0;
         usage.output += res.usage.output_tokens ?? 0;
         usage.cacheWrite += res.usage.cache_creation_input_tokens ?? 0;
@@ -328,6 +345,7 @@ async function translateDocument(client, args, system, doc, context) {
       }
     }
     if (lastErr) throw lastErr;
+    blockOffset += chunk.length;
   }
 
   // Titles are short and worth translating in the document's own context.

@@ -91,7 +91,12 @@ export interface Manifest {
  */
 export interface TranslationNote {
   kind: 'source' | 'choice';
-  /** Where in the document, e.g. 第六章. Optional — some notes are general. */
+  /**
+   * Index of the block the note attaches to, which anchors the link in both
+   * directions. Omitted for a note about the document as a whole.
+   */
+  block?: number;
+  /** Human-readable location shown in the note itself. */
   locus?: string;
   note: string;
 }
