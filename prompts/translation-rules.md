@@ -10,7 +10,7 @@ Written modern Japanese in である体 for treatises, letters and histories. Ho
 
 Use established Japanese Catholic usage, following Catholic Bishops' Conference of Japan (カトリック中央協議会) convention where it applies. Choose each term for its sense in the passage in front of you. Render it as a Japanese patristics scholar would.
 
-Terminology is your judgment. There is deliberately no controlled vocabulary: a fixed list cannot see context, and imposing one produced 聖人 (a canonised saint) for ἅγιοι where the Father means living believers, 愛徳 (the theological virtue) inside "love of money", and the developed office 司祭 for second-century πρεσβύτεροι.
+Terminology is your judgment.
 
 ## Titles of works
 
