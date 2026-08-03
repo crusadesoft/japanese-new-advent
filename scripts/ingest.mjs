@@ -106,7 +106,16 @@ function inlineText($, el) {
       // so it is unambiguously a reference.
       else if (tag === 'span' && $(node).attr('class') === 'stiki')
         out += ` (${inner.trim()})`;
-      else out += inner; // <a>, <font>, other <span> contribute text only
+      // A few files mark emphasis with a style attribute instead of a tag.
+      else if (tag === 'span' && /italic/i.test($(node).attr('style') || ''))
+        out += `*${inner}*`;
+      // Footnote markers. Bare, they merge into the prose as stray numerals.
+      else if (tag === 'sup') out += `[${inner.trim()}]`;
+      // Greek needs no marker of its own: the Unicode range already
+      // identifies it unambiguously, and inventing syntax here would just
+      // give the translation step something new to mangle. The renderer
+      // detects it by codepoint; the translation prompt says to leave it be.
+      else out += inner; // <a>, <font>, span.greek, span.sc contribute text
     }
   }
   return out;

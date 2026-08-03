@@ -118,7 +118,9 @@ Use established Japanese Catholic usage, following Catholic Bishops' Conference 
 
 FORMATTING
 - Preserve \`*emphasis*\` and \`**strong**\` markers exactly where the English has them.
-- Scripture quotations are part of the patristic text and are translated with it. Do not substitute a published Japanese Bible translation — those remain under copyright.
+- Quoted material appears in curly quotes “like this”. Render quotations in Japanese convention.
+- Parenthesised Scripture references such as (Ephesians 2:8-9) are editorial apparatus, not part of the Father's own sentence. Keep them, in Japanese citation form.
+- Words printed in Greek stay in Greek. Do not transliterate them into katakana or replace them with a Japanese equivalent — these passages are usually arguments about the Greek word itself, and ὁμοούσιος against ὁμοιούσιον is the whole point. Gloss in Japanese alongside where it helps the reader.
 - Transliterate proper names into katakana from the Greek or Latin form.
 - Keep numbered divisions as they appear, in Japanese form (第一章 and so on).
 

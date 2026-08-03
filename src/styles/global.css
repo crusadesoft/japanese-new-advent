@@ -193,6 +193,16 @@ blockquote {
   color: #333;
 }
 
+/* Polytonic Greek. Japanese mincho faces have no Greek coverage worth the
+   name, and the browser's fallback is usually a poor match, so name faces
+   that actually carry breathings and accents. */
+[lang='grc'] {
+  font-family: 'Gentium Plus', Gentium, 'GFS Didot', 'New Athena Unicode',
+    'Palatino Linotype', 'Times New Roman', serif;
+  letter-spacing: 0;
+  font-size: 1.02em;
+}
+
 /* ---------- text page ---------- */
 
 .doc-meta {

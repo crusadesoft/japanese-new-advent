@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-03T02:28:19.750Z",
+ "generatedAt": "2026-08-03T02:52:47.916Z",
  "source": "Ante-Nicene Fathers / Nicene & Post-Nicene Fathers (Schaff, 1885-1900), public domain",
  "counts": {
   "authors": 69,
   "works": 420,
   "documents": 3727,
-  "words": 15346559
+  "words": 15346596
  },
  "authors": [
   {
@@ -25720,7 +25720,7 @@
        "id": "07011",
        "title": "Divine Institutes, Book I (Of the False Worship of the Gods)",
        "isToc": false,
-       "words": 28738,
+       "words": 28747,
        "children": [],
        "label": "**Book I**"
       },
@@ -25728,7 +25728,7 @@
        "id": "07012",
        "title": "Divine Institutes, Book II (Of the Origin of Error)",
        "isToc": false,
-       "words": 25344,
+       "words": 25345,
        "children": [],
        "label": "**Book II**"
       },
@@ -25736,7 +25736,7 @@
        "id": "07013",
        "title": "Divine Institutes, Book III (Of the False Wisdom of Philosophers)",
        "isToc": false,
-       "words": 29350,
+       "words": 29351,
        "children": [],
        "label": "**Book III**"
       },
@@ -25752,7 +25752,7 @@
        "id": "07015",
        "title": "Divine Institutes, Book V (Of Justice)",
        "isToc": false,
-       "words": 24261,
+       "words": 24262,
        "children": [],
        "label": "**Book V**"
       },
@@ -25773,7 +25773,7 @@
        "label": "**Book VII**"
       }
      ],
-     "words": 192548
+     "words": 192560
     },
     {
      "id": "0702",
@@ -30462,7 +30462,7 @@
      "slug": "the-liturgy-of-james",
      "isToc": false,
      "children": [],
-     "words": 9196
+     "words": 9199
     },
     {
      "id": "0718",
@@ -30480,7 +30480,7 @@
      "slug": "the-liturgy-of-the-blessed-apostles",
      "isToc": false,
      "children": [],
-     "words": 5158
+     "words": 5161
     }
    ]
   },
@@ -31172,7 +31172,7 @@
        "id": "07152",
        "title": "Apostolic Constitutions (Book II)",
        "isToc": false,
-       "words": 26371,
+       "words": 26374,
        "children": [],
        "label": "**Book II**"
       },
@@ -31196,7 +31196,7 @@
        "id": "07155",
        "title": "Apostolic Constitutions (Book V)",
        "isToc": false,
-       "words": 11009,
+       "words": 11010,
        "children": [],
        "label": "**Book V**"
       },
@@ -31220,12 +31220,12 @@
        "id": "07158",
        "title": "Apostolic Constitutions (Book VIII)",
        "isToc": false,
-       "words": 22848,
+       "words": 22863,
        "children": [],
        "label": "**Book VIII**"
       }
      ],
-     "words": 97468
+     "words": 97487
     },
     {
      "id": "1004",
@@ -31279,7 +31279,7 @@
      "slug": "apostolic-constitutions-book-viii-chapter-47",
      "isToc": false,
      "children": [],
-     "words": 22848
+     "words": 22863
     },
     {
      "id": "0856",
