@@ -45,12 +45,10 @@ npm run ingest -- --src /path/to/fathers
 export ANTHROPIC_API_KEY=sk-ant-...
 
 npm run translate:titles      # document titles only
-npm run translate:pilot       # 24 representative documents
 npm run translate             # full corpus, resumable
 ```
 
-Flags: `--model`, `--concurrency`, `--limit`, `--dry-run`, `--pilot`,
-`--titles`.
+Flags: `--model`, `--concurrency`, `--limit`, `--dry-run`, `--titles`.
 
 Translation rules live in `prompts/translation-rules.md`, read by the
 pipeline and pasted into agent prompts. `prompts/agent-translate.md` is the

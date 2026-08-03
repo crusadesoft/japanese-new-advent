@@ -61,9 +61,6 @@ OUTPUT
 For each, write data/ja/<id>.json, mirroring that file's structure.
 ```
 
-Six documents per agent runs about 70–120k tokens. Beyond that the agent
-starts economising on the later documents.
-
 ## After the run
 
 Verify yourself — do not rely on the agent's own check:

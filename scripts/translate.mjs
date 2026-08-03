@@ -12,7 +12,6 @@
  *    behind a cache breakpoint and bills at ~0.1x after the first call.
  *
  * Usage:
- *   node scripts/translate.mjs --pilot            # ~24 representative docs
  *   node scripts/translate.mjs                    # whole corpus
  *   node scripts/translate.mjs --model claude-sonnet-5 --concurrency 8
  */
@@ -42,53 +41,17 @@ const PRICING = {
 const WORDS_PER_CHUNK = 1800;
 const MAX_TOKENS = 32000;
 
-/**
- * One representative work per major Father, spanning the Apostolic Fathers
- * through Gregory the Great and covering the corpus's genres: apology,
- * letter, homily, treatise, commentary, history and monastic rule.
- * Verified against the ingested corpus — all are content documents, not
- * tables of contents, and sized so the whole pilot is ~71,000 words.
- */
-const PILOT_IDS = [
-  '0101', // Mathetes — Epistle to Diognetus
-  '0104', // Ignatius of Antioch — To the Ephesians
-  '0136', // Polycarp — To the Philippians
-  '0132', // Justin Martyr — Fragments
-  '0103', // Irenaeus — Against Heresies
-  '0323', // Tertullian — To the Martyrs
-  '02108', // Clement of Alexandria — Stromata VIII
-  '080815', // Clement of Rome — Homily 15
-  '101505', // Origen — Commentary on John V
-  '050668', // Cyprian — Epistle 68
-  '2804', // Eusebius — Letter on the Council of Nicaea
-  '28156', // Athanasius — History of the Arians VI
-  '3202217', // Basil the Great — Letter 217
-  '291117', // Gregory of Nyssa — Letter 17
-  '310227', // Gregory Nazianzen — First Theological Oration
-  '310123', // Cyril of Jerusalem — Catechetical Lecture 23
-  '3303053', // Hilary of Poitiers — On Psalm 53
-  '3410', // Ambrose — The Memorial
-  '140624', // Augustine — Contra Faustum XXIV
-  '230605', // John Chrysostom — Homily 5 on First Timothy
-  '3006', // Jerome — Life of Malchus
-  '350701', // John Cassian — Institutes I
-  '3604120', // Leo the Great — Letter 120
-  '36014', // Gregory the Great — Pastoral Rule IV
-];
-
 function parseArgs(argv) {
   const args = {
     model: 'claude-opus-5',
     concurrency: 4,
-    pilot: false,
     titles: false,
     limit: null,
     dryRun: false,
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
-    if (a === '--pilot') args.pilot = true;
-    else if (a === '--titles') args.titles = true;
+    if (a === '--titles') args.titles = true;
     else if (a === '--dry-run') args.dryRun = true;
     else if (a === '--model') args.model = argv[++i];
     else if (a === '--concurrency') args.concurrency = Number(argv[++i]);
@@ -563,20 +526,9 @@ async function main() {
     return;
   }
 
-  let ids;
-  if (args.pilot) {
-    ids = PILOT_IDS.filter((id) => existsSync(path.join(SRC_DIR, `${id}.json`)));
-    const missing = PILOT_IDS.filter(
-      (id) => !existsSync(path.join(SRC_DIR, `${id}.json`))
-    );
-    if (missing.length) {
-      console.warn(`Pilot ids not found in corpus, skipping: ${missing.join(', ')}`);
-    }
-  } else {
-    ids = (await readdir(SRC_DIR))
-      .filter((f) => f.endsWith('.json'))
-      .map((f) => f.replace(/\.json$/, ''));
-  }
+  const ids = (await readdir(SRC_DIR))
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => f.replace(/\.json$/, ''));
 
   // Resume: skip anything already translated.
   const pending = ids.filter(
