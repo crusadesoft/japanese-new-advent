@@ -155,10 +155,21 @@ async function parseDocument(file, id) {
 
   const blocks = [];
   scope.find(Object.keys(BLOCK_TYPES).join(',')).each((_, el) => {
+    const $el = $(el);
     const tag = el.tagName.toLowerCase();
+
+    // A blockquote wrapping paragraphs matches this selector, and so does
+    // every paragraph inside it, so the same prose would be emitted twice.
+    // Let the inner blocks carry the text — that preserves paragraph breaks
+    // within a long quotation, which collapsing to one block would lose.
+    if (tag === 'blockquote' && $el.find('p, li').length) return;
+
+    const quoted =
+      (tag === 'p' || tag === 'li') && $el.parents('blockquote').length > 0;
+
     const text = normalize(inlineText($, el));
     if (!text) return;
-    blocks.push({ type: BLOCK_TYPES[tag], text });
+    blocks.push({ type: quoted ? 'quote' : BLOCK_TYPES[tag], text });
   });
 
   if (!blocks.length) return null;

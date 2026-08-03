@@ -34,10 +34,6 @@
   },
   {
    "type": "p",
-   "text": "A name from great Iulus handed down."
-  },
-  {
-   "type": "p",
    "text": "I speak of these things not as of importance to those who have them, but as worthy of remark in those who despise them. Men of the world look up to persons who are rich in such privileges. We on the other hand praise those who for the Saviour's sake despise them; and strangely depreciating all who keep them, we eulogize those who are unwilling to do so. Thus nobly born, Paula through her fruitfulness and her chastity won approval from all, from her husband first, then from her relatives, and lastly from the whole city. She bore five children; Blæsilla, for whose death I consoled her while at Rome; Paulina, who has left the reverend and admirable Pammachius to inherit both her vows and property, to whom also I addressed a little book on her death; Eustochium, who is now in the holy places, a precious necklace of virginity and of the church; Rufina, whose untimely end overcame the affectionate heart of her mother; and Toxotius, after whom she had no more children. You can thus see that it was not her wish to fulfil a wife's duty, but that she only complied with her husband's longing to have male offspring."
   },
   {
@@ -58,10 +54,6 @@
   },
   {
    "type": "quote",
-   "text": "She stretched her dripping limbs upon the shore:\nThen sailed past Malea and Cythera's isle,\nThe scattered Cyclades, and all the lands\nThat narrow in the seas on every side."
-  },
-  {
-   "type": "p",
    "text": "She stretched her dripping limbs upon the shore:\nThen sailed past Malea and Cythera's isle,\nThe scattered Cyclades, and all the lands\nThat narrow in the seas on every side."
   },
   {
@@ -194,18 +186,14 @@
   },
   {
    "type": "quote",
-   "text": "*The Inscription on Paula's Tomb.*\nWithin this tomb a child of Scipio lies,\nA daughter of the farfamed Pauline house,\nA scion of the Gracchi, of the stock\nOf Agamemnon's self, illustrious:\nHere rests the lady Paula, well-beloved\nOf both her parents, with Eustochium\nFor daughter; she the first of Roman dames\nWho hardship chose and Bethlehem for Christ.\nIn front of the cavern there is another inscription as follows:—\nDo you see here hollowed in the rock a grave,\n'Tis Paula's tomb; high heaven has her soul.\nWho Rome and friends, riches and home forsook\nHere in this lonely spot to find her rest.\nFor here Christ's manger was, and here the kings\nTo Him, both God and man, their offerings made."
-  },
-  {
-   "type": "p",
    "text": "*The Inscription on Paula's Tomb.*"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "Within this tomb a child of Scipio lies,\nA daughter of the farfamed Pauline house,\nA scion of the Gracchi, of the stock\nOf Agamemnon's self, illustrious:\nHere rests the lady Paula, well-beloved\nOf both her parents, with Eustochium\nFor daughter; she the first of Roman dames\nWho hardship chose and Bethlehem for Christ."
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "In front of the cavern there is another inscription as follows:—\nDo you see here hollowed in the rock a grave,\n'Tis Paula's tomb; high heaven has her soul.\nWho Rome and friends, riches and home forsook\nHere in this lonely spot to find her rest.\nFor here Christ's manger was, and here the kings\nTo Him, both God and man, their offerings made."
   },
   {
@@ -213,5 +201,5 @@
    "text": "35. The holy and blessed Paula fell asleep on the seventh day before the Kalends of February, on the third day of the week, after the sun had set. She was buried on the fifth day before the same Kalends, in the sixth consulship of the Emperor Honorius and the first of Aristænetus. She lived in the vows of religion five years at Rome and twenty years at Bethlehem. The whole duration of her life was fifty-six years eight months and twenty-one days."
   }
  ],
- "words": 15805
+ "words": 15645
 }

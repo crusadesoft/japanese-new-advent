@@ -306,34 +306,30 @@
   },
   {
    "type": "quote",
-   "text": "Two revolutions of Saturn, 60 years;\n5 revolutions of Jupiter, 60 years;\n40 revolutions of Mars, 60 years;\n60 revolutions of the Sun, 60 years;\n72 revolutions of Venus, 60 years;\n150 revolutions of Mercury, 60 years;\n720 revolutions of the Moon, 60 years."
-  },
-  {
-   "type": "p",
    "text": "Two revolutions of Saturn, 60 years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "5 revolutions of Jupiter, 60 years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "40 revolutions of Mars, 60 years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "60 revolutions of the Sun, 60 years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "72 revolutions of Venus, 60 years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "150 revolutions of Mercury, 60 years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "720 revolutions of the Moon, 60 years."
   },
   {
@@ -342,34 +338,30 @@
   },
   {
    "type": "quote",
-   "text": "200 revolutions of Saturn, six thousands of years;\n500 revolutions of Jupiter, 6 thousands of years;\n4 thousand revolutions of Mars, 6 thousands of years;\nSix thousand revolutions of the Sun, 6 thousands of years;\n7 thousand and 200 revolutions of Venus, 6 thousands of years;\n12 thousand revolutions of Mercury, 6 thousands of years;\n72 thousand revolutions of the Moon, 6 thousands of years."
-  },
-  {
-   "type": "p",
    "text": "200 revolutions of Saturn, six thousands of years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "500 revolutions of Jupiter, 6 thousands of years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "4 thousand revolutions of Mars, 6 thousands of years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "Six thousand revolutions of the Sun, 6 thousands of years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "7 thousand and 200 revolutions of Venus, 6 thousands of years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "12 thousand revolutions of Mercury, 6 thousands of years;"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "72 thousand revolutions of the Moon, 6 thousands of years."
   },
   {
@@ -377,5 +369,5 @@
    "text": "These things did Bardesan thus compute when desiring to show that this world would stand only six thousands of years."
   }
  ],
- "words": 10035
+ "words": 9926
 }

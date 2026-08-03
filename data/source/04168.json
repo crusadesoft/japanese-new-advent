@@ -534,14 +534,10 @@
   },
   {
    "type": "quote",
-   "text": "That owed his nurture to the blue-eyed maid,\nBut from the teeming furrow took his birth,\nThe mighty offspring of the foodful earth."
-  },
-  {
-   "type": "p",
    "text": "That owed his nurture to the blue-eyed maid,\nBut from the teeming furrow took his birth,"
   },
   {
-   "type": "p",
+   "type": "quote",
    "text": "The mighty offspring of the foodful earth."
   },
   {
@@ -566,10 +562,6 @@
   },
   {
    "type": "quote",
-   "text": "“Whom the son of crafty Saturn appointed;”"
-  },
-  {
-   "type": "p",
    "text": "“Whom the son of crafty Saturn appointed;”"
   },
   {
@@ -645,5 +637,5 @@
    "text": "Glory Be to You, Our God; Glory Be to You."
   }
  ],
- "words": 26799
+ "words": 26769
 }

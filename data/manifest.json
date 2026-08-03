@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-03T02:52:47.916Z",
+ "generatedAt": "2026-08-03T03:11:22.310Z",
  "source": "Ante-Nicene Fathers / Nicene & Post-Nicene Fathers (Schaff, 1885-1900), public domain",
  "counts": {
   "authors": 69,
   "works": 420,
   "documents": 3727,
-  "words": 15346596
+  "words": 15222504
  },
  "authors": [
   {
@@ -174,12 +174,12 @@
        "id": "34062",
        "title": "Concerning Repentance (Book II)",
        "isToc": false,
-       "words": 11849,
+       "words": 11835,
        "children": [],
        "label": "Book II"
       }
      ],
-     "words": 25958
+     "words": 25944
     },
     {
      "id": "3401",
@@ -269,7 +269,7 @@
        "id": "34031",
        "title": "On the Death of Satyrus (Book I)",
        "isToc": false,
-       "words": 11673,
+       "words": 11639,
        "children": [],
        "label": "Book I"
       },
@@ -282,7 +282,7 @@
        "label": "Book II"
       }
      ],
-     "words": 32202
+     "words": 32168
     },
     {
      "id": "3410",
@@ -587,7 +587,7 @@
        "id": "06315",
        "title": "Against the Heathen (Book V)",
        "isToc": false,
-       "words": 14058,
+       "words": 13981,
        "children": [],
        "label": "**Book 5**"
       },
@@ -608,7 +608,7 @@
        "label": "**Book 7**"
       }
      ],
-     "words": 102138
+     "words": 102061
     }
    ]
   },
@@ -843,7 +843,7 @@
        "id": "28161",
        "title": "Discourse 1 Against the Arians",
        "isToc": false,
-       "words": 29738,
+       "words": 29674,
        "children": [],
        "label": "**Discourse I**"
       },
@@ -867,12 +867,12 @@
        "id": "28164",
        "title": "Discourse 4 Against the Arians",
        "isToc": false,
-       "words": 14198,
+       "words": 14167,
        "children": [],
        "label": "**Discourse IV**"
       }
      ],
-     "words": 112607
+     "words": 112512
     },
     {
      "id": "2817",
@@ -881,7 +881,7 @@
      "slug": "de-synodis",
      "isToc": false,
      "children": [],
-     "words": 25121
+     "words": 24744
     },
     {
      "id": "2818",
@@ -1306,7 +1306,7 @@
      "slug": "a-plea-for-the-christians",
      "isToc": false,
      "children": [],
-     "words": 17145
+     "words": 16345
     },
     {
      "id": "0206",
@@ -1342,7 +1342,7 @@
        "id": "110101",
        "title": "The Confessions (Book I)",
        "isToc": false,
-       "words": 8094,
+       "words": 8013,
        "children": [],
        "label": "**BOOK 1**"
       },
@@ -1398,7 +1398,7 @@
        "id": "110108",
        "title": "The Confessions (Book VIII)",
        "isToc": false,
-       "words": 8910,
+       "words": 8888,
        "children": [],
        "label": "**BOOK 8**"
       },
@@ -1406,7 +1406,7 @@
        "id": "110109",
        "title": "The Confessions (Book IX)",
        "isToc": false,
-       "words": 9507,
+       "words": 9482,
        "children": [],
        "label": "**BOOK 9**"
       },
@@ -1443,7 +1443,7 @@
        "label": "**BOOK 13**"
       }
      ],
-     "words": 123767
+     "words": 123639
     },
     {
      "id": "1102",
@@ -1560,7 +1560,7 @@
        "id": "1102015",
        "title": "Letter 15 (A.D. 390)",
        "isToc": false,
-       "words": 491,
+       "words": 470,
        "children": [],
        "label": "**Letter 15**"
       },
@@ -1576,7 +1576,7 @@
        "id": "1102017",
        "title": "Letter 17 (A.D. 390)",
        "isToc": false,
-       "words": 1552,
+       "words": 1542,
        "children": [],
        "label": "**Letter 17**"
       },
@@ -1640,7 +1640,7 @@
        "id": "1102026",
        "title": "Letter 26 (A.D. 395)",
        "isToc": false,
-       "words": 1591,
+       "words": 1582,
        "children": [],
        "label": "**Letter 26**"
       },
@@ -1952,7 +1952,7 @@
        "id": "1102072",
        "title": "From Jerome to Augustine (A.D. 404)",
        "isToc": false,
-       "words": 1503,
+       "words": 1478,
        "children": [],
        "label": "**Letter 72**"
       },
@@ -2336,7 +2336,7 @@
        "id": "1102138",
        "title": "Letter 138 (A.D. 412)",
        "isToc": false,
-       "words": 6637,
+       "words": 6540,
        "children": [],
        "label": "**Letter 138**"
       },
@@ -2496,7 +2496,7 @@
        "id": "1102185",
        "title": "Letter 185",
        "isToc": false,
-       "words": 16426,
+       "words": 16350,
        "children": [],
        "label": "**Letter 185**"
       },
@@ -2749,7 +2749,7 @@
        "label": "**Jerome's Letter 144**"
       }
      ],
-     "words": 377715
+     "words": 377477
     },
     {
      "id": "1201",
@@ -2762,7 +2762,7 @@
        "id": "120101",
        "title": "The City of God (Book I)",
        "isToc": false,
-       "words": 18592,
+       "words": 18301,
        "children": [],
        "label": "**Book 1**"
       },
@@ -2770,7 +2770,7 @@
        "id": "120102",
        "title": "The City of God (Book II)",
        "isToc": false,
-       "words": 16627,
+       "words": 16600,
        "children": [],
        "label": "**Book 2**"
       },
@@ -2778,7 +2778,7 @@
        "id": "120103",
        "title": "The City of God (Book III)",
        "isToc": false,
-       "words": 17162,
+       "words": 17029,
        "children": [],
        "label": "**Book 3**"
       },
@@ -2786,7 +2786,7 @@
        "id": "120104",
        "title": "The City of God (Book IV)",
        "isToc": false,
-       "words": 16999,
+       "words": 16963,
        "children": [],
        "label": "**Book 4**"
       },
@@ -2794,7 +2794,7 @@
        "id": "120105",
        "title": "The City of God (Book V)",
        "isToc": false,
-       "words": 21141,
+       "words": 20721,
        "children": [],
        "label": "**Book 5**"
       },
@@ -2802,7 +2802,7 @@
        "id": "120106",
        "title": "The City of God (Book VI)",
        "isToc": false,
-       "words": 12006,
+       "words": 12001,
        "children": [],
        "label": "**Book 6**"
       },
@@ -2810,7 +2810,7 @@
        "id": "120107",
        "title": "The City of God (Book VII)",
        "isToc": false,
-       "words": 18727,
+       "words": 18658,
        "children": [],
        "label": "**Book 7**"
       },
@@ -2818,7 +2818,7 @@
        "id": "120108",
        "title": "The City of God (Book VIII)",
        "isToc": false,
-       "words": 19029,
+       "words": 18983,
        "children": [],
        "label": "**Book 8**"
       },
@@ -2826,7 +2826,7 @@
        "id": "120109",
        "title": "The City of God (Book IX)",
        "isToc": false,
-       "words": 11143,
+       "words": 11132,
        "children": [],
        "label": "**Book 9**"
       },
@@ -2834,7 +2834,7 @@
        "id": "120110",
        "title": "The City of God (Book X)",
        "isToc": false,
-       "words": 21695,
+       "words": 21660,
        "children": [],
        "label": "**Book 10**"
       },
@@ -2866,7 +2866,7 @@
        "id": "120114",
        "title": "The City of God (Book XIV)",
        "isToc": false,
-       "words": 18989,
+       "words": 18865,
        "children": [],
        "label": "**Book 14**"
       },
@@ -2874,7 +2874,7 @@
        "id": "120115",
        "title": "The City of God (Book XV)",
        "isToc": false,
-       "words": 22005,
+       "words": 21991,
        "children": [],
        "label": "**Book 15**"
       },
@@ -2882,7 +2882,7 @@
        "id": "120116",
        "title": "The City of God (Book XVI)",
        "isToc": false,
-       "words": 24665,
+       "words": 24658,
        "children": [],
        "label": "**Book 16**"
       },
@@ -2898,7 +2898,7 @@
        "id": "120118",
        "title": "The City of God (Book XVIII)",
        "isToc": false,
-       "words": 30969,
+       "words": 30849,
        "children": [],
        "label": "**Book 18**"
       },
@@ -2914,7 +2914,7 @@
        "id": "120120",
        "title": "The City of God (Book XX)",
        "isToc": false,
-       "words": 27822,
+       "words": 27803,
        "children": [],
        "label": "**Book 20**"
       },
@@ -2922,7 +2922,7 @@
        "id": "120121",
        "title": "The City of God (Book XXI)",
        "isToc": false,
-       "words": 23939,
+       "words": 23751,
        "children": [],
        "label": "**Book 21**"
       },
@@ -2935,7 +2935,7 @@
        "label": "**Book 22**"
       }
      ],
-     "words": 444597
+     "words": 443052
     },
     {
      "id": "1202",
@@ -2998,7 +2998,7 @@
        "id": "130101",
        "title": "On the Trinity (Book I)",
        "isToc": false,
-       "words": 17954,
+       "words": 17526,
        "children": [],
        "label": "**Book 1**"
       },
@@ -3094,7 +3094,7 @@
        "id": "130113",
        "title": "On the Trinity (Book XIII)",
        "isToc": false,
-       "words": 15465,
+       "words": 15453,
        "children": [],
        "label": "**Book 13**"
       },
@@ -3115,7 +3115,7 @@
        "label": "**Book 15**"
       }
      ],
-     "words": 186026
+     "words": 185586
     },
     {
      "id": "1302",
@@ -3250,7 +3250,7 @@
      "slug": "on-care-to-be-had-for-the-dead",
      "isToc": false,
      "children": [],
-     "words": 10842
+     "words": 10808
     },
     {
      "id": "1401",
@@ -3673,12 +3673,12 @@
        "id": "14093",
        "title": "Answer to Petilian the Donatist (Book III)",
        "isToc": false,
-       "words": 29947,
+       "words": 29932,
        "children": [],
        "label": "Book III"
       }
      ],
-     "words": 98681
+     "words": 98666
     },
     {
      "id": "1501",
@@ -3730,7 +3730,7 @@
      "slug": "on-nature-and-grace",
      "isToc": false,
      "children": [],
-     "words": 28476
+     "words": 28457
     },
     {
      "id": "1504",
@@ -4151,7 +4151,7 @@
        "id": "1602123",
        "title": "The Harmony of the Gospels, Book I",
        "isToc": false,
-       "words": 2233,
+       "words": 2131,
        "children": [],
        "label": "**Chapter 23**"
       },
@@ -4207,7 +4207,7 @@
        "id": "1602130",
        "title": "The Harmony of the Gospels, Book I",
        "isToc": false,
-       "words": 562,
+       "words": 545,
        "children": [],
        "label": "**Chapter 30**"
       },
@@ -5196,7 +5196,7 @@
        "label": "**Chapter 10**"
       }
      ],
-     "words": 151109
+     "words": 150990
     },
     {
      "id": "1603",
@@ -5449,7 +5449,7 @@
        "id": "160331",
        "title": "Sermon 31 on the New Testament",
        "isToc": false,
-       "words": 4674,
+       "words": 4643,
        "children": [],
        "label": "**Sermon 31**"
       },
@@ -5641,7 +5641,7 @@
        "id": "160355",
        "title": "Sermon 55 on the New Testament",
        "isToc": false,
-       "words": 4398,
+       "words": 4375,
        "children": [],
        "label": "**Sermon 55**"
       },
@@ -5982,7 +5982,7 @@
        "label": "**Sermon 97**"
       }
      ],
-     "words": 293438
+     "words": 293384
     },
     {
      "id": "1701",
@@ -7095,12 +7095,12 @@
        "id": "170302",
        "title": "Soliloquies, Book II",
        "isToc": false,
-       "words": 12496,
+       "words": 12487,
        "children": [],
        "label": "**Book II**"
       }
      ],
-     "words": 22513
+     "words": 22504
     },
     {
      "id": "1801",
@@ -8330,7 +8330,7 @@
      "slug": "the-book-of-the-laws-of-various-countries",
      "isToc": false,
      "children": [],
-     "words": 10035
+     "words": 9926
     }
    ]
   },
@@ -10366,7 +10366,7 @@
        "id": "3202239",
        "title": "Letter 239",
        "isToc": false,
-       "words": 707,
+       "words": 695,
        "children": [],
        "label": "Letter 239"
       },
@@ -11067,7 +11067,7 @@
        "label": "Letter 366"
       }
      ],
-     "words": 172825
+     "words": 172813
     }
    ]
   },
@@ -11122,7 +11122,7 @@
        "id": "020801",
        "title": "Exhortation to the Heathen (Chapter 1)",
        "isToc": false,
-       "words": 3296,
+       "words": 3285,
        "children": [],
        "label": "**Chapter 1.**"
       },
@@ -11130,7 +11130,7 @@
        "id": "020802",
        "title": "Exhortation to the Heathen (Chapter 2)",
        "isToc": false,
-       "words": 7820,
+       "words": 7344,
        "children": [],
        "label": "**Chapter 2.**"
       },
@@ -11138,7 +11138,7 @@
        "id": "020803",
        "title": "Exhortation to the Heathen (Chapter 3)",
        "isToc": false,
-       "words": 1338,
+       "words": 1287,
        "children": [],
        "label": "**Chapter 3.**"
       },
@@ -11146,7 +11146,7 @@
        "id": "020804",
        "title": "Exhortation to the Heathen (Chapter 4)",
        "isToc": false,
-       "words": 5414,
+       "words": 5190,
        "children": [],
        "label": "**Chapter 4.**"
       },
@@ -11162,7 +11162,7 @@
        "id": "020806",
        "title": "Exhortation to the Heathen (Chapter 6)",
        "isToc": false,
-       "words": 1601,
+       "words": 1394,
        "children": [],
        "label": "**Chapter 6.**"
       },
@@ -11170,7 +11170,7 @@
        "id": "020807",
        "title": "Exhortation to the Heathen (Chapter 7)",
        "isToc": false,
-       "words": 1450,
+       "words": 955,
        "children": [],
        "label": "**Chapter 7.**"
       },
@@ -11178,7 +11178,7 @@
        "id": "020808",
        "title": "Exhortation to the Heathen (Chapter 8)",
        "isToc": false,
-       "words": 1344,
+       "words": 1280,
        "children": [],
        "label": "**Chapter 8.**"
       },
@@ -11194,7 +11194,7 @@
        "id": "020810",
        "title": "Exhortation to the Heathen (Chapter 10)",
        "isToc": false,
-       "words": 5397,
+       "words": 5343,
        "children": [],
        "label": "**Chapter 10.**"
       },
@@ -11202,7 +11202,7 @@
        "id": "020811",
        "title": "Exhortation to the Heathen (Chapter 11)",
        "isToc": false,
-       "words": 1956,
+       "words": 1914,
        "children": [],
        "label": "**Chapter 11.**"
       },
@@ -11210,12 +11210,12 @@
        "id": "020812",
        "title": "Exhortation to the Heathen (Chapter 12)",
        "isToc": false,
-       "words": 1690,
+       "words": 1608,
        "children": [],
        "label": "**Chapter 12.**"
       }
      ],
-     "words": 34007
+     "words": 32301
     },
     {
      "id": "0209",
@@ -11228,7 +11228,7 @@
        "id": "02091",
        "title": "The Paedagogus (Book I)",
        "isToc": false,
-       "words": 24666,
+       "words": 24590,
        "children": [],
        "label": "Book I"
       },
@@ -11236,7 +11236,7 @@
        "id": "02092",
        "title": "The Instructor (Book II)",
        "isToc": false,
-       "words": 29202,
+       "words": 28904,
        "children": [],
        "label": "Book II"
       },
@@ -11244,12 +11244,12 @@
        "id": "02093",
        "title": "The Instructor (Book III)",
        "isToc": false,
-       "words": 23104,
+       "words": 22005,
        "children": [],
        "label": "Book III"
       }
      ],
-     "words": 76978
+     "words": 75505
     },
     {
      "id": "0210",
@@ -11262,7 +11262,7 @@
        "id": "02101",
        "title": "The Stromata (Book I)",
        "isToc": false,
-       "words": 37930,
+       "words": 37157,
        "children": [],
        "label": "Book I"
       },
@@ -11270,7 +11270,7 @@
        "id": "02102",
        "title": "The Stromata (Book II)",
        "isToc": false,
-       "words": 29019,
+       "words": 28582,
        "children": [],
        "label": "Book II"
       },
@@ -11278,7 +11278,7 @@
        "id": "02103",
        "title": "The Stromata (Book III)",
        "isToc": false,
-       "words": 15797,
+       "words": 15572,
        "children": [],
        "label": "Book III"
       },
@@ -11286,7 +11286,7 @@
        "id": "02104",
        "title": "The Stromata (Book IV)",
        "isToc": false,
-       "words": 30119,
+       "words": 29303,
        "children": [],
        "label": "Book IV"
       },
@@ -11294,7 +11294,7 @@
        "id": "02105",
        "title": "The Stromata (Book V)",
        "isToc": false,
-       "words": 31400,
+       "words": 28096,
        "children": [],
        "label": "Book V"
       },
@@ -11302,7 +11302,7 @@
        "id": "02106",
        "title": "The Stromata (Book VI)",
        "isToc": false,
-       "words": 35502,
+       "words": 33731,
        "children": [],
        "label": "Book VI"
       },
@@ -11310,7 +11310,7 @@
        "id": "02107",
        "title": "The Stromata (Book VII)",
        "isToc": false,
-       "words": 29697,
+       "words": 29167,
        "children": [],
        "label": "Book VII"
       },
@@ -11323,7 +11323,7 @@
        "label": "Book VIII"
       }
      ],
-     "words": 218081
+     "words": 210225
     },
     {
      "id": "0211",
@@ -12771,7 +12771,7 @@
      "slug": "miscellaneous-fragments",
      "isToc": false,
      "children": [],
-     "words": 13851
+     "words": 12601
     }
    ]
   },
@@ -13057,7 +13057,7 @@
      "slug": "oration-of-constantine-to-the-assembly-of-the-saints",
      "isToc": false,
      "children": [],
-     "words": 15268
+     "words": 14548
     },
     {
      "id": "2504",
@@ -16758,7 +16758,7 @@
        "id": "3103b",
        "title": "Letters (Division II)",
        "isToc": false,
-       "words": 8761,
+       "words": 8745,
        "children": [],
        "label": "**Division II**"
       },
@@ -16766,12 +16766,12 @@
        "id": "3103c",
        "title": "Letters (Division III)",
        "isToc": false,
-       "words": 20962,
+       "words": 20939,
        "children": [],
        "label": "**Division III**"
       }
      ],
-     "words": 36985
+     "words": 36946
     }
    ]
   },
@@ -17565,7 +17565,7 @@
        "id": "050101",
        "title": "Refutation of All Heresies (Book I)",
        "isToc": false,
-       "words": 10921,
+       "words": 10626,
        "children": [],
        "label": "**BOOK 1**"
       },
@@ -17573,7 +17573,7 @@
        "id": "050104",
        "title": "Refutation of All Heresies (Book IV)",
        "isToc": false,
-       "words": 17697,
+       "words": 17435,
        "children": [],
        "label": "**BOOK 4**"
       },
@@ -17581,7 +17581,7 @@
        "id": "050105",
        "title": "Refutation of All Heresies (Book V)",
        "isToc": false,
-       "words": 21696,
+       "words": 21289,
        "children": [],
        "label": "**BOOK 5**"
       },
@@ -17589,7 +17589,7 @@
        "id": "050106",
        "title": "Refutation of All Heresies (Book VI)",
        "isToc": false,
-       "words": 20107,
+       "words": 20015,
        "children": [],
        "label": "**BOOK 6**"
       },
@@ -17597,7 +17597,7 @@
        "id": "050107",
        "title": "Refutation of All Heresies (Book VII)",
        "isToc": false,
-       "words": 13380,
+       "words": 13041,
        "children": [],
        "label": "**BOOK 7**"
       },
@@ -17605,7 +17605,7 @@
        "id": "050108",
        "title": "Refutation of All Heresies (Book VIII)",
        "isToc": false,
-       "words": 5907,
+       "words": 5899,
        "children": [],
        "label": "**BOOK 8**"
       },
@@ -17621,12 +17621,12 @@
        "id": "050110",
        "title": "Refutation of All Heresies (Book X)",
        "isToc": false,
-       "words": 10955,
+       "words": 10877,
        "children": [],
        "label": "**BOOK 10**"
       }
      ],
-     "words": 112268
+     "words": 110787
     },
     {
      "id": "0502",
@@ -17938,7 +17938,7 @@
        "id": "0103115",
        "title": "Against Heresies (Book I, Chapter 15)",
        "isToc": false,
-       "words": 1814,
+       "words": 1739,
        "children": [],
        "label": "**Chapter 15**"
       },
@@ -18250,7 +18250,7 @@
        "id": "0103222",
        "title": "Against Heresies (Book II, Chapter 22)",
        "isToc": false,
-       "words": 2200,
+       "words": 2176,
        "children": [],
        "label": "**Chapter 22**"
       },
@@ -18834,7 +18834,7 @@
        "id": "0103433",
        "title": "Against Heresies (Book IV, Chapter 33)",
        "isToc": false,
-       "words": 4158,
+       "words": 4142,
        "children": [],
        "label": "**Chapter 33**"
       },
@@ -19199,7 +19199,7 @@
        "label": "**Chapter 36**"
       }
      ],
-     "words": 223218
+     "words": 223103
     },
     {
      "id": "0134",
@@ -19235,7 +19235,7 @@
        "id": "3001001",
        "title": "Letter 1",
        "isToc": false,
-       "words": 2467,
+       "words": 2443,
        "children": [],
        "label": "LETTER 1"
       },
@@ -19243,7 +19243,7 @@
        "id": "3001002",
        "title": "Letter 2",
        "isToc": false,
-       "words": 403,
+       "words": 395,
        "children": [],
        "label": "LETTER 2"
       },
@@ -19251,7 +19251,7 @@
        "id": "3001003",
        "title": "Letter 3",
        "isToc": false,
-       "words": 1868,
+       "words": 1850,
        "children": [],
        "label": "LETTER 3"
       },
@@ -19275,7 +19275,7 @@
        "id": "3001006",
        "title": "Letter 6",
        "isToc": false,
-       "words": 553,
+       "words": 519,
        "children": [],
        "label": "LETTER 6"
       },
@@ -19283,7 +19283,7 @@
        "id": "3001007",
        "title": "Letter 7",
        "isToc": false,
-       "words": 1466,
+       "words": 1457,
        "children": [],
        "label": "LETTER 7"
       },
@@ -19307,7 +19307,7 @@
        "id": "3001010",
        "title": "Letter 10",
        "isToc": false,
-       "words": 851,
+       "words": 832,
        "children": [],
        "label": "LETTER 10"
       },
@@ -19339,7 +19339,7 @@
        "id": "3001014",
        "title": "Letter 14",
        "isToc": false,
-       "words": 4054,
+       "words": 4017,
        "children": [],
        "label": "LETTER 14"
       },
@@ -19355,7 +19355,7 @@
        "id": "3001016",
        "title": "Letter 16",
        "isToc": false,
-       "words": 583,
+       "words": 573,
        "children": [],
        "label": "LETTER 16"
       },
@@ -19363,7 +19363,7 @@
        "id": "3001017",
        "title": "Letter 17",
        "isToc": false,
-       "words": 965,
+       "words": 940,
        "children": [],
        "label": "LETTER 17"
       },
@@ -19547,7 +19547,7 @@
        "id": "3001040",
        "title": "Letter 40",
        "isToc": false,
-       "words": 700,
+       "words": 693,
        "children": [],
        "label": "LETTER 40"
       },
@@ -19611,7 +19611,7 @@
        "id": "3001048",
        "title": "Letter 48",
        "isToc": false,
-       "words": 11152,
+       "words": 11127,
        "children": [],
        "label": "LETTER 48"
       },
@@ -19627,7 +19627,7 @@
        "id": "3001050",
        "title": "Letter 50",
        "isToc": false,
-       "words": 2270,
+       "words": 2225,
        "children": [],
        "label": "LETTER 50"
       },
@@ -19643,7 +19643,7 @@
        "id": "3001052",
        "title": "Letter 52",
        "isToc": false,
-       "words": 6492,
+       "words": 6446,
        "children": [],
        "label": "LETTER 52"
       },
@@ -19651,7 +19651,7 @@
        "id": "3001053",
        "title": "Letter 53",
        "isToc": false,
-       "words": 5591,
+       "words": 5540,
        "children": [],
        "label": "LETTER 53"
       },
@@ -19659,7 +19659,7 @@
        "id": "3001054",
        "title": "Letter 54",
        "isToc": false,
-       "words": 5997,
+       "words": 5942,
        "children": [],
        "label": "LETTER 54"
       },
@@ -19683,7 +19683,7 @@
        "id": "3001057",
        "title": "Letter 57",
        "isToc": false,
-       "words": 6276,
+       "words": 6264,
        "children": [],
        "label": "LETTER 57"
       },
@@ -19691,7 +19691,7 @@
        "id": "3001058",
        "title": "Letter 58",
        "isToc": false,
-       "words": 4035,
+       "words": 3981,
        "children": [],
        "label": "LETTER 58"
       },
@@ -19707,7 +19707,7 @@
        "id": "3001060",
        "title": "Letter 60",
        "isToc": false,
-       "words": 7206,
+       "words": 7095,
        "children": [],
        "label": "LETTER 60"
       },
@@ -19755,7 +19755,7 @@
        "id": "3001066",
        "title": "Letter 66",
        "isToc": false,
-       "words": 5248,
+       "words": 5226,
        "children": [],
        "label": "LETTER 66"
       },
@@ -19843,7 +19843,7 @@
        "id": "3001077",
        "title": "Letter 77",
        "isToc": false,
-       "words": 4795,
+       "words": 4756,
        "children": [],
        "label": "LETTER 77"
       },
@@ -19859,7 +19859,7 @@
        "id": "3001079",
        "title": "Letter 79",
        "isToc": false,
-       "words": 5416,
+       "words": 5352,
        "children": [],
        "label": "LETTER 79"
       },
@@ -19899,7 +19899,7 @@
        "id": "3001084",
        "title": "Letter 84",
        "isToc": false,
-       "words": 5306,
+       "words": 5285,
        "children": [],
        "label": "LETTER 84"
       },
@@ -20003,7 +20003,7 @@
        "id": "3001097",
        "title": "Letter 97",
        "isToc": false,
-       "words": 1217,
+       "words": 1210,
        "children": [],
        "label": "LETTER 97"
       },
@@ -20067,7 +20067,7 @@
        "id": "1102072",
        "title": "From Jerome to Augustine (A.D. 404)",
        "isToc": false,
-       "words": 1503,
+       "words": 1478,
        "children": [],
        "label": "LETTER 105"
       },
@@ -20091,7 +20091,7 @@
        "id": "3001108",
        "title": "Letter 108",
        "isToc": false,
-       "words": 15805,
+       "words": 15645,
        "children": [],
        "label": "LETTER 108"
       },
@@ -20171,7 +20171,7 @@
        "id": "3001118",
        "title": "Letter 118",
        "isToc": false,
-       "words": 4044,
+       "words": 4027,
        "children": [],
        "label": "LETTER 118"
       },
@@ -20203,7 +20203,7 @@
        "id": "3001122",
        "title": "Letter 122",
        "isToc": false,
-       "words": 4792,
+       "words": 4785,
        "children": [],
        "label": "LETTER 122"
       },
@@ -20211,7 +20211,7 @@
        "id": "3001123",
        "title": "Letter 123",
        "isToc": false,
-       "words": 7668,
+       "words": 7542,
        "children": [],
        "label": "LETTER 123"
       },
@@ -20227,7 +20227,7 @@
        "id": "3001125",
        "title": "Letter 125",
        "isToc": false,
-       "words": 7067,
+       "words": 7035,
        "children": [],
        "label": "LETTER 125"
       },
@@ -20243,7 +20243,7 @@
        "id": "3001127",
        "title": "Letter 127",
        "isToc": false,
-       "words": 4461,
+       "words": 4405,
        "children": [],
        "label": "LETTER 127"
       },
@@ -20267,7 +20267,7 @@
        "id": "3001130",
        "title": "Letter 130",
        "isToc": false,
-       "words": 10300,
+       "words": 10264,
        "children": [],
        "label": "LETTER 130"
       },
@@ -20291,7 +20291,7 @@
        "id": "3001133",
        "title": "Letter 133",
        "isToc": false,
-       "words": 7307,
+       "words": 7238,
        "children": [],
        "label": "LETTER 133"
       },
@@ -20432,7 +20432,7 @@
        "label": "LETTER 150"
       }
      ],
-     "words": 316885
+     "words": 315614
     },
     {
      "id": "3007",
@@ -20486,7 +20486,7 @@
      "slug": "the-life-of-paulus-the-first-hermit",
      "isToc": false,
      "children": [],
-     "words": 3896
+     "words": 3880
     },
     {
      "id": "3009",
@@ -20499,7 +20499,7 @@
        "id": "30091",
        "title": "Against Jovinianus (Book I)",
        "isToc": false,
-       "words": 36348,
+       "words": 36332,
        "children": [],
        "label": "Book I"
       },
@@ -20507,12 +20507,12 @@
        "id": "30092",
        "title": "Against Jovinianus (Book II)",
        "isToc": false,
-       "words": 26846,
+       "words": 26804,
        "children": [],
        "label": "Book II"
       }
      ],
-     "words": 63198
+     "words": 63140
     },
     {
      "id": "3010",
@@ -20550,12 +20550,12 @@
        "id": "30113",
        "title": "Against the Pelagians (Book III)",
        "isToc": false,
-       "words": 10304,
+       "words": 10293,
        "children": [],
        "label": "Book III"
       }
      ],
-     "words": 31770
+     "words": 31759
     },
     {
      "id": "3002",
@@ -20564,7 +20564,7 @@
      "slug": "prefaces",
      "isToc": false,
      "children": [],
-     "words": 4488
+     "words": 4466
     },
     {
      "id": "2708",
@@ -20573,7 +20573,7 @@
      "slug": "de-viris-illustribus-illustrious-men",
      "isToc": false,
      "children": [],
-     "words": 16679
+     "words": 16579
     },
     {
      "id": "2710",
@@ -20586,7 +20586,7 @@
        "id": "27101",
        "title": "Apology Against Rufinus (Book I)",
        "isToc": false,
-       "words": 17846,
+       "words": 16462,
        "children": [],
        "label": "Book I"
       },
@@ -20594,7 +20594,7 @@
        "id": "27102",
        "title": "Apology Against Rufinus (Book II)",
        "isToc": false,
-       "words": 19163,
+       "words": 15879,
        "children": [],
        "label": "Book II"
       },
@@ -20602,12 +20602,12 @@
        "id": "27103",
        "title": "Apology Against Rufinus (Book III)",
        "isToc": false,
-       "words": 22598,
+       "words": 21509,
        "children": [],
        "label": "Book III"
       }
      ],
-     "words": 59613
+     "words": 53856
     }
    ]
   },
@@ -22729,7 +22729,7 @@
        "id": "220129",
        "title": "Homily 29 on First Corinthians",
        "isToc": false,
-       "words": 6408,
+       "words": 6373,
        "children": [],
        "label": "**Homily 29**"
       },
@@ -22854,7 +22854,7 @@
        "label": "**Homily 44**"
       }
      ],
-     "words": 246878
+     "words": 246843
     },
     {
      "id": "2202",
@@ -22955,7 +22955,7 @@
        "id": "220212",
        "title": "Homily 12 on Second Corinthians",
        "isToc": false,
-       "words": 5261,
+       "words": 5230,
        "children": [],
        "label": "**Homily 12**"
       },
@@ -23011,7 +23011,7 @@
        "id": "220219",
        "title": "Homily 19 on Second Corinthians",
        "isToc": false,
-       "words": 4198,
+       "words": 4179,
        "children": [],
        "label": "**Homily 19**"
       },
@@ -23104,7 +23104,7 @@
        "label": "**Homily 30**"
       }
      ],
-     "words": 132860
+     "words": 132810
     },
     {
      "id": "2301",
@@ -23197,7 +23197,7 @@
        "id": "230110",
        "title": "Homily 10 on Ephesians",
        "isToc": false,
-       "words": 3160,
+       "words": 3134,
        "children": [],
        "label": "**Homily 10**"
       },
@@ -23314,7 +23314,7 @@
        "label": "**Homily 24**"
       }
      ],
-     "words": 110462
+     "words": 110436
     },
     {
      "id": "2302",
@@ -23823,7 +23823,7 @@
        "id": "230613",
        "title": "Homily 13 on First Timothy",
        "isToc": false,
-       "words": 4045,
+       "words": 4037,
        "children": [],
        "label": "Homily 13"
       },
@@ -23868,7 +23868,7 @@
        "label": "Homily 18"
       }
      ],
-     "words": 59245
+     "words": 59237
     },
     {
      "id": "2307",
@@ -23987,7 +23987,7 @@
        "id": "23083",
        "title": "Homily 3 on Titus",
        "isToc": false,
-       "words": 3212,
+       "words": 3195,
        "children": [],
        "label": "Homily 3"
       },
@@ -24016,7 +24016,7 @@
        "label": "Homily 6"
       }
      ],
-     "words": 21860
+     "words": 21843
     },
     {
      "id": "2309",
@@ -25573,7 +25573,7 @@
        "id": "01281",
        "title": "Dialogue with Trypho (Chapters 1-9)",
        "isToc": false,
-       "words": 11019,
+       "words": 4435,
        "children": [],
        "label": "**Chapters 1-9**"
       },
@@ -25581,7 +25581,7 @@
        "id": "01282",
        "title": "Dialogue with Trypho (Chapters 10-30)",
        "isToc": false,
-       "words": 20690,
+       "words": 9353,
        "children": [],
        "label": "**Chapters 10-30**"
       },
@@ -25589,7 +25589,7 @@
        "id": "01283",
        "title": "Dialogue with Trypho (Chapters 31-47)",
        "isToc": false,
-       "words": 17785,
+       "words": 8097,
        "children": [],
        "label": "**Chapters 31-47**"
       },
@@ -25597,7 +25597,7 @@
        "id": "01284",
        "title": "Dialogue with Trypho (Chapters 48-54)",
        "isToc": false,
-       "words": 6152,
+       "words": 3126,
        "children": [],
        "label": "**Chapters 48-54**"
       },
@@ -25605,7 +25605,7 @@
        "id": "01285",
        "title": "Dialogue with Trypho (Chapters 55-68)",
        "isToc": false,
-       "words": 19532,
+       "words": 9483,
        "children": [],
        "label": "**Chapters 55-68**"
       },
@@ -25613,7 +25613,7 @@
        "id": "01286",
        "title": "Dialogue with Trypho (Chapters 69-88)",
        "isToc": false,
-       "words": 19785,
+       "words": 9843,
        "children": [],
        "label": "**Chapters 69-88**"
       },
@@ -25621,7 +25621,7 @@
        "id": "01287",
        "title": "Dialogue with Trypho (Chapters 89-108)",
        "isToc": false,
-       "words": 16889,
+       "words": 8393,
        "children": [],
        "label": "**Chapters 89-108**"
       },
@@ -25629,7 +25629,7 @@
        "id": "01288",
        "title": "Dialogue with Trypho (Chapters 109-124)",
        "isToc": false,
-       "words": 16124,
+       "words": 8229,
        "children": [],
        "label": "**Chapters 109-124**"
       },
@@ -25637,12 +25637,12 @@
        "id": "01289",
        "title": "Dialogue with Trypho (Chapters 125-142)",
        "isToc": false,
-       "words": 15117,
+       "words": 7773,
        "children": [],
        "label": "**Chapters 125-142**"
       }
      ],
-     "words": 143111
+     "words": 68750
     },
     {
      "id": "0129",
@@ -25651,7 +25651,7 @@
      "slug": "hortatory-address-to-the-greeks",
      "isToc": false,
      "children": [],
-     "words": 15996
+     "words": 14929
     },
     {
      "id": "0130",
@@ -25660,7 +25660,7 @@
      "slug": "on-the-sole-government-of-god",
      "isToc": false,
      "children": [],
-     "words": 4362
+     "words": 2724
     },
     {
      "id": "0131",
@@ -25720,7 +25720,7 @@
        "id": "07011",
        "title": "Divine Institutes, Book I (Of the False Worship of the Gods)",
        "isToc": false,
-       "words": 28747,
+       "words": 28139,
        "children": [],
        "label": "**Book I**"
       },
@@ -25728,7 +25728,7 @@
        "id": "07012",
        "title": "Divine Institutes, Book II (Of the Origin of Error)",
        "isToc": false,
-       "words": 25345,
+       "words": 24845,
        "children": [],
        "label": "**Book II**"
       },
@@ -25736,7 +25736,7 @@
        "id": "07013",
        "title": "Divine Institutes, Book III (Of the False Wisdom of Philosophers)",
        "isToc": false,
-       "words": 29351,
+       "words": 29082,
        "children": [],
        "label": "**Book III**"
       },
@@ -25744,7 +25744,7 @@
        "id": "07014",
        "title": "Divine Institutes, Book IV (Of True Wisdom and Religion)",
        "isToc": false,
-       "words": 28173,
+       "words": 27720,
        "children": [],
        "label": "**Book IV**"
       },
@@ -25752,7 +25752,7 @@
        "id": "07015",
        "title": "Divine Institutes, Book V (Of Justice)",
        "isToc": false,
-       "words": 24262,
+       "words": 23915,
        "children": [],
        "label": "**Book V**"
       },
@@ -25760,7 +25760,7 @@
        "id": "07016",
        "title": "Divine Institutes, Book VI (Of True Worship)",
        "isToc": false,
-       "words": 29038,
+       "words": 28776,
        "children": [],
        "label": "**Book VI**"
       },
@@ -25768,12 +25768,12 @@
        "id": "07017",
        "title": "Divine Institutes, Book VII (Of a Happy Life)",
        "isToc": false,
-       "words": 27598,
+       "words": 26536,
        "children": [],
        "label": "**Book VII**"
       }
      ],
-     "words": 192560
+     "words": 189059
     },
     {
      "id": "0702",
@@ -25782,7 +25782,7 @@
      "slug": "the-epitome-of-the-divine-institutes",
      "isToc": false,
      "children": [],
-     "words": 28582
+     "words": 28450
     },
     {
      "id": "0703",
@@ -25791,7 +25791,7 @@
      "slug": "on-the-anger-of-god",
      "isToc": false,
      "children": [],
-     "words": 19622
+     "words": 19116
     },
     {
      "id": "0704",
@@ -25800,7 +25800,7 @@
      "slug": "on-the-workmanship-of-god",
      "isToc": false,
      "children": [],
-     "words": 17143
+     "words": 17110
     },
     {
      "id": "0705",
@@ -25809,7 +25809,7 @@
      "slug": "of-the-manner-in-which-the-persecutors-died",
      "isToc": false,
      "children": [],
-     "words": 18644
+     "words": 18493
     },
     {
      "id": "0706",
@@ -25818,7 +25818,7 @@
      "slug": "fragments-of-lactantius",
      "isToc": false,
      "children": [],
-     "words": 418
+     "words": 412
     },
     {
      "id": "0707",
@@ -27004,7 +27004,7 @@
        "id": "062308",
        "title": "Banquet of the Ten Virgins (Discourse 8)",
        "isToc": false,
-       "words": 8489,
+       "words": 8482,
        "children": [],
        "label": "**Discourse VIII**"
       },
@@ -27033,7 +27033,7 @@
        "label": "**Discourse XI**"
       }
      ],
-     "words": 40536
+     "words": 40529
     },
     {
      "id": "0624",
@@ -27257,7 +27257,7 @@
        "id": "04161",
        "title": "Contra Celsus, Book I",
        "isToc": false,
-       "words": 30622,
+       "words": 30611,
        "children": [],
        "label": "BOOK I"
       },
@@ -27265,7 +27265,7 @@
        "id": "04162",
        "title": "Contra Celsus, Book II",
        "isToc": false,
-       "words": 32012,
+       "words": 31912,
        "children": [],
        "label": "BOOK II"
       },
@@ -27273,7 +27273,7 @@
        "id": "04163",
        "title": "Contra Celsus, Book III",
        "isToc": false,
-       "words": 27153,
+       "words": 27083,
        "children": [],
        "label": "BOOK III"
       },
@@ -27281,7 +27281,7 @@
        "id": "04164",
        "title": "Contra Celsus, Book IV",
        "isToc": false,
-       "words": 39935,
+       "words": 39269,
        "children": [],
        "label": "BOOK IV"
       },
@@ -27289,7 +27289,7 @@
        "id": "04165",
        "title": "Contra Celsus, Book V",
        "isToc": false,
-       "words": 25826,
+       "words": 25809,
        "children": [],
        "label": "BOOK V"
       },
@@ -27297,7 +27297,7 @@
        "id": "04166",
        "title": "Contra Celsus, Book VI",
        "isToc": false,
-       "words": 32338,
+       "words": 32272,
        "children": [],
        "label": "BOOK VI"
       },
@@ -27305,7 +27305,7 @@
        "id": "04167",
        "title": "Contra Celsus, Book VII",
        "isToc": false,
-       "words": 26082,
+       "words": 26068,
        "children": [],
        "label": "BOOK VII"
       },
@@ -27313,12 +27313,12 @@
        "id": "04168",
        "title": "Contra Celsus, Book VIII",
        "isToc": false,
-       "words": 26799,
+       "words": 26769,
        "children": [],
        "label": "BOOK VIII"
       }
      ],
-     "words": 240783
+     "words": 239809
     },
     {
      "id": "1014",
@@ -27566,7 +27566,7 @@
      "slug": "the-martyrdom-of-polycarp",
      "isToc": false,
      "children": [],
-     "words": 4049
+     "words": 3759
     }
    ]
   },
@@ -27628,7 +27628,7 @@
        "id": "26011",
        "title": "Church History (Book I)",
        "isToc": false,
-       "words": 31083,
+       "words": 27910,
        "children": [],
        "label": "Book I"
       },
@@ -27636,7 +27636,7 @@
        "id": "26012",
        "title": "Church History (Book II)",
        "isToc": false,
-       "words": 34194,
+       "words": 31494,
        "children": [],
        "label": "Book II"
       },
@@ -27652,7 +27652,7 @@
        "id": "26014",
        "title": "Church History (Book IV)",
        "isToc": false,
-       "words": 17519,
+       "words": 16612,
        "children": [],
        "label": "Book IV"
       },
@@ -27676,12 +27676,12 @@
        "id": "26017",
        "title": "Church History (Book VII)",
        "isToc": false,
-       "words": 19012,
+       "words": 18998,
        "children": [],
        "label": "Book VII"
       }
      ],
-     "words": 143627
+     "words": 136833
     }
    ]
   },
@@ -27713,7 +27713,7 @@
        "id": "26021",
        "title": "Ecclesiastical History (Book II)",
        "isToc": false,
-       "words": 15355,
+       "words": 15331,
        "children": [],
        "label": "**Book I**"
       },
@@ -27721,7 +27721,7 @@
        "id": "26022",
        "title": "Ecclesiastical History (Book II)",
        "isToc": false,
-       "words": 20984,
+       "words": 20974,
        "children": [],
        "label": "**Book II**"
       },
@@ -27745,7 +27745,7 @@
        "id": "26025",
        "title": "Ecclesiastical History (Book V)",
        "isToc": false,
-       "words": 16698,
+       "words": 16647,
        "children": [],
        "label": "**Book V**"
       },
@@ -27782,7 +27782,7 @@
        "label": "**Book IX**"
       }
      ],
-     "words": 158938
+     "words": 158853
     }
    ]
   },
@@ -27900,7 +27900,7 @@
      "slug": "address-to-the-greeks",
      "isToc": false,
      "children": [],
-     "words": 14449
+     "words": 14413
     },
     {
      "id": "0203",
@@ -27922,7 +27922,7 @@
        "id": "100201",
        "title": "The Diatessaron (Section 1)",
        "isToc": false,
-       "words": 2200,
+       "words": 1795,
        "children": [],
        "label": "**Section 1**"
       },
@@ -27930,7 +27930,7 @@
        "id": "100202",
        "title": "The Diatessaron (Section 2)",
        "isToc": false,
-       "words": 1259,
+       "words": 1161,
        "children": [],
        "label": "**Section 2**"
       },
@@ -27938,7 +27938,7 @@
        "id": "100203",
        "title": "The Diatessaron (Section 3)",
        "isToc": false,
-       "words": 1566,
+       "words": 1438,
        "children": [],
        "label": "**Section 3**"
       },
@@ -27946,7 +27946,7 @@
        "id": "100204",
        "title": "The Diatessaron (Section 4)",
        "isToc": false,
-       "words": 1318,
+       "words": 1292,
        "children": [],
        "label": "**Section 4**"
       },
@@ -27954,7 +27954,7 @@
        "id": "100205",
        "title": "The Diatessaron (Section 5)",
        "isToc": false,
-       "words": 1439,
+       "words": 1375,
        "children": [],
        "label": "**Section 5**"
       },
@@ -27962,7 +27962,7 @@
        "id": "100206",
        "title": "The Diatessaron (Section 6)",
        "isToc": false,
-       "words": 1409,
+       "words": 1354,
        "children": [],
        "label": "**Section 6**"
       },
@@ -27978,7 +27978,7 @@
        "id": "100208",
        "title": "The Diatessaron (Section 8)",
        "isToc": false,
-       "words": 1565,
+       "words": 1481,
        "children": [],
        "label": "**Section 8**"
       },
@@ -28018,7 +28018,7 @@
        "id": "100213",
        "title": "The Diatessaron (Section 13)",
        "isToc": false,
-       "words": 1260,
+       "words": 1246,
        "children": [],
        "label": "**Section 13**"
       },
@@ -28042,7 +28042,7 @@
        "id": "100216",
        "title": "The Diatessaron (Section 16)",
        "isToc": false,
-       "words": 1462,
+       "words": 1394,
        "children": [],
        "label": "**Section 16**"
       },
@@ -28050,7 +28050,7 @@
        "id": "100217",
        "title": "The Diatessaron (Section 17)",
        "isToc": false,
-       "words": 1395,
+       "words": 1375,
        "children": [],
        "label": "**Section 17**"
       },
@@ -28074,7 +28074,7 @@
        "id": "100220",
        "title": "The Diatessaron (Section 20)",
        "isToc": false,
-       "words": 1394,
+       "words": 1358,
        "children": [],
        "label": "**Section 20**"
       },
@@ -28178,7 +28178,7 @@
        "id": "100233",
        "title": "The Diatessaron (Section 33)",
        "isToc": false,
-       "words": 1497,
+       "words": 1461,
        "children": [],
        "label": "**Section 33**"
       },
@@ -28194,7 +28194,7 @@
        "id": "100235",
        "title": "The Diatessaron (Section 35)",
        "isToc": false,
-       "words": 1484,
+       "words": 1461,
        "children": [],
        "label": "**Section 35**"
       },
@@ -28226,7 +28226,7 @@
        "id": "100239",
        "title": "The Diatessaron (Section 39)",
        "isToc": false,
-       "words": 1156,
+       "words": 1125,
        "children": [],
        "label": "**Section 39**"
       },
@@ -28242,7 +28242,7 @@
        "id": "100241",
        "title": "The Diatessaron (Section 41)",
        "isToc": false,
-       "words": 1463,
+       "words": 1407,
        "children": [],
        "label": "**Section 41**"
       },
@@ -28322,7 +28322,7 @@
        "id": "100251",
        "title": "The Diatessaron (Section 51)",
        "isToc": false,
-       "words": 1413,
+       "words": 1400,
        "children": [],
        "label": "**Section 51**"
       },
@@ -28359,7 +28359,7 @@
        "label": "**Section 55**"
       }
      ],
-     "words": 74701
+     "words": 73544
     }
    ]
   },
@@ -28428,7 +28428,7 @@
        "id": "03061",
        "title": "Ad Nationes (Book I)",
        "isToc": false,
-       "words": 15167,
+       "words": 15160,
        "children": [],
        "label": "Book I"
       },
@@ -28436,12 +28436,12 @@
        "id": "03062",
        "title": "Ad Nationes (Book II)",
        "isToc": false,
-       "words": 14947,
+       "words": 14882,
        "children": [],
        "label": "Book II"
       }
      ],
-     "words": 30118
+     "words": 30046
     },
     {
      "id": "0308",
@@ -28450,7 +28450,7 @@
      "slug": "an-answer-to-the-jews",
      "isToc": false,
      "children": [],
-     "words": 17924
+     "words": 17727
     },
     {
      "id": "0309",
@@ -28468,7 +28468,7 @@
      "slug": "a-treatise-on-the-soul",
      "isToc": false,
      "children": [],
-     "words": 47262
+     "words": 47224
     },
     {
      "id": "0311",
@@ -28514,7 +28514,7 @@
        "id": "03124",
        "title": "Against Marcion, Book IV",
        "isToc": false,
-       "words": 61791,
+       "words": 61782,
        "children": [],
        "label": "Book IV"
       },
@@ -28527,7 +28527,7 @@
        "label": "Book V"
       }
      ],
-     "words": 153996
+     "words": 153987
     },
     {
      "id": "0313",
@@ -28617,7 +28617,7 @@
      "slug": "on-prayer",
      "isToc": false,
      "children": [],
-     "words": 7617
+     "words": 7605
     },
     {
      "id": "0323",
@@ -28653,7 +28653,7 @@
      "slug": "on-the-pallium",
      "isToc": false,
      "children": [],
-     "words": 6271
+     "words": 6256
     },
     {
      "id": "0402",
@@ -29019,7 +29019,7 @@
        "id": "2707021",
        "title": "Letter 21",
        "isToc": false,
-       "words": 1322,
+       "words": 1293,
        "children": [],
        "label": "Letter 21"
       },
@@ -29619,7 +29619,7 @@
        "id": "2707096",
        "title": "Letter 96",
        "isToc": false,
-       "words": 344,
+       "words": 334,
        "children": [],
        "label": "Letter 96"
       },
@@ -30304,7 +30304,7 @@
        "label": "Letter 181"
       }
      ],
-     "words": 79121
+     "words": 79082
     }
    ]
   },
@@ -30356,7 +30356,7 @@
        "id": "02042",
        "title": "To Autolycus, Book II",
        "isToc": false,
-       "words": 16630,
+       "words": 14882,
        "children": [],
        "label": "**Book II**"
       },
@@ -30364,12 +30364,12 @@
        "id": "02043",
        "title": "To Autolycus, Book III",
        "isToc": false,
-       "words": 9116,
+       "words": 8953,
        "children": [],
        "label": "**Book III**"
       }
      ],
-     "words": 29863
+     "words": 27952
     }
    ]
   },
@@ -30623,7 +30623,7 @@
      "slug": "carthage-419",
      "isToc": false,
      "children": [],
-     "words": 26991
+     "words": 26944
     },
     {
      "id": "3810",
@@ -30634,7 +30634,7 @@
      "slug": "ephesus-431",
      "isToc": false,
      "children": [],
-     "words": 15585
+     "words": 15403
     },
     {
      "id": "3811",
@@ -30645,7 +30645,7 @@
      "slug": "chalcedon-451",
      "isToc": false,
      "children": [],
-     "words": 23429
+     "words": 18816
     },
     {
      "id": "3812",
@@ -31196,7 +31196,7 @@
        "id": "07155",
        "title": "Apostolic Constitutions (Book V)",
        "isToc": false,
-       "words": 11010,
+       "words": 10896,
        "children": [],
        "label": "**Book V**"
       },
@@ -31225,7 +31225,7 @@
        "label": "**Book VIII**"
       }
      ],
-     "words": 97487
+     "words": 97373
     },
     {
      "id": "1004",
