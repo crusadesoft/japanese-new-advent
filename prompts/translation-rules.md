@@ -21,8 +21,8 @@ Where a patristic work shares its name with a book of the New Testament, use the
 - Preserve `*emphasis*` and `**strong**` markers exactly where the English has them. Note that the source edition is inconsistent: `*emphasis*` sometimes marks a Scripture quotation rather than stress. Read it for what it is doing in the sentence.
 - Quoted material appears in curly quotes `“like this”`. Render quotations in Japanese convention, 「」 and 『』 nested.
 - Parenthesised Scripture references such as `(Ephesians 2:8-9)` are the source edition's apparatus, not part of the Father's own sentence. Keep them, in Japanese citation form (エフェソ2・8-9), placed at the end of the clause they belong to rather than mid-sentence where the source injects them.
-- Scripture quotations are part of the patristic text and are translated with it. Do not substitute a published Japanese Bible translation — those remain under copyright.
-- Words printed in Greek stay in Greek. Do not transliterate them into katakana or replace them with a Japanese equivalent: these passages are usually arguments about the Greek word itself, and ὁμοούσιος against ὁμοιούσιον is the whole point. Gloss in Japanese alongside where it helps the reader.
+- Scripture quotations are part of the patristic text and are translated with it.
+- Words printed in Greek stay in Greek. Do not transliterate them into katakana or replace them with a Japanese equivalent. Gloss in Japanese alongside where it helps the reader.
 - Transliterate proper names into katakana from the Greek or Latin form.
 - Keep numbered divisions as they appear, in Japanese form (第一章 and so on).
 - Editorial insertions in square brackets are the Victorian editor's, not the Father's. Keep them as 〔 〕.
