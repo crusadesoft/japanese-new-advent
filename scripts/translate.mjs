@@ -98,33 +98,25 @@ function parseArgs(argv) {
 }
 
 /**
- * The prompt states the task and its constraints, then trusts the model's
- * judgment. An earlier version injected a 254-term controlled vocabulary and
- * it made terminology worse, not better: a lookup table cannot see context.
- * It forced 聖人 (a canonised saint) onto Polycarp's ἅγιοι, which there means
- * living believers, and 愛徳 (the theological virtue) onto "love of money".
- * Choosing a term is a translation judgment, so it belongs in the translation.
+ * Translation rules live in prompts/translation-rules.md, shared verbatim with
+ * the agent template in prompts/agent-translate.md. Two copies of a prompt
+ * drift, and the drift is invisible until the outputs disagree — so there is
+ * one copy and both callers read it.
+ *
+ * The rules deliberately impose no controlled vocabulary. An earlier version
+ * injected a 254-term glossary and it made terminology worse, not better: a
+ * lookup table cannot see context. It forced 聖人 (a canonised saint) onto
+ * Polycarp's ἅγιοι, which there means living believers, and 愛徳 (the
+ * theological virtue) onto "love of money".
  */
-function systemPrompt() {
-  return `You are translating the writings of the Church Fathers into Japanese for a scholarly reference site. Your readers are Japanese; the result should read as Japanese scholarly prose, not as a translation.
+const RULES = path.join(ROOT, 'prompts', 'translation-rules.md');
 
-The English source is the Schaff *Ante-Nicene Fathers* / *Nicene and Post-Nicene Fathers* series (1885-1900), itself translated from Greek, Latin and Syriac. Translate the sense the English carries. Do not modernise the theology or soften difficult passages.
+async function systemPrompt() {
+  const rules = await readFile(RULES, 'utf8');
+  return `${rules.trim()}
 
-REGISTER
-Written modern Japanese in である体 for treatises, letters and histories. Homilies and sermons addressed to a congregation may take ですます体 where the English is plainly direct address. Be consistent within a document.
+## Output
 
-TERMINOLOGY
-Use established Japanese Catholic usage, following Catholic Bishops' Conference of Japan (カトリック中央協議会) convention where it applies. Choose each term for its sense in the passage in front of you rather than by rote: a word that is a technical term in one sentence is ordinary language in the next, and one English word often needs different Japanese in different places. Render it as a Japanese patristics scholar would.
-
-FORMATTING
-- Preserve \`*emphasis*\` and \`**strong**\` markers exactly where the English has them.
-- Quoted material appears in curly quotes “like this”. Render quotations in Japanese convention.
-- Parenthesised Scripture references such as (Ephesians 2:8-9) are editorial apparatus, not part of the Father's own sentence. Keep them, in Japanese citation form.
-- Words printed in Greek stay in Greek. Do not transliterate them into katakana or replace them with a Japanese equivalent — these passages are usually arguments about the Greek word itself, and ὁμοούσιος against ὁμοιούσιον is the whole point. Gloss in Japanese alongside where it helps the reader.
-- Transliterate proper names into katakana from the Greek or Latin form.
-- Keep numbered divisions as they appear, in Japanese form (第一章 and so on).
-
-OUTPUT
 You receive an array of text blocks. Return exactly one Japanese translation per input block, in the same order. Never merge, split, reorder, or omit blocks. Translate every block, including short headings.`;
 }
 
@@ -514,7 +506,7 @@ async function main() {
   }
 
   const manifest = JSON.parse(await readFile(MANIFEST, 'utf8'));
-  const system = systemPrompt();
+  const system = await systemPrompt();
   const contextIndex = buildContextIndex(manifest);
 
   await mkdir(OUT_DIR, { recursive: true });
