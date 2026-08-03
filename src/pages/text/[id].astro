@@ -60,6 +60,7 @@ const tag = (t: string) =>
       )
     }
     {doc.titleEn && doc.title && <>{doc.titleEn}<br /></>}
+    {doc.titleAltEn && <>別題 {doc.titleAltEn}<br /></>}
     {doc.words > 0 && <>約 {doc.words.toLocaleString('ja-JP')} 語（原文）</>}
   </div>
 

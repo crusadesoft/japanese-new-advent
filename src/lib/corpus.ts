@@ -105,7 +105,17 @@ export interface Document {
   id: string;
   /** Japanese title when translated, else null. */
   title: string | null;
+  /** The document's own heading, as printed at the head of the text. */
   titleEn: string | null;
+  /**
+   * What the upstream index calls this document, when that differs from the
+   * heading the document carries — 185 of them do. Both are the edition's
+   * own words, and neither is more correct: the index is cataloguing, the
+   * heading is the text. Sometimes the two are worlds apart (*The
+   * Enchiridion* against *The Handbook on Faith, Hope and Love*), so dropping
+   * either loses a name a reader may be searching for.
+   */
+  titleAltEn: string | null;
   isToc: boolean;
   children: { id: string; label: string }[];
   blocks: Block[];
@@ -147,10 +157,17 @@ export function getDocument(id: string): Document | null {
   if (!src) return null;
   const ja = readJson(path.join(JA_DIR, `${id}.json`));
 
+  const indexTitle = locate(id)?.node.title ?? null;
+  const titleAltEn =
+    indexTitle && src.title && !sameTitle(indexTitle, src.title)
+      ? indexTitle
+      : null;
+
   return {
     id,
     title: ja?.title ?? titleJa(id),
     titleEn: src.title ?? null,
+    titleAltEn,
     isToc: src.isToc,
     children: src.children ?? [],
     blocks: ja?.blocks?.length ? ja.blocks : [],
@@ -206,8 +223,16 @@ export function flattenWork(node: WorkNode, out: WorkNode[] = []): WorkNode[] {
   return out;
 }
 
-/** Reverse index: document id -> its author and top-level work. */
-let _index: Map<string, { author: Author; work: WorkNode }> | null = null;
+/**
+ * Reverse index: document id -> its author, its top-level work, and its own
+ * node in the work tree. `work` is the root of the tree the document sits in;
+ * `node` is the document itself, which for a single-document work is the same
+ * object.
+ */
+let _index: Map<
+  string,
+  { author: Author; work: WorkNode; node: WorkNode }
+> | null = null;
 
 export function locate(id: string) {
   if (!_index) {
@@ -215,12 +240,32 @@ export function locate(id: string) {
     for (const author of getManifest().authors) {
       for (const work of author.works) {
         for (const node of flattenWork(work)) {
-          if (!_index.has(node.id)) _index.set(node.id, { author, work });
+          if (!_index.has(node.id)) _index.set(node.id, { author, work, node });
         }
       }
     }
   }
   return _index.get(id) ?? null;
+}
+
+/**
+ * Whether two titles are the same name. The index and the document headings
+ * were typeset separately, so they disagree on ligatures, capitalisation and
+ * the leading article without disagreeing on the title. Those differences are
+ * noise; anything that survives this is a genuinely different name.
+ */
+function sameTitle(a: string, b: string): boolean {
+  const norm = (s: string) =>
+    s
+      .normalize('NFKC')
+      .replace(/æ/gi, 'ae')
+      .replace(/œ/gi, 'oe')
+      .replace(/\s+/g, ' ')
+      .replace(/\.$/, '')
+      .replace(/^(the|a|an)\s+/i, '')
+      .trim()
+      .toLowerCase();
+  return norm(a) === norm(b);
 }
 
 /**
