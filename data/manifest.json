@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-03T03:11:22.310Z",
+ "generatedAt": "2026-08-03T21:59:34.283Z",
  "source": "Ante-Nicene Fathers / Nicene & Post-Nicene Fathers (Schaff, 1885-1900), public domain",
  "counts": {
   "authors": 69,
   "works": 420,
   "documents": 3727,
-  "words": 15222504
+  "words": 15222974
  },
  "authors": [
   {
@@ -25589,7 +25589,7 @@
        "id": "01283",
        "title": "Dialogue with Trypho (Chapters 31-47)",
        "isToc": false,
-       "words": 8097,
+       "words": 8567,
        "children": [],
        "label": "**Chapters 31-47**"
       },
@@ -25642,7 +25642,7 @@
        "label": "**Chapters 125-142**"
       }
      ],
-     "words": 68750
+     "words": 69220
     },
     {
      "id": "0129",

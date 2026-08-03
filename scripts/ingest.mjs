@@ -162,7 +162,22 @@ async function parseDocument(file, id) {
     // every paragraph inside it, so the same prose would be emitted twice.
     // Let the inner blocks carry the text — that preserves paragraph breaks
     // within a long quotation, which collapsing to one block would lose.
-    if (tag === 'blockquote' && $el.find('p, li').length) return;
+    //
+    // Unless the blockquote holds prose of its own as well. Dialogue with
+    // Trypho ch. 32 opens a <blockquote> inside a <p>, which no parser can
+    // honour: the paragraph is closed at the blockquote, and the following
+    // quotation ends up nested within it. Justin's reply is then direct text
+    // on a blockquote that also contains a paragraph, and deferring drops it
+    // — 470 words, the whole answer to Trypho's objection. Emit what belongs
+    // to the wrapper and let the inner blocks emit themselves.
+    if (tag === 'blockquote' && $el.find('p, li').length) {
+      const own = $el.clone();
+      own.find('p, li').remove();
+      const ownText = normalize(inlineText($, own[0]));
+      if (!ownText) return;
+      blocks.push({ type: 'quote', text: ownText });
+      return;
+    }
 
     const quoted =
       (tag === 'p' || tag === 'li') && $el.parents('blockquote').length > 0;
