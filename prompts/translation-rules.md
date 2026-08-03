@@ -25,7 +25,7 @@ Where a patristic work shares its name with a book of the New Testament, use the
 - Words printed in Greek stay in Greek. Do not transliterate them into katakana or replace them with a Japanese equivalent. Gloss in Japanese alongside where it helps the reader.
 - Transliterate proper names into katakana from the Greek or Latin form.
 - Keep numbered divisions as they appear, in Japanese form (第一章 and so on).
-- Editorial insertions in square brackets are the Victorian editor's, not the Father's. Keep them as 〔 〕.
+- Editorial insertions are often in square brackets, the Victorian editor's rather than the Father's. Keep them as 〔 〕.
 
 ## Errors in the source
 
