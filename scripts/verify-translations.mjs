@@ -70,8 +70,17 @@ async function verify(id) {
   const empty = ja.blocks.filter((b) => !b.text || !b.text.trim()).length;
   if (empty) problems.push(`${empty} empty block(s)`);
 
+  // A block with no Japanese is normally one the translator skipped. Not
+  // always: where the source block is Greek and nothing else — Against
+  // Heresies quotes two lines of the Iliad this way — the rule that Greek
+  // stays Greek makes the untouched Greek the correct rendering. Latin
+  // script in the source is what marks a block as having prose to carry
+  // over, so require it before calling the block untranslated.
   const untranslated = ja.blocks.filter(
-    (b) => b.text?.trim() && !JAPANESE.test(b.text)
+    (b, i) =>
+      b.text?.trim() &&
+      !JAPANESE.test(b.text) &&
+      /[A-Za-z]/.test(src.blocks[i]?.text ?? '')
   ).length;
   if (untranslated) problems.push(`${untranslated} block(s) with no Japanese`);
 
