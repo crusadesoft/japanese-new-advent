@@ -30,3 +30,5 @@ Where a patristic work shares its name with a book of the New Testament, use the
 ## Errors in the source
 
 The source edition contains mistakes — wrong Scripture references, misnumbered chapters. Translate what is there and note it in your report. Do not silently correct.
+
+The text reaches you through New Advent's transcription of that edition, which carries apparatus of its own, so not every oddity is the 1885 edition's.
