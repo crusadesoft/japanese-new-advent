@@ -5,35 +5,35 @@
  "children": [
   {
    "id": "050101",
-   "label": "**BOOK 1**"
+   "label": "BOOK 1"
   },
   {
    "id": "050104",
-   "label": "**BOOK 4**"
+   "label": "BOOK 4"
   },
   {
    "id": "050105",
-   "label": "**BOOK 5**"
+   "label": "BOOK 5"
   },
   {
    "id": "050106",
-   "label": "**BOOK 6**"
+   "label": "BOOK 6"
   },
   {
    "id": "050107",
-   "label": "**BOOK 7**"
+   "label": "BOOK 7"
   },
   {
    "id": "050108",
-   "label": "**BOOK 8**"
+   "label": "BOOK 8"
   },
   {
    "id": "050109",
-   "label": "**BOOK 9**"
+   "label": "BOOK 9"
   },
   {
    "id": "050110",
-   "label": "**BOOK 10**"
+   "label": "BOOK 10"
   }
  ],
  "blocks": [

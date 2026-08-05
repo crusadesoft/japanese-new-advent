@@ -5,47 +5,47 @@
  "children": [
   {
    "id": "250101",
-   "label": "**Book I**"
+   "label": "Book I"
   },
   {
    "id": "250102",
-   "label": "**Book II**"
+   "label": "Book II"
   },
   {
    "id": "250103",
-   "label": "**Book III**"
+   "label": "Book III"
   },
   {
    "id": "250104",
-   "label": "**Book IV**"
+   "label": "Book IV"
   },
   {
    "id": "250105",
-   "label": "**Book V**"
+   "label": "Book V"
   },
   {
    "id": "250106",
-   "label": "**Book VI**"
+   "label": "Book VI"
   },
   {
    "id": "250107",
-   "label": "**Book VII**"
+   "label": "Book VII"
   },
   {
    "id": "250108",
-   "label": "**Book VIII**"
+   "label": "Book VIII"
   },
   {
    "id": "2505",
-   "label": "**Book VIII (Appendix)**"
+   "label": "Book VIII (Appendix)"
   },
   {
    "id": "250109",
-   "label": "**Book IX**"
+   "label": "Book IX"
   },
   {
    "id": "250110",
-   "label": "**Book X**"
+   "label": "Book X"
   }
  ],
  "blocks": [

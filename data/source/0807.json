@@ -5,27 +5,27 @@
  "children": [
   {
    "id": "08071a",
-   "label": "**Part I, First Greek Form**"
+   "label": "Part I, First Greek Form"
   },
   {
    "id": "08071b",
-   "label": "**Part I, Second Greek Form**"
+   "label": "Part I, Second Greek Form"
   },
   {
    "id": "08071c",
-   "label": "**Part I, Latin Form**"
+   "label": "Part I, Latin Form"
   },
   {
    "id": "08072a",
-   "label": "**Part II, Greek Form**"
+   "label": "Part II, Greek Form"
   },
   {
    "id": "08072b",
-   "label": "**Part II, First Latin Form**"
+   "label": "Part II, First Latin Form"
   },
   {
    "id": "08072c",
-   "label": "**Part II, Second Latin Form**"
+   "label": "Part II, Second Latin Form"
   }
  ],
  "blocks": [

@@ -5,35 +5,35 @@
  "children": [
   {
    "id": "370101",
-   "label": "**Demonstration I**"
+   "label": "Demonstration I"
   },
   {
    "id": "370105",
-   "label": "**Demonstration V**"
+   "label": "Demonstration V"
   },
   {
    "id": "370106",
-   "label": "**Demonstration VI**"
+   "label": "Demonstration VI"
   },
   {
    "id": "370108",
-   "label": "**Demonstration VIII**"
+   "label": "Demonstration VIII"
   },
   {
    "id": "370110",
-   "label": "**Demonstration X**"
+   "label": "Demonstration X"
   },
   {
    "id": "370117",
-   "label": "**Demonstration XVII**"
+   "label": "Demonstration XVII"
   },
   {
    "id": "370121",
-   "label": "**Demonstration XXI**"
+   "label": "Demonstration XXI"
   },
   {
    "id": "370122",
-   "label": "**Demonstration XXII**"
+   "label": "Demonstration XXII"
   }
  ],
  "blocks": [

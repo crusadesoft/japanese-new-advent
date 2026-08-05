@@ -5,31 +5,31 @@
  "children": [
   {
    "id": "101601",
-   "label": "**Book I**"
+   "label": "Book I"
   },
   {
    "id": "101602",
-   "label": "**Book II**"
+   "label": "Book II"
   },
   {
    "id": "101610",
-   "label": "**Book X**"
+   "label": "Book X"
   },
   {
    "id": "101611",
-   "label": "**Book XI**"
+   "label": "Book XI"
   },
   {
    "id": "101612",
-   "label": "**Book XII**"
+   "label": "Book XII"
   },
   {
    "id": "101613",
-   "label": "**Book XIII**"
+   "label": "Book XIII"
   },
   {
    "id": "101614",
-   "label": "**Book XIV**"
+   "label": "Book XIV"
   }
  ],
  "blocks": [

@@ -5,11 +5,11 @@
  "children": [
   {
    "id": "16011",
-   "label": "**Book One**"
+   "label": "Book One"
   },
   {
    "id": "16012",
-   "label": "**Book Two**"
+   "label": "Book Two"
   }
  ],
  "blocks": [

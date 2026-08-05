@@ -121,6 +121,20 @@ function inlineText($, el) {
   return out;
 }
 
+/**
+ * Link text reduced to a plain navigation label.
+ *
+ * `inlineText` keeps emphasis, which is right for a block of prose and wrong
+ * for a label: the upstream contents pages bold every chapter name, so the
+ * markers ride into the manifest and reach the reader as literal asterisks —
+ * `**Chapter 1**` in the margin of a translated page. Nothing downstream
+ * renders a label as markdown, and bold in a navigation entry would carry no
+ * meaning if it did.
+ */
+function labelText($, el) {
+  return normalize(inlineText($, el)).replace(/\*+/g, '');
+}
+
 function normalize(s) {
   return s
     .replace(/ /g, ' ')
@@ -230,7 +244,7 @@ async function parseDocument(file, id) {
         if (!m) return;
         const childId = m[1];
         if (childId === id || seen.has(childId)) return;
-        const label = normalize(inlineText($, a));
+        const label = labelText($, a);
         if (!label) return;
         seen.add(childId);
         children.push({ id: childId, label });
@@ -312,7 +326,7 @@ async function parseIndex(file) {
       const m = href.match(/(\d{4,9}[a-z]?)\.htm$/);
       if (!m || !/fathers\//.test(href)) continue;
 
-      const label = normalize(inlineText($, $a[0]));
+      const label = labelText($, $a[0]);
       if (!label) continue;
 
       const work = { id: m[1], title: label, markers: [] };

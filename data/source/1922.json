@@ -5,27 +5,27 @@
  "children": [
   {
    "id": "19221",
-   "label": "**Book I**"
+   "label": "Book I"
   },
   {
    "id": "19222",
-   "label": "**Book II**"
+   "label": "Book II"
   },
   {
    "id": "19223",
-   "label": "**Book III**"
+   "label": "Book III"
   },
   {
    "id": "19224",
-   "label": "**Book IV**"
+   "label": "Book IV"
   },
   {
    "id": "19225",
-   "label": "**Book V**"
+   "label": "Book V"
   },
   {
    "id": "19226",
-   "label": "**Book VI**"
+   "label": "Book VI"
   }
  ],
  "blocks": [
