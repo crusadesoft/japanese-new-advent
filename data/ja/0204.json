@@ -1,0 +1,36 @@
+{
+  "id": "0204",
+  "title": "アウトリュコスに送る",
+  "titleEn": "Theophilus to Autolycus",
+  "isToc": true,
+  "children": [
+    {
+      "id": "02041",
+      "label": "Book I"
+    },
+    {
+      "id": "02042",
+      "label": "Book II"
+    },
+    {
+      "id": "02043",
+      "label": "Book III"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "**第一巻**\n**第二巻**\n**第三巻**"
+    }
+  ],
+  "notes": [
+    {
+      "kind": "choice",
+      "locus": "表題",
+      "note": "原題 Πρὸς Αὐτόλυκον（ラテン語名 Ad Autolycum）を「アウトリュコスへ」と訳した。「アウトリュコスに送る」とする道もある。アウトリュコスは著者の知友であった異教徒で、その反論に答える形で三巻が書かれている。"
+    }
+  ],
+  "words": 6,
+  "model": "claude-opus-5",
+  "translatedAt": "2026-08-05T00:00:00Z"
+}
