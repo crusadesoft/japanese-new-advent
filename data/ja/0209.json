@@ -1,0 +1,36 @@
+{
+ "id": "0209",
+ "title": "パイダゴーゴス（教導者）",
+ "titleEn": "The Paedagogus (The Instructor)",
+ "isToc": true,
+ "children": [
+  {
+   "id": "02091",
+   "label": "Book I"
+  },
+  {
+   "id": "02092",
+   "label": "Book II"
+  },
+  {
+   "id": "02093",
+   "label": "Book III"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "第一巻\n第二巻\n第三巻"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "choice",
+   "locus": "表題",
+   "note": "底本の The Paedagogus (The Instructor) は原題 Παιδαγωγός の訳である。訳題は原語を音写した「パイダゴーゴス」を掲げ、本文中の Instructor／Pædagogue は「教導者」と訳した。παιδαγωγός は本来、子どもを学校へ送り迎えし躾を預かる従僕を指す語であり、「養育者」「訓導者」と訳す道もある。"
+  }
+ ],
+ "words": 6,
+ "model": "claude-opus-5",
+ "translatedAt": "2026-08-06T00:00:00Z"
+}
