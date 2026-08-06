@@ -30,6 +30,21 @@ const GREEK_RUN = /[Ͱ-Ͽἀ-῿][Ͱ-Ͽἀ-῿̀-ͯ··']*/g;
 
 export function renderInline(text: string): string {
   let out = escapeHtml(text);
+  // Ingest emits one marker pair per element, so nested emphasis arrives with
+  // the inner element's leading space trapped between the runs: the bylines
+  // `<b> <i>BY CLEMENT</i></b>` reach us as `** *BY CLEMENT***`. Parsed as
+  // strong-then-emphasis that reads as an empty <em> and three literal
+  // asterisks on the page, which is what 387 documents were showing.
+  //
+  // Matched as one whole shape rather than by repairing the runs, because
+  // `**Justin:** *(In jest.)*` opens identically and is correct as it stands;
+  // only the closing run of three tells them apart.
+  out = out.replace(
+    /\*\*(\s*)\*([^*]+)\*\*\*/g,
+    '$1<strong><em>$2</em></strong>'
+  );
+  // Longest run first, so a triple is never consumed as a double plus a stray.
+  out = out.replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>');
   // Strong before emphasis, so `**x**` is not consumed as two `*x*` pairs.
   out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   out = out.replace(/\*([^*]+)\*/g, '<em>$1</em>');
