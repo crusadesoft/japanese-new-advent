@@ -1,0 +1,32 @@
+{
+ "id": "0306",
+ "title": "諸国民へ",
+ "titleEn": "Ad Nationes",
+ "isToc": true,
+ "children": [
+  {
+   "id": "03061",
+   "label": "Book I"
+  },
+  {
+   "id": "03062",
+   "label": "Book II"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "第一巻\n第二巻"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "choice",
+   "locus": "書名",
+   "note": "ラテン語の原題 Ad nationes の nationes は、ギリシア語 ἔθνη に対応し、聖書の用法では神の民に対する「諸国民」を指す。テルトゥリアヌスがここで呼びかけているのはローマの異教徒であり、『異教徒へ』『異邦人へ』の訳題も行われる。訳題は語の本来の広がりを残して『諸国民へ』とし、同じテルトゥリアヌスの『偶像礼拝について』における nations の訳と揃えた。"
+  }
+ ],
+ "words": 4,
+ "model": "claude-opus-5",
+ "translatedAt": "2026-08-10T00:00:00Z"
+}
