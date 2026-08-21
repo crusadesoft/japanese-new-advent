@@ -21,6 +21,14 @@ const JA = path.join(ROOT, 'data', 'ja');
 
 /** Kana or kanji — the test for "this block was actually translated". */
 const JAPANESE = /[぀-ヿ㐀-鿿]/;
+
+/**
+ * English function words, none of which are also Latin. Their presence is
+ * what distinguishes a block of English prose from a Latin quotation the
+ * edition prints untranslated.
+ */
+const ENGLISH =
+  /\b(?:the|of|and|is|to|that|for|with|was|were|are|which|they|their|his|her|but|have|been|from|this|not|shall|when|who)\b/i;
 const GREEK = /[Ͱ-Ͽἀ-῿]/g;
 
 const count = (s, re) => (s.match(re) ?? []).length;
@@ -73,14 +81,23 @@ async function verify(id) {
   // A block with no Japanese is normally one the translator skipped. Not
   // always: where the source block is Greek and nothing else — Against
   // Heresies quotes two lines of the Iliad this way — the rule that Greek
-  // stays Greek makes the untouched Greek the correct rendering. Latin
-  // script in the source is what marks a block as having prose to carry
-  // over, so require it before calling the block untranslated.
+  // stays Greek makes the untouched Greek the correct rendering.
+  //
+  // Latin script alone does not settle it, because the edition also prints
+  // untranslated Latin: De Anima quotes a line of Lucretius and one of
+  // Empedocles, each followed by the editor's own English rendering as the
+  // next block. Leaving those two in Latin is correct, and the Japanese
+  // reader gets the sense from the block after.
+  //
+  // What marks a block as having prose to carry over is that it is English,
+  // so look for English function words. None of them are Latin, so a verse
+  // quotation scores zero while English prose of any length scores at least
+  // one.
   const untranslated = ja.blocks.filter(
     (b, i) =>
       b.text?.trim() &&
       !JAPANESE.test(b.text) &&
-      /[A-Za-z]/.test(src.blocks[i]?.text ?? '')
+      ENGLISH.test(src.blocks[i]?.text ?? '')
   ).length;
   if (untranslated) problems.push(`${untranslated} block(s) with no Japanese`);
 
