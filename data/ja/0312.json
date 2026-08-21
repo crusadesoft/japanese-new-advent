@@ -1,0 +1,44 @@
+{
+ "id": "0312",
+ "title": "マルキオン反駁",
+ "titleEn": "Against Marcion",
+ "isToc": true,
+ "children": [
+  {
+   "id": "03121",
+   "label": "Book I"
+  },
+  {
+   "id": "03122",
+   "label": "Book II"
+  },
+  {
+   "id": "03123",
+   "label": "Book III"
+  },
+  {
+   "id": "03124",
+   "label": "Book IV"
+  },
+  {
+   "id": "03125",
+   "label": "Book V"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "第一巻\n第二巻\n第三巻\n第四巻\n第五巻"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "choice",
+   "locus": "書名",
+   "note": "ラテン語の原題は Adversus Marcionem。全五巻からなり、ポントスのマルキオンが立てた二神論と、その手になる福音書・使徒書の削除本文とを逐一論駁する。訳題は『マルキオン反駁』とし、エイレナイオスの Adversus haereses を『異端反駁』とするのに揃えた。『マルキオン論駁』の訳題も行われる。"
+  }
+ ],
+ "words": 10,
+ "model": "claude-opus-5",
+ "translatedAt": "2026-08-10T00:00:00Z"
+}
