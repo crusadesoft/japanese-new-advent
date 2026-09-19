@@ -1,6 +1,6 @@
 {
  "id": "0319",
- "title": "全異端反駁",
+ "title": "全異端駁論",
  "titleEn": "Against All Heresies",
  "isToc": false,
  "children": [],
@@ -143,6 +143,11 @@
   }
  ],
  "notes": [
+  {
+   "kind": "choice",
+   "locus": "表題",
+   "note": "原題は Adversus omnes haereses。ヒッポリュトスの Refutatio omnium haeresium（『全異端反駁』）と区別するため、本書の表題を『全異端駁論』とする。"
+  },
   {
    "kind": "source",
    "locus": "本篇について",
