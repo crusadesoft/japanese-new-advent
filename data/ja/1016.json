@@ -1,0 +1,58 @@
+{
+ "id": "1016",
+ "title": "マタイ福音書注解",
+ "titleEn": "Commentary on Matthew",
+ "isToc": true,
+ "children": [
+  {
+   "id": "101601",
+   "label": "Book I"
+  },
+  {
+   "id": "101602",
+   "label": "Book II"
+  },
+  {
+   "id": "101610",
+   "label": "Book X"
+  },
+  {
+   "id": "101611",
+   "label": "Book XI"
+  },
+  {
+   "id": "101612",
+   "label": "Book XII"
+  },
+  {
+   "id": "101613",
+   "label": "Book XIII"
+  },
+  {
+   "id": "101614",
+   "label": "Book XIV"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**第一巻**　断片\n**第二巻**　断片\n**第十巻**\n**第十一巻**\n**第十二巻**\n**第十三巻**\n**第十四巻**"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "choice",
+   "locus": "標題",
+   "note": "英語標題 Commentary on the Gospel of Matthew を『マタイ福音書注解』と訳した。聖書の書名としては「マタイによる福音書」が用いられるが、教父著作の題としては『マタイ福音書注解』の形が日本の教父学において定着している。"
+  },
+  {
+   "kind": "source",
+   "block": 0,
+   "locus": "目次",
+   "note": "底本の目次は第一巻・第二巻・第十巻から第十四巻までを掲げる。第三巻から第九巻は伝わらず、また第一巻・第二巻として掲げられるものは断片である。"
+  }
+ ],
+ "words": 16,
+ "model": "claude-opus-5",
+ "translatedAt": "2026-09-11T00:00:00Z"
+}
