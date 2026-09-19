@@ -1,0 +1,56 @@
+{
+ "id": "0416",
+ "title": "ケルソス駁論",
+ "titleEn": "Contra Celsus",
+ "isToc": true,
+ "children": [
+  {
+   "id": "04161",
+   "label": "BOOK I"
+  },
+  {
+   "id": "04162",
+   "label": "BOOK II"
+  },
+  {
+   "id": "04163",
+   "label": "BOOK III"
+  },
+  {
+   "id": "04164",
+   "label": "BOOK IV"
+  },
+  {
+   "id": "04165",
+   "label": "BOOK V"
+  },
+  {
+   "id": "04166",
+   "label": "BOOK VI"
+  },
+  {
+   "id": "04167",
+   "label": "BOOK VII"
+  },
+  {
+   "id": "04168",
+   "label": "BOOK VIII"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "第一巻\n第二巻\n第三巻\n第四巻\n第五巻\n第六巻\n第七巻\n第八巻"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "choice",
+   "locus": "書名",
+   "note": "ギリシア語原題は Κατὰ Κέλσου、ラテン語題は Contra Celsum。訳題は『ケルソス駁論』とした。『ケルソス論駁』『反ケルソス論』の形も用いられる。二四〇年代後半、友人アンブロシオスの求めに応じて、二世紀の哲学者ケルソスの反キリスト教論駁書『真の言葉』に一節ずつ答えた全八巻の書である。"
+  }
+ ],
+ "words": 16,
+ "model": "claude-opus-5",
+ "translatedAt": "2026-09-07T00:00:00Z"
+}
