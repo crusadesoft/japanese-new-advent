@@ -1,0 +1,85 @@
+{
+ "id": "0507",
+ "title": "キプリアヌス論考集",
+ "titleEn": "Treatises",
+ "isToc": true,
+ "children": [
+  {
+   "id": "050701",
+   "label": "Treatise I"
+  },
+  {
+   "id": "050702",
+   "label": "Treatise II"
+  },
+  {
+   "id": "050703",
+   "label": "Treatise III"
+  },
+  {
+   "id": "050704",
+   "label": "Treatise IV"
+  },
+  {
+   "id": "050705",
+   "label": "Treatise V"
+  },
+  {
+   "id": "050706",
+   "label": "Treatise VI"
+  },
+  {
+   "id": "050707",
+   "label": "Treatise VII"
+  },
+  {
+   "id": "050708",
+   "label": "Treatise VIII"
+  },
+  {
+   "id": "050709",
+   "label": "Treatise IX"
+  },
+  {
+   "id": "050710",
+   "label": "Treatise X"
+  },
+  {
+   "id": "050711",
+   "label": "Treatise XI"
+  },
+  {
+   "id": "050712a",
+   "label": "Treatise XII (Book 1)"
+  },
+  {
+   "id": "050712b",
+   "label": "Treatise XII (Book 2)"
+  },
+  {
+   "id": "050712c",
+   "label": "Treatise XII (Book 3)"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**第一論考**\n**第二論考**\n**第三論考**\n**第四論考**\n**第五論考**\n**第六論考**\n**第七論考**\n**第八論考**\n**第九論考**\n**第十論考**\n**第十一論考**\n**第十二論考（第一巻）**\n**第十二論考（第二巻）**\n**第十二論考（第三巻）**"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "source",
+   "locus": "論考の配列",
+   "note": "底本（『アンテ・ニケア教父著作集』第五巻）が「論考」として一括して掲げる十二篇は、それぞれ独立した著作であり、原題と成立年代を異にする。配列と番号は底本のものであって、今日の校訂版（ハルテル版 CSEL 第三巻、ディールクス版 CCSL 第三A巻）の配列とは一致しない。第十二論考は三巻からなる『クイリヌスへ――証言集』（Ad Quirinum, Testimoniorum libri tres）であり、聖書引用を主題別に集めた抜粋集である。"
+  },
+  {
+   "kind": "source",
+   "locus": "目次",
+   "note": "底本の目次は各篇の題名を示さず、番号のみを掲げる。各篇の題名は本文冒頭に置かれている。"
+  }
+ ],
+ "words": 34,
+ "model": "claude-opus-5",
+ "translatedAt": "2026-09-19T00:00:00Z"
+}
