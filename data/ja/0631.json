@@ -1,0 +1,46 @@
+{
+  "id": "0631",
+  "title": "異教徒反駁",
+  "titleEn": "Against the Heathen",
+  "isToc": true,
+  "children": [
+    {
+      "id": "06311",
+      "label": "Book 1"
+    },
+    {
+      "id": "06312",
+      "label": "Book 2"
+    },
+    {
+      "id": "06313",
+      "label": "Book 3"
+    },
+    {
+      "id": "06314",
+      "label": "Book 4"
+    },
+    {
+      "id": "06315",
+      "label": "Book 5"
+    },
+    {
+      "id": "06316",
+      "label": "Book 6"
+    },
+    {
+      "id": "06317",
+      "label": "Book 7"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "**第一巻**\n**第二巻**\n**第三巻**\n**第四巻**\n**第五巻**\n**第六巻**\n**第七巻**"
+    }
+  ],
+  "notes": [],
+  "words": 14,
+  "model": "claude-opus-5",
+  "translatedAt": "2026-09-28T19:49:45Z"
+}
