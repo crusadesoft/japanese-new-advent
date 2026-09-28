@@ -1,0 +1,77 @@
+{
+ "id": "0623",
+ "title": "十人の処女の饗宴",
+ "titleEn": "Banquet of the Ten Virgins",
+ "isToc": true,
+ "children": [
+  {
+   "id": "062300",
+   "label": "Introduction"
+  },
+  {
+   "id": "062301",
+   "label": "Discourse I"
+  },
+  {
+   "id": "062302",
+   "label": "Discourse II"
+  },
+  {
+   "id": "062303",
+   "label": "Discourse III"
+  },
+  {
+   "id": "062304",
+   "label": "Discourse IV"
+  },
+  {
+   "id": "062305",
+   "label": "Discourse V"
+  },
+  {
+   "id": "062306",
+   "label": "Discourse VI"
+  },
+  {
+   "id": "062307",
+   "label": "Discourse VII"
+  },
+  {
+   "id": "062308",
+   "label": "Discourse VIII"
+  },
+  {
+   "id": "062309",
+   "label": "Discourse IX"
+  },
+  {
+   "id": "062310",
+   "label": "Discourse X"
+  },
+  {
+   "id": "062311",
+   "label": "Discourse XI"
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "**序**\n**第一講話**\n**第二講話**\n**第三講話**\n**第四講話**\n**第五講話**\n**第六講話**\n**第七講話**\n**第八講話**\n**第九講話**\n**第十講話**\n**第十一講話**"
+  }
+ ],
+ "words": 23,
+ "model": "claude-opus-5",
+ "translatedAt": "2026-09-25T00:00:00Z",
+ "notes": [
+  {
+   "kind": "choice",
+   "locus": "表題",
+   "note": "原題は Συμπόσιον τῶν δέκα παρθένων（ラテン語訳 Convivium decem virginum）で、単に『饗宴』とも呼ばれる。プラトン『饗宴』にならった対話形式の作品であり、底本の表題 Banquet of the Ten Virgins にならって「十人のおとめの饗宴」とした。副題は「貞潔について」（περὶ ἁγνείας）。"
+  },
+  {
+   "kind": "choice",
+   "locus": "目次",
+   "note": "各篇の Discourse（λόγος）を「講話」とした。十人のおとめが順に語る演説であり、「説話」「演説」とも訳しうる。"
+  }
+ ]
+}
