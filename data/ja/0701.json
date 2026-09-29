@@ -1,0 +1,58 @@
+{
+  "id": "0701",
+  "title": "神学教程",
+  "titleEn": "The Divine Institutes",
+  "isToc": true,
+  "children": [
+    {
+      "id": "07011",
+      "label": "Book I"
+    },
+    {
+      "id": "07012",
+      "label": "Book II"
+    },
+    {
+      "id": "07013",
+      "label": "Book III"
+    },
+    {
+      "id": "07014",
+      "label": "Book IV"
+    },
+    {
+      "id": "07015",
+      "label": "Book V"
+    },
+    {
+      "id": "07016",
+      "label": "Book VI"
+    },
+    {
+      "id": "07017",
+      "label": "Book VII"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "**第一巻**　偽りの神々の礼拝について\n**第二巻**　誤りの起源について\n**第三巻**　哲学者たちの偽りの知恵について\n**第四巻**　真の知恵と宗教について\n**第五巻**　正義について\n**第六巻**　真の礼拝について\n**第七巻**　幸福な生について"
+    }
+  ],
+  "words": 46,
+  "model": "claude-opus-5",
+  "translatedAt": "2026-09-28T22:55:44Z",
+  "notes": [
+    {
+      "kind": "choice",
+      "locus": "書名",
+      "note": "Divinae Institutiones（底本 Divine Institutes）を『神学教程』と訳した。法学における Institutiones（『法学提要』）に倣った体系的教本という原題の含みを移すためである。『神的教理』『神の教え』などの訳例もある。"
+    },
+    {
+      "kind": "choice",
+      "block": 0,
+      "locus": "目次",
+      "note": "各巻の副題は底本が巻頭に掲げる要目であり、個々の巻の表題と同じものである。第一巻から第七巻まで、訳語を巻の表題と揃えた。"
+    }
+  ]
+}

@@ -23,12 +23,14 @@ const JA = path.join(ROOT, 'data', 'ja');
 const JAPANESE = /[぀-ヿ㐀-鿿]/;
 
 /**
- * English function words, none of which are also Latin. Their presence is
+ * English function words, none of which are also Latin. (`his` looks like one
+ * and is not: it is the dative and ablative plural of `hic`, and Lactantius VI.23
+ * — a chapter the 1885 editors left in Latin — opens with it.) Their presence is
  * what distinguishes a block of English prose from a Latin quotation the
  * edition prints untranslated.
  */
 const ENGLISH =
-  /\b(?:the|of|and|is|to|that|for|with|was|were|are|which|they|their|his|her|but|have|been|from|this|not|shall|when|who)\b/i;
+  /\b(?:the|of|and|is|to|that|for|with|was|were|are|which|they|their|her|but|have|been|from|this|not|shall|when|who)\b/i;
 const GREEK = /[Ͱ-Ͽἀ-῿]/g;
 
 const count = (s, re) => (s.match(re) ?? []).length;
