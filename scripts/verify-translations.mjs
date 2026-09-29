@@ -23,14 +23,23 @@ const JA = path.join(ROOT, 'data', 'ja');
 const JAPANESE = /[぀-ヿ㐀-鿿]/;
 
 /**
- * English function words, none of which are also Latin. (`his` looks like one
- * and is not: it is the dative and ablative plural of `hic`, and Lactantius VI.23
- * — a chapter the 1885 editors left in Latin — opens with it.) Their presence is
+ * English function words, none of which are also Latin. Two traps to keep in
+ * mind when editing this list. `his` is Latin — the dative and ablative plural
+ * of `hic` — and Lactantius VI.23, a chapter the 1885 editors left in Latin,
+ * opens with it. So is `is`, the pronoun, which also hides inside Latin words:
+ * `æ` is not an ASCII word character, so `\b` treats it as a boundary and the
+ * regex finds a standalone `is` in the middle of `Judæis`.
+ *
+ * Ligatures are folded before the test for the same reason. Their presence is
  * what distinguishes a block of English prose from a Latin quotation the
  * edition prints untranslated.
  */
 const ENGLISH =
-  /\b(?:the|of|and|is|to|that|for|with|was|were|are|which|they|their|her|but|have|been|from|this|not|shall|when|who)\b/i;
+  /\b(?:the|of|and|to|that|for|with|was|were|are|which|they|their|her|but|have|been|from|this|not|shall|when|who)\b/i;
+
+/** Fold ligatures so `\b` behaves inside Latin words. */
+const deligature = (s) =>
+  s.replace(/æ/gi, 'ae').replace(/œ/gi, 'oe').replace(/ç/gi, 'c');
 const GREEK = /[Ͱ-Ͽἀ-῿]/g;
 
 const count = (s, re) => (s.match(re) ?? []).length;
@@ -99,7 +108,7 @@ async function verify(id) {
     (b, i) =>
       b.text?.trim() &&
       !JAPANESE.test(b.text) &&
-      ENGLISH.test(src.blocks[i]?.text ?? '')
+      ENGLISH.test(deligature(src.blocks[i]?.text ?? ''))
   ).length;
   if (untranslated) problems.push(`${untranslated} block(s) with no Japanese`);
 
