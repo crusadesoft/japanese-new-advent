@@ -1,0 +1,56 @@
+{
+  "id": "0715",
+  "title": "使徒憲章",
+  "titleEn": "The Apostolic Constitutions",
+  "isToc": true,
+  "children": [
+    {
+      "id": "07151",
+      "label": "Book I"
+    },
+    {
+      "id": "07152",
+      "label": "Book II"
+    },
+    {
+      "id": "07153",
+      "label": "Book III"
+    },
+    {
+      "id": "07154",
+      "label": "Book IV"
+    },
+    {
+      "id": "07155",
+      "label": "Book V"
+    },
+    {
+      "id": "07156",
+      "label": "Book VI"
+    },
+    {
+      "id": "07157",
+      "label": "Book VII"
+    },
+    {
+      "id": "07158",
+      "label": "Book VIII"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "p",
+      "text": "**第一巻**\n**第二巻**\n**第三巻**\n**第四巻**\n**第五巻**\n**第六巻**\n**第七巻**\n**第八巻**"
+    }
+  ],
+  "words": 16,
+  "model": "claude-opus-5",
+  "translatedAt": "2026-09-29T00:00:00Z",
+  "notes": [
+    {
+      "kind": "choice",
+      "locus": "書名",
+      "note": "底本 The Apostolic Constitutions（Διαταγαὶ τῶν ἁγίων ἀποστόλων）を『使徒憲章』とした。「使徒教憲」「使徒たちの規定」の訳名も用いられる。四世紀末のシリアで編まれた全八巻の教会規定集であり、第一巻から第六巻は『ディダスカリア』に、第七巻は『ディダケー』に、第八巻は『使徒伝承』に基づく。"
+    }
+  ]
+}
